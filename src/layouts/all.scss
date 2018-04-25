@@ -1,0 +1,40 @@
+@import "~bulma/sass/utilities/initial-variables";
+
+// Config vars
+$kaldi-red: #FD461E;
+$kaldi-red-invert: #fff;
+
+$primary: $kaldi-red;
+$primary-invert: $kaldi-red-invert;
+
+// Helper Classes
+.full-width-image-container {
+    width: 100vw
+    height: 400px
+    position: relative
+    left: 50%
+    right: 50%
+    margin: 5em -50vw
+    background-size: cover
+    background-position: bottom
+    display: flex
+    justify-content: center
+    align-items: center
+}
+
+.margin-top-0 {
+    margin-top: 0 !important
+}
+
+@mixin hide-text1 {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+@import "~bulma"

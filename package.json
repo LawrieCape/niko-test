@@ -1,0 +1,63 @@
+{
+  "name": "gatsby-starter-netlify-cms",
+  "description": "Example Gatsby, and Netlify CMS project",
+  "version": "1.1.0",
+  "author": "Austin Green",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "prod": "gatsby build",
+    "develop": "gatsby develop",
+    "dev": "gatsby develop",
+    "serve": "gatsby serve",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
+    "pretty": "prettier --config .prettierrc --write src/**/*.*{jsx,js}",
+    "test": "eslint src/**/*.*{jsx,js}",
+    "test-fix": "eslint src/**/*.*{jsx,js} --fix"
+  },
+  "dependencies": {
+    "bulma": "0.7.1",
+    "create-react-class": "15.6.3",
+    "gatsby": "1.9.254",
+    "gatsby-link": "1.6.41",
+    "gatsby-plugin-netlify-cms": "2.0.1",
+    "gatsby-plugin-react-helmet": "2.0.11",
+    "gatsby-plugin-sass": "1.0.26",
+    "gatsby-plugin-sharp": "1.6.43",
+    "gatsby-remark-images": "1.5.62",
+    "gatsby-source-filesystem": "1.5.34",
+    "gatsby-transformer-remark": "1.7.40",
+    "gatsby-transformer-sharp": "1.6.23",
+    "netlify-cms": "1.7.0",
+    "prop-types": "15.6.1",
+    "react": "16.3.2",
+    "react-helmet": "5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-compat": "2.2.0",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.7.0",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-standard": "3.1.0",
+    "immutable": "3.8.2",
+    "prettier": "1.12.1",
+    "slate": "0.33.4",
+    "stylelint": "9.2.0",
+    "stylelint-config-recommended": "2.1.0",
+    "stylelint-config-standard": "18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not OperaMini all"
+  ]
+}

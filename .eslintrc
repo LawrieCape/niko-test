@@ -1,0 +1,32 @@
+{
+  "extends": ["airbnb"],
+  "env": {
+    "browser": true
+  },
+  "settings": {
+	  "react": {
+		  "version": "16.3.2"
+	  }
+  },
+  "globals": {
+	  "graphql": true
+  },
+  "rules": {
+      "no-tabs": 0,
+	  "react/jsx-indent": [2, "tab"],
+	  "react/jsx-indent-props": [2, "tab"],
+      "indent": 0,
+      "linebreak-style": 0,
+
+      "react/prop-types": 0,
+      "react/require-default-props": 0,
+
+      "no-console": 0,
+      "max-len": 0,
+      "func-names": 0,
+      "no-mixed-operators": 0,
+      "no-plusplus": 0,
+      "no-alert": 0,
+      "import/prefer-default-export": 0
+  }
+}

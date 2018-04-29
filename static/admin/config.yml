@@ -14,7 +14,7 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-landing"}
       - {label: "Title", name: "title", widget: "string"}
 
   - name: "blog"

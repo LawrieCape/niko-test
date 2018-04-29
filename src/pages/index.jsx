@@ -15,6 +15,40 @@ const IndexPage = (props) => {
 						Latest Stories 2
 					</h1>
 				</div>
+
+				{/* product landing pages */}
+				{posts
+					.filter(post =>
+							post.node.frontmatter.templateKey ===
+							'product-landing')
+					.map(({ node: post }) => (
+						<div
+							className="content"
+							key={post.id}
+						>
+							<p>
+								<Link
+									className="has-text-primary"
+									to={post.fields.slug}
+								>
+									{post.frontmatter.title}
+								</Link>
+							</p>
+							<p>
+								<Link
+									className="button is-small"
+									to={post.fields.slug}
+								>
+									Keep Reading →
+								</Link>
+							</p>
+						</div>
+					))
+				}
+
+				<hr className="hr" />
+
+				{/* blog posts */}
 				{posts
 					.filter(post =>
 							post.node.frontmatter.templateKey ===
@@ -50,7 +84,8 @@ const IndexPage = (props) => {
 								</Link>
 							</p>
 						</div>
-					))}
+					))
+				}
 			</div>
 		</section>
 	);

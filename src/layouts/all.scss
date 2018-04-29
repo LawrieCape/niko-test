@@ -1,5 +1,7 @@
 @import '~bulma/sass/utilities/initial-variables';
 
+$c-grey-1: #eaecee;
+
 // Config vars
 $kaldi-red: #fd461e;
 $kaldi-red-invert: #ffffff;
@@ -24,6 +26,17 @@ $primary-invert: $kaldi-red-invert;
 
 .margin-top-0 {
 	margin-top: 0 !important;
+}
+
+.content {
+	border: 1px solid $c-grey-1;
+	padding: 2em 4em;
+}
+
+.hr {
+	background-color: transparent;
+	border-top: 2px dashed black;
+	margin: 5em 0;
 }
 
 @mixin hide-text1 {

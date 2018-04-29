@@ -10,6 +10,7 @@ collections:
     label: "NikoTrack"
     folder: "src/pages/niko-track"
     create: true
+    slug: "{{slug}}"
     editor:
       preview: false
     fields:

@@ -37,7 +37,9 @@ const BLogPostWrapper = ({ data }) => {
 	);
 };
 BLogPostWrapper.propTypes = {
-	data: PropTypes.object,
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.object,
+	}),
 };
 
 export default BLogPostWrapper;

@@ -32,7 +32,9 @@ export const CareersPageTemplate = ({ data }) => {
 	);
 };
 CareersPageTemplate.propTypes = {
-	data: PropTypes.object,
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.object,
+	}),
 };
 
 export default CareersPageTemplate;

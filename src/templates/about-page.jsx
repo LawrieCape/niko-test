@@ -29,7 +29,9 @@ const AboutPageWrapper = function ({ data }) {
 	);
 };
 AboutPageWrapper.propTypes = {
-	data: PropTypes.object,
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.object,
+	}),
 };
 
 export default AboutPageWrapper;

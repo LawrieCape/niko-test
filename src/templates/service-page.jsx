@@ -42,7 +42,9 @@ const ServicePageWrapper = function ({ data }) {
 	);
 };
 ServicePageWrapper.propTypes = {
-	data: PropTypes.object,
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.object,
+	}),
 };
 
 export default ServicePageWrapper;

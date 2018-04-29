@@ -1,7 +1,7 @@
 import React from 'react';
 import { ServicePageTemplate } from '../../templates/service-page';
 
-const ServicePagePreview = ({ entry, getAsset }) => {
+const ServicePagePreview = ({ entry }) => {
 	const entryServices = entry.getIn(['data', 'services']);
 	const services = entryServices ? entryServices.toJS() : [];
 

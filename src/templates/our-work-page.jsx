@@ -32,7 +32,9 @@ export const OurWorkPageTemplate = ({ data }) => {
 	);
 };
 OurWorkPageTemplate.propTypes = {
-	data: PropTypes.object,
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.object,
+	}),
 };
 
 export default OurWorkPageTemplate;

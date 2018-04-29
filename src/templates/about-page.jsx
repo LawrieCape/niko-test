@@ -6,24 +6,26 @@ export const AboutPageTemplate = ({ title, content }) => (
 	<section className="section section--gradient">
 		<Helmet title={`${title}`} />
 		<div className="container">
-			<h2 className="title is-size-3 has-text-weight-bold is-bold-light">{title}</h2>
-			<div className="content" dangerouslySetInnerHTML={{ __html: content }} />
+			<h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+				{title}
+			</h2>
+			<div
+				className="content"
+				dangerouslySetInnerHTML={{ __html: content }}
+			/>
 		</div>
 	</section>
-	);
+);
 AboutPageTemplate.propTypes = {
 	title: PropTypes.string,
 	content: PropTypes.string,
 };
 
-const AboutPageWrapper = function ({ data }) {
+const AboutPageWrapper = function({ data }) {
 	const post = data.markdownRemark;
 
 	return (
-		<AboutPageTemplate
-			title={post.frontmatter.title}
-			content={post.html}
-		/>
+		<AboutPageTemplate title={post.frontmatter.title} content={post.html} />
 	);
 };
 AboutPageWrapper.propTypes = {

@@ -28,7 +28,7 @@ ServicePageTemplate.propTypes = {
 	}),
 };
 
-const ServicePageWrapper = function ({ data }) {
+const ServicePageWrapper = function({ data }) {
 	console.log(data);
 	const post = data.markdownRemark;
 

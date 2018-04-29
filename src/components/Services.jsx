@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ServicesComponent = function ({ services }) {
+const ServicesComponent = function({ services }) {
 	console.log(services);
 
 	return (
@@ -18,12 +18,14 @@ const ServicesComponent = function ({ services }) {
 };
 
 ServicesComponent.propTypes = {
-	services: PropTypes.arrayOf(PropTypes.shape({
-		title: PropTypes.string,
-		imageUrl: PropTypes.string,
-		imageAlt: PropTypes.string,
-		description: PropTypes.string,
-	})),
+	services: PropTypes.arrayOf(
+		PropTypes.shape({
+			title: PropTypes.string,
+			imageUrl: PropTypes.string,
+			imageAlt: PropTypes.string,
+			description: PropTypes.string,
+		})
+	),
 };
 
 export default ServicesComponent;

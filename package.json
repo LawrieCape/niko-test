@@ -15,11 +15,10 @@
     "develop": "gatsby develop",
     "dev": "gatsby develop",
     "serve": "gatsby serve",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write {src/**/*.*{jsx,js},*.{jsx,js}}",
-    "pretty": "prettier --config .prettierrc --write {src/**/*.*{jsx,js},*.{jsx,js}}",
-    "test": "eslint {src/**/*.*{jsx,js},*.{jsx,js}}",
-    "test-fix": "eslint --fix {src/**/*.*{jsx,js},*.{jsx,js}}",
-    "sass-lint": "sass-lint -v"
+    "prettier": "prettier --config .prettierrc --write {src/**/*.*{jsx,js},*.{jsx,js}}",
+    "eslint": "eslint {src/**/*.*{jsx,js},*.{jsx,js}}",
+    "eslint-fix": "eslint --fix {src/**/*.*{jsx,js},*.{jsx,js}}",
+    "sasslint": "sass-lint -v"
   },
   "dependencies": {
     "bulma": "0.7.1",

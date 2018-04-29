@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './CaseStudies.scss';
 
-const CaseStudiesComponent = function ({ work }) {
+const CaseStudiesComponent = function({ work }) {
 	return (
 		<div className="case-studies">
 			{work.map((study, index) => (
@@ -17,11 +17,13 @@ const CaseStudiesComponent = function ({ work }) {
 };
 
 CaseStudiesComponent.propTypes = {
-	work: PropTypes.arrayOf(PropTypes.shape({
-		title: PropTypes.string,
-		description: PropTypes.string,
-		image: PropTypes.string,
-	})),
+	work: PropTypes.arrayOf(
+		PropTypes.shape({
+			title: PropTypes.string,
+			description: PropTypes.string,
+			image: PropTypes.string,
+		})
+	),
 };
 
 export default CaseStudiesComponent;

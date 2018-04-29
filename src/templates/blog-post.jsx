@@ -13,12 +13,12 @@ export const BlogPostTemplate = ({ title, description, content }) => (
 			<div
 				className="content"
 				dangerouslySetInnerHTML={{
-						__html: content,
-					}}
+					__html: content,
+				}}
 			/>
 		</div>
 	</section>
-	);
+);
 BlogPostTemplate.propTypes = {
 	title: PropTypes.string,
 	description: PropTypes.string,

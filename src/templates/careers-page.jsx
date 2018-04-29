@@ -22,7 +22,11 @@ export const CareersPageTemplate = ({ data }) => {
 				<h2>{title}</h2>
 				<p>{image}</p>
 				<p>{heading}</p>
-				<Jobs jobs={jobs} careersEmail={careersEmail} recruitersEmail={recruitersEmail} />
+				<Jobs
+					jobs={jobs}
+					careersEmail={careersEmail}
+					recruitersEmail={recruitersEmail}
+				/>
 			</div>
 		</section>
 	);

@@ -6,13 +6,7 @@ import CaseStudies from '../components/CaseStudies';
 export const OurWorkPageTemplate = ({ data }) => {
 	const { frontmatter } = data.markdownRemark;
 
-	const {
-		title,
-		image,
-		heading,
-		work,
-		help,
-	} = frontmatter;
+	const { title, image, heading, work, help } = frontmatter;
 
 	return (
 		<section className="section section--gradient">

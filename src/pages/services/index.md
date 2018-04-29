@@ -1,6 +1,6 @@
 ---
 templateKey: service-page
-title: Our Fantastic Services 69!!
+title: Our Fantastic Services!!
 image: /img/p1040285.jpg
 heading: What we offersadg
 description: description

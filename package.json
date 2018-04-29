@@ -23,7 +23,7 @@
   "dependencies": {
     "bulma": "0.7.1",
     "create-react-class": "15.6.3",
-    "gatsby": "1.9.254",
+    "gatsby": "1.9.255",
     "gatsby-link": "1.6.41",
     "gatsby-plugin-netlify-cms": "2.0.1",
     "gatsby-plugin-react-helmet": "2.0.11",
@@ -51,7 +51,8 @@
     "eslint-plugin-standard": "3.1.0",
     "immutable": "3.8.2",
     "prettier": "1.12.1",
-    "slate": "0.33.4",
+    "sass-lint": "1.12.1",
+    "slate": "0.33.5",
     "stylelint": "9.2.0",
     "stylelint-config-recommended": "2.1.0",
     "stylelint-config-standard": "18.2.0"

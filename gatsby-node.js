@@ -30,11 +30,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 			const { id } = edge.node;
 			createPage({
 				path: edge.node.fields.slug,
-				component: path.resolve(
-					`src/templates/${String(
-						edge.node.frontmatter.templateKey
-					)}.jsx`
-				),
+				component: path.resolve(`src/templates/${String(edge.node.frontmatter.templateKey)}.jsx`),
 				// additional data can be passed via context
 				context: {
 					id,

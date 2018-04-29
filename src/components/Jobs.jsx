@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Jobs.scss';
 
-const JobsComponent = function({ jobs, careersEmail, recruitersEmail }) {
+const JobsComponent = function ({ jobs, careersEmail, recruitersEmail }) {
 	return (
 		<div className="jobs">
 			{jobs.map((job, index) => (
@@ -20,12 +20,10 @@ const JobsComponent = function({ jobs, careersEmail, recruitersEmail }) {
 };
 
 JobsComponent.propTypes = {
-	jobs: PropTypes.arrayOf(
-		PropTypes.shape({
+	jobs: PropTypes.arrayOf(PropTypes.shape({
 			title: PropTypes.string,
 			description: PropTypes.string,
-		})
-	),
+		})),
 	careersEmail: PropTypes.string,
 	recruitersEmail: PropTypes.string,
 };

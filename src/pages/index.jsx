@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 
 // export default class IndexPage extends React.Component {
 // 	render() {
-const IndexPage = props => {
+const IndexPage = (props) => {
 	const { data } = props;
 	const { edges: posts } = data.allMarkdownRemark;
 
@@ -18,11 +18,9 @@ const IndexPage = props => {
 
 				{/* product landing pages */}
 				{posts
-					.filter(
-						post =>
+					.filter(post =>
 							post.node.frontmatter.templateKey ===
-							'product-landing'
-					)
+							'product-landing')
 					.map(({ node: post }) => (
 						<div className="content" key={post.id}>
 							<p>
@@ -48,10 +46,8 @@ const IndexPage = props => {
 
 				{/* blog posts */}
 				{posts
-					.filter(
-						post =>
-							post.node.frontmatter.templateKey === 'blog-post'
-					)
+					.filter(post =>
+							post.node.frontmatter.templateKey === 'blog-post')
 					.map(({ node: post }) => (
 						<div
 							className="content"

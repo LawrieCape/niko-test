@@ -20,21 +20,17 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 				}
 			}
 		}
-	`).then(result => {
+	`).then((result) => {
 		if (result.errors) {
 			result.errors.forEach(e => console.error(e.toString()));
 			return Promise.reject(result.errors);
 		}
 
-		result.data.allMarkdownRemark.edges.forEach(edge => {
+		result.data.allMarkdownRemark.edges.forEach((edge) => {
 			const { id } = edge.node;
 			createPage({
 				path: edge.node.fields.slug,
-				component: path.resolve(
-					`src/templates/${String(
-						edge.node.frontmatter.templateKey
-					)}.jsx`
-				),
+				component: path.resolve(`src/templates/${String(edge.node.frontmatter.templateKey)}.jsx`),
 				// additional data can be passed via context
 				context: {
 					id,

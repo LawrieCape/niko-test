@@ -21,7 +21,7 @@ AboutPageTemplate.propTypes = {
 	content: PropTypes.string,
 };
 
-const AboutPageWrapper = function({ data }) {
+const AboutPageWrapper = function ({ data }) {
 	const post = data.markdownRemark;
 
 	return (

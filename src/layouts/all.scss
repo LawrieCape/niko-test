@@ -1,13 +1,5 @@
 @import '~bulma/sass/utilities/initial-variables';
-
-$c-grey-1: #eaecee;
-
-// Config vars
-$kaldi-red: #fd461e;
-$kaldi-red-invert: #ffffff;
-
-$primary: $kaldi-red;
-$primary-invert: $kaldi-red-invert;
+@import '../global/_variables';
 
 // Helper Classes
 .full-width-image-container {
@@ -35,7 +27,7 @@ $primary-invert: $kaldi-red-invert;
 
 .hr {
 	background-color: transparent;
-	border-top: 2px dashed black;
+	border-top: 2px dashed $black;
 	margin: 5em 0;
 }
 

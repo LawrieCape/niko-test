@@ -1,14 +1,16 @@
+@import '../global/_variables';
+
 .jobs {
-	border: 1px solid red;
-	padding: 10px;
-	margin-top: 10px;
+	border: 1px solid $red;
+	padding: ms(-1);
+	margin-top: ms(-1);
 }
 
 .job {
-	border: 1px solid green;
-	padding: 10px;
+	border: 1px solid $green;
+	padding: ms(-1);
 
 	+ * {
-		margin-top: 10px;
+		margin-top: ms(-1);
 	}
 }

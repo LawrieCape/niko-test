@@ -1,10 +1,20 @@
 ---
 templateKey: service-page
-title: Our Fantastic Services!!
+title: Our Fantastic Services `1234567890-
 image: /img/p1040285.jpg
 heading: What we offersadg
 description: description
 services:
+  - imageAlt: some description
+    imageUrl: /img/jumbotron.jpg
+    title: Mobile Application Development
+    description: >-
+      Since the Apple App Store launched in 2008 mobile applications have become
+      a key factor in creating client engagement, increasing brand loyalty and
+      collecting customer data. We utilise technologies pioneered by the
+      development team at Facebook to create cross-platform (iOS and Android)
+      native mobile applications to ensure you can reach your entire target
+      demographic on both platforms whilst halving your development cost.
   - imageAlt: some description
     imageUrl: /img/chemex.jpg
     title: Web Application Development
@@ -17,16 +27,6 @@ services:
       applications that can support your future business needs with minimal
       friction - whether it be a mobile app, marketing goals or print
       distribution.
-  - imageAlt: some description
-    imageUrl: /img/jumbotron.jpg
-    title: Mobile Application Development
-    description: >-
-      Since the Apple App Store launched in 2008 mobile applications have become
-      a key factor in creating client engagement, increasing brand loyalty and
-      collecting customer data. We utilise technologies pioneered by the
-      development team at Facebook to create cross-platform (iOS and Android)
-      native mobile applications to ensure you can reach your entire target
-      demographic on both platforms whilst halving your development cost.
   - imageAlt: some description
     imageUrl: /img/products-grid2.jpg
     title: CMS added title

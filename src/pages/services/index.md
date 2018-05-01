@@ -3,7 +3,12 @@ templateKey: service-page
 title: Our Fantastic Services `1234567890-
 image: /img/p1040285.jpg
 heading: What we offersadg
-description: description
+description: |-
+  description
+
+  * sdfg
+  * sdg
+  * sdg
 services:
   - imageAlt: some description
     imageUrl: /img/jumbotron.jpg

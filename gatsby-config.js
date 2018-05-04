@@ -4,7 +4,12 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
-		'gatsby-plugin-sass',
+		{
+			resolve: 'gatsby-plugin-sass',
+			options: {
+				precision: 6,
+			},
+		},
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {

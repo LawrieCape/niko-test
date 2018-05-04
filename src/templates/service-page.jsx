@@ -20,12 +20,12 @@ ServicePageTemplate.propTypes = {
 	title: PropTypes.string,
 	heading: PropTypes.string,
 	description: PropTypes.string,
-	services: PropTypes.shape({
-		title: PropTypes.string,
-		imageUrl: PropTypes.string,
-		imageAlt: PropTypes.string,
-		description: PropTypes.string,
-	}),
+	services: PropTypes.arrayOf(PropTypes.shape({
+			title: PropTypes.string,
+			imageUrl: PropTypes.string,
+			imageAlt: PropTypes.string,
+			description: PropTypes.string,
+		})),
 };
 
 const ServicePageWrapper = function ({ data }) {

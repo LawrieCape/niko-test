@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Services.scss';
 
 const ServicesComponent = function ({ services }) {
 	console.log(services);

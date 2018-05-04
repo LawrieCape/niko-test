@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const HTMLContentComponent = function ({ content, className }) {
+export const HTMLContent = function ({ content, className }) {
 	return (
 		<div
 			className={className}
@@ -10,16 +10,15 @@ export const HTMLContentComponent = function ({ content, className }) {
 	);
 };
 
-export const ContentComponent = function ({ content, className }) {
+const Content = function ({ content, className }) {
 	return <div className={className}>{content}</div>;
 };
 
-HTMLContentComponent.propTypes = {
+Content.propTypes = {
 	content: PropTypes.string,
 	className: PropTypes.string,
 };
 
-ContentComponent.propTypes = {
-	content: PropTypes.string,
-	className: PropTypes.string,
-};
+HTMLContent.propTypes = Content.propTypes;
+
+export default Content;

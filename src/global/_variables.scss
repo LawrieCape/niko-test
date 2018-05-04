@@ -12,7 +12,7 @@ $modularscale: (
 $white:							#ffffff;
 $grey:							#808080;
 $black:							#000000;
-$red:								#e6194b;
+$red:							#e6194b;
 $green:							#3cb44b;
 $yellow:						#ffe119;
 $blue:							#0082c8;
@@ -26,11 +26,9 @@ $teal:							#008080;
 $navy:							#000080;
 $beige:							#e1dfd5;
 
-$c-grey-1:					#eaecee;
+$c-grey-1:						#eaecee;
 
 // Config vars
-$kaldi-red:					#fd461e;
-$kaldi-red-invert:	#ffffff;
 
-$primary:						$kaldi-red;
-$primary-invert:		$kaldi-red-invert;
+$primary:						#fd461e;
+$primary-invert:				#ffffff;

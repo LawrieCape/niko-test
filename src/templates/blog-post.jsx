@@ -1,48 +1,61 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import Content, { HTMLContent } from '../components/Content';
 
-export const BlogPostTemplate = ({ title, description, content }) => (
-	<section className="section">
-		<Helmet title={`Blog | ${title}`} />
-		<div className="container content">
-			<h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-				{title}
-			</h1>
-			<p>{description}</p>
-			<div
-				className="content"
-				dangerouslySetInnerHTML={{
-					__html: content,
-				}}
-			/>
-		</div>
-	</section>
-);
-BlogPostTemplate.propTypes = {
-	title: PropTypes.string,
-	description: PropTypes.string,
-	content: PropTypes.string,
+export const BlogPostTemplate = ({
+	content,
+	contentComponent,
+	description,
+	title,
+}) => {
+	const PostContent = contentComponent || Content;
+
+	return (
+		<section className="section">
+			<Helmet title={`Blog | ${title}`} />
+			<div className="container content">
+				<h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+					{title}
+				</h1>
+				<p>{description}</p>
+				<hr />
+				<PostContent content={content} class="content" />
+			</div>
+		</section>
+	);
 };
 
-const BLogPostWrapper = ({ data }) => {
+BlogPostTemplate.propTypes = {
+	// content: PropTypes.string.isRequired,
+	contentComponent: PropTypes.func,
+	description: PropTypes.string,
+	title: PropTypes.string,
+};
+
+const BlogPost = ({ data }) => {
 	const post = data.markdownRemark;
+	// const { markdownRemark: post } = data;
+
+	console.log('post', post);
 
 	return (
 		<BlogPostTemplate
-			title={post.frontmatter.title}
-			description={post.frontmatter.description}
 			content={post.html}
+			contentComponent={HTMLContent}
+			description={post.frontmatter.description}
+			title={post.frontmatter.title}
 		/>
 	);
 };
-BLogPostWrapper.propTypes = {
+
+BlogPost.propTypes = {
 	data: PropTypes.shape({
 		markdownRemark: PropTypes.object,
 	}),
 };
 
-export default BLogPostWrapper;
+export default BlogPost;
 
 export const pageQuery = graphql`
 	query BlogPostByID($id: String!) {

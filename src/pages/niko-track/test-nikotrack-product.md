@@ -10,11 +10,16 @@ sections:
         image: /img/coffee.png
       - alt: description 3
         image: /img/meeting-space.png
-    pdf:
-      - pdf: /img/c1-conveyor-catalog.pdf
-        title: First PDF title
-      - pdf: /img/c2_light_weight_overhead_cranes.pdf
-        title: Second PDF title
     title: First "TAB"
+  - products:
+      - image: /img/products-grid3.jpg
+        title: 'Product #1'
+      - image: /img/products-grid2.jpg
+        title: 'Product #2'
+      - image: /img/jumbotron.jpg
+        title: 'Product #3'
+      - image: /img/chemex.jpg
+        title: 'Product #4'
+    title: 2nd "TAB"
 ---
 

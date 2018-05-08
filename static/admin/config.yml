@@ -42,11 +42,11 @@ collections:
             fields:
               -
                 label: Image
-                name: image
+                name: imageUrl
                 widget: image
               -
                 label: 'Alt description'
-                name: alt
+                name: imageAlt
                 widget: string
           -
             label: PDFs
@@ -59,7 +59,7 @@ collections:
                 widget: string
               -
                 label: PDF
-                name: pdf
+                name: pdfUrl
                 widget: file
           -
             label: Videos
@@ -324,7 +324,7 @@ collections:
                 name: title
                 widget: string
               -
-                label: ImageUrl
+                label: Image
                 name: imageUrl
                 widget: image
               -

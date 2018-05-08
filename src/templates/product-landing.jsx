@@ -28,6 +28,8 @@ BlogPostTemplate.propTypes = {
 const BLogPostWrapper = ({ data }) => {
 	const post = data.markdownRemark;
 
+	console.log(post);
+
 	return (
 		<BlogPostTemplate
 			title={post.frontmatter.title}
@@ -50,9 +52,7 @@ export const pageQuery = graphql`
 			id
 			html
 			frontmatter {
-				date(formatString: "MMMM DD, YYYY")
 				title
-				description
 			}
 		}
 	}

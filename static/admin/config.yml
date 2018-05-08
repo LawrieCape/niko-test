@@ -81,7 +81,7 @@ collections:
                 widget: string
               -
                 label: Image
-                name: image
+                name: imageUrl
                 widget: image
   -
     name: blog

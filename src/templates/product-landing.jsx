@@ -53,6 +53,25 @@ export const pageQuery = graphql`
 			html
 			frontmatter {
 				title
+				customSections {
+					title
+					body
+					images {
+						imageUrl
+						imageAlt
+					}
+					pdfs {
+						title
+						pdfUrl
+					}
+					videos {
+						youTubeId
+					}
+					products {
+						title
+						imageUrl
+					}
+				}
 			}
 		}
 	}

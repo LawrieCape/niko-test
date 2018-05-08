@@ -18,10 +18,9 @@ customSections:
       - youTubeId: ogfYd705cRs
       - youTubeId: lR2tJxRqYKc
   - products:
-      - image: /img/chemex.jpg
+      - imageUrl: /img/chemex.jpg
         title: product 1
-      - image: /img/flavor_wheel.jpg
+      - imageUrl: /img/flavor_wheel.jpg
         title: product 2
     title: 2nd "TAB"
 ---
-

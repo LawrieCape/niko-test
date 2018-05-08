@@ -36,6 +36,15 @@
 	margin: 5em 0;
 }
 
+table {
+	border: 1px solid $red;
+}
+
+td,
+th {
+	border-bottom: 1px solid $red !important;
+}
+
 @mixin hide-text1 {
 	position: absolute;
 	overflow: hidden;

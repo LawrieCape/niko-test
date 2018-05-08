@@ -23,25 +23,8 @@ collections:
         name: title
         widget: string
       -
-        label: Body
-        name: body
-        widget: markdown
-      -
-        label: Images
-        name: images
-        widget: list
-        fields:
-          -
-            label: Image
-            name: image
-            widget: image
-          -
-            label: 'Alt description'
-            name: alt
-            widget: string
-      -
-        label: PDFs
-        name: pdf
+        label: Sections
+        name: sections
         widget: list
         fields:
           -
@@ -49,9 +32,48 @@ collections:
             name: title
             widget: string
           -
-            label: PDF
-            name: pdf
-            widget: file
+            label: Body
+            name: body
+            widget: markdown
+          -
+            label: Images
+            name: images
+            widget: list
+            fields:
+              -
+                label: Image
+                name: image
+                widget: image
+              -
+                label: 'Alt description'
+                name: alt
+                widget: string
+          -
+            label: PDFs
+            name: pdfs
+            widget: list
+            fields:
+              -
+                label: Title
+                name: title
+                widget: string
+              -
+                label: PDF
+                name: pdf
+                widget: file
+          -
+            label: Products
+            name: products
+            widget: list
+            fields:
+              -
+                label: Title
+                name: title
+                widget: string
+              -
+                label: Image
+                name: image
+                widget: image
   -
     name: blog
     label: Blog

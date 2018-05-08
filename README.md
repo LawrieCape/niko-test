@@ -1,3 +1,7 @@
+# YAML pretty/format/beautify
+https://onlineyamltools.com/prettify-yaml
+https://codebeautify.org/yaml-validator
+
 # Gatsby + Netlify CMS Starter
 
 This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.

@@ -35,6 +35,7 @@ content starts at 4-columns in.
 > if you like.
 
 Niko Profile | h (mm) | b (mm) | d (mm) | s (mm)
+--- | --- | --- | --- | ---
 No. 23.000 | 35.00 | 40.00 | 11.00 | 2.75
 No. 24.000 | 43.50 | 48.50 | 15.50 | 3.20
 No. 25.000 | 60.00 | 65.00 | 18.50 | 3.60

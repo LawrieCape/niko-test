@@ -21,5 +21,8 @@ sections:
       - image: /img/chemex.jpg
         title: 'Product #4'
     title: 2nd "TAB"
+    videos:
+      - youTubeId: z5PTPTPAgKE
+      - youTubeId: xfW18Vd9fU4
 ---
 

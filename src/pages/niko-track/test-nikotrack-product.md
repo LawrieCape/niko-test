@@ -9,8 +9,10 @@ images:
   - alt: description 3
     image: /img/meeting-space.png
 pdf:
-  - pdf: /img/c1-conveyor-catalog.pdf
-  - pdf: /img/c2_light_weight_overhead_cranes.pdf
+  - title: First PDF description
+    pdf: /img/c1-conveyor-catalog.pdf
+  - title: Second PDF description
+    pdf: /img/c2_light_weight_overhead_cranes.pdf
 ---
 # An h1 header
 

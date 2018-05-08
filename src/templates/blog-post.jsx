@@ -37,8 +37,6 @@ const BlogPost = ({ data }) => {
 	const post = data.markdownRemark;
 	// const { markdownRemark: post } = data;
 
-	console.log('post', post);
-
 	return (
 		<BlogPostTemplate
 			content={post.html}

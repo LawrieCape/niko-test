@@ -2,6 +2,7 @@ import React from 'react';
 import Features from '../components/Features';
 import Testimonials from '../components/Testimonials';
 import Pricing from '../components/Pricing';
+import '../components/Products.scss';
 
 export const ProductPageTemplate = ({
 	image,
@@ -24,16 +25,7 @@ export const ProductPageTemplate = ({
 								className="full-width-image-container margin-top-0"
 								style={{ backgroundImage: `url(${image})` }}
 							>
-								<h2
-									className="has-text-weight-bold is-size-1"
-									style={{
-										boxShadow:
-											'0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-										backgroundColor: '#f40',
-										color: 'white',
-										padding: '1rem',
-									}}
-								>
+								<h2 className="has-text-weight-bold is-size-1 product-logo">
 									{title}
 								</h2>
 							</div>
@@ -60,9 +52,6 @@ export const ProductPageTemplate = ({
 										<div className="tile is-parent is-vertical">
 											<article className="tile is-child">
 												<img
-													style={{
-														borderRadius: '5px',
-													}}
 													src={main.image1.image}
 													alt={main.image1.alt}
 												/>
@@ -71,9 +60,6 @@ export const ProductPageTemplate = ({
 										<div className="tile is-parent">
 											<article className="tile is-child">
 												<img
-													style={{
-														borderRadius: '5px',
-													}}
 													src={main.image2.image}
 													alt={main.image2.alt}
 												/>
@@ -83,7 +69,6 @@ export const ProductPageTemplate = ({
 									<div className="tile is-parent">
 										<article className="tile is-child">
 											<img
-												style={{ borderRadius: '5px' }}
 												src={main.image3.image}
 												alt={main.image3.alt}
 											/>

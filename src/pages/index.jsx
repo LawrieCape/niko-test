@@ -10,13 +10,9 @@ const IndexPage = (props) => {
 	return (
 		<section className="section">
 			<div className="container">
-				<div className="content">
-					<h1 className="has-text-weight-bold is-size-2">
-						Latest Stories 2
-					</h1>
-				</div>
 
 				{/* product landing pages */}
+				<h1 className="has-text-weight-bold is-size-2">Products test</h1>
 				{posts
 					.filter(post =>
 							post.node.frontmatter.templateKey ===
@@ -43,18 +39,14 @@ const IndexPage = (props) => {
 					))}
 
 				<hr className="hr" />
-
 				{/* blog posts */}
+				<h1 className="has-text-weight-bold is-size-2">Blog posts</h1>
 				{posts
 					.filter(post =>
 							post.node.frontmatter.templateKey === 'blog-post')
 					.map(({ node: post }) => (
 						<div
 							className="content"
-							style={{
-								border: '1px solid #eaecee',
-								padding: '2em 4em',
-							}}
 							key={post.id}
 						>
 							<p>

@@ -8,7 +8,7 @@ const Navbar = () => (
 		<div className="container">
 			<div className="navbar-brand">
 				<Link className="navbar-item" to="/">
-					<img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+					<img src={logo} alt="Kaldi" />
 					<span className="navbar-brand">Company logo</span>
 				</Link>
 			</div>
@@ -16,9 +16,9 @@ const Navbar = () => (
 				<Link className="navbar-item" to="/about">
 					About
 				</Link>
-				{/* <Link className="navbar-item" to="/products">
+				<Link className="navbar-item" to="/products">
 					Products
-				</Link> */}
+				</Link>
 				<Link className="navbar-item" to="/services">
 					Services
 				</Link>

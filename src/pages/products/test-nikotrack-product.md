@@ -18,7 +18,9 @@ customSections:
     title: First "TAB"
     videos:
       - youTubeId: stswE04hv3Q
+        vidDescription: test description 1
       - youTubeId: z5PTPTPAgKE
+        vidDescription: test description 2
   - products:
       - imageUrl: /img/chemex.jpg
         title: product 1
@@ -26,4 +28,3 @@ customSections:
         title: product 2
     title: 2nd "TAB"
 ---
-

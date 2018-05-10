@@ -68,6 +68,7 @@ export const pageQuery = graphql`
 					}
 					videos {
 						youTubeId
+						vidDescription
 					}
 					products {
 						title

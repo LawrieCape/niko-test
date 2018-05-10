@@ -1,12 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Content, { HTMLContent } from '../components/Content';
+import ReactMarkdown from 'react-markdown';
 import './ProductSections.scss';
-const ReactMarkdown = require('react-markdown');
 
 const ServicesComponent = function ({ sections }) {
 	console.log('sections', sections);
-	const PostContent = Content;
 
 	return (
 		<div className="product-sections">
@@ -18,8 +16,6 @@ const ServicesComponent = function ({ sections }) {
 					{/* Intro */}
 					<section className="product-content-group">
 						<h3>Body</h3>
-						{/* {section.body}
-						<PostContent content={section.body} class="content" /> */}
 						<ReactMarkdown source={section.body} />
 					</section>
 
@@ -49,7 +45,7 @@ const ServicesComponent = function ({ sections }) {
 						<h3>Videos</h3>
 						{section.videos && section.videos.map((video, index2) => (
 							<div key={index2} className="video__wrapper">
-								<iframe src={`https://www.youtube.com/embed/${video.youTubeId}?showinfo=1&controls=1&rel=0&modestbranding=0&playsinline=1`} title="YouTube video" allowFullScreen="allowfullscreen" />
+								<iframe src={`https://www.youtube.com/embed/${video.youTubeId}?showinfo=1&controls=1&rel=0&modestbranding=0&playsinline=1`} title={video.vidDescription} allowFullScreen="allowfullscreen" />
 							</div>
 						))}
 					</section>

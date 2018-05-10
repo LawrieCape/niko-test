@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Content, { HTMLContent } from '../components/Content';
 import './ProductSections.scss';
+const ReactMarkdown = require('react-markdown');
 
 const ServicesComponent = function ({ sections }) {
 	console.log('sections', sections);
-	const PostContent = HTMLContent;
+	const PostContent = Content;
 
 	return (
 		<div className="product-sections">
@@ -17,7 +18,9 @@ const ServicesComponent = function ({ sections }) {
 					{/* Intro */}
 					<section className="product-content-group">
 						<h3>Body</h3>
-						<PostContent content={section.body} class="content" />
+						{/* {section.body}
+						<PostContent content={section.body} class="content" /> */}
+						<ReactMarkdown source={section.body} />
 					</section>
 
 					{/* Images */}

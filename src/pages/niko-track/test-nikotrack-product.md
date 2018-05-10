@@ -15,8 +15,8 @@ customSections:
         title: pdf 2
     title: First "TAB"
     videos:
-      - youTubeId: ogfYd705cRs
-      - youTubeId: lR2tJxRqYKc
+      - youTubeId: stswE04hv3Q
+      - youTubeId: z5PTPTPAgKE
   - products:
       - imageUrl: /img/chemex.jpg
         title: product 1

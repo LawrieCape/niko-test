@@ -58,9 +58,13 @@ collections:
                 name: title
                 widget: string
               -
-                label: PDF
+                label: File
                 name: pdfUrl
                 widget: file
+              -
+                label: Thumbnail
+                name: pdfThumb
+                widget: image
           -
             label: Videos
             name: videos

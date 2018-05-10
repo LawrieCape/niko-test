@@ -1,4 +1,50 @@
+@import '../global/_variables';
+
 .product-section {
-	border-top: 2px solid red;
-	margin-top: 60px;
+	border-top: 4px solid $red;
+	margin-top: 80px;
+}
+
+// PDFs
+.pdf__link {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.pdf__image {
+}
+
+.pdf__title {
+}
+
+// Videos
+.video__wrapper {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+// Products
+.product {
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+}
+
+.product__title {
+	background-color: $black;
+	color: $white;
+	position: absolute;
+	bottom: 0;
+	padding: 4px 10px;
+	margin: 0 !important;
+	width: 100%;
+}
+
+.product__image {
+}
+
+
+.product-content-group {
+	border: 1px dashed $blue;
+	margin: 20px 0;
 }

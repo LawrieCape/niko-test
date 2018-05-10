@@ -64,6 +64,7 @@ export const pageQuery = graphql`
 					pdfs {
 						title
 						pdfUrl
+						pdfThumb
 					}
 					videos {
 						youTubeId

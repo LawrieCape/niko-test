@@ -9,9 +9,11 @@ customSections:
       - imageAlt: description 2
         imageUrl: /img/coffee.png
     pdfs:
-      - pdfUrl: /img/c1-conveyor-catalog.pdf
+      - pdfThumb: /img/B1-Sliding-Door-sm-2016.jpg
+        pdfUrl: /img/c1-conveyor-catalog.pdf
         title: pdf 1
-      - pdfUrl: /img/c2_light_weight_overhead_cranes.pdf
+      - pdfThumb: /img/Fall-Arrest-System-Manual-139.jpg
+        pdfUrl: /img/c2_light_weight_overhead_cranes.pdf
         title: pdf 2
     title: First "TAB"
     videos:
@@ -24,3 +26,4 @@ customSections:
         title: product 2
     title: 2nd "TAB"
 ---
+

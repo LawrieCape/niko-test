@@ -1,50 +1,51 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
+import ProductSections from '../components/ProductSections';
 
-export const BlogPostTemplate = ({ title, description, content }) => (
+export const ProductPageTemplate = ({
+	title,
+	description,
+	sections,
+}) => (
 	<section className="section">
-		<Helmet title={`Blog | ${title}`} />
+		<Helmet title={`Product | ${title}`} />
 		<div className="container content">
-			<h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-				{title}
-			</h1>
+			<h1 className="">{title}</h1>
 			<p>{description}</p>
-			<div
-				className="content"
-				dangerouslySetInnerHTML={{
-					__html: content,
-				}}
-			/>
+			<ProductSections sections={sections} />
 		</div>
 	</section>
 );
-BlogPostTemplate.propTypes = {
-	title: PropTypes.string,
+
+ProductPageTemplate.propTypes = {
+	// content: PropTypes.string.isRequired,
+	// contentComponent: PropTypes.func,
 	description: PropTypes.string,
-	content: PropTypes.string,
+	title: PropTypes.string,
+	// sections:
 };
 
-const BLogPostWrapper = ({ data }) => {
+const ProductPage = ({ data }) => {
 	const post = data.markdownRemark;
-
+	// const { markdownRemark: post } = data;
 	console.log(post);
 
 	return (
-		<BlogPostTemplate
-			title={post.frontmatter.title}
+		<ProductPageTemplate
 			description={post.frontmatter.description}
-			content={post.html}
+			title={post.frontmatter.title}
+			sections={post.frontmatter.customSections}
 		/>
 	);
 };
-BLogPostWrapper.propTypes = {
+ProductPage.propTypes = {
 	data: PropTypes.shape({
 		markdownRemark: PropTypes.object,
 	}),
 };
 
-export default BLogPostWrapper;
+export default ProductPage;
 
 export const pageQuery = graphql`
 	query ProductPageByID($id: String!) {

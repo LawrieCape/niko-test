@@ -15,13 +15,13 @@ const ServicesComponent = function ({ sections }) {
 
 					{/* Intro */}
 					<section className="product-content-group">
-						<h3>Body</h3>
+						{/* <h3>Body</h3> */}
 						<ReactMarkdown source={section.body} />
 					</section>
 
 					{/* Images */}
 					<section className="product-content-group">
-						<h3>Images</h3>
+						{/* <h3>Images</h3> */}
 						{section.images && section.images.map((image, index2) => (
 							<a key={index2} className="product-image" href={image.imageUrl}>
 								<img key={index2} src={image.imageUrl} alt={image.imageAlt} width="100px" height="100px" />
@@ -31,7 +31,7 @@ const ServicesComponent = function ({ sections }) {
 
 					{/* PDFs */}
 					<section className="product-content-group">
-						<h3>PDFs</h3>
+						{/* <h3>PDFs</h3> */}
 						{section.pdfs && section.pdfs.map((pdf, index2) => (
 							<a key={index2} className="pdf__link" href={pdf.pdfUrl} target="_blank" rel="noopener">
 								<img className="pdf__image" src={pdf.pdfThumb} alt={pdf.title} width="100px" height="100px" />
@@ -42,7 +42,7 @@ const ServicesComponent = function ({ sections }) {
 
 					{/* Videos */}
 					<section className="product-content-group">
-						<h3>Videos</h3>
+						{/* <h3>Videos</h3> */}
 						{section.videos && section.videos.map((video, index2) => (
 							<div key={index2} className="video__wrapper">
 								<iframe src={`https://www.youtube.com/embed/${video.youTubeId}?showinfo=1&controls=1&rel=0&modestbranding=0&playsinline=1`} title={video.vidDescription} allowFullScreen="allowfullscreen" />
@@ -52,7 +52,7 @@ const ServicesComponent = function ({ sections }) {
 
 					{/* Products */}
 					<section className="product-content-group">
-						<h3>Products</h3>
+						{/* <h3>Products</h3> */}
 						{section.products && section.products.map((product, index2) => (
 							<a key={index2} className="product" href={product.imageUrl}>
 								<p className="product__title">{product.title}</p>

@@ -19,7 +19,7 @@ customSections:
       - imageUrl: /img/flavor_wheel.jpg
         title: product 2
     title: Track Series
-  - body: "### NikoTrack Trolley Styles\r\n\r\nNikoTrack’s six profiles are immobile without their trolleys. **NikoTrack’s trolleys come in a variety of styles, all with different applications in mind**, most offered in every profile series, while some are specific to larger or smaller profiles.\r\n\r\n_The trolleys pictured below are designated with partial part numbers. Each trolleys full part number is always prefixed with a track profile number (21, 23, 24 etc.)_\r"
+  - body: "### NikoTrack Trolley Styles\r\n\r\nNikoTrack’s six profiles are immobile without their trolleys. **NikoTrack’s trolleys come in a variety of styles, all with different applications in mind**, most offered in every profile series, while some are specific to larger or smaller profiles.\r\n\r\n_The trolleys pictured below are designated with partial part numbers. Each trolleys full part number is always prefixed with a track profile number (21, 23, 24 etc.)_\r\n\n#### TROLLEY SWL (Kg)\r\n\r\nSERIES | 21 | 23 | 24 | 25 | 26 | 27\r\n--- | --- | --- | --- | --- | --- | ---\r\n2 Wheel | 10 | 20 | 40 | 100 | 200 | 400\r\n4 Wheel | 20 | 40 | 80 | 200 | 400 | 800\r\nFlight Bar | 40 | 80 | 160 | 400 | 800 | 1600"
     pdfs:
       - pdfThumb: /img/workstation-cranes-c2-crane-catalog.jpg
         pdfUrl: >-
@@ -28,6 +28,9 @@ customSections:
       - pdfThumb: /img/industrial-sliding-doors-b1-sliding-door-leaflet.jpg
         pdfUrl: /img/workstation-cranes-c2-crane-catalog.pdf
         title: C2 Technical Information & Component Specs
+    products:
+      - imageUrl: /img/fall-arrest-a05-lg.jpg
+        title: .T00  customizable  conveyor trolley
     title: Trolley Styles
   - title: Joints & Supports
   - title: Switches & Turns

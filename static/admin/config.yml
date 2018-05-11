@@ -5,9 +5,9 @@ media_folder: static/img
 public_folder: /img
 collections:
   -
-    name: nikoTrack
-    label: NikoTrack
-    folder: src/pages/niko-track
+    name: products
+    label: Products
+    folder: src/pages/products
     create: true
     slug: '{{slug}}'
     editor:

@@ -1,6 +1,6 @@
 @import '../../node_modules/modularscale-sass/stylesheets/_modularscale';
 $modularscale: (
-	base: 16px,
+	base: 15px,
 	ratio: 1.247
 );
 // $ms-base: 1.6em !default;
@@ -12,7 +12,7 @@ $modularscale: (
 $white:							#ffffff;
 $grey:							#808080;
 $black:							#000000;
-$red:							#e6194b;
+$red:								#e6194b;
 $green:							#3cb44b;
 $yellow:						#ffe119;
 $blue:							#0082c8;
@@ -26,9 +26,11 @@ $teal:							#008080;
 $navy:							#000080;
 $beige:							#e1dfd5;
 
-$c-grey-1:						#eaecee;
+$c-grey-1:					#eaecee;
 
 // Config vars
 
 $primary:						#fd461e;
-$primary-invert:				#ffffff;
+$primary-invert:		#ffffff;
+
+$body-size:					15px;

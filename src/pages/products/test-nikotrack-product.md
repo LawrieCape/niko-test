@@ -7,6 +7,7 @@ customSections:
       - imageAlt: track configuration sample
         imageUrl: /img/nikotrack-image005.jpg
     pdfs: []
+    products: []
     title: About NikoTrack
     videos:
       - vidDescription: test description 1

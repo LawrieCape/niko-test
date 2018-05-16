@@ -19,12 +19,13 @@
     "eslint": "eslint {src/**/*.*{jsx,js},*.{jsx,js}}",
     "eslint-fix": "eslint --fix {src/**/*.*{jsx,js},*.{jsx,js}}",
     "sasslint": "sass-lint -v",
-    "image-min": "node image-min.js"
+    "image-min": "gulp",
+    "image-min2": "node image-min.js"
   },
   "dependencies": {
     "bulma": "0.7.1",
     "create-react-class": "15.6.3",
-    "gatsby": "1.9.259",
+    "gatsby": "1.9.260",
     "gatsby-link": "1.6.44",
     "gatsby-plugin-netlify-cms": "2.0.1",
     "gatsby-plugin-react-helmet": "2.0.11",
@@ -32,7 +33,7 @@
     "gatsby-plugin-sharp": "1.6.44",
     "gatsby-remark-images": "1.5.63",
     "gatsby-source-filesystem": "1.5.35",
-    "gatsby-transformer-remark": "1.7.40",
+    "gatsby-transformer-remark": "1.7.41",
     "gatsby-transformer-sharp": "1.6.24",
     "modularscale-sass": "3.0.5",
     "netlify-cms": "1.7.0",

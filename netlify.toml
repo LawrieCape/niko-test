@@ -4,6 +4,6 @@
 
 # Redirect default Netlify subdomain to primary domain
 [[redirects]]
-  from = "http://leptest-niko-test.netlify.com/*"
+  from = "https://leptest-niko-test.netlify.com/*"
   to = "http://staging.nikotrack.com/:splat"
   status = 301

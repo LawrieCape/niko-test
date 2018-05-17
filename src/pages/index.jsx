@@ -7,6 +7,12 @@ const IndexPage = (props) => {
 	const { data } = props;
 	const { edges: posts } = data.allMarkdownRemark;
 
+	// const products = posts
+	// 	.filter(post => post.node.frontmatter.templateKey === 'product-landing')
+	// 	.map(({ node: post }) => (
+	// 		console.log('map');
+	// 	));
+
 	return (
 		<section className="section">
 			<div className="container">
@@ -19,22 +25,12 @@ const IndexPage = (props) => {
 							'product-landing')
 					.map(({ node: post }) => (
 						<div className="content" key={post.id}>
-							<p>
-								<Link
-									className="has-text-primary"
-									to={post.fields.slug}
-								>
-									{post.frontmatter.title}
-								</Link>
-							</p>
-							<p>
-								<Link
-									className="button is-small"
-									to={post.fields.slug}
-								>
-									Keep Reading →
-								</Link>
-							</p>
+							<Link
+								className="has-text-primary"
+								to={post.fields.slug}
+							>
+								{post.frontmatter.title}
+							</Link>
 						</div>
 					))}
 

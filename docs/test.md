@@ -1,5 +1,11 @@
-### Freestanding Bridge Cranes
+### NikoTrack Fall Arrest Components
 
-![Niko_Lightweight_Overhead_Crane_Freestanding_1](http://nikotrack.com/workstationcranes/files/2013/06/Niko_Lightweight_Overhead_Crane_Freestanding_1.jpg)NikoTrack crane enables the user an easy, fast and ergonomic movement of the material downshop and across a span. Manual bridge cranes operate faster than motorized systems, the latter is used where accessibility is restricted. NikoTrack has a tapered track that automatically guides the trolley to the center of the track, moving the heaviest loads only requires a fraction of force to begin movement and even less to maintain it. There is a 100/1 weight to force ratio, so to move a 1,000<sup>lbs</sup> of material only requires 10 lbs of force to start moving it and only 8 lbs to continue moving. Also, with the NikoTracks inverted tapered track profile, there is a much less likelihood of dirt/dust accumulating inside of the track which will require less maintenance and ensure reliability.
+NikoTrack fall arrest components combine the turns and switches of our conveyors with the versatility and reliability of the fall protection, NikoTrack has created an ideal solution to taut-wire systems. User are no longer hindered by slow moving trolleys, endangered by secondary falls or wire transfer, and can use the system throughout the year.
 
-NikoTrack has a full range of track, track joints, support brackets, I-beam connectors and end carriage trolleys. All designed for ease of design and installation. All fittings are zinc plate for maximum durability and protection for tough operating environments. **Tracks** are available in 6 meter length ( 19.70 feet), they are cold rolled with tapered sides designed to center the trolleys, prevent dust build up assuring smooth transfer of trolleys. The end carriage trolleys are fitted with horizontal guide rollers, connecting the moving cross bridge member to the down shop tracks.
+TRACK SERIES | SWL / FT
+--- | ---
+No. 23.000 | 67.0 lbs
+No. 24.000 | 134.0 lbs
+No. 25.000 | 335.9 lbs
+No. 26.000 | 671.9 lbs
+No. 27.000 | 1075.0 lbs

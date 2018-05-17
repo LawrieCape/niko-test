@@ -39,11 +39,10 @@ customSections:
       had applications in movable walls, sliding partitions for segmenting work
       areas and dividing rooms.
 
-
+      # WARNING: move these to PDF component
       [Link: NikoTrack Heavy Duty Applications
       Catalog](http://nikotrack.com/wp-content/pdfs/NikoTrack_Heavy_Duty.pdf
       "NikoTrack Heavy Duty Assemblies Catalog")
-
 
       [Link: B1 Heavy Duty Sliding Door
       Fittings](http://nikotrack.com/wp-content/pdfs/B1-Heavy-Duty-Sliding-Door-Hardware_ver_05_16.pdf)
@@ -76,4 +75,3 @@ customSections:
   - body: "### Sliding Door Fittings\r\n\r\nHeavy duty door fittings for sliding doors in wood, steel or aluminium, folding doors and harmonica doors with many panels.\r\n\r\n* Moveable panels for outdoor shops\r\n* Partitions for large rooms\r\n* Heavy curtains\r\n* Scenery and theater curtains\r\n* Sliding gates on angle or square guide rail\r\n* Garage doors with counter-weights\r\n* Sliding airtight doors for freezing chambers\r\n* Sliding doors around the corner...\r\n"
     title: Sliding Door Fittings
 ---
-

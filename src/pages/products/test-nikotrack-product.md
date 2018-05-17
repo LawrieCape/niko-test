@@ -4,8 +4,18 @@ title: NikoTrack
 customSections:
   - body: "# Lightweight Overhead Monorail Conveyor Systems\n\r\n**NikoTrack's** overhead monorail conveyor systems are designed to suit most existing working environments. They can be configured as chain powered or a low cost alternative to 'power and free' systems for certain scenarios such as lean manufacturing systems. Automatic switches allow for side shifting on dual tracks to maximize storage space. NikoTracks six profiles are capable of carrying loads up to 3,520 lbs. **NikoTrack LLC** is a distributor of the Greek company Helm Hellas. Beginning in 1972, Helm Hellas originally focused on developing, producing and marketing sliding door fittings and overhead conveyor systems, but soon expanded to the light weight crane market as well. The **NikoTrack** product consists of a range of profile track sections, support fittings and carrier trolleys. These components can be assembled to produce a large range of modular design products including:\r\n\r\n*   Manual Overhead Conveyors\r\n*   Suspension Systems\r\n*   Festoon Cable Supply Systems\r\n*   Industrial Barn Door tracks and fittings\r\n*   Lightweight Overhead Cranes"
     images:
-      - imageAlt: track configuration sample
-        imageUrl: /img/nikotrack-image005.jpg
+      - imageAlt: alt
+        imageUrl: /img/static-powdercoating-9.jpg
+      - imageAlt: alt
+        imageUrl: /img/niko-overhead-conveyor-9-320x200.jpg
+      - imageAlt: alt
+        imageUrl: /img/niko-fall-arrest-track-4-320x200.jpg
+      - imageAlt: aly
+        imageUrl: /img/bluedoubledoors-hires-320x200.jpg
+      - imageAlt: alt
+        imageUrl: /img/turntable-320-200.jpg
+      - imageAlt: alt
+        imageUrl: /img/system-320-200.jpg
     pdfs: []
     products: []
     title: About NikoTrack
@@ -17,7 +27,7 @@ customSections:
   - body: "**NikoTrack’s range of track series profiles are of compact design, and high quality.** NikoTrack is of cold rolled steel manufacture and supplied in standard 6 meter lengths in either plain, zinc plated, or stainless steel. Due to the design of the tapered sides this reduces the possibility of a build up of dust, thus assuring smooth running characteristics of the trolleys.\r\n\r\nNiko Profile | h (mm) | b (mm) | d (mm) | s (mm)\r\n--- | --- | --- | --- | ---\r\nNo. 23.000 | 35.00 | 40.00 | 11.00 | 2.75\r\nNo. 24.000 | 43.50 | 48.50 | 15.50 | 3.20\r\nNo. 25.000 | 60.00 | 65.00 | 18.50 | 3.60\r\nNo. 26.000 | 75.00 | 80.00 | 22.00 | 4.50\r\nNo. 27.000 | 110.00 | 90.00 | 25.00 | 6.50"
     images:
       - imageAlt: NikoTrack Track Series
-        imageUrl: /img/industrial-sliding-doors-track-profiles.jpg
+        imageUrl: /img/concentrictrack-300x265.jpg
     products:
       - imageUrl: /img/fall-arrest-a40-lg-e1353360331433.jpg
         title: product 1

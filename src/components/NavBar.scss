@@ -1,0 +1,25 @@
+@import '../global/_variables';
+
+.nav__wrapper {
+	background-color: $primary;
+}
+
+.nav {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav__link {
+	display: block;
+	border: 1px solid $red;
+	color: $primary-invert;
+	padding: ms(-1) ms(0);
+	transition: opacity 200ms ease-in-out;
+
+	&:hover {
+		color: $primary-invert;
+		opacity: 0.6;
+	}
+}

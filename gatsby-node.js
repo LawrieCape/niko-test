@@ -28,6 +28,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
 		return result.data.allMarkdownRemark.edges.forEach((edge) => {
 			const { id } = edge.node;
+			console.log('XXX: ', edge.node.frontmatter);
 			createPage({
 				path: edge.node.fields.slug,
 				component: path.resolve(`src/templates/${String(edge.node.frontmatter.templateKey)}.jsx`),

@@ -1,0 +1,29 @@
+@import '../global/_variables';
+
+.site-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-logo {
+}
+
+.header-logo__link {
+}
+
+.header-logo__image {
+}
+
+.header-logo__title {
+	@include hide-text1;
+}
+
+.wee-nav {
+	display: flex;
+
+	a {
+		padding: ms(-1) ms(0);
+		border: 1px solid $red;
+		margin: ms(0);
+	}
+}

@@ -1,0 +1,25 @@
+@import '../global/_variables';
+
+.homepage-hero__wrapper {
+	max-width: 900px;
+	margin: ms(5) auto 0 auto;
+}
+
+.homepage-hero {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.homepage-hero__link {
+	flex: 0 0 50%;
+	padding: ms(3);
+	border: 1px solid $red;
+	background-color: $grey;
+	transition: opacity 200ms ease-in-out;
+	color: $white;
+
+	&:hover {
+		opacity: 0.6;
+		color: $white;
+	}
+}

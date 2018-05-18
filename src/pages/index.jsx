@@ -1,5 +1,6 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { HomePageHero } from '../components/HomePageHero';
+
 
 // export default class IndexPage extends React.Component {
 // 	render() {
@@ -14,62 +15,10 @@ const IndexPage = (props) => {
 	// 	));
 
 	return (
-		<section className="section">
-			<div className="container">
-
-				{/* product landing pages */}
-				<h1 className="has-text-weight-bold is-size-2">Products test</h1>
-				{posts
-					.filter(post =>
-							post.node.frontmatter.templateKey ===
-							'product-landing')
-					.map(({ node: post }) => (
-						<div className="content" key={post.id}>
-							<Link
-								className="has-text-primary"
-								to={post.fields.slug}
-							>
-								{post.frontmatter.title}
-							</Link>
-						</div>
-					))}
-
-				<hr className="hr" />
-				{/* blog posts */}
-				<h1 className="has-text-weight-bold is-size-2">Blog posts</h1>
-				{posts
-					.filter(post =>
-							post.node.frontmatter.templateKey === 'blog-post')
-					.map(({ node: post }) => (
-						<div
-							className="content"
-							key={post.id}
-						>
-							<p>
-								<Link
-									className="has-text-primary"
-									to={post.fields.slug}
-								>
-									{post.frontmatter.title}
-								</Link>
-								<span> &bull; </span>
-								<small>{post.frontmatter.date}</small>
-							</p>
-							<p>
-								{post.excerpt}
-								<br />
-								<br />
-								<Link
-									className="button is-small"
-									to={post.fields.slug}
-								>
-									Keep Reading →
-								</Link>
-							</p>
-						</div>
-					))}
-			</div>
-		</section>
+		<div>
+			{/* product landing pages */}
+			<HomePageHero posts={posts} />
+		</div>
 	);
 };
 

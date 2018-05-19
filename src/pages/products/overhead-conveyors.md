@@ -1,5 +1,6 @@
 ---
 templateKey: product-landing
+order: 2
 title: Overhead Conveyors
 customSections:
   - body: "## NikoTrack Overhead Conveyor and Monorail Systems at a Glance\r\n\r\nNikoTRACK produces manual overhead conveyor and monorail transfer systems that are modular in design for ease of installation and modification.\r\n\r\n* Multiple track sizes for wide range of load\r\n* Flexible track mounting systems for simple installation\r\n* Standard components to connect and suspend the monorail conveyor track\r\n* All track, switches and components are electro galvanized for complete protection in interior and exterior apps\r\n* The manual overhead conveyor can be seamlessly integrated with the NikoTrack lightweight crane and lifting equipment, via automatic manual latching devices. This degree of integration allows flight bars to move from processes such as dipping, paint finish lines to an overhead monorail to efficiently transfer to another process or area within the plant\r\n* Free running, economical with minimal maintenance\r\n* NikoTrack manual conveyors are ideal for powder coating, painting, and material finishing applications."
@@ -74,12 +75,12 @@ customSections:
       **NikoTrack has 5 main track profiles with a weight capacity of up to
       4,000 lbs. per part.** Each system is custom designed to fit the largest
       part in a finishing system and to efficiently move that part through the
-      finishing technology incorporated by your company. 
+      finishing technology incorporated by your company.
 
 
       NikoTrack’s unique approach using automatic switches allows for even long
       parts to maneuver in an efficient manner through a finishing process, as
-      well as keeping a compact foot print. 
+      well as keeping a compact foot print.
 
 
       The modular pre-engineered design enables systems to be easily expandable.
@@ -87,7 +88,7 @@ customSections:
       needs of a business. A system can be retrofitted with a chain drive system
       to accommodate new technologies, like an IR oven or automatic spray booth,
       all with minimal impact on the design and greatly reduced down time for a
-      conveyor update. 
+      conveyor update.
 
 
       The modular flexibility enables other material handling systems like crane
@@ -96,4 +97,3 @@ customSections:
       for carts or forklifts to tie up precious floor space.
     title: Request a quote
 ---
-

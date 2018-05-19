@@ -32,10 +32,12 @@ export default TemplateWrapper;
 
 export const templatePageQuery = graphql`
 	query TemplatePage {
-		allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+		allMarkdownRemark(
+			sort: { order: ASC, fields: [frontmatter___order] },
+			filter: { frontmatter: { templateKey: { eq: "product-landing" } }}
+		) {
 			edges {
 				node {
-					excerpt(pruneLength: 400)
 					id
 					fields {
 						slug
@@ -43,6 +45,7 @@ export const templatePageQuery = graphql`
 					frontmatter {
 						title
 						templateKey
+						order
 						date(formatString: "MMMM DD, YYYY")
 					}
 				}

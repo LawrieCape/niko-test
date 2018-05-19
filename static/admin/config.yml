@@ -19,6 +19,10 @@ collections:
         widget: hidden
         default: product-landing
       -
+        label: Order
+        name: order
+        widget: string
+      -
         label: Title
         name: title
         widget: string

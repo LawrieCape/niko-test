@@ -3,21 +3,13 @@ import React from 'react';
 import Link from 'gatsby-link';
 import './NavBar.scss';
 
-export const NewNavBar = ({
-	posts,
-}) => (
+export const NewNavBar = ({ posts }) => (
 	<div className="nav__wrapper">
 		<nav className="nav">
 			{posts
-				.filter(post =>
-						post.node.frontmatter.templateKey ===
-						'product-landing')
 				.map(({ node: post }) => (
 					<div key={post.id}>
-						<Link
-							className="nav__link"
-							to={post.fields.slug}
-						>
+						<Link className="nav__link" to={post.fields.slug}>
 							{post.frontmatter.title}
 						</Link>
 					</div>

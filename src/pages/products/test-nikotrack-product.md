@@ -1,5 +1,6 @@
 ---
 templateKey: product-landing
+order: 1
 title: NikoTrack
 customSections:
   - body: "# Lightweight Overhead Monorail Conveyor Systems\n\r\n**NikoTrack's** overhead monorail conveyor systems are designed to suit most existing working environments. They can be configured as chain powered or a low cost alternative to 'power and free' systems for certain scenarios such as lean manufacturing systems. Automatic switches allow for side shifting on dual tracks to maximize storage space. NikoTracks six profiles are capable of carrying loads up to 3,520 lbs. **NikoTrack LLC** is a distributor of the Greek company Helm Hellas. Beginning in 1972, Helm Hellas originally focused on developing, producing and marketing sliding door fittings and overhead conveyor systems, but soon expanded to the light weight crane market as well. The **NikoTrack** product consists of a range of profile track sections, support fittings and carrier trolleys. These components can be assembled to produce a large range of modular design products including:\r\n\r\n*   Manual Overhead Conveyors\r\n*   Suspension Systems\r\n*   Festoon Cable Supply Systems\r\n*   Industrial Barn Door tracks and fittings\r\n*   Lightweight Overhead Cranes"
@@ -51,4 +52,3 @@ customSections:
   - title: Switches & Turns
   - title: Flight Bars
 ---
-

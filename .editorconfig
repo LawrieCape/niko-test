@@ -16,4 +16,4 @@ spaces_around_operators = true
 quote_type = single
 
 [*.md]
-trim_trailing_whitespace = false
+trim_trailing_whitespace = true

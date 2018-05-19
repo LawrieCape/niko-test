@@ -1,5 +1,6 @@
 ---
 templateKey: product-landing
+order: 6
 title: Catalogs
 customSections:
   - pdfs:
@@ -11,4 +12,3 @@ customSections:
         title: PDF EXAMPLE
     title: 'NikoTrack Product Catalogs, Technical Information & Specs'
 ---
-

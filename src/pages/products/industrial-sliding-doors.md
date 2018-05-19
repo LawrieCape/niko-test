@@ -1,5 +1,6 @@
 ---
 templateKey: product-landing
+order: 3
 title: Industrial Sliding Doors
 customSections:
   - body: >-

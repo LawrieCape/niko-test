@@ -1,5 +1,6 @@
 ---
 templateKey: product-landing
+order: 5
 title: Workstation Cranes
 customSections:
   - body: "### Ceiling Mounted Bridge Cranes\r\n\r\nCeiling mounted and stand-alone overhead cranes proved a cost effective and efficient solution to your material handling issues. A ceiling mounted crane will provide maximum coverage of an area without interfering with existing support columns, while a stand-alone system can be installed without being confined to the structure of the building. Also, either system can be linked to a monorail conveyor system or even another crane using our Track Transfer Assembly.\r\n"
@@ -47,4 +48,3 @@ customSections:
         title: PDF EXAMPLE
     title: Request a Quote
 ---
-

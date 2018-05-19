@@ -30,7 +30,7 @@ const ServicesComponent = function ({ sections }) {
 				<Sticky>
 					{({ style }) => (
 						<div style={style}>
-							<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={-window.innerHeight / 2}>
+							<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={0}>
 								{sections && sections.map((section, index) => (
 									<div key={index}><a href={`#${slugify(section.title)}`}>{section.title}</a></div>
 								))}

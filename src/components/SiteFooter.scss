@@ -1,0 +1,9 @@
+@import '../global/_variables';
+
+.site-footer {
+	display: flex;
+	justify-content: space-between;
+	padding: ms(4);
+	background-color: $grey;
+	color: $white;
+}

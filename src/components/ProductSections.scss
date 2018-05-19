@@ -1,8 +1,34 @@
 @import '../global/_variables';
 
+// LAYOUT
+.product-page {
+	// display: flex;
+}
+
+.product-page__nav {
+	// flex: 0 0 250px;
+	// position: fixed;
+	// left: 0;
+	// top: 0;
+	// bottom: 0;
+	width: 250px;
+	border: 1px solid $red;
+
+	.is-current {
+		font-weight: bold;
+	}
+}
+
+.product-page__body {
+	border: 1px solid $green;
+}
+
+
 .product-section {
-	border-top: 8px solid $green;
-	margin-top: 100px;
+	border: 1px solid $purple;
+	// border-top: 8px solid $green;
+	// margin-top: 100px;
+	margin: ms(5);
 }
 
 // PDFs

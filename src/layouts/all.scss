@@ -1,10 +1,10 @@
 // https://github.com/magicspon/gatsby-tailwind-hack-example/blob/master/tailwind.config.js
 
 @import '../global/_variables';
+@import '../global/_reboot';
 
 // @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-@import '~bulma';
-
+// @import '~bulma';
 
 // Helper Classes
 .full-width-image-container {

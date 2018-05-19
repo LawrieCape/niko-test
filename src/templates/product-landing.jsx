@@ -7,13 +7,17 @@ export const ProductPageTemplate = ({
 	title,
 	sections,
 }) => (
-	<section className="section">
-		<Helmet title={`Product | ${title}`} />
-		<div className="container content">
-			<h1 className="">{title}</h1>
-			<ProductSections sections={sections} />
-		</div>
-	</section>
+	<div className="container">
+		<section className="section product-page">
+			<Helmet title={`Product | ${title}`} />
+
+			<div className="product-page__body content">
+				<h1 className="">{title}</h1>
+				<hr />
+				<ProductSections sections={sections} />
+			</div>
+		</section>
+	</div>
 );
 
 ProductPageTemplate.propTypes = {

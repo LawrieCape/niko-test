@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { NewNavBar } from '../components/NewNavBar';
+import { NavBar } from '../components/NavBar';
 import SiteHeader from '../components/SiteHeader';
+import SiteFooter from '../components/SiteFooter';
 import './all.scss';
 
 const TemplateWrapper = ({ children, data }) => {
@@ -17,9 +18,11 @@ const TemplateWrapper = ({ children, data }) => {
 
 			<SiteHeader />
 
-			<NewNavBar posts={pages} />
+			<NavBar posts={pages} />
 
 			<div>{children()}</div>
+
+			<SiteFooter />
 		</div>
 	);
 };

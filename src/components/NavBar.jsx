@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import './NavBar.scss';
 
-export const NewNavBar = ({ posts }) => (
+export const NavBar = ({ posts }) => (
 	<div className="nav__wrapper">
 		<nav className="nav">
 			{posts

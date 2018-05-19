@@ -19,11 +19,9 @@
     "eslint": "eslint {src/**/*.*{jsx,js},*.{jsx,js}}",
     "eslint-fix": "eslint --fix {src/**/*.*{jsx,js},*.{jsx,js}}",
     "sasslint": "sass-lint -v",
-    "image-min": "gulp",
-    "image-min2": "node image-min.js"
+    "images": "gulp"
   },
   "dependencies": {
-    "bulma": "0.7.1",
     "create-react-class": "15.6.3",
     "gatsby": "1.9.261",
     "gatsby-link": "1.6.44",
@@ -40,10 +38,11 @@
     "prop-types": "15.6.1",
     "react": "16.3.2",
     "react-helmet": "5.2.0",
-    "react-markdown": "3.3.2"
+    "react-markdown": "3.3.2",
+    "react-scrollspy": "3.3.5",
+    "react-sticky": "6.0.2"
   },
   "devDependencies": {
-    "bootstrap": "4.1.1",
     "eslint": "4.19.1",
     "eslint-config-airbnb": "16.1.0",
     "eslint-config-standard": "11.0.0",
@@ -56,11 +55,6 @@
     "eslint-plugin-standard": "3.1.0",
     "gulp": "4.0.0",
     "gulp-imagemin": "4.1.0",
-    "imagemin": "5.3.1",
-    "imagemin-gifsicle": "5.2.0",
-    "imagemin-jpegtran": "5.0.2",
-    "imagemin-optipng": "5.2.1",
-    "imagemin-pngquant": "5.1.0",
     "immutable": "3.8.2",
     "prettier": "1.12.1",
     "sass-lint": "1.12.1",

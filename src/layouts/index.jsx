@@ -20,7 +20,9 @@ const TemplateWrapper = ({ children, data }) => {
 
 			<NavBar posts={pages} />
 
-			<div>{children()}</div>
+			<main>
+				{children()}
+			</main>
 
 			<SiteFooter />
 		</div>

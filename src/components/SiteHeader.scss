@@ -25,7 +25,13 @@
 		padding: ms(-1) ms(0);
 		border: 1px solid $red;
 		margin: ms(0);
-		background-color: $white;
+		background-color: $white; // Chrome Audits
 		color: $black;
+	}
+}
+
+.header__contact-us__wrapper {
+	a {
+		background-color: $white; // Chrome Audits
 	}
 }

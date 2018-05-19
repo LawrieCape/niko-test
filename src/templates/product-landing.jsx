@@ -5,14 +5,12 @@ import ProductSections from '../components/ProductSections';
 
 export const ProductPageTemplate = ({
 	title,
-	description,
 	sections,
 }) => (
 	<section className="section">
 		<Helmet title={`Product | ${title}`} />
 		<div className="container content">
 			<h1 className="">{title}</h1>
-			<p>{description}</p>
 			<ProductSections sections={sections} />
 		</div>
 	</section>
@@ -21,7 +19,6 @@ export const ProductPageTemplate = ({
 ProductPageTemplate.propTypes = {
 	// content: PropTypes.string.isRequired,
 	// contentComponent: PropTypes.func,
-	description: PropTypes.string,
 	title: PropTypes.string,
 	// sections:
 };
@@ -33,7 +30,6 @@ const ProductPage = ({ data }) => {
 
 	return (
 		<ProductPageTemplate
-			description={post.frontmatter.description}
 			title={post.frontmatter.title}
 			sections={post.frontmatter.customSections}
 		/>

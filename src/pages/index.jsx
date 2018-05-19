@@ -26,10 +26,12 @@ export default IndexPage;
 
 export const pageQuery = graphql`
 	query IndexQuery {
-		allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+		allMarkdownRemark(
+			filter: { frontmatter: { templateKey: { eq: "product-landing" } }},
+			sort: { order: ASC, fields: [frontmatter___order] }
+		) {
 			edges {
 				node {
-					excerpt(pruneLength: 400)
 					id
 					fields {
 						slug
@@ -37,7 +39,7 @@ export const pageQuery = graphql`
 					frontmatter {
 						title
 						templateKey
-						date(formatString: "MMMM DD, YYYY")
+						order
 					}
 				}
 			}

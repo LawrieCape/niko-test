@@ -33,8 +33,8 @@ export default TemplateWrapper;
 export const templatePageQuery = graphql`
 	query TemplatePage {
 		allMarkdownRemark(
-			sort: { order: ASC, fields: [frontmatter___order] },
-			filter: { frontmatter: { templateKey: { eq: "product-landing" } }}
+			filter: { frontmatter: { templateKey: { eq: "product-landing" } }},
+			sort: { order: ASC, fields: [frontmatter___order] }
 		) {
 			edges {
 				node {

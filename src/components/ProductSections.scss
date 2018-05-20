@@ -41,7 +41,10 @@
 	border: 1px solid $purple;
 	// border-top: 8px solid $green;
 	// margin-top: 100px;
-	margin: ms(7) 0;
+
+	+ .product-section {
+		margin-top: ms(7);
+	}
 }
 
 // PDFs

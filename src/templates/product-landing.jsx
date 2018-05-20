@@ -8,15 +8,16 @@ export const ProductPageTemplate = ({
 	sections,
 }) => (
 	<div className="container">
-		<section className="section product-page">
+		<article className="product-page">
 			<Helmet title={`Product | ${title}`} />
 
-			<div className="product-page__body content">
+			<header>
 				<h1 className="">{title}</h1>
 				<hr />
-				<ProductSections sections={sections} />
-			</div>
-		</section>
+			</header>
+
+			<ProductSections sections={sections} />
+		</article>
 	</div>
 );
 
@@ -30,7 +31,6 @@ ProductPageTemplate.propTypes = {
 const ProductPage = ({ data }) => {
 	const post = data.markdownRemark;
 	// const { markdownRemark: post } = data;
-	console.log(post);
 
 	return (
 		<ProductPageTemplate

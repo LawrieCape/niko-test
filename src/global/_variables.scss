@@ -1,7 +1,7 @@
 @import '../../node_modules/modularscale-sass/stylesheets/_modularscale';
 $modularscale: (
-	base: 16px,
-	ratio: 1.247
+	base:	16px,
+	ratio:	1.247
 );
 // $ms-base: 1.6em !default;
 // $ms-ratio: 1.247 !default;
@@ -39,7 +39,7 @@ $font-family-sans-serif:		-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 $font-family-monospace:			SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:				$font-family-sans-serif !default;
 
-$font-size-base:				1rem;
+$font-size-base:				1rem !default;
 
 $font-weight-light:				300 !default;
 $font-weight-normal:			400 !default;

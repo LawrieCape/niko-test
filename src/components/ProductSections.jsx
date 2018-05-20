@@ -24,74 +24,74 @@ const ServicesComponent = function ({ sections }) {
 	}
 
 	return (
-		<div className="product-sections">
-			<StickyContainer className="product-info">
-				<div className="product-info__sidebar">
-					<Sticky>
-						{({ style }) => (
-							<div className="stickydsfdgdfgfd" style={style}>
-								<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={0}>
-									{sections && sections.map((section, index) => (
-										<div key={index}><a href={`#${slugify(section.title)}`}>{section.title}</a></div>
-									))}
-								</Scrollspy>
+		<StickyContainer className="product-info">
+			<div className="product-info__sidebar">
+				<Sticky>
+					{({ style }) => (
+						<div className="stickydsfdgdfgfd" style={style}>
+							<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={0}>
+								{sections && sections.map((section, index) => (
+									<div key={index}><a href={`#${slugify(section.title)}`}>{section.title}</a></div>
+								))}
+							</Scrollspy>
+						</div>
+					)}
+
+					{/* <nav className="product-page__nav">
+						{sections && sections.map((section, index) => (
+							<div key={index} className="">
+								<ScrollLink name={slugify(section.title)}>{section.title}</ScrollLink>
 							</div>
-						)}
+						))}
+					</nav> */}
 
-						{/* <nav className="product-page__nav">
-							{sections && sections.map((section, index) => (
-								<div key={index} className="">
-									<ScrollLink name={slugify(section.title)}>{section.title}</ScrollLink>
-								</div>
-							))}
-						</nav> */}
+					{/* <nav className="product-page__nav">
+						<ul>
+							<li>
+								<a className="scroll" href="#about">industrial-sliding-doors</a>
+							</li>
+							<li>
+								<a className="scroll" href="#sliding-door-technical-specs">sliding-door-technical-specs</a>
+							</li>
+							<li>
+								<a className="scroll" href="#sliding-door-animations">sliding-door-animations</a>
+							</li>
+							<li>
+								<a className="scroll" href="#sliding-door-fittings">sliding-door-fittings</a>
+							</li>
+						</ul>
+					</nav> */}
+				</Sticky>
+			</div>
 
-						{/* <nav className="product-page__nav">
-							<ul>
-								<li>
-									<a className="scroll" href="#about">industrial-sliding-doors</a>
-								</li>
-								<li>
-									<a className="scroll" href="#sliding-door-technical-specs">sliding-door-technical-specs</a>
-								</li>
-								<li>
-									<a className="scroll" href="#sliding-door-animations">sliding-door-animations</a>
-								</li>
-								<li>
-									<a className="scroll" href="#sliding-door-fittings">sliding-door-fittings</a>
-								</li>
-							</ul>
-						</nav> */}
-					</Sticky>
-				</div>
-
-				<div className="product-info__main">
+			<div className="product-info__main">
+				<div className="product-sections">
 					{sections && sections.map((section, index) => (
-						<article key={index} className="product-section" id={slugify(section.title)}>
+						<section key={index} className="product-section" id={slugify(section.title)}>
 							{/* Title */}
 							<h2>{section.title}</h2>
 
 							{/* Intro */}
-							<section className="product-content-group">
+							<div className="product-content-group">
 								{/* <h3>Body</h3> */}
 								<ReactMarkdown source={section.body} />
-							</section>
+							</div>
 
 							{/* Images */}
-							<section className="product-content-group product-content-group--images">
+							<div className="product-content-group product-content-group--images">
 								{/* <h3>Images</h3> */}
 								{section.images && section.images.map((image, index2) => (
 									<a key={index2} className="product-image" href={image.imageUrl}>
 										<img key={index2} src={image.imageUrl} alt={image.imageAlt} />
 									</a>
 								))}
-							</section>
+							</div>
 
 							{/* PDFs */}
 							<ProductPdfs pdfs={section.pdfs} />
 
 							{/* Videos */}
-							<section className="product-content-group product-content-group--videos">
+							<div className="product-content-group product-content-group--videos">
 								{/* <h3>Videos</h3> */}
 								{section.videos && section.videos.map((video, index2) => (
 									<div key={index2} className="video__wrapper">
@@ -100,10 +100,10 @@ const ServicesComponent = function ({ sections }) {
 										</div>
 									</div>
 								))}
-							</section>
+							</div>
 
 							{/* Products */}
-							<section className="product-content-group">
+							<div className="product-content-group">
 								{/* <h3>Products</h3> */}
 								{section.products && section.products.map((product, index2) => (
 									<a key={index2} className="product" href={product.imageUrl}>
@@ -111,14 +111,12 @@ const ServicesComponent = function ({ sections }) {
 										<img className="product__image" src={product.imageUrl} alt={product.title} width="200" height="200" />
 									</a>
 								))}
-							</section>
-						</article>
+							</div>
+						</section>
 					))}
 				</div>
-
-			</StickyContainer>
-
-		</div>
+			</div>
+		</StickyContainer>
 	);
 };
 

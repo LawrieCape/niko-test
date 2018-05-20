@@ -116,6 +116,7 @@ $bestFitLineHeight: false;
 @mixin type--lead {
 	@include new-typesetter(2, 1.5em);
 }
+
 @mixin type--1 {
 	@include new-typesetter(1);
 }

@@ -63,7 +63,7 @@ const ServicesComponent = function ({ sections }) {
 							<ProductPdfs pdfs={section.pdfs} />
 
 							{/* Videos */}
-							<ProductVideos videos={section.videos} />
+							{/* <ProductVideos videos={section.videos} /> */}
 
 							{/* Products */}
 							<ProductProducts products={section.products} />

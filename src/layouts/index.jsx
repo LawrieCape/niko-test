@@ -58,3 +58,15 @@ export const templatePageQuery = graphql`
 		}
 	}
 `;
+
+// TODO: learn graphql lol \/
+// Run the query to see all files in /src/.
+// {
+//   allFile {
+//     edges {
+//       node {
+//         id
+//       }
+//     }
+//   }
+// }

@@ -2,8 +2,9 @@ import React from 'react';
 import Link from 'gatsby-link';
 import './SiteHeader.scss';
 import logo from '../img/logo.png';
+import { NavBar } from '../components/NavBar';
 
-const SiteHeader = () => (
+const SiteHeader = ({ posts }) => (
 	<header className="site-header">
 
 		{/* company logo */}
@@ -45,6 +46,8 @@ const SiteHeader = () => (
 		<div className="header__contact-us__wrapper">
 			Call Now: <a href="tel:+14016837525">+1 401 683 7525</a>
 		</div>
+
+		<NavBar posts={posts} />
 
 	</header>
 );

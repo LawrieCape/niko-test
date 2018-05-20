@@ -3,6 +3,9 @@ import React from 'react';
 // import './Services.scss';
 
 const ProductImages = function ({ images }) {
+	if (!images) {
+		return (null);
+	}
 	return (
 		<div className="product-content-group product-content-group--images">
 			{/* <h3>Images</h3> */}

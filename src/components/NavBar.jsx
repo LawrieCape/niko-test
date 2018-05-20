@@ -8,11 +8,9 @@ export const NavBar = ({ posts }) => (
 		<nav className="nav">
 			{posts
 				.map(({ node: post }) => (
-					<div key={post.id}>
-						<Link className="nav__link" to={post.fields.slug}>
-							{post.frontmatter.title}
-						</Link>
-					</div>
+					<Link key={post.id} className="nav__link" to={post.fields.slug}>
+						{post.frontmatter.title}
+					</Link>
 				))
 			}
 		</nav>

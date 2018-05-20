@@ -3,8 +3,11 @@ import React from 'react';
 // import './Services.scss';
 
 const lfsldgjsldgkj = function ({ pdfs }) {
+	if (!pdfs) {
+		return (null);
+	}
 	return (
-		<div className="product-content-group">
+		<div className="product-content-group product-content-group--pdfs">
 			{/* <h3>PDFs</h3> */}
 			{pdfs && pdfs.map((pdf, index) => (
 				<a key={index} className="pdf__link" href={pdf.pdfUrl} target="_blank" rel="noopener">

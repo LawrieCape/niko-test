@@ -3,8 +3,11 @@ import React from 'react';
 // import './Services.scss';
 
 const lfsldgjsldgkj = function ({ products }) {
+	if (!products) {
+		return (null);
+	}
 	return (
-		<div className="product-content-group">
+		<div className="product-content-group product-content-group--products">
 			{/* <h3>Products</h3> */}
 			{products && products.map((product, index) => (
 				<a key={index} className="product" href={product.imageUrl}>

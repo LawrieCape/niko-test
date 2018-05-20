@@ -1,0 +1,132 @@
+$viewport-layouts: (
+	'sm': (),
+	'md': ('min-width': 600px),
+	'lg': ('min-width': 900px),
+	'xlg': ('min-width': 1200px),
+	'xxlg': ('min-width': 1500px),
+	'xxxlg': ('min-width': 1800px)
+);
+
+$columns: 12;
+$gutter-width: 30px;
+$half-gutter-width: ($gutter-width / 2);
+$gutter-compensation: (-1 * $half-gutter-width);
+// $gutter-compensation: 0;
+
+@mixin grid-row ($reverse: false) {
+	@include grid-row-direction($reverse);
+
+	// box-sizing: border-box;
+	display: flex;
+	flex: 1 1 auto;
+	flex-wrap: wrap;
+	margin-right: $gutter-compensation;
+	margin-left: $gutter-compensation;
+
+	&.row-new--collapse {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+@mixin grid-row-direction ($reverse: false) {
+	@if ($reverse) {
+		flex-direction: row-reverse;
+	}
+
+	@else {
+		flex-direction: row;
+	}
+}
+
+@mixin grid-row-alignment-horizontal ($alignment) {
+	$justify: inherit;
+
+	@if ($alignment == center) {
+		$justify: center;
+	}
+
+	@else if ($alignment == end) {
+		$justify: flex-end;
+	}
+
+	@else if ($alignment == start) {
+		$justify: flex-start;
+	}
+
+	justify-content: $justify;
+}
+
+@mixin grid-row-alignment-vertical ($alignment) {
+	@if ($alignment == middle) {
+		align-items: center;
+	}
+
+	@else if ($alignment == bottom) {
+		align-items: flex-end;
+	}
+
+	@else {
+		align-items: flex-start;
+	}
+}
+
+@mixin grid-row-spacing ($spacing) {
+	justify-content: $spacing;
+}
+
+@mixin grid-column ($reverse: false) {
+	@include grid-column-direction($reverse);
+
+	display: flex;
+	flex: 1 1 auto;
+	padding-right: $half-gutter-width;
+	padding-left: $half-gutter-width;
+	margin-top: 0; // Reset the owl selector
+
+	.row-new--collapse & {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+@mixin grid-column-direction ($reverse: false) {
+	@if ($reverse) {
+		flex-direction: column-reverse;
+	}
+
+	@else {
+		flex-direction: column;
+	}
+}
+
+@mixin grid-column-span ($columns-to-span: $columns, $total-columns-in-row: $columns) {
+	@if ($columns-to-span == auto) {
+		// flex-grow: 1;
+		// flex-basis: 0;
+		// max-width: 100%;
+	}
+
+	@else {
+		$span-percentage: ($columns-to-span / $total-columns-in-row);
+
+		flex-basis: ($span-percentage * 100%);
+		max-width: ($span-percentage * 100%);
+	}
+}
+
+@mixin grid-column-offset ($columns-to-offset, $total-columns-in-row: $columns) {
+	margin-left: (($columns-to-offset / $total-columns-in-row) * 100%);
+}
+
+@mixin grid-column-order ($position) {
+	@if ($position == last) {
+		$position: 9999;
+	}
+
+	@else if ($position == first) {
+		$position: -9999;
+	}
+
+	order: $position;
+}

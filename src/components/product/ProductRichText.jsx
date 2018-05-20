@@ -4,8 +4,11 @@ import ReactMarkdown from 'react-markdown';
 // import './Services.scss';
 
 const ProductRichText = function ({ richText }) {
+	if (!richText) {
+		return (null);
+	}
 	return (
-		<div className="product-content-group">
+		<div className="product-content-group product-content-group--rich-text">
 			{/* <h3>Body</h3> */}
 			<ReactMarkdown source={richText} />
 		</div>

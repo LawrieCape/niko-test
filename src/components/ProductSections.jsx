@@ -1,13 +1,15 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import Scrollspy from 'react-scrollspy';
-import { StickyContainer, Sticky } from 'react-sticky';
+// import { StickyContainer, Sticky } from 'react-sticky';
 import ProductImages from '../components/product/ProductImages';
 import ProductPdfs from '../components/product/ProductPdfs';
 import ProductProducts from '../components/product/ProductProducts';
 import ProductRichText from '../components/product/ProductRichText';
-import ProductVideos from '../components/product/ProductVideos';
+// import ProductVideos from '../components/product/ProductVideos';
 import './ProductSections.scss';
+
+const Sticky = require('sticky-js');
 
 
 function slugify(text) {
@@ -26,18 +28,20 @@ const ServicesComponent = function ({ sections }) {
 		scrollNavList = sections.map(section => slugify(section.title));
 	}
 
+	const sticky = new Sticky('.js-sticky');
+
 	return (
-		<StickyContainer className="product-info">
+		<div className="product-info">
 			<div className="product-info__sidebar">
-				<Sticky>
-					{({ style }) => (
-						<Scrollspy style={style} items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={0}>
-							{sections && sections.map((section, index) => (
-								<a key={index} className="product-page__nav__link" href={`#${slugify(section.title)}`}>{section.title}</a>
-							))}
-						</Scrollspy>
-					)}
-				</Sticky>
+				{/* {({ style }) => ( */}
+				<div className="js-sticky" data-sticky-wrap data-sticky-for="600">
+					<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={0}>
+						{sections && sections.map((section, index) => (
+							<a key={index} className="product-page__nav__link" href={`#${slugify(section.title)}`}>{section.title}</a>
+						))}
+					</Scrollspy>
+				</div>
+				{/* )} */}
 
 				{/* <nav className="product-page__nav">
 					{sections && sections.map((section, index) => (
@@ -52,26 +56,32 @@ const ServicesComponent = function ({ sections }) {
 						<section key={index} className="product-section" id={slugify(section.title)}>
 							{/* Title */}
 							<h2>{section.title}</h2>
+							<div className="row">
+								<div className="col-sm-12 col-md-12 col-lg-7">
+									{/* Intro */}
+									<ProductRichText richText={section.body} />
+								</div>
+								<div className="col-sm-12 col-md-12 col-lg-5">
+									{/* Images */}
+									<ProductImages images={section.images} />
 
-							{/* Intro */}
-							<ProductRichText richText={section.body} />
+									{/* PDFs */}
+									<ProductPdfs pdfs={section.pdfs} />
 
-							{/* Images */}
-							<ProductImages images={section.images} />
+									{/* Videos */}
+									{/* <ProductVideos videos={section.videos} /> */}
+								</div>
+								<div className="col-sm-12 col-md-12 col-lg-12">
+									{/* Products */}
+									<ProductProducts products={section.products} />
+								</div>
+							</div>
 
-							{/* PDFs */}
-							<ProductPdfs pdfs={section.pdfs} />
-
-							{/* Videos */}
-							{/* <ProductVideos videos={section.videos} /> */}
-
-							{/* Products */}
-							<ProductProducts products={section.products} />
 						</section>
 					))}
 				</div>
 			</div>
-		</StickyContainer>
+		</div>
 	);
 };
 

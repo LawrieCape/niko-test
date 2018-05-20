@@ -5,6 +5,7 @@
 @import '../global/reboot.scss';
 @import '../global/mixins';
 @import '../global/type';
+@import '../global/grid';
 
 
 // Helper Classes
@@ -39,4 +40,130 @@ th {
 
 .hide-text {
 	@include hide-text1;
+}
+
+
+.container-fluid {
+	margin-right: auto;
+	margin-left: auto;
+	// padding-right: $spacing--small;
+	// padding-left: $spacing--small;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	max-width: $responsiveMaxWidth;
+
+	@media #{$mqMediumAndUp} {
+		// padding-right: $spacing--inbetween;
+		// padding-left: $spacing--inbetween;
+		padding-right: 4vw;
+		padding-left: 4vw;
+	}
+
+	@media #{$mqLargeAndUp} {
+		// padding-right: $spacing--large;
+		// padding-left: $spacing--large;
+		// padding-right: 5%;
+		// padding-left: 5%;
+	}
+
+	@media #{$mqXLargeAndUp} {
+		// padding-right: $spacing--xlarge;
+		// padding-left: $spacing--xlarge;
+		// padding-right: 5%;
+		// padding-left: 5%;
+	}
+
+	@media #{$mqXXLargeAndUp} {
+		padding-right: 10vw; // 10%
+		padding-left: 10vw; // 10%
+	}
+}
+
+.row {
+	@include grid-row;
+}
+
+@mixin example-viewport ($key) {
+	.col-#{$key} {
+		$str: '&';
+
+		// no idea why the indenting no longer works for this and why I need & {}
+		@include grid-column-span(auto);
+
+		@for $i from 0 through $columns {
+			$str: $str + ',' + '&' + '-' + $i + ',' + '&' + '-offset-' + $i;
+		}
+
+		@at-root #{$str} {
+			@include grid-column;
+		}
+
+		@for $i from 0 through $columns {
+			&-#{$i} {
+				@include grid-column-span($i);
+			}
+
+			&-offset-#{$i} {
+				@include grid-column-offset($i);
+			}
+		}
+	}
+
+	.start-#{$key} {
+		@include grid-row-alignment-horizontal(start);
+	}
+
+	.center-#{$key} {
+		@include grid-row-alignment-horizontal(center);
+	}
+
+	.end-#{$key} {
+		@include grid-row-alignment-horizontal(end);
+	}
+
+	.top-#{$key} {
+		@include grid-row-alignment-vertical(top);
+	}
+
+	.middle-#{$key} {
+		@include grid-row-alignment-vertical(middle);
+	}
+
+	.bottom-#{$key} {
+		@include grid-row-alignment-vertical(bottom);
+	}
+
+	.around-#{$key} {
+		@include grid-row-spacing(space-around);
+	}
+
+	.between-#{$key} {
+		@include grid-row-spacing(space-between);
+	}
+
+	// .evenly-#{$key} {
+	// 	@include grid-row-spacing(space-evenly);
+	// }
+
+	.first-#{$key} {
+		@include grid-column-order(first);
+	}
+
+	.last-#{$key} {
+		@include grid-column-order(last);
+	}
+}
+
+@each $key, $value in $viewport-layouts {
+	@if ($key == sm) {
+		@include example-viewport($key);
+	}
+
+	@else {
+		$min-width: map-get($value, 'min-width');
+
+		@media screen and (min-width: $min-width) {
+			@include example-viewport($key);
+		}
+	}
 }

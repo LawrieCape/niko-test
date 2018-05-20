@@ -7,7 +7,7 @@ export const ProductPageTemplate = ({
 	title,
 	sections,
 }) => (
-	<div className="container">
+	<div className="container-fluid">
 		<article className="product-page">
 			<Helmet title={`Product | ${title}`} />
 

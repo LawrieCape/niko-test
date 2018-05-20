@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { NavBar } from '../components/NavBar';
 import SiteHeader from '../components/SiteHeader';
 import SiteFooter from '../components/SiteFooter';
 import './all.scss';
@@ -16,9 +15,7 @@ const TemplateWrapper = ({ children, data }) => {
 				<body className="root123" />
 			</Helmet>
 
-			<SiteHeader />
-
-			<NavBar posts={pages} />
+			<SiteHeader posts={pages} />
 
 			<main>
 				{children()}

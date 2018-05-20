@@ -30,25 +30,25 @@ customSections:
       - imageAlt: NikoTrack Track Series
         imageUrl: /img/concentrictrack-300x265.jpg
     products:
-      - imageUrl: /img/fall-arrest-a40-lg-e1353360331433.jpg
+      - imageUrl: /img/t00-lg-195x195.jpg
         title: product 1
-      - imageUrl: /img/fall-arrest-b49-lg.jpg
+      - imageUrl: /img/t01-lg-195x195.jpg
         title: product 2
     title: Track Series
   - body: "### NikoTrack Trolley Styles\r\n\r\nNikoTrack’s six profiles are immobile without their trolleys. **NikoTrack’s trolleys come in a variety of styles, all with different applications in mind**, most offered in every profile series, while some are specific to larger or smaller profiles.\r\n\r\n_The trolleys pictured below are designated with partial part numbers. Each trolleys full part number is always prefixed with a track profile number (21, 23, 24 etc.)_\r\n\n#### TROLLEY SWL (Kg)\r\n\r\nSERIES | 21 | 23 | 24 | 25 | 26 | 27\r\n--- | --- | --- | --- | --- | --- | ---\r\n2 Wheel | 10 | 20 | 40 | 100 | 200 | 400\r\n4 Wheel | 20 | 40 | 80 | 200 | 400 | 800\r\nFlight Bar | 40 | 80 | 160 | 400 | 800 | 1600"
     pdfs:
-      - pdfThumb: /img/workstation-cranes-c2-crane-catalog.jpg
-        pdfUrl: >-
-          /img/overhead-conveyors-c1-conveyor-systems-product-catalogue-english-ver-06.13-niko.pdf
+      - pdfThumb: /img/pdf-placeholder.png
+        pdfUrl: /img/b-heavy-duty-sliding-door-track-brochure.pdf
         title: C1 Conveyor Systems
-      - pdfThumb: /img/industrial-sliding-doors-b1-sliding-door-leaflet.jpg
-        pdfUrl: /img/workstation-cranes-c2-crane-catalog.pdf
+      - pdfThumb: /img/pdf-placeholder.png
+        pdfUrl: /img/b-heavy-duty-sliding-door-track-brochure.pdf
         title: C2 Technical Information & Component Specs
     products:
-      - imageUrl: /img/fall-arrest-a05-lg.jpg
+      - imageUrl: /img/t00-lg-195x195.jpg
         title: .T00  customizable  conveyor trolley
     title: Trolley Styles
   - title: Joints & Supports
   - title: Switches & Turns
   - title: Flight Bars
 ---
+

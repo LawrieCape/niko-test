@@ -1,7 +1,10 @@
 // https://github.com/magicspon/gatsby-tailwind-hack-example/blob/master/tailwind.config.js
 
-@import '../global/_variables';
-@import '../global/_reboot';
+// @import '../global/font-stacks.scss';
+@import '../global/variables.scss';
+@import '../global/reboot.scss';
+@import '../global/mixins';
+@import '../global/type';
 
 
 // Helper Classes
@@ -17,15 +20,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.margin-top-0 {
-	margin-top: 0 !important;
-}
-
-.content {
-	border: 1px solid $c-grey-1;
-	padding: 2em 4em;
 }
 
 .hr {

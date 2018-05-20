@@ -2,14 +2,14 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 // import './Services.scss';
 
-const lfsldgjsldgkj = function ({ pdfs }) {
+const lfsldgjsldgkj = function ({ products }) {
 	return (
 		<div className="product-content-group">
-			{/* <h3>PDFs</h3> */}
-			{pdfs && pdfs.map((pdf, index) => (
-				<a key={index} className="pdf__link" href={pdf.pdfUrl} target="_blank" rel="noopener">
-					<img className="pdf__image" src={pdf.pdfThumb} alt={pdf.title} width="200" height="200" />
-					<p className="pdf__title">{pdf.title}</p>
+			{/* <h3>Products</h3> */}
+			{products && products.map((product, index) => (
+				<a key={index} className="product" href={product.imageUrl}>
+					<p className="product__title">{product.title}</p>
+					<img className="product__image" src={product.imageUrl} alt={product.title} width="200" height="200" />
 				</a>
 			))}
 		</div>

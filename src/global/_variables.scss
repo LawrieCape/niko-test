@@ -1,3 +1,4 @@
+@import './font-stacks.scss';
 @import '../../node_modules/modularscale-sass/stylesheets/_modularscale';
 $modularscale: (
 	base:	16px,
@@ -74,14 +75,3 @@ $link-hover-decoration:			underline;
 $paragraph-margin-bottom:		16px;
 $table-caption-color:			$yellow;
 $table-cell-padding:			20px;
-
-@mixin hide-text1 {
-	position: absolute;
-	overflow: hidden;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	width: 1px;
-	margin: -1px;
-	padding: 0;
-	border: 0;
-}

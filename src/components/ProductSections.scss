@@ -32,6 +32,14 @@
 	}
 }
 
+.product-page__nav__link {
+	display: block;
+
+	+ .product-page__nav__link {
+		margin-top: ms(1);
+	}
+}
+
 .product-page__body {
 	border: 1px solid $green;
 }

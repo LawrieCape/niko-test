@@ -273,10 +273,12 @@ figure {
 //
 // Images and content
 //
-
+// 1. Stanard responsive stuff
 img {
 	vertical-align: middle;
 	border-style: none; // Remove the border on images inside links in IE 10-.
+	max-width: 100%;
+	display: block;
 }
 
 svg:not(:root) {

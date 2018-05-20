@@ -5,6 +5,19 @@
 	// display: flex;
 }
 
+.product-info {
+	display: flex;
+}
+
+.product-info__sidebar {
+	flex: 0 0 250px;
+}
+
+.product-info__main {
+	flex: 1 1 auto;
+}
+
+
 .product-page__nav {
 	// flex: 0 0 250px;
 	// position: fixed;
@@ -28,7 +41,7 @@
 	border: 1px solid $purple;
 	// border-top: 8px solid $green;
 	// margin-top: 100px;
-	margin: ms(5);
+	margin: ms(7) 0;
 }
 
 // PDFs
@@ -68,10 +81,16 @@
 .product-content-group {
 	// border: 1px dashed $blue;
 	margin: 40px 0 0 0;
+}
 
-	img {
-		float: right;
-	}
+.product-content-group--images {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.product-image {
+	flex: 0 0 25%;
+	border: 1px dashed $magenta;
 }
 
 

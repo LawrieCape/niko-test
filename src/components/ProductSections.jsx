@@ -9,10 +9,8 @@ import ProductRichText from '../components/product/ProductRichText';
 // import ProductVideos from '../components/product/ProductVideos';
 import './ProductSections.scss';
 
-// Only do this on live site (but static build)
-if (typeof window !== 'undefined') {
-	const Sticky = require('sticky-js'); // eslint-disable-line global-require
-}
+const Sticky = require('sticky-js');
+
 
 function slugify(text) {
 	return text.toString().toLowerCase()

@@ -35,8 +35,8 @@ customSections:
       * Any industrial process that requires movement of parts, above floor
       level
 
-      * Situations where flightbars are used to move between processes within a
-      plant
+      * Situations where flightbars are used to move parts between processes
+      within a plant
     title: 'NikoTrack Overhead Conveyor and Monorail Systems '
   - pdfs: []
     title: Track Configuration Samples

@@ -31,11 +31,11 @@
 // $base6: 16px;
 $scale1: 1.2;
 $scale2: 1.2;
-$scale3: 1.247;
-$scale4: 1.247;
-$scale5: 1.247;
-$scale6: 1.247;
-$ms-ratio: 1.247;
+$scale3: 1.21;
+$scale4: 1.21;
+$scale5: 1.21;
+$scale6: 1.21;
+$ms-ratio: 1.21;
 $base1: 16px;
 $base2: 16px;
 $base3: 16px;
@@ -47,7 +47,6 @@ $bestFitLineHeight: false;
 
 @mixin new-typesetter($modPosition, $lh: $line-height-base) {
 	font-size: ms($modPosition, $base1, $scale1);
-	font-weight: $headings-font-weight;
 
 	@if $bestFitLineHeight == true {
 		line-height: get-closest-line-height(ms($modPosition, $base1, $scale1), clear-units($lh), 12);
@@ -100,6 +99,7 @@ $bestFitLineHeight: false;
 @mixin header-common {
 	max-width: 16em;
 	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
 	color: $headings-color;
 
 	.u--text-center & {

@@ -18,10 +18,11 @@
 	color: $primary-invert;
 	background-color: $primary;
 	padding: ms(-1) ms(0);
-	transition: opacity 200ms ease-in-out;
+	transition: background-color 200ms ease-in-out;
 
 	&:hover {
 		color: $primary-invert;
-		opacity: 0.6;
+		background-color: #003558;
+		// opacity: 0.6;
 	}
 }

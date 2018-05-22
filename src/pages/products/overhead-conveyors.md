@@ -4,9 +4,6 @@ order: 2
 title: Overhead Conveyors
 customSections:
   - body: >-
-      # NikoTrack Overhead Conveyor and Monorail Systems at a Glance
-
-
       NikoTrack produces manual overhead conveyor and monorail transfer systems
       that are modular in design for ease of installation and modification.
 
@@ -40,7 +37,7 @@ customSections:
 
       * Situations where flightbars are used to move between processes within a
       plant
-    title: Conveyors at a glance
+    title: 'NikoTrack Overhead Conveyor and Monorail Systems '
   - pdfs: []
     title: Track Configuration Samples
   - body: >-

@@ -44,7 +44,7 @@ customSections:
         imageUrl: /img/overhead_conveyor_ex_2.jpg
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_3.jpg
-    title: 'NikoTrack Overhead Conveyor and Monorail Systems '
+    title: 'Overhead Conveyor and Monorail Systems '
   - pdfs: []
     title: Track Configuration Samples
   - body: >-

@@ -8,7 +8,7 @@ customSections:
       that are modular in design for ease of installation and modification.
 
 
-      ## Key Features
+      ### Key Features
 
 
       * Multiple track sizes 
@@ -27,7 +27,7 @@ customSections:
       * Free running, economical with minimal maintenance
 
 
-      ## Suitable For
+      ### Suitable For
 
 
       * Powder coating, painting, and material finishing applications

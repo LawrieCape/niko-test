@@ -1,0 +1,21 @@
+@import '../global/_variables';
+
+// Products
+.product {
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+}
+
+.product__title {
+	background-color: $black;
+	color: $white;
+	position: absolute;
+	bottom: 0;
+	padding: 4px 10px;
+	margin: 0 !important;
+	width: 100%;
+}
+
+.product__image {
+}

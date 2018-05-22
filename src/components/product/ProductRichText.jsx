@@ -1,7 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import ReactMarkdown from 'react-markdown';
-// import './Services.scss';
+import './ProductRichText.scss';
 
 const ProductRichText = function ({ richText }) {
 	if (!richText) {

@@ -1,6 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-// import './Services.scss';
+import './ProductProducts.scss';
 
 const lfsldgjsldgkj = function ({ products }) {
 	if (!products) {

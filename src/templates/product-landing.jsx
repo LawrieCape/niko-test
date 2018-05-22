@@ -6,20 +6,21 @@ import ProductSections from '../components/ProductSections';
 export const ProductPageTemplate = ({
 	title,
 	sections,
-}) => (
-	<div className="container-fluid">
-		<article className="product-page">
-			<Helmet title={`Product | ${title}`} />
+}) => {
+	return (
+		<div className="container-fluid">
+			<article className="">
+				<Helmet title={`Product | ${title}`} />
 
-			<header>
-				<h1 className="">{title}</h1>
-				<hr />
-			</header>
+				<header>
+					<h1 className="">{title}</h1>
+				</header>
 
-			<ProductSections sections={sections} />
-		</article>
-	</div>
-);
+				<ProductSections sections={sections} />
+			</article>
+		</div>
+	);
+};
 
 ProductPageTemplate.propTypes = {
 	// content: PropTypes.string.isRequired,

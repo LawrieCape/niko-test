@@ -7,21 +7,34 @@
 @import '../global/type';
 @import '../global/grid';
 
-
-// Helper Classes
-.full-width-image-container {
-	width: 100vw;
-	height: 400px;
-	position: relative;
-	left: 50%;
-	right: 50%;
-	margin: 5em -50vw;
-	background-size: cover;
-	background-position: bottom;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+h1 {
+	@include type--h1;
 }
+
+h2 {
+	@include type--h2;
+}
+
+h3 {
+	@include type--h3;
+}
+
+h4 {
+	@include type--h4;
+}
+
+h5 {
+	@include type--h5;
+}
+
+h6 {
+	@include type--h6;
+}
+
+p {
+	@include type--p;
+}
+
 
 .hr {
 	background-color: transparent;
@@ -29,13 +42,25 @@
 	margin: 5em 0;
 }
 
+article > header {
+	border-bottom: 10px dashed $pink;
+	padding-bottom: ms(5);
+	margin-bottom: ms(5);
+}
+
 table {
+	// max-width: 500px;
+	width: auto !important;
 	border: 1px solid $red;
 }
 
 td,
 th {
 	border-bottom: 1px solid $red !important;
+}
+
+p {
+	max-width: 40em;
 }
 
 .hide-text {

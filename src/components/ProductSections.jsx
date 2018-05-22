@@ -37,6 +37,7 @@ const ServicesComponent = function ({ sections }) {
 
 	return (
 		<div className="product-info">
+
 			<div className="product-info__sidebar" data-sticky-container>
 				{/* {({ style }) => ( */}
 				<div className="js-sticky" data-sticky-wrap data-sticky-for="600">
@@ -86,6 +87,7 @@ const ServicesComponent = function ({ sections }) {
 					))}
 				</div>
 			</div>
+
 		</div>
 	);
 };

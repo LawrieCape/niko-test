@@ -1,0 +1,19 @@
+@import '../global/_variables';
+
+.product-content-group--images {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.product-image {
+	flex: 0 0 33.333333%;
+	border: 1px dashed $magenta;
+
+	@media #{$mqMediumAndUp} {
+		// flex-basis: 33.333333%;
+	}
+
+	@media #{$mqLargeAndUp} {
+		flex-basis: 50%;
+	}
+}

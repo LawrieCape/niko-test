@@ -1,4 +1,6 @@
 import React from 'react';
+// import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
 // export default class ContactPageTemplate extends React.Component {
 // 	render() {
@@ -7,10 +9,20 @@ const ContactPageTemplate = (props) => {
 	const { edges: posts } = data.allMarkdownRemark;
 
 	return (
-		<div>
-			<h1 className="has-text-weight-bold is-size-2">Contact us!</h1>
+		<div className="container-fluid">
+			<article className="">
+				<Helmet title="Contact us!" />
 
-			<p>Form to go here...</p>
+				<header>
+					<h1 className="">Contact us!</h1>
+				</header>
+
+				<form>
+					<p>Form to go here...</p>
+					<input type="text" placeholder="test" />
+					<button>Submit</button>
+				</form>
+			</article>
 		</div>
 	);
 };

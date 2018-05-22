@@ -54,6 +54,16 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 	}
 };
 
+// exports.modifyWebpackConfig = ({ config }) => {
+// 	// if (stage === 'build-html') {
+// 		config.loader('null', {
+// 			test: /\.svg$/,
+// 			exclude: /node_modules/,
+// 			loader: 'svg-react-loader',
+// 		});
+// 	// }
+// };
+
 // Another way to get around the "window/document is not defined build issue"
 // exports.modifyWebpackConfig = ({ config, stage }) => {
 // 	if (stage === 'build-html') {

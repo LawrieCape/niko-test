@@ -12,17 +12,18 @@ export const BlogPostTemplate = ({
 	const PostContent = contentComponent || Content;
 
 	return (
-		<section className="section">
-			<Helmet title={`Blog | ${title}`} />
-			<div className="container content">
-				<h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-					{title}
-				</h1>
-				<p>{description}</p>
-				<hr />
+		<div className="container-fluid">
+			<article className="">
+				<Helmet title={`Blog | ${title}`} />
+
+				<header>
+					<h1 className="">{title}</h1>
+					<p>{description}</p>
+				</header>
+
 				<PostContent content={content} class="content" />
-			</div>
-		</section>
+			</article>
+		</div>
 	);
 };
 

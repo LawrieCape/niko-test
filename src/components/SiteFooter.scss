@@ -7,3 +7,11 @@
 	background-color: $teal;
 	color: $white;
 }
+
+.footer__social {
+	svg {
+		width: ms(5);
+		height: ms(5);
+		fill: currentColor;
+	}
+}

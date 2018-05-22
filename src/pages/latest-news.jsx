@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 
 
@@ -15,40 +16,52 @@ const LatestNewsPageTemplate = (props) => {
 	// 	));
 
 	return (
-		<div>
-			{/* blog posts */}
-			<h1 className="has-text-weight-bold is-size-2">Latest News</h1>
-			{posts
-				.filter(post =>
-						post.node.frontmatter.templateKey === 'blog-post')
-				.map(({ node: post }) => (
-					<div
-						className="content"
-						key={post.id}
-					>
-						<p>
-							<Link
-								className="has-text-primary"
-								to={post.fields.slug}
+
+		<div className="container-fluid">
+			<article className="">
+				<Helmet title="TEMP TITLE" />
+
+				<header>
+					<h1 className="">TEMP TITLE</h1>
+					<hr />
+				</header>
+
+				{posts
+					.filter(post =>
+							post.node.frontmatter.templateKey === 'blog-post')
+					.map(({ node: post }) => {
+						return (
+							<div
+								className="content"
+								key={post.id}
 							>
-								{post.frontmatter.title}
-							</Link>
-							<span> &bull; </span>
-							<small>{post.frontmatter.date}</small>
-						</p>
-						<p>
-							{post.excerpt}
-							<br />
-							<br />
-							<Link
-								className="button is-small"
-								to={post.fields.slug}
-							>
-								Keep Reading →
-							</Link>
-						</p>
-					</div>
-				))}
+								<p>
+									<Link
+										className="has-text-primary"
+										to={post.fields.slug}
+									>
+										{post.frontmatter.title}
+									</Link>
+									<span> &bull; </span>
+									<small>{post.frontmatter.date}</small>
+								</p>
+								<p>
+									{post.excerpt}
+									<br />
+									<br />
+									<Link
+										className="button is-small"
+										to={post.fields.slug}
+									>
+										Keep Reading →
+									</Link>
+								</p>
+
+								<hr />
+							</div>
+						);
+					})}
+			</article>
 		</div>
 	);
 };

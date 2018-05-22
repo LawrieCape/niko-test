@@ -39,19 +39,71 @@ customSections:
       within a plant
     images: []
     title: 'Overhead Conveyor and Monorail Systems '
-  - body: |-
-      * **Modular Design**
-        * The Niko manual overhead conveyors are designed to suit any existing working environment and they can be changed or extended at a later date, should production requirements change. The modular nature makes them ideal for jobbing powder-coating lines.
+  - body: >-
+      **Modular Design**
 
-      * **Environmentally Friendly **
-        * These manual overhead conveyors have a low carbon footprint with the automated parts using minimal power and the manual parts using none at all.
-      * **Storage Space Utilised **
-        * Automatic switches change the manual overhead conveyor from a single track to side shifting dual tracks and allow flight bars to be grouped together and utilise storage space
-      * **Accurate, Repeatable Load Positioning**
-        * The tapered edges of the Niko profile track ensure that the load carrying trolleys run smoothly, meaning accurate, repetitive load positioning can be achieved throughout the whole manual overhead conveyor.
-      * **Integration with Lifting Equipment **
-        * The Niko manual overhead conveyor is designed to seamlessly integrate with Niko lightweight overhead cranes and lifting equipment through latching and transfer devices. This reduces the need for manual lifting where an overhead conveyor is loaded and unloaded.
+
+      * The Niko manual overhead conveyors are designed to suit any existing
+      working environment and they can be changed or extended at a later date,
+      should production requirements change. The modular nature makes them ideal
+      for jobbing powder-coating lines.
+
+
+      **Environmentally Friendly **
+
+
+      * These manual overhead conveyors have a low carbon footprint with the
+      automated parts using minimal power and the manual parts using none at
+      all.
+
+
+      **Storage Space Utilised **
+
+
+      * Automatic switches change the manual overhead conveyor from a single
+      track to side shifting dual tracks and allow flight bars to be grouped
+      together and utilise storage space
+
+
+      **Accurate, Repeatable Load Positioning**
+
+
+      * The tapered edges of the Niko profile track ensure that the load
+      carrying trolleys run smoothly, meaning accurate, repetitive load
+      positioning can be achieved throughout the whole manual overhead conveyor.
+
+
+      **Integration with Lifting Equipment **
+
+
+      * The Niko manual overhead conveyor is designed to seamlessly integrate
+      with Niko lightweight overhead cranes and lifting equipment through
+      latching and transfer devices. This reduces the need for manual lifting
+      where an overhead conveyor is loaded and unloaded.
     title: Advantages
+  - body: >-
+      Localised Powered Travel for Manual Overhead Conveyors
+
+
+      As an alternative to fully powered overhead conveyors, Niko offers a
+      semi-automatic alternative. This system utilises any manual conveyor
+      system and powers it through ovens, spray booths or any area where manual
+      operation is not practical. This solution is far more cost effective than
+      using fully automatic conveyors.
+
+
+      A chain conveyor can be installed parallel to the conveyor carrying the
+      load in order to power the movement.  Powered movement can be achieved not
+      only in straight lines but also around bends, making it possible to have a
+      completely powered system.
+
+
+      Typical applications would be to power the movement through the ovens or
+      painting booths and have the parking areas free in order to load and
+      unload the products in adequate time. The benefits of the power chain
+      conveyor are its competitive price, quiet operation and the fact that it
+      can be added to a manual conveyor at a future stage.
+    title: Localised Powered Travel for Manual Overhead Conveyors
   - images:
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_1.jpg

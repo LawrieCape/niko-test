@@ -80,6 +80,8 @@ customSections:
       with Niko lightweight overhead cranes and lifting equipment through
       latching and transfer devices. This reduces the need for manual lifting
       where an overhead conveyor is loaded and unloaded.
+    images:
+      - imageUrl: /img/21.b62-lg-195x195.jpg
     title: Advantages
   - body: >-
       Localised Powered Travel for Manual Overhead Conveyors

@@ -6,7 +6,7 @@ import ProductImages from '../components/product/ProductImages';
 import ProductPdfs from '../components/product/ProductPdfs';
 import ProductProducts from '../components/product/ProductProducts';
 import ProductRichText from '../components/product/ProductRichText';
-// import ProductVideos from '../components/product/ProductVideos';
+import ProductVideos from '../components/product/ProductVideos';
 import './ProductSections.scss';
 
 const Sticky = require('sticky-js');
@@ -23,6 +23,7 @@ function slugify(text) {
 
 const ServicesComponent = function ({ sections }) {
 	let scrollNavList = [];
+	let offset = 0;
 
 	if (sections) {
 		scrollNavList = sections.map(section => slugify(section.title));
@@ -31,14 +32,15 @@ const ServicesComponent = function ({ sections }) {
 	// Only do this on live site (but static build)
 	if (typeof window !== 'undefined') {
 		const sticky = new Sticky('.js-sticky');
+		offset = -window.innerHeight / 2;
 	}
 
 	return (
 		<div className="product-info">
-			<div className="product-info__sidebar">
+			<div className="product-info__sidebar" data-sticky-container>
 				{/* {({ style }) => ( */}
 				<div className="js-sticky" data-sticky-wrap data-sticky-for="600">
-					<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={0}>
+					<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={offset}>
 						{sections && sections.map((section, index) => (
 							<a key={index} className="product-page__nav__link" href={`#${slugify(section.title)}`}>{section.title}</a>
 						))}
@@ -72,7 +74,7 @@ const ServicesComponent = function ({ sections }) {
 									<ProductPdfs pdfs={section.pdfs} />
 
 									{/* Videos */}
-									{/* <ProductVideos videos={section.videos} /> */}
+									<ProductVideos videos={section.videos} />
 								</div>
 								<div className="col-sm-12 col-md-12 col-lg-12">
 									{/* Products */}

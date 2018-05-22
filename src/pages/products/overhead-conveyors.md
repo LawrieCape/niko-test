@@ -39,6 +39,19 @@ customSections:
       within a plant
     images: []
     title: 'Overhead Conveyor and Monorail Systems '
+  - body: |-
+      * **Modular Design**
+        * The Niko manual overhead conveyors are designed to suit any existing working environment and they can be changed or extended at a later date, should production requirements change. The modular nature makes them ideal for jobbing powder-coating lines.
+
+      * **Environmentally Friendly **
+        * These manual overhead conveyors have a low carbon footprint with the automated parts using minimal power and the manual parts using none at all.
+      * **Storage Space Utilised **
+        * Automatic switches change the manual overhead conveyor from a single track to side shifting dual tracks and allow flight bars to be grouped together and utilise storage space
+      * **Accurate, Repeatable Load Positioning**
+        * The tapered edges of the Niko profile track ensure that the load carrying trolleys run smoothly, meaning accurate, repetitive load positioning can be achieved throughout the whole manual overhead conveyor.
+      * **Integration with Lifting Equipment **
+        * The Niko manual overhead conveyor is designed to seamlessly integrate with Niko lightweight overhead cranes and lifting equipment through latching and transfer devices. This reduces the need for manual lifting where an overhead conveyor is loaded and unloaded.
+    title: Advantages
   - images:
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_1.jpg

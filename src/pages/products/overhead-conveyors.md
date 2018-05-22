@@ -124,29 +124,15 @@ customSections:
       layouts.
     title: Further Details
   - body: >-
-      **NikoTrack has 5 main track profiles with a weight capacity of up to
-      4,000 lbs. per part.** Each system is custom designed to fit the largest
-      part in a finishing system and to efficiently move that part through the
-      finishing technology incorporated by your company.
+      If you would like to receive a no obligation quotation for a system you
+      are planning, then please complete the following form, and we will get
+      back to you.
 
 
-      NikoTrack’s unique approach using automatic switches allows for even long
-      parts to maneuver in an efficient manner through a finishing process, as
-      well as keeping a compact foot print.
+      You can upload any images or drawings that may help us.
 
 
-      The modular pre-engineered design enables systems to be easily expandable.
-      This flexibility allows for a finishing system to grow with the production
-      needs of a business. A system can be retrofitted with a chain drive system
-      to accommodate new technologies, like an IR oven or automatic spray booth,
-      all with minimal impact on the design and greatly reduced down time for a
-      conveyor update.
-
-
-      The modular flexibility enables other material handling systems like crane
-      to be integrated into the finishing process. A part can quickly be moved
-      from a welding bay or dip tank onto a finishing line, eliminating the need
-      for carts or forklifts to tie up precious floor space.
+      Thank you!
     title: Request a quote
 ---
 

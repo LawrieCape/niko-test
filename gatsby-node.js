@@ -53,3 +53,13 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 		});
 	}
 };
+
+// Another way to get around the "window/document is not defined build issue"
+// exports.modifyWebpackConfig = ({ config, stage }) => {
+// 	if (stage === 'build-html') {
+// 		config.loader('null', {
+// 			test: /sticky-js/,
+// 			loader: 'null-loader',
+// 		});
+// 	}
+// };

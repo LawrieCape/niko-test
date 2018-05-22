@@ -9,8 +9,10 @@ import ProductRichText from '../components/product/ProductRichText';
 // import ProductVideos from '../components/product/ProductVideos';
 import './ProductSections.scss';
 
-const Sticky = require('sticky-js');
-
+// Only do this on live site (but static build)
+if (typeof window !== 'undefined') {
+	const Sticky = require('sticky-js'); // eslint-disable-line global-require
+}
 
 function slugify(text) {
 	return text.toString().toLowerCase()
@@ -28,7 +30,10 @@ const ServicesComponent = function ({ sections }) {
 		scrollNavList = sections.map(section => slugify(section.title));
 	}
 
-	const sticky = new Sticky('.js-sticky');
+	// Only do this on live site (but static build)
+	if (typeof window !== 'undefined') {
+		const sticky = new Sticky('.js-sticky');
+	}
 
 	return (
 		<div className="product-info">

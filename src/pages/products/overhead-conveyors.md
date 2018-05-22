@@ -111,7 +111,7 @@ customSections:
       are an ergonomic solution to multiple conveyor destination systems,
       reducing capital expenditure on more complex overhead conveyor track
       layouts.
-    title: Manual and Powered Systems
+    title: Further Details
   - body: >-
       **NikoTrack has 5 main track profiles with a weight capacity of up to
       4,000 lbs. per part.** Each system is custom designed to fit the largest

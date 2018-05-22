@@ -37,15 +37,16 @@ customSections:
 
       * Situations where flightbars are used to move parts between processes
       within a plant
-    images:
+    images: []
+    title: 'Overhead Conveyor and Monorail Systems '
+  - images:
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_1.jpg
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_2.jpg
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_3.jpg
-    title: 'Overhead Conveyor and Monorail Systems '
-  - pdfs: []
+    pdfs: []
     title: Track Configuration Samples
   - body: >-
       ### Manual Transfer Overhead Conveyor Systems

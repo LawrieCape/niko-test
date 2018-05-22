@@ -52,15 +52,20 @@ customSections:
       ### Manual Transfer Overhead Conveyor Systems
 
 
-      The NikoTrack manual overhead monorail conveyors are designed to handle
-      transfer of working loads of up to 3,520 lbs (1600 KGs) using enclosed
-      monorail track systems. Loads are easily and smoothly transported through
-      transfer devices such as switches, bent track, and turntables to achieve
-      infinite possibilities for overhead material handling. NikoTrack overhead
-      conveyor monorail tracks and all components are electro galvanized to meet
-      tough working environments for both inside and outside work areas. Modular
-      in design, the manual overhead conveyor can be changed or extended at a
-      later date, should transfer routing requirements change.
+      * Working loads of up to 3,250 lbs (1600 Kg)
+
+      * Smooth movement through transfer devices such as:
+        * Switches
+        * Bends
+        * Turntables
+      * Modular design
+
+      * Allows infinite design possiblilities
+
+      * Easily updated, changed or modified as required
+
+      * Electro galvanized to meet tough working environments for both inside
+      and outside work areas
 
 
       #### Storage Space Utilization
@@ -77,6 +82,9 @@ customSections:
       #### Overhead Load Positioning
 
 
+      * Track has tapered sides for free, low force, smooth running
+
+
       The enclosed precision track has tapered sides to ensure that the load
       carrying trolleys self locate to run freely and smoothly with minimal
       force required to move the loaded trolley. Repeatable positioning of
@@ -84,10 +92,13 @@ customSections:
       system.
 
 
-      ### Powered Overhead Conveyor Systems
+      ### Powered Transfer Overhead Conveyor Systems
 
 
-      NikoTRACK has a unique alternative to the traditionally powered overhead
+      * Unique localized powered loops
+
+
+      NikoTrack has a unique alternative to the traditionally powered overhead
       conveyor systems. Using localized powered loops, any manual conveyor
       system can have powered travel to move product and flight bars through
       paint booths, ovens, wash systems. Each of these powered loops delivers

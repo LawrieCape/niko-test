@@ -3,7 +3,33 @@ templateKey: product-landing
 order: 2
 title: Overhead Conveyors
 customSections:
-  - body: "## NikoTrack Overhead Conveyor and Monorail Systems at a Glance\r\n\r\nNikoTRACK produces manual overhead conveyor and monorail transfer systems that are modular in design for ease of installation and modification.\r\n\r\n* Multiple track sizes for wide range of load\r\n* Flexible track mounting systems for simple installation\r\n* Standard components to connect and suspend the monorail conveyor track\r\n* All track, switches and components are electro galvanized for complete protection in interior and exterior apps\r\n* The manual overhead conveyor can be seamlessly integrated with the NikoTrack lightweight crane and lifting equipment, via automatic manual latching devices. This degree of integration allows flight bars to move from processes such as dipping, paint finish lines to an overhead monorail to efficiently transfer to another process or area within the plant\r\n* Free running, economical with minimal maintenance\r\n* NikoTrack manual conveyors are ideal for powder coating, painting, and material finishing applications."
+  - body: >-
+      ## NikoTrack Overhead Conveyor and Monorail Systems at a Glance
+
+
+      NikoTrack produces manual overhead conveyor and monorail transfer systems
+      that are modular in design for ease of installation and modification.
+
+
+      * Multiple track sizes for wide range of load
+
+      * Flexible track mounting systems for simple installation
+
+      * Standard components to connect and suspend the monorail conveyor track
+
+      * All track, switches and components are electro galvanized for complete
+      protection in interior and exterior apps
+
+      * The manual overhead conveyor can be seamlessly integrated with the
+      NikoTrack lightweight crane and lifting equipment, via automatic manual
+      latching devices. This degree of integration allows flight bars to move
+      from processes such as dipping, paint finish lines to an overhead monorail
+      to efficiently transfer to another process or area within the plant
+
+      * Free running, economical with minimal maintenance
+
+      * NikoTrack manual conveyors are ideal for powder coating, painting, and
+      material finishing applications.
     title: Conveyors at a glance
   - pdfs: []
     title: Track Configuration Samples
@@ -97,3 +123,4 @@ customSections:
       for carts or forklifts to tie up precious floor space.
     title: Request a quote
 ---
+

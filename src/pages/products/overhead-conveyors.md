@@ -4,32 +4,42 @@ order: 2
 title: Overhead Conveyors
 customSections:
   - body: >-
-      ## NikoTrack Overhead Conveyor and Monorail Systems at a Glance
+      # NikoTrack Overhead Conveyor and Monorail Systems at a Glance
 
 
       NikoTrack produces manual overhead conveyor and monorail transfer systems
       that are modular in design for ease of installation and modification.
 
 
-      * Multiple track sizes for wide range of load
+      ## KEY FEATURES
 
-      * Flexible track mounting systems for simple installation
+
+      * Multiple track sizes 
+
+      * Manual or powered
+
+      * Flexible and simple track mounting system
 
       * Standard components to connect and suspend the monorail conveyor track
 
-      * All track, switches and components are electro galvanized for complete
-      protection in interior and exterior apps
+      * All components are electro galvanized for complete protection
 
-      * The manual overhead conveyor can be seamlessly integrated with the
-      NikoTrack lightweight crane and lifting equipment, via automatic manual
-      latching devices. This degree of integration allows flight bars to move
-      from processes such as dipping, paint finish lines to an overhead monorail
-      to efficiently transfer to another process or area within the plant
+      * Seamless integration with the NikoTrack lightweight crane and lifting
+      equipment
 
       * Free running, economical with minimal maintenance
 
-      * NikoTrack manual conveyors are ideal for powder coating, painting, and
-      material finishing applications.
+
+      ## SUITABLE FOR
+
+
+      * Powder coating, painting, and material finishing applications
+
+      * Any industrial process that requires movement of parts, above floor
+      level
+
+      * Situations where flightbars are used to move between processes within a
+      plant
     title: Conveyors at a glance
   - pdfs: []
     title: Track Configuration Samples

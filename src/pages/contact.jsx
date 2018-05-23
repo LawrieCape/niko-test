@@ -6,7 +6,7 @@ import Helmet from 'react-helmet';
 // 	render() {
 const ContactPageTemplate = (props) => {
 	const { data } = props;
-	const { edges: posts } = data.allMarkdownRemark;
+	// const { edges: posts } = data.allMarkdownRemark;
 
 	return (
 		<div className="container-fluid">

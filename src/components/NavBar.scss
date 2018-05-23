@@ -6,11 +6,8 @@
 }
 
 .nav {
-	// max-width: 1000px;
-	// margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	border-right: 1px solid $primary-dark;
 }
 
 .nav__link {
@@ -21,6 +18,10 @@
 	padding: ms(-1) ms(0);
 	transition: background-color 100ms ease-in-out;
 	text-decoration: none;
+
+	&:last-child {
+		border-right: 1px solid $primary-dark;
+	}
 
 	&:hover {
 		color: $primary-invert;

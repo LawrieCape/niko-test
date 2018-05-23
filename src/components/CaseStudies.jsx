@@ -5,13 +5,15 @@ import './CaseStudies.scss';
 const CaseStudiesComponent = function ({ work }) {
 	return (
 		<div className="case-studies">
-			{work.map((study, index) => (
-				<article key={index} className="case-study">
-					<h3>{study.title}</h3>
-					<p>{study.description}</p>
-					<p>{study.image}</p>
-				</article>
-			))}
+			{work.map((study, index) => {
+				return (
+					<article key={index} className="case-study">
+						<h3>{study.title}</h3>
+						<p>{study.description}</p>
+						<p>{study.image}</p>
+					</article>
+				);
+			})}
 		</div>
 	);
 };

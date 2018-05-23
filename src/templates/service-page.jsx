@@ -8,14 +8,16 @@ export const ServicePageTemplate = ({
 	heading,
 	description,
 	services,
-}) => (
-	<section className="section section--gradient">
-		<h2 className="has-text-weight-bold is-size-1">{title}</h2>
-		<h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-		<p>{description}</p>
-		<Services services={services} />
-	</section>
-);
+}) => {
+	return (
+		<section className="section section--gradient">
+			<h2 className="has-text-weight-bold is-size-1">{title}</h2>
+			<h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
+			<p>{description}</p>
+			<Services services={services} />
+		</section>
+	);
+};
 ServicePageTemplate.propTypes = {
 	title: PropTypes.string,
 	heading: PropTypes.string,

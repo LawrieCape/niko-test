@@ -26,7 +26,9 @@ const ServicesComponent = function ({ sections }) {
 	let offset = 0;
 
 	if (sections) {
-		scrollNavList = sections.map(section => slugify(section.title));
+		scrollNavList = sections.map((section) => {
+			return slugify(section.title);
+		});
 	}
 
 	// Only do this on live site (but static build)
@@ -43,9 +45,11 @@ const ServicesComponent = function ({ sections }) {
 				{/* {({ style }) => ( */}
 				<div className="js-sticky" data-sticky-wrap data-sticky-for="600">
 					<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={offset}>
-						{sections && sections.map((section, index) => (
-							<a key={index} className="product-page__nav__link" href={`#${slugify(section.title)}`}>{section.title}</a>
-						))}
+						{sections && sections.map((section, index) => {
+							return (
+								<a key={index} className="product-page__nav__link" href={`#${slugify(section.title)}`}>{section.title}</a>
+							);
+						})}
 					</Scrollspy>
 				</div>
 				{/* )} */}

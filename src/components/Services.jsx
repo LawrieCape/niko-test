@@ -7,13 +7,15 @@ const ServicesComponent = function ({ services }) {
 
 	return (
 		<div className="messages">
-			{services.map((service, index) => (
-				<article key={index} className="message message-body">
-					<h3>{service.title}</h3>
-					<img src={service.imageUrl} alt={service.imageAlt} />
-					<p>{service.description}</p>
-				</article>
-			))}
+			{services.map((service, index) => {
+				return (
+					<article key={index} className="message message-body">
+						<h3>{service.title}</h3>
+						<img src={service.imageUrl} alt={service.imageAlt} />
+						<p>{service.description}</p>
+					</article>
+				);
+			})}
 		</div>
 	);
 };

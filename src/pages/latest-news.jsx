@@ -27,8 +27,9 @@ const LatestNewsPageTemplate = (props) => {
 				</header>
 
 				{posts
-					.filter(post =>
-							post.node.frontmatter.templateKey === 'blog-post')
+					.filter((post) => {
+						return post.node.frontmatter.templateKey === 'blog-post';
+					})
 					.map(({ node: post }) => {
 						return (
 							<div

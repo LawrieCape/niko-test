@@ -66,3 +66,58 @@ export const templatePageQuery = graphql`
 //     }
 //   }
 // }
+
+
+// query TemplatePage {
+// 	allMarkdownRemark(
+// 		filter: { frontmatter: { templateKey: { eq: "product-landing" } }},
+// 		sort: { order: ASC, fields: [frontmatter___order] }
+// 	) {
+// 		edges {
+// 			node {
+// 				id
+// 				fields {
+// 					slug
+// 				}
+// 				frontmatter {
+// 					title
+// 					templateKey
+// 					order
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+//
+// query ProductPageByID {
+// 	markdownRemark(frontmatter: {title: {eq: "NikoTrack"}}) {
+// 		id
+// 		html
+// 		frontmatter {
+// 			title
+//     templateKey
+//     order
+// 			customSections {
+// 				title
+// 				body
+// 				images {
+// 					imageUrl
+// 					imageAlt
+// 				}
+// 				pdfs {
+// 					title
+// 					pdfUrl
+// 					pdfThumb
+// 				}
+// 				videos {
+// 					youTubeId
+// 					vidDescription
+// 				}
+// 				products {
+// 					title
+// 					imageUrl
+// 				}
+// 			}
+// 		}
+// 	}
+// }

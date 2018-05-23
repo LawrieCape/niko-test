@@ -39,6 +39,73 @@ customSections:
       within a plant
     images: []
     title: 'Overhead Conveyor and Monorail Systems '
+  - body: >-
+      **Modular Design**
+
+
+      * The Niko manual overhead conveyors are designed to suit any existing
+      working environment and they can be changed or extended at a later date,
+      should production requirements change. The modular nature makes them ideal
+      for jobbing powder-coating lines.
+
+
+      **Environmentally Friendly **
+
+
+      * These manual overhead conveyors have a low carbon footprint with the
+      automated parts using minimal power and the manual parts using none at
+      all.
+
+
+      **Storage Space Utilised **
+
+
+      * Automatic switches change the manual overhead conveyor from a single
+      track to side shifting dual tracks and allow flight bars to be grouped
+      together and utilise storage space
+
+
+      **Accurate, Repeatable Load Positioning**
+
+
+      * The tapered edges of the Niko profile track ensure that the load
+      carrying trolleys run smoothly, meaning accurate, repetitive load
+      positioning can be achieved throughout the whole manual overhead conveyor.
+
+
+      **Integration with Lifting Equipment **
+
+
+      * The Niko manual overhead conveyor is designed to seamlessly integrate
+      with Niko lightweight overhead cranes and lifting equipment through
+      latching and transfer devices. This reduces the need for manual lifting
+      where an overhead conveyor is loaded and unloaded.
+    images:
+      - imageUrl: /img/21.b62-lg-195x195.jpg
+    title: Advantages
+  - body: >-
+      Localised Powered Travel for Manual Overhead Conveyors
+
+
+      As an alternative to fully powered overhead conveyors, Niko offers a
+      semi-automatic alternative. This system utilises any manual conveyor
+      system and powers it through ovens, spray booths or any area where manual
+      operation is not practical. This solution is far more cost effective than
+      using fully automatic conveyors.
+
+
+      A chain conveyor can be installed parallel to the conveyor carrying the
+      load in order to power the movement.  Powered movement can be achieved not
+      only in straight lines but also around bends, making it possible to have a
+      completely powered system.
+
+
+      Typical applications would be to power the movement through the ovens or
+      painting booths and have the parking areas free in order to load and
+      unload the products in adequate time. The benefits of the power chain
+      conveyor are its competitive price, quiet operation and the fact that it
+      can be added to a manual conveyor at a future stage.
+    title: Localised Powered Travel for Manual Overhead Conveyors
   - images:
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_1.jpg
@@ -124,29 +191,15 @@ customSections:
       layouts.
     title: Further Details
   - body: >-
-      **NikoTrack has 5 main track profiles with a weight capacity of up to
-      4,000 lbs. per part.** Each system is custom designed to fit the largest
-      part in a finishing system and to efficiently move that part through the
-      finishing technology incorporated by your company.
+      If you would like to receive a no obligation quotation for a system you
+      are planning, then please complete the following form, and we will get
+      back to you.
 
 
-      NikoTrack’s unique approach using automatic switches allows for even long
-      parts to maneuver in an efficient manner through a finishing process, as
-      well as keeping a compact foot print.
+      You can upload any images or drawings that may help us.
 
 
-      The modular pre-engineered design enables systems to be easily expandable.
-      This flexibility allows for a finishing system to grow with the production
-      needs of a business. A system can be retrofitted with a chain drive system
-      to accommodate new technologies, like an IR oven or automatic spray booth,
-      all with minimal impact on the design and greatly reduced down time for a
-      conveyor update.
-
-
-      The modular flexibility enables other material handling systems like crane
-      to be integrated into the finishing process. A part can quickly be moved
-      from a welding bay or dip tank onto a finishing line, eliminating the need
-      for carts or forklifts to tie up precious floor space.
+      Thank you!
     title: Request a quote
 ---
 

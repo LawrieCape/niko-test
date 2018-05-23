@@ -10,9 +10,11 @@
 		flex: 0 0 50%;
 
 		@media #{$mqMediumAndUp} {
+			flex: 0 0 33.333333%;
 		}
 
 		@media #{$mqLargeAndUp} {
+			flex: 0 0 50%;
 		}
 	}
 }

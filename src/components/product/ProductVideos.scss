@@ -10,9 +10,15 @@
 		flex: 0 0 100%;
 
 		@media #{$mqMediumAndUp} {
+			flex: 0 0 50%;
 		}
 
 		@media #{$mqLargeAndUp} {
+			flex: 0 0 100%;
+		}
+
+		@media #{$mqXXLargeAndUp} {
+			flex: 0 0 50%;
 		}
 	}
 }

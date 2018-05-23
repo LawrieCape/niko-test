@@ -9,9 +9,48 @@
 }
 
 .footer__social {
+	list-style-type: none;
+	display: flex;
+	padding-left: 0;
+	margin-bottom: 0;
+
+	a {
+		display: block;
+		padding: ms(-3);
+	}
+
 	svg {
-		width: ms(5);
-		height: ms(5);
+		width: ms(3);
+		height: ms(3);
 		fill: currentColor;
+	}
+}
+
+.footer__logos {
+	list-style-type: none;
+	display: flex;
+	padding-left: 0;
+	margin-bottom: 0;
+
+	a {
+		display: block;
+		padding: ms(-3);
+		transition: opacity 100ms ease-in-out;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}
+
+.footer__links {
+	list-style-type: none;
+	// display: flex;
+	padding-left: 0;
+	margin-bottom: 0;
+
+	a {
+		display: inline-block;
+		padding: ms(-3);
 	}
 }

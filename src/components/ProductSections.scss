@@ -26,7 +26,9 @@
 }
 
 .product-sections {
-	padding-left: 5%;
+	@media #{$mqMediumAndUp} {
+		padding-left: 5%;
+	}
 }
 
 article > header {

@@ -13,7 +13,7 @@ const SiteFooter = () => {
 			<div className="row">
 				<div className="col-sm-12 col-md-4 col-md-4">
 					<h2>Info</h2>
-					<ul>
+					<ul className="footer__links">
 						<li><a href="#">About Niko</a></li>
 						<li><a href="#">Blog</a></li>
 						<li><a href="#">News</a></li>
@@ -28,8 +28,10 @@ const SiteFooter = () => {
 				<div className="col-sm-12 col-md-4 col-md-4">
 					<h2>Contact</h2>
 					<p>Niko Ltd <br /> Unit 15-21 Insight Park <br /> Welsh Road East <br /> Southam <br /> Warwickshire <br /> CV47 1NE</p>
-					<p>t: + 44 (0) 1926 813111</p>
-					<p>f: + 44 (0) 1926 815599</p>
+					<p>
+						t: + 44 (0) 1926 813111<br />
+						f: + 44 (0) 1926 815599
+					</p>
 					<p>e: <a href="mailto:sales@niko.co.uk">sales@niko.co.uk</a></p>
 				</div>
 				<div className="col-sm-12 col-md-4 col-md-4">
@@ -42,10 +44,10 @@ const SiteFooter = () => {
 					</ul>
 
 					<h2>Logos</h2>
-					<ul>
-						<li><a href="#"><img src="/img/jpg/iso.jpg" alt="ISO logos" /></a></li>
-						<li><a href="#"><img src="/img/png/logo-fsb.png" alt="FSB Member" /></a></li>
-						<li><a href="#"><img src="/img/png/logo-leea.png" alt="LEEA Full Member" /></a></li>
+					<ul className="footer__logos">
+						<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="ISO logos" /></a></li>
+						<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="FSB Member" /></a></li>
+						<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="LEEA Full Member" /></a></li>
 					</ul>
 					<br />
 					<br />

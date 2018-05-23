@@ -43,7 +43,11 @@
 
 .product-content-group {
 	// border: 1px dashed $blue;
-	margin: 40px 0 0 0;
+	// margin: 40px 0 0 0;
+
+	+ .product-content-group {
+		margin-top: 40px;
+	}
 }
 
 

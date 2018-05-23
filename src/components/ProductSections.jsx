@@ -63,10 +63,13 @@ const ServicesComponent = function ({ sections }) {
 							{/* Title */}
 							<h2>{section.title}</h2>
 							<div className="row">
-								<div className="col-sm-12 col-md-12 col-lg-7">
-									{/* Intro */}
-									<ProductRichText richText={section.body} />
-								</div>
+								{section.body ?
+									<div className="col-sm-12 col-md-12 col-lg-7">
+										{/* Intro */}
+										<ProductRichText richText={section.body} />
+									</div>
+								: null }
+
 								<div className="col-sm-12 col-md-12 col-lg-5">
 									{/* Images */}
 									<ProductImages images={section.images} />

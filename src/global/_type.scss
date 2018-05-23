@@ -31,11 +31,11 @@
 // $base6: 16px;
 $scale1: 1.2;
 $scale2: 1.2;
-$scale3: 1.21;
-$scale4: 1.21;
-$scale5: 1.21;
-$scale6: 1.21;
-$ms-ratio: 1.21;
+$scale3: 1.2;
+$scale4: 1.2;
+$scale5: 1.2;
+$scale6: 1.2;
+$ms-ratio: 1.2;
 $base1: 16px;
 $base2: 16px;
 $base3: 16px;
@@ -97,7 +97,7 @@ $bestFitLineHeight: false;
 }
 
 @mixin header-common {
-	max-width: 16em;
+	max-width: 640px; // calculated px value from p max-width
 	font-family: $headings-font-family;
 	font-weight: $headings-font-weight;
 	color: $headings-color;

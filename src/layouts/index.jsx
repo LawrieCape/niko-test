@@ -48,7 +48,6 @@ export const templatePageQuery = graphql`
 						title
 						templateKey
 						order
-						date(formatString: "MMMM DD, YYYY")
 					}
 				}
 			}

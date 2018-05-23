@@ -7,6 +7,18 @@
 @import '../global/type';
 @import '../global/grid';
 
+a {
+	transition: color 100ms ease-in-out;
+	text-decoration: none;
+}
+
+iframe,
+object {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
 h1 {
 	@include type--h1;
 }
@@ -38,25 +50,19 @@ p {
 
 .hr {
 	background-color: transparent;
-	border-top: 2px dashed $black;
-	margin: 5em 0;
-}
-
-article > header {
-	border-bottom: 10px dashed $pink;
-	padding-bottom: ms(5);
-	margin-bottom: ms(5);
+	border-top: 2px dashed red; // $black--opaque5;
+	margin: ms(5) 0;
 }
 
 table {
 	// max-width: 500px;
 	width: auto !important;
-	border: 1px solid $red;
+	border: 1px solid $primary;
 }
 
 td,
 th {
-	border-bottom: 1px solid $red !important;
+	border-bottom: 1px solid $primary !important;
 }
 
 p {

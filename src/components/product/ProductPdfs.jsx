@@ -3,17 +3,19 @@ import React from 'react';
 import './ProductPdfs.scss';
 
 const lfsldgjsldgkj = function ({ pdfs }) {
-	if (!pdfs) {
+	if (!pdfs || !pdfs.length) {
 		return (null);
 	}
 	return (
 		<div className="product-content-group product-content-group--pdfs">
 			{/* <h3>PDFs</h3> */}
 			{pdfs && pdfs.map((pdf, index) => (
-				<a key={index} className="pdf__link" href={pdf.pdfUrl} target="_blank" rel="noopener">
-					<img className="pdf__image" src={pdf.pdfThumb} alt={pdf.title} width="200" height="200" />
-					<p className="pdf__title">{pdf.title}</p>
-				</a>
+				<div key={index}>
+					<a className="pdf__link" href={pdf.pdfUrl} target="_blank" rel="noopener">
+						<img className="pdf__image" src={pdf.pdfThumb} alt={pdf.title} width="200" height="200" />
+						<p className="pdf__title">{pdf.title}</p>
+					</a>
+				</div>
 			))}
 		</div>
 	);

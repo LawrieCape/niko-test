@@ -1,19 +1,33 @@
 @import '../../global/_variables';
+@import '../../global/_grid';
 
 .product-content-group--images {
 	display: flex;
-	flex-flow: row wrap;
+	flex-wrap: wrap;
+	margin: (ms(-2) * -1);
+
+	> div {
+		flex: 0 0 50%;
+
+		@media #{$mqMediumAndUp} {
+		}
+
+		@media #{$mqLargeAndUp} {
+		}
+	}
 }
 
 .product-image {
-	flex: 0 0 33.333333%;
-	border: 1px dashed $magenta;
+	display: block;
+	padding: ms(-2);
+	transition: opacity 100ms ease-in-out;
 
-	@media #{$mqMediumAndUp} {
-		// flex-basis: 33.333333%;
+	img {
+		border-radius: 2px;
+		border: 1px solid rgba($primary, 0.4);
 	}
 
-	@media #{$mqLargeAndUp} {
-		flex-basis: 50%;
+	&:hover {
+		opacity: 0.7;
 	}
 }

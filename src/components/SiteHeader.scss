@@ -1,11 +1,14 @@
 @import '../global/_variables';
 @import '../global/mixins';
 
+.site-header__wrapper {
+	border-top: 2px solid $orange;
+}
+
 .site-header {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	border-top: 2px solid $orange;
 }
 
 .header-logo {
@@ -21,21 +24,38 @@
 	@include hide-text1;
 }
 
+.wee-nav__wrapper {
+	overflow: hidden;
+}
+
 .wee-nav {
 	display: flex;
+	margin-right: (ms(-2) * -1);
 
 	a {
-		padding: ms(-1) ms(0);
-		border: 1px solid $red;
-		margin: ms(0);
+		padding: ms(-3) ms(-2);
+		// border: 1px solid $red;
+		margin: ms(-1) 0 ms(-1) ms(-1);
 		background-color: $white; // Chrome Audits
 		color: $black;
+		// text-decoration: none;
+
+		&:hover {
+			// text-decoration: none;
+		}
 	}
 }
 
 .header__contact-us__wrapper {
+	text-align: right;
+
 	a {
 		color: $black;
 		background-color: $white; // Chrome Audits
+		// text-decoration: none;
+
+		&:hover {
+			// text-decoration: none;
+		}
 	}
 }

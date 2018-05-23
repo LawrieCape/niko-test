@@ -3,17 +3,21 @@ import React from 'react';
 import './ProductImages.scss';
 
 const ProductImages = function ({ images }) {
-	if (!images) {
+	if (!images || !images.length) {
 		return (null);
 	}
 	return (
 		<div className="product-content-group product-content-group--images">
 			{/* <h3>Images</h3> */}
-			{images && images.map((image, index) => (
-				<a key={index} className="product-image" href={image.imageUrl}>
-					<img src={image.imageUrl} alt={image.imageAlt} />
-				</a>
-			))}
+			{images && images.map((image, index) => {
+				return (
+					<div key={index}>
+						<a className="product-image" href={image.imageUrl}>
+							<img src={image.imageUrl} alt={image.imageAlt} />
+						</a>
+					</div>
+				);
+			})}
 		</div>
 	);
 };

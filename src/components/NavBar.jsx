@@ -5,14 +5,16 @@ import './NavBar.scss';
 
 export const NavBar = ({ posts }) => (
 	<div className="nav__wrapper">
-		<nav className="nav">
-			{posts
-				.map(({ node: post }) => (
-					<Link key={post.id} className="nav__link" to={post.fields.slug}>
-						{post.frontmatter.title}
-					</Link>
-				))
-			}
-		</nav>
+		<div className="container-fluid">
+			<nav className="nav">
+				{posts
+					.map(({ node: post }) => (
+						<Link key={post.id} className="nav__link" to={post.fields.slug}>
+							{post.frontmatter.title}
+						</Link>
+					))
+				}
+			</nav>
+		</div>
 	</div>
 );

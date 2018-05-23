@@ -4,52 +4,60 @@ import './SiteHeader.scss';
 import logo from '../img/logo.png';
 import { NavBar } from '../components/NavBar';
 
-const SiteHeader = ({ posts }) => (
-	<header className="site-header">
+const SiteHeader = ({ posts }) => {
+	return (
+		<header className="site-header__wrapper">
 
-		{/* company logo */}
-		<div className="header-logo">
-			<Link className="header-logo__link" to="/">
-				<img className="header-logo__image" src={logo} alt="NikoTrack logo" />
-				<span className="header-logo__title">NikoTrack logo</span>
-			</Link>
-		</div>
+			<div className="container-fluid">
+				<div className="site-header">
 
-		{/* wee nav */}
-		<div className="wee-nav__wrapper">
-			<nav className="wee-nav">
-				<Link className="" to="/">
-					Home
-				</Link>
-				<Link className="" to="/latest-news">
-					Latest News
-				</Link>
-				{/* <Link className="" to="/products">
-					Products
-				</Link>
-				<Link className="" to="/services">
-					Services
-				</Link>
-				<Link className="" to="/our-work">
-					Our Work
-				</Link>
-				<Link className="" to="/careers">
-					Careers
-				</Link> */}
-				<Link className="" to="/contact">
-					Contact
-				</Link>
-			</nav>
-		</div>
+					{/* company logo */}
+					<div className="header-logo">
+						<Link className="header-logo__link" to="/">
+							<img className="header-logo__image" src={logo} alt="NikoTrack logo" />
+							<span className="header-logo__title">NikoTrack logo</span>
+						</Link>
+					</div>
 
-		{/* contact us */}
-		<div className="header__contact-us__wrapper">
-			Call Now: <a href="tel:+14016837525">+1 401 683 7525</a>
-		</div>
+					{/* wee nav */}
+					<div className="wee-nav__wrapper">
+						<nav className="wee-nav">
+							<Link className="" to="/">
+								Home
+							</Link>
+							<Link className="" to="/latest-news">
+								Latest News
+							</Link>
+							{/* <Link className="" to="/products">
+								Products
+							</Link>
+							<Link className="" to="/services">
+								Services
+							</Link>
+							<Link className="" to="/our-work">
+								Our Work
+							</Link>
+							<Link className="" to="/careers">
+								Careers
+							</Link> */}
+							<Link className="" to="/contact">
+								Contact
+							</Link>
+						</nav>
 
-		<NavBar posts={posts} />
+						{/* contact us */}
+						<div className="header__contact-us__wrapper">
+							Call Now: <a href="tel:+14016837525">+1 401 683 7525</a>
+						</div>
+					</div>
 
-	</header>
-);
+
+				</div>
+			</div>
+
+			<NavBar posts={posts} />
+		</header>
+	);
+};
 
 export default SiteHeader;

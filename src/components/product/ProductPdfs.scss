@@ -1,14 +1,37 @@
 @import '../../global/_variables';
 
+.product-content-group--pdfs {
+	display: flex;
+	flex-wrap: wrap;
+	margin: (ms(-2) * -1);
+
+	> div {
+		flex: 0 0 50%;
+
+		@media #{$mqMediumAndUp} {
+		}
+
+		@media #{$mqLargeAndUp} {
+		}
+	}
+}
 
 // PDFs
 .pdf__link {
-	display: inline-block;
-	margin-right: 20px;
+	display: block;
+	padding: ms(-2);
+	transition: opacity 100ms ease-in-out;
+
+	&:hover {
+		opacity: 0.7;
+	}
 }
 
 .pdf__image {
+	border-radius: 2px;
+	border: 1px solid rgba($primary, 0.4);
 }
 
 .pdf__title {
+	margin: ms(-2) 0 0 0;
 }

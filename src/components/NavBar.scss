@@ -6,23 +6,26 @@
 }
 
 .nav {
-	max-width: 1000px;
-	margin: 0 auto;
+	// max-width: 1000px;
+	// margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
+	border-right: 1px solid $primary-dark;
 }
 
 .nav__link {
 	display: block;
-	border: 1px solid $red;
+	border-left: 1px solid $primary-dark;
 	color: $primary-invert;
 	background-color: $primary;
 	padding: ms(-1) ms(0);
-	transition: background-color 200ms ease-in-out;
+	transition: background-color 100ms ease-in-out;
+	text-decoration: none;
 
 	&:hover {
 		color: $primary-invert;
-		background-color: #003558;
+		background-color: $primary-dark;
+		text-decoration: none;
 		// opacity: 0.6;
 	}
 }

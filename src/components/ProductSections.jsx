@@ -35,6 +35,7 @@ const ServicesComponent = function ({ sections }) {
 		offset = -window.innerHeight / 2;
 	}
 
+
 	return (
 		<div className="product-info">
 
@@ -58,36 +59,53 @@ const ServicesComponent = function ({ sections }) {
 
 			<div className="product-info__main">
 				<div className="product-sections">
-					{sections && sections.map((section, index) => (
-						<section key={index} className="product-section" id={slugify(section.title)}>
-							{/* Title */}
-							<h2>{section.title}</h2>
-							<div className="row">
-								{section.body ?
-									<div className="col-sm-12 col-md-12 col-lg-7">
-										{/* Intro */}
-										<ProductRichText richText={section.body} />
-									</div>
-								: null }
+					{sections && sections.map((section, index) => {
+						const showBody = !!(section.body && !!section.body.length);
+						const showImages = !!(section.images && !!section.images.length);
+						const showPdfs = !!(section.pdfs && !!section.pdfs.length);
+						const showVideos = !!(section.videos && !!section.videos.length);
+						const showProducts = !!(section.products && !!section.products.length);
 
-								<div className="col-sm-12 col-md-12 col-lg-5">
-									{/* Images */}
-									<ProductImages images={section.images} />
+						const showSideContent = showImages || showPdfs || showVideos;
+						console.log('showSideContent: ', showSideContent);
 
-									{/* PDFs */}
-									<ProductPdfs pdfs={section.pdfs} />
+						return (
+							<section key={index} className="product-section" id={slugify(section.title)}>
+								{/* Title */}
+								<h2>{section.title}</h2>
+								<div className="row">
+									{showBody ?
+										<div className="col-sm-12 col-md-12 col-lg-7">
+											{/* Intro */}
+											<ProductRichText richText={section.body} />
+										</div>
+									: null }
 
-									{/* Videos */}
-									<ProductVideos videos={section.videos} />
+									{showSideContent ?
+										<div className="col-sm-12 col-md-12 col-lg-5">
+											{/* Images */}
+											<ProductImages images={section.images} />
+
+											{/* PDFs */}
+											<ProductPdfs pdfs={section.pdfs} />
+
+											{/* Videos */}
+											<ProductVideos videos={section.videos} />
+										</div>
+									: null }
+
+									{showProducts ?
+										<div className="col-sm-12 col-md-12 col-lg-12">
+											{/* Products */}
+											<ProductProducts products={section.products} />
+										</div>
+									: null }
+
 								</div>
-								<div className="col-sm-12 col-md-12 col-lg-12">
-									{/* Products */}
-									<ProductProducts products={section.products} />
-								</div>
-							</div>
 
-						</section>
-					))}
+							</section>
+						);
+					})}
 				</div>
 			</div>
 

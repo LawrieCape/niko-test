@@ -32,7 +32,31 @@ $c-grey-1:						#eaecee;
 // Config vars
 
 $primary:						#005084;
+$primary-dark:					#003558;
 $primary-invert:				#ffffff;
+
+// RGBA
+$black--opaque1:				rgba(0, 0, 0, 0.9);
+$black--opaque2:				rgba(0, 0, 0, 0.8);
+$black--opaque3:				rgba(0, 0, 0, 0.7);
+$black--opaque4:				rgba(0, 0, 0, 0.6);
+$black--opaque5:				rgba(0, 0, 0, 0.5);
+$black--opaque6:				rgba(0, 0, 0, 0.4);
+$black--opaque7:				rgba(0, 0, 0, 0.3);
+$black--opaque8:				rgba(0, 0, 0, 0.2);
+$black--opaque9:				rgba(0, 0, 0, 0.1);
+
+$white--opaque1:				rgba(255, 255, 255, 0.9);
+$white--opaque2:				rgba(255, 255, 255, 0.8);
+$white--opaque3:				rgba(255, 255, 255, 0.7);
+$white--opaque4:				rgba(255, 255, 255, 0.6);
+$white--opaque5:				rgba(255, 255, 255, 0.5);
+$white--opaque6:				rgba(255, 255, 255, 0.4);
+$white--opaque7:				rgba(255, 255, 255, 0.3);
+$white--opaque8:				rgba(255, 255, 255, 0.2);
+$white--opaque9:				rgba(255, 255, 255, 0.1);
+
+
 
 $body-size:						15px;
 
@@ -70,7 +94,7 @@ $dt-font-weight:				$font-weight-bold;
 $label-margin-bottom:			16px;
 $link-color:					$orange;
 $link-decoration:				underline;
-$link-hover-color:				$lime;
+$link-hover-color:				darken($orange, 40%);
 $link-hover-decoration:			underline;
 $paragraph-margin-bottom:		16px;
 $table-caption-color:			$yellow;

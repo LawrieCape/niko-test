@@ -1,7 +1,7 @@
 ---
 templateKey: product-landing
 order: 6
-title: 'Catalogues, Leaflets, Technical Guides & Installation Manuals'
+title: Resources
 customSections:
   - pdfs:
       - pdfThumb: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_thumb.png

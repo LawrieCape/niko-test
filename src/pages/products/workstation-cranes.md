@@ -143,6 +143,9 @@ customSections:
       **NOTE:** The roof support points must be tested and approved by a
       structural engineer to ensure they can sustain the weight of the load and
       light crane.
+    images:
+      - imageAlt: ceiling mounted bridge crane
+        imageUrl: /img/ceiling_mounted_bridge_crane.jpg
     title: Ceiling Mounted Light Cranes
 ---
 

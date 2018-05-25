@@ -103,18 +103,7 @@ customSections:
         imageUrl: /img/industrial-sliding-doors-single-exterior-2-lg.jpg
       - imageAlt: single industrial sliding doors
         imageUrl: /img/industrial-sliding-doors-single-exterior-lg.jpg
-    pdfs:
-      - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
-        pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
-        title: B1 - Heavy Duty Industrial Sliding Door Leaflet
-      - pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
-        pdfUrl: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017.pdf
-        title: B1 - Heavy Duty Sliding Door Fittings
-      - pdfThumb: /img/manual_folding_door_june_2017_thumb.png
-        pdfUrl: /img/manual_folding_door_june_2017.pdf
-        title: >-
-          B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
-          Manual
+    pdfs: []
     title: Industrial Sliding Doors
     videos:
       - vidDescription: Nikotrack Sliding Door System Installation
@@ -143,5 +132,18 @@ customSections:
     title: Sliding Door Technical Specs
   - body: "### Sliding Door Fittings\r\n\r\nHeavy duty door fittings for sliding doors in wood, steel or aluminium, folding doors and harmonica doors with many panels.\r\n\r\n* Moveable panels for outdoor shops\r\n* Partitions for large rooms\r\n* Heavy curtains\r\n* Scenery and theater curtains\r\n* Sliding gates on angle or square guide rail\r\n* Garage doors with counter-weights\r\n* Sliding airtight doors for freezing chambers\r\n* Sliding doors around the corner...\r\n"
     title: Sliding Door Fittings
+  - pdfs:
+      - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
+        pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
+        title: B1 - Heavy Duty Industrial Sliding Door Leaflet
+      - pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
+        pdfUrl: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017.pdf
+        title: B1 - Heavy Duty Sliding Door Fittings
+      - pdfThumb: /img/manual_folding_door_june_2017_thumb.png
+        pdfUrl: /img/manual_folding_door_june_2017.pdf
+        title: >-
+          B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
+          Manual
+    title: Downloads
 ---
 

@@ -15,23 +15,24 @@ customSections:
       #### Features
 
 
-       \*   Lift loads up to 2000kg
+      * Lift loads up to 2000kg
 
-       \*   Bridge span up to 12m
+      * Bridge span up to 12m
 
-       \*   Smooth and easy movement in all directions
+      * Smooth and easy movement in all directions
 
-       \*  Manual or electronic lifting and travel
+      * Manual or electronic lifting and travel
 
-       \*   Robust construction
+      * Robust construction
 
-       \*   Wide range of fixing brackets
+      * Wide range of fixing brackets
 
-       \*    Zinc plated, powder coated, hot dip galvanised finish
+      * Zinc plated, powder coated, hot dip galvanised finish
 
-       \*    Available in Stainless steel
+      * Available in Stainless steel
 
-       \*    Modular design
+      * Modular design
+
 
       ### 
 
@@ -39,27 +40,25 @@ customSections:
       #### Advantages
 
 
-      ### 
+      * Ultra-low headroom
 
-       \*   Ultra-low headroom
+      * Crane bridge does not grab
 
-       \*    Crane bridge does not grab
+      * Low-maintenance and long working life
 
-       \*   Low-maintenance and long working life
+      * Easy to install
 
-       \*   Easy to install
+      * Fit directly to roof and a wide range of structures
 
-       \*   Fit directly to roof and a wide range of structures
+      * For indoor and outdoor applications
 
-       \*    For indoor and outdoor applications
+      * Ideal for food applications and clean areas
 
-       \*    Ideal for food applications and clean areas
+      * Easy to extend, modify or relocate
 
-       \*   Easy to extend, modify or relocate
+      * Can connect to other cranes and conveyors
 
-       \*   Can connect to other cranes and conveyors
-
-       \*   Cost effective
+      * Cost effective
     title: Product Details
   - body: >-
 

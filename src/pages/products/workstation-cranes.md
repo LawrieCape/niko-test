@@ -1,7 +1,7 @@
 ---
 templateKey: product-landing
 order: 5
-title: Workstation Cranes
+title: C3 - Light Cranes
 customSections:
   - body: >-
       ### \# \*\*Product Details\*\*
@@ -133,8 +133,8 @@ customSections:
         title: PDF EXAMPLE
     title: Free Standing Bridge Cranes
     videos:
-      - vidDescription: Lightweight Crane for Timber Roof Truss Lifting
-        youTubeId: stswE04hv3Q
+      - vidDescription: Light Crane In Austria
+        youTubeId: 'https://www.youtube.com/watch?v=XIki84wuwXs&t=39s'
   - body: >-
       ### Freestanding Bridge Cranes
 

@@ -96,7 +96,7 @@ customSections:
     pdfs: []
     title: Free Standing Bridge Cranes
     videos:
-      - vidDescription: Light Crane In Austria
+      - vidDescription: Ceiling Mounted Crane - Austria
         youTubeId: 'https://www.youtube.com/watch?v=XIki84wuwXs&t=39s'
   - body: >-
       Ceiling mounted light cranes are an ideal solution for applications where

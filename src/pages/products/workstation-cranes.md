@@ -144,7 +144,7 @@ customSections:
       structural engineer to ensure they can sustain the weight of the load and
       light crane.
     images:
-      - imageAlt: ceiling mounted bridge crane
+      - imageAlt: ceiling mounted light crane
         imageUrl: /img/ceiling_mounted_bridge_crane.jpg
     title: Ceiling Mounted Light Cranes
 ---

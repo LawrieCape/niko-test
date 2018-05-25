@@ -17,11 +17,11 @@ customSections:
         title: C2 - Light Cranes Leaflet
       - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
         pdfUrl: /img/light_crane_systems_eng_ver_january_2018.pdf
-        title: C2 - Light Cranes Catalogue
+        title: C2 - Light Cranes Product Catalogue
       - pdfThumb: /img/light_cranes_manual_cover_06_2017_thumb.png
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
-        title: C2 - Light Cranes Manual
-    title: Light Cranes
+        title: C2 - Light Cranes Technical Description
+    title: C2 - Light Cranes
   - pdfs:
       - pdfThumb: /img/leaflet_jib_crane_january_2017_thumb.png
         pdfUrl: /img/leaflet_jib_crane_january_2017.pdf

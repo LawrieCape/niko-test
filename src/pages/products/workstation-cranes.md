@@ -57,6 +57,9 @@ customSections:
 
       * Cost effective
     title: Product Details
+    videos:
+      - vidDescription: Ceiling Mounted Bridge Crane - Austria
+        youTubeId: 'https://www.youtube.com/watch?v=XIki84wuwXs&t=39s'
   - body: >-
 
       Freestanding light cranes are generally used when the ceiling is not
@@ -95,9 +98,7 @@ customSections:
         imageUrl: /img/free_standing_bridge_crane.jpg
     pdfs: []
     title: Free Standing Bridge Cranes
-    videos:
-      - vidDescription: Ceiling Mounted Crane - Austria
-        youTubeId: 'https://www.youtube.com/watch?v=XIki84wuwXs&t=39s'
+    videos: []
   - body: >-
       Ceiling mounted light cranes are an ideal solution for applications where
       floor space is at a premium. The light crane can be suspended directly or

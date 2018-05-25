@@ -182,5 +182,8 @@ customSections:
         pdfUrl: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_print.pdf
         title: C1 - Overhead Conveyors Leaflet
     title: Downloads
+    videos:
+      - vidDescription: Nikotrack Conveyor System for powder coating | Czech Republic
+        youTubeId: 'https://www.youtube.com/watch?v=WLi-ApsjEPA&t=8s'
 ---
 

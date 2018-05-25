@@ -10,6 +10,6 @@ customSections:
       - pdfThumb: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_thumb.png
         pdfUrl: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_print.pdf
         title: C1 Overhead Conveyors Leaflet
-    title: 'NikoTrack Product Catalogs, Technical Information & Specs'
+    title: Overhead Conveyor Systems
 ---
 

@@ -93,24 +93,15 @@ customSections:
       ### \*   Cost effective
     title: Product Details
   - body: >-
-      ### \# Freestanding light cranes
+      ### Freestanding light cranes
 
 
-      ### 
-
-
-      ### Freestanding light cranes are generally used when the ceiling is not
+      Freestanding light cranes are generally used when the ceiling is not
       strong enough to support the weight of the crane and the load. The crane
       is supported from a freestanding steelwork support structure, which is
       designed and fabricated to suit the requirements of the working area. The
       support structure usually bolts directly to the floor, but can also be
       partially suspended from adjacent walls, stanchions or overhanging beams.
-
-
-      ### 
-
-
-      ### !\[](/bmcms/uploads/images/niko2.jpg)Freestanding Bridge Cranes
 
 
       NikoTrack crane enables the user an easy, fast and ergonomic movement of

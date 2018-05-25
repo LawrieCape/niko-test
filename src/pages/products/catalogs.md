@@ -31,6 +31,11 @@ customSections:
         title: C3 - Festoons and Cable Trolleys Technical Guide
     title: C3 - Festoons and Cable Trolleys
   - pdfs:
+      - pdfThumb: /img/fall-arrest-system-manual-may2014_thumb.png
+        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
+        title: C4 - Fall Protection
+    title: C4 - Fall Protection
+  - pdfs:
       - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
         pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
         title: B1 - Heavy Duty Sliding Doors Leaflet
@@ -53,10 +58,5 @@ customSections:
         pdfUrl: /img/leaflet_jib_crane_january_2017.pdf
         title: Jib Cranes Leaflet
     title: Jib Cranes
-  - pdfs:
-      - pdfThumb: /img/fall-arrest-system-manual-may2014_thumb.png
-        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
-        title: C3 - Fall Protection
-    title: C3 - Fall Protection
 ---
 

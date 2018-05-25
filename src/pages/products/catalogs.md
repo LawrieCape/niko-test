@@ -18,6 +18,9 @@ customSections:
       - pdfThumb: /img/light_cranes_manual_cover_06_2017_thumb.png
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
         title: Light Cranes Manual
+      - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
+        pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
+        title: Light Cranes Leaflet
     title: Light Cranes
 ---
 

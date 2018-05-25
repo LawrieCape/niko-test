@@ -22,5 +22,10 @@ customSections:
         pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
         title: Light Cranes Leaflet
     title: Light Cranes
+  - pdfs:
+      - pdfThumb: /img/leaflet_jib_crane_january_2017_thumb.png
+        pdfUrl: /img/leaflet_jib_crane_january_2017.pdf
+        title: Jib Cranes Leaflet
+    title: Jib Cranes
 ---
 

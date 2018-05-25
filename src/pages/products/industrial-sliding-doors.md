@@ -116,6 +116,11 @@ customSections:
           B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
           Manual
     title: Industrial Sliding Doors
+    videos:
+      - vidDescription: Nikotrack Sliding Door System Installation
+        youTubeId: 'https://www.youtube.com/watch?v=br37qYD2K_M&t=49s'
+      - vidDescription: Nikotrack Folding Door System Installation
+        youTubeId: 'https://www.youtube.com/watch?v=RKpfNREl-mI&t=3s'
   - images:
       - imageAlt: folding door track end sliding
         imageUrl: /img/foldingdoors_endsliding.gif

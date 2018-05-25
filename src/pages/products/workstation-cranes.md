@@ -117,6 +117,13 @@ customSections:
         imageUrl: /img/ceiling_mounted_bridge_crane.jpg
     title: Ceiling Mounted Light Cranes
   - body: "### Festoon Cable System\r\n\r\nNikotrack uses a C-track **festoon assembly** and **c-track festoon pendant system** for **overhead cranes** and industrial machinery. All festoon trolleys can be modified to fit either flat cable or round hose. Our nylon cable trolleys are extremely reliable and smooth running. Because of the self aligning tapered track, trolleys can never slide out of the center of the rail, ensuring a smooth and free operation."
+    images:
+      - imageAlt: festoon cable system
+        imageUrl: /img/niko_festoon_cable_supply_1-320x137.jpg
+      - imageAlt: festoon cable system
+        imageUrl: /img/niko_festoon_cable_supply_3.jpg
+      - imageAlt: festoon cable system
+        imageUrl: /img/niko_tool_suspension-300x252.jpg
     title: Festoon Cable System
   - pdfs:
       - pdfThumb: /img/pdf-cover-example.png

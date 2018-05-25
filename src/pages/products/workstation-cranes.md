@@ -136,7 +136,10 @@ customSections:
         title: C2 Light Cranes Leaflet
       - pdfThumb: /img/light_cranes_manual_cover_06_2017_thumb.png
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
-        title: C2 - Light Crames Product Catalogue
+        title: C2 - Light Cranes Product Catalogue
+      - pdfThumb: /img/light_cranes_manual_cover_06_2017_thumb.png
+        pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
+        title: C2 - Light Cranes Technical Description
     title: Downloads
 ---
 

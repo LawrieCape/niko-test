@@ -9,18 +9,18 @@ customSections:
         title: C1 Overhead Conveyors Leaflet
       - pdfThumb: /img/conveyor_system_february_2018_en_thumb.png
         pdfUrl: /img/conveyor_system_february_2018_en.pdf
-        title: Conveyor Systems Catalogue
-    title: Overhead Conveyor Systems
+        title: C1 - Conveyor Systems Catalogue
+    title: C1 - Overhead Conveyor Systems
   - pdfs:
       - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
         pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
-        title: Light Cranes Leaflet
+        title: C2 - Light Cranes Leaflet
       - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
         pdfUrl: /img/light_crane_systems_eng_ver_january_2018.pdf
-        title: Light Cranes Catalogue
+        title: C2 - Light Cranes Catalogue
       - pdfThumb: /img/light_cranes_manual_cover_06_2017_thumb.png
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
-        title: Light Cranes Manual
+        title: C2 - Light Cranes Manual
     title: Light Cranes
   - pdfs:
       - pdfThumb: /img/leaflet_jib_crane_january_2017_thumb.png
@@ -30,24 +30,28 @@ customSections:
   - pdfs:
       - pdfThumb: /img/festoon_systems_catalogue_eng_ver_march_2018_thumb.png
         pdfUrl: /img/festoon_systems_catalogue_eng_ver_march_2018.pdf
-        title: Festoons and Cable Trolleys Catalogue
+        title: C3 - Festoons and Cable Trolleys Catalogue
       - pdfThumb: /img/c3-festoon-cable-hose-track-c-rail-technical-guide_thumb.png
         pdfUrl: /img/c3-festoon-cable-&-hose-track-(c-rail)-technical-guide.pdf
-        title: Festoons and Cable Trolleys Technical Guide
-    title: Festoons and Cable Trolleys
+        title: C3 - Festoons and Cable Trolleys Technical Guide
+    title: C3 - Festoons and Cable Trolleys
   - pdfs:
       - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
         pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
-        title: Heavy Duty Sliding Doors Leaflet
+        title: B1 - Heavy Duty Sliding Doors Leaflet
       - pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
         pdfUrl: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017.pdf
-        title: Heavy Duty Sliding Door Fittings
+        title: B1 - Heavy Duty Sliding Door Fittings
       - pdfThumb: /img/manual_folding_door_june_2017_thumb.png
         pdfUrl: /img/manual_folding_door_june_2017.pdf
-        title: Heavy Duty Folding Door Manual
+        title: >-
+          B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
+          Manual
       - pdfThumb: /img/manual_sliding_door_may_2017_thumb.png
         pdfUrl: /img/manual_sliding_door_may_2017.pdf
-        title: Heavy Duty Sliding Door Manual
-    title: Folding and Sliding Doors
+        title: >-
+          B1 - Heavy Duty Sliding Door Installation, Operation & Maintenance
+          Manual
+    title: B1 - Folding and Sliding Doors
 ---
 

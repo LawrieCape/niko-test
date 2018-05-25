@@ -153,27 +153,6 @@ customSections:
       system.
 
 
-      ### Powered Transfer Overhead Conveyor Systems
-
-
-      * Unique localized powered loops
-
-
-      NikoTrack has a unique alternative to the traditionally powered overhead
-      conveyor systems. Using localized powered loops, any manual conveyor
-      system can have powered travel to move product and flight bars through
-      paint booths, ovens, wash systems. Each of these powered loops delivers
-      the flight bars to a sideways shifting system of dual track that allows
-      for grouping of product to optimize space requirements while awaiting the
-      next procedure. Loads up to 3,520 lbs (1600 kgs) per flight bar are easily
-      transported by the powered loops. This alternative offers the ability to
-      reduce labor content found on traditional overhead monorail conveyor
-      lines, that is necessary when a single powered motorized conveyor system
-      is used to transfer product through multiple processes in one complete
-      loop. By using individual loops for a specific applications, the “lean
-      manufacturing cell” approach can be applied to many processes.
-
-
       #### NikoTrack Overhead Turntable Detour System
 
 
@@ -195,5 +174,12 @@ customSections:
 
       Thank you!
     title: Request a quote
+  - pdfs:
+      - pdfThumb: /img/conveyor_system_february_2018_en_thumb.png
+        pdfUrl: /img/conveyor_system_february_2018_en.pdf
+        title: C1 - Overhead Conveyors Catalogue
+      - pdfThumb: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_thumb.png
+        pdfUrl: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_print.pdf
+    title: Downloads
 ---
 

@@ -130,5 +130,13 @@ customSections:
         pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
         title: PDF EXAMPLE
     title: Request a Quote
+  - pdfs:
+      - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
+        pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
+        title: C2 Light Cranes Leaflet
+      - pdfThumb: /img/light_cranes_manual_cover_06_2017_thumb.png
+        pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
+        title: C2 - Light Crames Product Catalogue
+    title: Downloads
 ---
 

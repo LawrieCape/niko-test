@@ -34,9 +34,6 @@ customSections:
       * Modular design
 
 
-      ### 
-
-
       #### Advantages
 
 

@@ -3,6 +3,95 @@ templateKey: product-landing
 order: 5
 title: Workstation Cranes
 customSections:
+  - body: >-
+      ### \# \*\*Product Details\*\*
+
+
+      ### 
+
+
+      ### Niko C2 light cranes are the ideal solution for lightweight lifting of
+      load capacities up to 2000kg. They are supplied in a modular kit form,
+      which enables them to be easily assembled, modified or moved to
+      accommodate changes in your working patterns. The construction of Niko C2
+      light cranes is considerably lighter, free-running and more versatile than
+      conventional I-beam overhead cranes.
+
+
+      ### 
+
+
+      ### \## Features
+
+
+      ### 
+
+
+      ### \*   Lift loads up to 2000kg
+
+
+      ### \*   Bridge span up to 12m
+
+
+      ### \*   Smooth and easy movement in all directions
+
+
+      ### \*   Manual or electronic lifting and travel
+
+
+      ### \*   Robust construction
+
+
+      ### \*   Wide range of fixing brackets
+
+
+      ### \*   Zinc plated, powder coated, hot dip galvanised finish
+
+
+      ### \*   Available in Stainless steel
+
+
+      ### \*   Modular design
+
+
+      ### 
+
+
+      ### \## Advantages
+
+
+      ### 
+
+
+      ### \*   Ultra-low headroom
+
+
+      ### \*   Crane bridge does not grab
+
+
+      ### \*   Low-maintenance and long working life
+
+
+      ### \*   Easy to install
+
+
+      ### \*   Fit directly to roof and a wide range of structures
+
+
+      ### \*   For indoor and outdoor applications
+
+
+      ### \*   Ideal for food applications and clean areas
+
+
+      ### \*   Easy to extend, modify or relocate
+
+
+      ### \*   Can connect to other cranes and conveyors
+
+
+      ### \*   Cost effective
+    title: Product Details
   - body: "### Ceiling Mounted Bridge Cranes\r\n\r\nCeiling mounted and stand-alone overhead cranes proved a cost effective and efficient solution to your material handling issues. A ceiling mounted crane will provide maximum coverage of an area without interfering with existing support columns, while a stand-alone system can be installed without being confined to the structure of the building. Also, either system can be linked to a monorail conveyor system or even another crane using our Track Transfer Assembly.\r\n"
     pdfs:
       - pdfThumb: /img/pdf-cover-example.png
@@ -48,3 +137,4 @@ customSections:
         title: PDF EXAMPLE
     title: Request a Quote
 ---
+

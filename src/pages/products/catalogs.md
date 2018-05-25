@@ -23,11 +23,6 @@ customSections:
         title: C2 - Light Cranes Technical Description
     title: C2 - Light Cranes
   - pdfs:
-      - pdfThumb: /img/leaflet_jib_crane_january_2017_thumb.png
-        pdfUrl: /img/leaflet_jib_crane_january_2017.pdf
-        title: Jib Cranes Leaflet
-    title: Jib Cranes
-  - pdfs:
       - pdfThumb: /img/festoon_systems_catalogue_eng_ver_march_2018_thumb.png
         pdfUrl: /img/festoon_systems_catalogue_eng_ver_march_2018.pdf
         title: C3 - Festoons and Cable Trolleys Product Catalogue
@@ -53,5 +48,10 @@ customSections:
           B1 - Heavy Duty Sliding Door Installation, Operation & Maintenance
           Manual
     title: B1 - Folding and Sliding Doors
+  - pdfs:
+      - pdfThumb: /img/leaflet_jib_crane_january_2017_thumb.png
+        pdfUrl: /img/leaflet_jib_crane_january_2017.pdf
+        title: Jib Cranes Leaflet
+    title: Jib Cranes
 ---
 

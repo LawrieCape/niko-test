@@ -103,6 +103,18 @@ customSections:
         imageUrl: /img/industrial-sliding-doors-single-exterior-2-lg.jpg
       - imageAlt: single industrial sliding doors
         imageUrl: /img/industrial-sliding-doors-single-exterior-lg.jpg
+    pdfs:
+      - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
+        pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
+        title: B1 - Heavy Duty Industrial Sliding Door Leaflet
+      - pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
+        pdfUrl: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017.pdf
+        title: B1 - Heavy Duty Sliding Door Fittings
+      - pdfThumb: /img/manual_folding_door_june_2017_thumb.png
+        pdfUrl: /img/manual_folding_door_june_2017.pdf
+        title: >-
+          B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
+          Manual
     title: Industrial Sliding Doors
   - images:
       - imageAlt: folding door track end sliding

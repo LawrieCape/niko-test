@@ -45,6 +45,9 @@ customSections:
       - pdfThumb: /img/manual_folding_door_june_2017_thumb.png
         pdfUrl: /img/manual_folding_door_june_2017.pdf
         title: Heavy Duty Folding Door Manual
+      - pdfThumb: /img/manual_sliding_door_may_2017_thumb.png
+        pdfUrl: /img/manual_sliding_door_may_2017.pdf
+        title: Heavy Duty Sliding Door Manual
     title: Folding and Sliding Doors
 ---
 

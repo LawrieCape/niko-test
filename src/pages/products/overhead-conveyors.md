@@ -1,7 +1,7 @@
 ---
 templateKey: product-landing
 order: 2
-title: Overhead Conveyors
+title: C1 - Overhead Conveyors
 customSections:
   - body: >-
       NikoTrack produces manual overhead conveyor and monorail transfer systems
@@ -84,9 +84,6 @@ customSections:
       - imageUrl: /img/21.b62-lg-195x195.jpg
     title: Advantages
   - body: >-
-      Localised Powered Travel for Manual Overhead Conveyors
-
-
       As an alternative to fully powered overhead conveyors, Niko offers a
       semi-automatic alternative. This system utilises any manual conveyor
       system and powers it through ovens, spray booths or any area where manual
@@ -149,9 +146,6 @@ customSections:
       #### Overhead Load Positioning
 
 
-      * Track has tapered sides for free, low force, smooth running
-
-
       The enclosed precision track has tapered sides to ensure that the load
       carrying trolleys self locate to run freely and smoothly with minimal
       force required to move the loaded trolley. Repeatable positioning of
@@ -201,23 +195,5 @@ customSections:
 
       Thank you!
     title: Request a quote
-  - body: >-
-      # Welcome to Niko Ltd
-
-
-      Niko Ltd is the UK subsidiary of Helm Hellas SA, leading European
-      manufacturers of light cranes, power feed systems, overhead conveyors,
-      sliding door track and fall arrest track systems.
-
-
-      The Niko group was established in 1972 and has over 80 employees at 7
-      locations and a comprehensive distributor network, giving Niko presence
-      across Europe, North America, Asia, Australia and North Africa.
-
-
-      The experienced engineers at Niko Ltd take pride in offering quality
-      products, rapid lead times and a high level of customer service to provide
-      solutions for a wide range of material handling situations.
-    title: Test
 ---
 

@@ -1,7 +1,7 @@
 ---
 templateKey: product-landing
 order: 5
-title: C3 - Light Cranes
+title: C2 - Light Cranes
 customSections:
   - body: >-
       Niko C2 light cranes are the ideal solution for lightweight lifting of
@@ -62,8 +62,6 @@ customSections:
        \*   Cost effective
     title: Product Details
   - body: >-
-      ### Freestanding light cranes
-
 
       Freestanding light cranes are generally used when the ceiling is not
       strong enough to support the weight of the crane and the load. The crane
@@ -96,10 +94,7 @@ customSections:
       assuring smooth transfer of trolleys. The end carriage trolleys are fitted
       with horizontal guide rollers, connecting the moving cross bridge member
       to the down shop tracks.
-    pdfs:
-      - pdfThumb: /img/pdf-cover-example.png
-        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
-        title: PDF EXAMPLE
+    pdfs: []
     title: Free Standing Bridge Cranes
     videos:
       - vidDescription: Light Crane In Austria

@@ -15,4 +15,10 @@ customSections:
         youTubeId: xfW18Vd9fU4
   - body: "### NikoTrack Fall Arrest Components\r\n\r\nNikoTrack fall arrest components combine the turns and switches of our conveyors with the versatility and reliability of the fall protection, NikoTrack has created an ideal solution to taut-wire systems. User are no longer hindered by slow moving trolleys, endangered by secondary falls or wire transfer, and can use the system throughout the year.\r\n\r\nTRACK SERIES | SWL / FT\r\n--- | ---\r\nNo. 23.000 | 67.0 lbs\r\nNo. 24.000 | 134.0 lbs\r\nNo. 25.000 | 335.9 lbs\r\nNo. 26.000 | 671.9 lbs\r\nNo. 27.000 | 1075.0 lbs\r\n"
     title: Fall Arrest Components
+  - pdfs:
+      - pdfThumb: /img/fall-arrest-system-manual-may2014_thumb.png
+        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
+        title: C4 - Fall Protection
+    title: Downloads
 ---
+

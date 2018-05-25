@@ -53,5 +53,10 @@ customSections:
         pdfUrl: /img/leaflet_jib_crane_january_2017.pdf
         title: Jib Cranes Leaflet
     title: Jib Cranes
+  - pdfs:
+      - pdfThumb: /img/fall-arrest-system-manual-may2014_thumb.png
+        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
+        title: C3 - Fall Protection
+    title: C3 - Fall Protection
 ---
 

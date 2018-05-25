@@ -30,7 +30,7 @@ customSections:
   - pdfs:
       - pdfThumb: /img/festoon_systems_catalogue_eng_ver_march_2018_thumb.png
         pdfUrl: /img/festoon_systems_catalogue_eng_ver_march_2018.pdf
-        title: C3 - Festoons and Cable Trolleys Catalogue
+        title: C3 - Festoons and Cable Trolleys Product Catalogue
       - pdfThumb: /img/c3-festoon-cable-hose-track-c-rail-technical-guide_thumb.png
         pdfUrl: /img/c3-festoon-cable-&-hose-track-(c-rail)-technical-guide.pdf
         title: C3 - Festoons and Cable Trolleys Technical Guide

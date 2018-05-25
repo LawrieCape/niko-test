@@ -36,12 +36,12 @@ customSections:
         title: Festoons and Cable Trolleys Technical Guide
     title: Festoons and Cable Trolleys
   - pdfs:
-      - pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
-        pdfUrl: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017.pdf
-        title: Heavy Duty Sliding Door Fittings
       - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
         pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
         title: Heavy Duty Sliding Doors Leaflet
+      - pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
+        pdfUrl: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017.pdf
+        title: Heavy Duty Sliding Door Fittings
     title: Folding and Sliding Doors
 ---
 

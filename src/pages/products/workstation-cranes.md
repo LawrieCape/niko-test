@@ -130,5 +130,19 @@ customSections:
         pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
         title: PDF EXAMPLE
     title: Request a Quote
+  - body: >-
+      Ceiling mounted light cranes are an ideal solution for applications where
+      floor space is at a premium. The light crane can be suspended directly or
+      dropped down from the existing ceiling or building support beams. The Niko
+      C2 range has a wide variety of suspension brackets to enable the light
+      crane to be suspended from virtually any roof structure. The major
+      advantage of this type of system is that the floor space is kept clear of
+      supporting stanchions, enabling free movement underneath the light crane.
+
+
+      **NOTE:** The roof support points must be tested and approved by a
+      structural engineer to ensure they can sustain the weight of the load and
+      light crane.
+    title: Ceiling Mounted Light Cranes
 ---
 

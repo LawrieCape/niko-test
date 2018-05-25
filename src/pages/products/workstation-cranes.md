@@ -4,13 +4,7 @@ order: 5
 title: C3 - Light Cranes
 customSections:
   - body: >-
-      ### \# \*\*Product Details\*\*
-
-
-      ### 
-
-
-      ### Niko C2 light cranes are the ideal solution for lightweight lifting of
+      Niko C2 light cranes are the ideal solution for lightweight lifting of
       load capacities up to 2000kg. They are supplied in a modular kit form,
       which enables them to be easily assembled, modified or moved to
       accommodate changes in your working patterns. The construction of Niko C2
@@ -18,79 +12,54 @@ customSections:
       conventional I-beam overhead cranes.
 
 
-      ### 
+      #### Features
 
 
-      ### \## Features
+       \*   Lift loads up to 2000kg
 
+       \*   Bridge span up to 12m
 
-      ### 
+       \*   Smooth and easy movement in all directions
 
+       \*  Manual or electronic lifting and travel
 
-      ### \*   Lift loads up to 2000kg
+       \*   Robust construction
 
+       \*   Wide range of fixing brackets
 
-      ### \*   Bridge span up to 12m
+       \*    Zinc plated, powder coated, hot dip galvanised finish
 
+       \*    Available in Stainless steel
 
-      ### \*   Smooth and easy movement in all directions
-
-
-      ### \*   Manual or electronic lifting and travel
-
-
-      ### \*   Robust construction
-
-
-      ### \*   Wide range of fixing brackets
-
-
-      ### \*   Zinc plated, powder coated, hot dip galvanised finish
-
-
-      ### \*   Available in Stainless steel
-
-
-      ### \*   Modular design
-
+       \*    Modular design
 
       ### 
 
 
-      ### \## Advantages
+      #### Advantages
 
 
       ### 
 
+       \*   Ultra-low headroom
 
-      ### \*   Ultra-low headroom
+       \*    Crane bridge does not grab
 
+       \*   Low-maintenance and long working life
 
-      ### \*   Crane bridge does not grab
+       \*   Easy to install
 
+       \*   Fit directly to roof and a wide range of structures
 
-      ### \*   Low-maintenance and long working life
+       \*    For indoor and outdoor applications
 
+       \*    Ideal for food applications and clean areas
 
-      ### \*   Easy to install
+       \*   Easy to extend, modify or relocate
 
+       \*   Can connect to other cranes and conveyors
 
-      ### \*   Fit directly to roof and a wide range of structures
-
-
-      ### \*   For indoor and outdoor applications
-
-
-      ### \*   Ideal for food applications and clean areas
-
-
-      ### \*   Easy to extend, modify or relocate
-
-
-      ### \*   Can connect to other cranes and conveyors
-
-
-      ### \*   Cost effective
+       \*   Cost effective
     title: Product Details
   - body: >-
       ### Freestanding light cranes

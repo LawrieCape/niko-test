@@ -1,10 +1,10 @@
 ---
 templateKey: product-landing
 order: 3
-title: 'B1 - Heavy Duty Sliding & Folding Doors'
+title: B1 - Heavy Duty Sliding & Folding Doors
+navTitle: Heavy Duty Sliding & Folding Doors
 customSections:
-  -
-    body: >-
+  - body: >-
       NikoTrack industrial Sliding Doors uses enclosed monorail track and
       fittings that are low friction and easy to operate for door weights of up
       to 1600 kgs – 3,520 lbs. Niko offers a complete range of installation
@@ -102,130 +102,93 @@ customSections:
 
       Tracks are available in 6 meter length (19.70 feet)
     images:
-      -
-        imageAlt: 'sliding door support bracket'
+      - imageAlt: sliding door support bracket
         imageUrl: /img/industrial-sliding-doors-ceiling-support-bracket-lg.jpg
-      -
-        imageAlt: 'double sliding door support bracket'
+      - imageAlt: double sliding door support bracket
         imageUrl: /img/industrial-sliding-doors-ceiling-bracket-double-lg.jpg
-      -
-        imageAlt: 'double sliding doors'
+      - imageAlt: double sliding doors
         imageUrl: /img/industrial-sliding-doors-double-door-sm.jpg
-      -
-        imageAlt: 'double sliding doors'
+      - imageAlt: double sliding doors
         imageUrl: /img/industrial-sliding-doors-double-exterior-2-lg.jpg
-      -
-        imageAlt: 'exterior double sliding doors'
+      - imageAlt: exterior double sliding doors
         imageUrl: /img/industrial-sliding-doors-double-exterior-lg.jpg
-      -
-        imageAlt: 'industrial folding doors'
+      - imageAlt: industrial folding doors
         imageUrl: /img/industrial-sliding-doors-foldinggray-lg.jpg
-      -
-        imageAlt: 'exterior single sliding doors'
+      - imageAlt: exterior single sliding doors
         imageUrl: /img/industrial-sliding-doors-single-exterior-2-lg.jpg
-      -
-        imageAlt: 'single industrial sliding doors'
+      - imageAlt: single industrial sliding doors
         imageUrl: /img/industrial-sliding-doors-single-exterior-lg.jpg
     pdfs: []
-    title: 'Industrial Sliding Doors'
+    title: Industrial Sliding Doors
     videos:
-      -
-        vidDescription: 'Nikotrack Sliding Door System Installation'
+      - vidDescription: Nikotrack Sliding Door System Installation
         youTubeId: 'https://www.youtube.com/watch?v=br37qYD2K_M&t=49s'
-      -
-        vidDescription: 'Nikotrack Folding Door System Installation'
+      - vidDescription: Nikotrack Folding Door System Installation
         youTubeId: 'https://www.youtube.com/watch?v=RKpfNREl-mI&t=3s'
-  -
-    images:
-      -
-        imageAlt: 'folding door track end sliding'
+  - images:
+      - imageAlt: folding door track end sliding
         imageUrl: /img/foldingdoors_endsliding.gif
-      -
-        imageAlt: 'single sliding door'
+      - imageAlt: single sliding door
         imageUrl: /img/single.gif
-      -
-        imageAlt: 'stacking sliding doors'
+      - imageAlt: stacking sliding doors
         imageUrl: /img/stackingslidingdoors.gif
-      -
-        imageAlt: 'stacking sliding doors around corner'
+      - imageAlt: stacking sliding doors around corner
         imageUrl: /img/stackingslidingdoorsroundcorner.gif
-      -
-        imageAlt: 'folding doors end sliding'
+      - imageAlt: folding doors end sliding
         imageUrl: /img/foldingdoors_endsliding.gif
-      -
-        imageAlt: 'sliding doors double track'
+      - imageAlt: sliding doors double track
         imageUrl: /img/straightslidingdoors_doubletrack.gif
-      -
-        imageAlt: 'straight sliding multiple doors'
+      - imageAlt: straight sliding multiple doors
         imageUrl: /img/straightslidingdoors_singletrackmultipledoors.gif
-      -
-        imageAlt: 'straight sliding doors triple track'
+      - imageAlt: straight sliding doors triple track
         imageUrl: /img/straightslidingdoors_tripletrack.gif
-    title: 'Sliding Door Animations'
-  -
-    body: "### Single Track – Exterior Mounting\r\n\r\nNiko Profile No. | Double wheel hanger SWL kg | Door weight max (2 hangers) SWL kg | Door weight max (2 hangers) Electric Operation SWL kg | Door weight max for harmonica and folding doors SWL kg\r\n--- | --- | --- | --- | ---\r\n21.000 | 45 | 90 | – | 22\r\n23.000 | 100 | 200 | 100 | 50\r\n24.000 | 200 | 400 | 200 | 100\r\n25.000 | 300 | 600 | 300 | 150\r\n26.000 | 600 | 1200 | 600 | 300\r\n27.000 | 1000 | 2000 | 1200 | – |\r\n\r\n**Wall Support Bracket with Double Wheel Hanger**\r\n\r\nNiko Profile No. | Wall Support Bracket | Distance H Max / Min (mm)\r\n--- | --- | ---\r\n21.000 | 21.B01 | 112 / 98\r\n23.000 | 24.B01 | 148 / 121\r\n24.000 | 24.B01 | 175 / 146\r\n25.000 | 25.B01 | 215 / 188\r\n26.000 | 26.B01 | 330 / 242\r\n27.000 | 27.B01 | 400 / 306\r\n\r\n\n#### Single Track – Adjustable Exterior Wall Brackets\n\r\nNiko Profile No. | Double wheel hanger SWL kg | Door weight max (2 hangers) SWL kg | Door weight max (2 hangers) Electric Operation SWL kg | Door weight max for harmonica and folding doors SWL kg\r\n--- | --- | --- | --- | ---\r\n21.000 | 45 | 90 | – | 22\r\n23.000 | 100 | 200 | 100 | 50\r\n24.000 | 200 | 400 | 200 | 100\r\n25.000 | 300 | 600 | 300 | 150\r\n26.000 | 600 | 1200 | 600 | 300\r\n27.000 | 1000 | 2000 | 1200 | –\r\n\r\nAdjustable Wall Bracket with Adjustable Bracket & Double Wheel Hangers\n\r\nNiko Profile No. | Adjustable Wall Bracket | Adjustable Bracket | Distance H Max / Min (mm)\r\n--- | --- | --- | ---\r\n21.000 | 21.B05 | 21.B04 | 170 / 130\r\n23.000 | 24.B05 | 23.B04 | 245 / 185\r\n24.000 | 24.B05 | 24.B04 | 260 / 185\r\n25.000 | 26.B05 | 25.B04 | 345 / 245\r\n26.000 | 26.B05 | 26.B04 | 510 / 290\r\n\r\n## Two Sliding Doors – Double Fixed Exterior Wall Brackets\r\n\r\nNiko Profile No. | Double wheel hanger SWL kg | Door weight max (2 hangers) SWL kg | Door weight max (2 hangers) Electric Operation SWL kg | Door weight max for harmonica and folding doors SWL kg\r\n--- | --- | --- | --- | ---\r\n21.000 | 45 | 90 | – | 22\r\n23.000 | 100 | 200 | 100 | 50\r\n24.000 | 200 | 400 | 200 | 100\r\n25.000 | 300 | 600 | 300 | 150\r\n26.000 | 600 | 1200 | 600 | 300\r\n27.000 | 1000 | 2000 | 1200 | –\r\n\r\n**Double Wall Bracket with Double Wheel Hangers**\r\n\r\nNiko Profile No. | Double Wall Bracket | Distance H Max / Min (mm) | Distance X (mm)\r\n--- | --- | --- | ---\r\n23.000 | 23.B31 | 165 / 135 | 50\r\n24.000 | 24.B31 | 195 / 165 | 60\r\n25.000 | 24.B31 | 195 / 165 | 90\r\n26.000 | 25.B31 | 220 / 195 | 85\r\n\r\n## Two Sliding Doors – Double Adjustable Exterior Wall Brackets\r\n\r\nNiko Profile No. | Double wheel hanger SWL kg | Door weight max (2 hangers) SWL kg | Door weight max (2 hangers) electric Operation SWL kg | Door weight max for harmonica and folding doors SWL kg\r\n--- | --- | --- | --- | ---\r\n21.000 | 45 | 90 | – | 22\r\n23.000 | 100 | 200 | 100 | 50\r\n24.000 | 200 | 400 | 200 | 100\r\n25.000 | 300 | 600 | 300 | 150\r\n26.000 | 600 | 1200 | 600 | 300\r\n27.000 | 1000 | 2000 | 1200 | –\r\n\r\n**Double Adjustable Wall Bracket with Adjustable Bracket & Double Wheel Hangers**\r\n\r\nNiko Profile No. | Double Adjustable Wall Bracket | Adjustable Bracket | Distance H Max / Min (mm) | Distance X Max / Min (mm)\r\n--- | --- | --- | --- | ---\r\n21.000 | 21.B06 | 21.B04 | 175 / 140 | 70 / 40\r\n23.000 | 24.B06 | 23.B04 | 245 / 185 | 115 / 50\r\n24.000 | 24.B06 | 24.B04 | 260 / 185 | 110 / 60\r\n25.000 | 26.B06 | 25.B04 | 345 / 245 | 145 / 85\r\n26.000 | 26.B06 | 26.B04 | 510 / 290 | 135 / 105\r\n27.000 | 27.B06 | 27.B04 | 575 / 365 | 120 / 118\r\n\r\n## Ceiling Support Systems\r\n\r\n**Ceiling Support Bracket with Double Wheel Hanger**\r\n\r\nNiko Profile No. | Ceiling Support Bracket | Distance H Max / Min (mm)\r\n--- | --- | ---\r\n21.000 | 21.B02 | 89 / 74\r\n23.000 | 23.B02 | 121 / 93\r\n24.000 | 24.B02 | 140 / 110\r\n25.000 | 25.B02 | 173 / 145\r\n26.000 | 26.B02 | 278 / 190\r\n27.000 | 21.B02 | 337 / 243\r\n\r\n**Double Ceiling Bracket with Double Wheel Hanger**\r\n\r\nNiko Profile No. | Adjustable Wall Bracket | Distance H Max / Min (mm) | Distance X (mm)\r\n--- | --- | --- | ---\r\n23.000 | 23.B32 | 89 / 74 | 50\r\n24.000 | 24.B32 | 121 / 93 | 60\r\n24.000 | 24.B34 | 140 / 110 | 90\r\n25.000 | 25.B32 | 173 / 145 | 85\r\n"
-    title: 'Sliding Door Technical Specs'
-  -
+    title: Sliding Door Animations
+  - body: "### Single Track – Exterior Mounting\r\n\r\nNiko Profile No. | Double wheel hanger SWL kg | Door weight max (2 hangers) SWL kg | Door weight max (2 hangers) Electric Operation SWL kg | Door weight max for harmonica and folding doors SWL kg\r\n--- | --- | --- | --- | ---\r\n21.000 | 45 | 90 | – | 22\r\n23.000 | 100 | 200 | 100 | 50\r\n24.000 | 200 | 400 | 200 | 100\r\n25.000 | 300 | 600 | 300 | 150\r\n26.000 | 600 | 1200 | 600 | 300\r\n27.000 | 1000 | 2000 | 1200 | – |\r\n\r\n**Wall Support Bracket with Double Wheel Hanger**\r\n\r\nNiko Profile No. | Wall Support Bracket | Distance H Max / Min (mm)\r\n--- | --- | ---\r\n21.000 | 21.B01 | 112 / 98\r\n23.000 | 24.B01 | 148 / 121\r\n24.000 | 24.B01 | 175 / 146\r\n25.000 | 25.B01 | 215 / 188\r\n26.000 | 26.B01 | 330 / 242\r\n27.000 | 27.B01 | 400 / 306\r\n\r\n\n#### Single Track – Adjustable Exterior Wall Brackets\n\r\nNiko Profile No. | Double wheel hanger SWL kg | Door weight max (2 hangers) SWL kg | Door weight max (2 hangers) Electric Operation SWL kg | Door weight max for harmonica and folding doors SWL kg\r\n--- | --- | --- | --- | ---\r\n21.000 | 45 | 90 | – | 22\r\n23.000 | 100 | 200 | 100 | 50\r\n24.000 | 200 | 400 | 200 | 100\r\n25.000 | 300 | 600 | 300 | 150\r\n26.000 | 600 | 1200 | 600 | 300\r\n27.000 | 1000 | 2000 | 1200 | –\r\n\r\nAdjustable Wall Bracket with Adjustable Bracket & Double Wheel Hangers\n\r\nNiko Profile No. | Adjustable Wall Bracket | Adjustable Bracket | Distance H Max / Min (mm)\r\n--- | --- | --- | ---\r\n21.000 | 21.B05 | 21.B04 | 170 / 130\r\n23.000 | 24.B05 | 23.B04 | 245 / 185\r\n24.000 | 24.B05 | 24.B04 | 260 / 185\r\n25.000 | 26.B05 | 25.B04 | 345 / 245\r\n26.000 | 26.B05 | 26.B04 | 510 / 290\r\n\r\n## Two Sliding Doors – Double Fixed Exterior Wall Brackets\r\n\r\nNiko Profile No. | Double wheel hanger SWL kg | Door weight max (2 hangers) SWL kg | Door weight max (2 hangers) Electric Operation SWL kg | Door weight max for harmonica and folding doors SWL kg\r\n--- | --- | --- | --- | ---\r\n21.000 | 45 | 90 | – | 22\r\n23.000 | 100 | 200 | 100 | 50\r\n24.000 | 200 | 400 | 200 | 100\r\n25.000 | 300 | 600 | 300 | 150\r\n26.000 | 600 | 1200 | 600 | 300\r\n27.000 | 1000 | 2000 | 1200 | –\r\n\r\n**Double Wall Bracket with Double Wheel Hangers**\r\n\r\nNiko Profile No. | Double Wall Bracket | Distance H Max / Min (mm) | Distance X (mm)\r\n--- | --- | --- | ---\r\n23.000 | 23.B31 | 165 / 135 | 50\r\n24.000 | 24.B31 | 195 / 165 | 60\r\n25.000 | 24.B31 | 195 / 165 | 90\r\n26.000 | 25.B31 | 220 / 195 | 85\r\n\r\n## Two Sliding Doors – Double Adjustable Exterior Wall Brackets\r\n\r\nNiko Profile No. | Double wheel hanger SWL kg | Door weight max (2 hangers) SWL kg | Door weight max (2 hangers) electric Operation SWL kg | Door weight max for harmonica and folding doors SWL kg\r\n--- | --- | --- | --- | ---\r\n21.000 | 45 | 90 | – | 22\r\n23.000 | 100 | 200 | 100 | 50\r\n24.000 | 200 | 400 | 200 | 100\r\n25.000 | 300 | 600 | 300 | 150\r\n26.000 | 600 | 1200 | 600 | 300\r\n27.000 | 1000 | 2000 | 1200 | –\r\n\r\n**Double Adjustable Wall Bracket with Adjustable Bracket & Double Wheel Hangers**\r\n\r\nNiko Profile No. | Double Adjustable Wall Bracket | Adjustable Bracket | Distance H Max / Min (mm) | Distance X Max / Min (mm)\r\n--- | --- | --- | --- | ---\r\n21.000 | 21.B06 | 21.B04 | 175 / 140 | 70 / 40\r\n23.000 | 24.B06 | 23.B04 | 245 / 185 | 115 / 50\r\n24.000 | 24.B06 | 24.B04 | 260 / 185 | 110 / 60\r\n25.000 | 26.B06 | 25.B04 | 345 / 245 | 145 / 85\r\n26.000 | 26.B06 | 26.B04 | 510 / 290 | 135 / 105\r\n27.000 | 27.B06 | 27.B04 | 575 / 365 | 120 / 118\r\n\r\n## Ceiling Support Systems\r\n\r\n**Ceiling Support Bracket with Double Wheel Hanger**\r\n\r\nNiko Profile No. | Ceiling Support Bracket | Distance H Max / Min (mm)\r\n--- | --- | ---\r\n21.000 | 21.B02 | 89 / 74\r\n23.000 | 23.B02 | 121 / 93\r\n24.000 | 24.B02 | 140 / 110\r\n25.000 | 25.B02 | 173 / 145\r\n26.000 | 26.B02 | 278 / 190\r\n27.000 | 21.B02 | 337 / 243\r\n\r\n**Double Ceiling Bracket with Double Wheel Hanger**\r\n\r\nNiko Profile No. | Adjustable Wall Bracket | Distance H Max / Min (mm) | Distance X (mm)\r\n--- | --- | --- | ---\r\n23.000 | 23.B32 | 89 / 74 | 50\r\n24.000 | 24.B32 | 121 / 93 | 60\r\n24.000 | 24.B34 | 140 / 110 | 90\r\n25.000 | 25.B32 | 173 / 145 | 85\r\n"
+    title: Sliding Door Technical Specs
+  - products:
+      - imageUrl: ''
+        title: Track Profiles & Track Bends
+      - imageUrl: ''
+        title: Track Support Brackets
+      - imageUrl: ''
+        title: Track & Wall End Stops
+      - imageUrl: ''
+        title: Wheel Hangers for Sliding Doors
+      - imageUrl: ''
+        title: Wheel Hangers for Folding & Rotating Doors
+      - imageUrl: ''
+        title: Special Wheel Hangers
+      - imageUrl: ''
+        title: Wheel Hangers for Curtains
+      - imageUrl: ''
+        title: Wheel Hangers for Glass
+      - imageUrl: ''
+        title: Brackets for Hanging Panels
+      - imageUrl: ''
+        title: Guide Tracks & Guide Track Bends
+      - imageUrl: ''
+        title: Brackets with Rollers for Guide Tracks
+      - imageUrl: ''
+        title: Roller Guides for Guide Tracks
+      - imageUrl: ''
+        title: Special Guides
+      - imageUrl: ''
+        title: Guides for Sliding Doors
+      - imageUrl: ''
+        title: Bottom Rollers
     title: Fittings
-    products:
-      -
-        title: "Track Profiles & Track Bends"
-        imageUrl: ""
-      -
-        title: "Track Support Brackets"
-        imageUrl: ""
-      -
-        title: "Track & Wall End Stops"
-        imageUrl: ""
-      -
-        title: "Wheel Hangers for Sliding Doors"
-        imageUrl: ""
-      -
-        title: "Wheel Hangers for Folding & Rotating Doors"
-        imageUrl: ""
-      -
-        title: "Special Wheel Hangers"
-        imageUrl: ""
-      -
-        title: "Wheel Hangers for Curtains"
-        imageUrl: ""
-      -
-        title: "Wheel Hangers for Glass"
-        imageUrl: ""
-      -
-        title: "Brackets for Hanging Panels"
-        imageUrl: ""
-      -
-        title: "Guide Tracks & Guide Track Bends"
-        imageUrl: ""
-      -
-        title: "Brackets with Rollers for Guide Tracks"
-        imageUrl: ""
-      -
-        title: "Roller Guides for Guide Tracks"
-        imageUrl: ""
-      -
-        title: "Special Guides"
-        imageUrl: ""
-      -
-        title: "Guides for Sliding Doors"
-        imageUrl: ""
-      -
-        title: "Bottom Rollers"
-        imageUrl: ""
-  -
-    pdfs:
-      -
-        pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
+  - pdfs:
+      - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
         pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
-        title: 'B1 - Heavy Duty Industrial Sliding Door Leaflet'
-      -
-        pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
+        title: B1 - Heavy Duty Industrial Sliding Door Leaflet
+      - pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
         pdfUrl: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017.pdf
-        title: 'B1 - Heavy Duty Sliding Door Fittings'
-      -
-        pdfThumb: /img/manual_folding_door_june_2017_thumb.png
+        title: B1 - Heavy Duty Sliding Door Fittings
+      - pdfThumb: /img/manual_folding_door_june_2017_thumb.png
         pdfUrl: /img/manual_folding_door_june_2017.pdf
-        title: 'B1 - Heavy Duty Folding Door Installation, Operation & Maintenance Manual'
+        title: >-
+          B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
+          Manual
     title: Downloads
 ---
+

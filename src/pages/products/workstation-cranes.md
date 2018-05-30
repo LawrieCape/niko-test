@@ -61,6 +61,8 @@ customSections:
     videos:
       - vidDescription: Ceiling Mounted Bridge Crane - Austria
         youTubeId: 'https://www.youtube.com/watch?v=XIki84wuwXs&t=39s'
+  - body: "* Ultra-low headroom\r\n\r\n* Crane bridge does not grab\r\n\r\n* Low-maintenance and long working life\r\n\r\n* Easy to install\r\n\r\n* Fit directly to roof and a wide range of structures\r\n\r\n* For indoor and outdoor applications\r\n\r\n* Ideal for food applications and clean areas\r\n\r\n* Easy to extend, modify or relocate\r\n\r\n* Can connect to other cranes and conveyors\r\n\r\n* Cost effective"
+    title: Advantages
   - body: >-
 
       Freestanding light cranes are generally used when the ceiling is not
@@ -148,7 +150,5 @@ customSections:
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
         title: C2 - Light Cranes Technical Description
     title: Downloads
-  - body: test
-    title: Advantages
 ---
 

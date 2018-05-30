@@ -2,6 +2,7 @@
 templateKey: product-landing
 order: 2
 title: C1 - Overhead Conveyors
+navTitle: Overhead Conveyors
 customSections:
   - body: >-
       NikoTrack produces manual overhead conveyor and monorail transfer systems

@@ -4,60 +4,17 @@ order: 5
 title: C2 - Light Cranes
 navTitle: Light Cranes
 customSections:
-  - body: >-
-      Niko C2 light cranes are the ideal solution for lightweight lifting of
-      load capacities up to 2000kg. They are supplied in a modular kit form,
-      which enables them to be easily assembled, modified or moved to
-      accommodate changes in your working patterns. The construction of Niko C2
-      light cranes is considerably lighter, free-running and more versatile than
-      conventional I-beam overhead cranes.
-
-
-      #### Features
-
-
+  - body: |-
       * Lift loads up to 2000kg
-
       * Bridge span up to 12m
-
       * Smooth and easy movement in all directions
-
       * Manual or electronic lifting and travel
-
       * Robust construction
-
       * Wide range of fixing brackets
-
       * Zinc plated, powder coated, hot dip galvanised finish
-
       * Available in Stainless steel
-
       * Modular design
-
-
-      #### Advantages
-
-
-      * Ultra-low headroom
-
-      * Crane bridge does not grab
-
-      * Low-maintenance and long working life
-
-      * Easy to install
-
-      * Fit directly to roof and a wide range of structures
-
-      * For indoor and outdoor applications
-
-      * Ideal for food applications and clean areas
-
-      * Easy to extend, modify or relocate
-
-      * Can connect to other cranes and conveyors
-
-      * Cost effective
-    title: Product Details
+    title: Features
     videos:
       - vidDescription: Ceiling Mounted Bridge Crane - Austria
         youTubeId: 'https://www.youtube.com/watch?v=XIki84wuwXs&t=39s'

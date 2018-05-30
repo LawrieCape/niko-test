@@ -2,6 +2,7 @@
 templateKey: product-landing
 order: 5
 title: C2 - Light Cranes
+navTitle: Light Cranes
 customSections:
   - body: >-
       Niko C2 light cranes are the ideal solution for lightweight lifting of

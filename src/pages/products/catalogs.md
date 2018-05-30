@@ -2,6 +2,7 @@
 templateKey: product-landing
 order: 6
 title: Resources
+navTitle: Resources
 customSections:
   - pdfs:
       - pdfThumb: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_thumb.png

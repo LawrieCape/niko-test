@@ -101,7 +101,7 @@ collections:
                 widget: image
   -
     name: blog
-    label: Blog
+    label: Latest News
     folder: src/pages/blog
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -127,72 +127,3 @@ collections:
         label: Body
         name: body
         widget: markdown
-  -
-    name: pages
-    label: Pages
-    files:
-      -
-        file: src/pages/about/index.md
-        label: About
-        name: about
-        fields:
-          -
-            label: 'Template Key'
-            name: templateKey
-            widget: hidden
-            default: about-page
-          -
-            label: Title
-            name: title
-            widget: string
-          -
-            label: Body
-            name: body
-            widget: markdown
-      -
-        file: src/pages/services/index.md
-        label: Services
-        name: services
-        fields:
-          -
-            label: 'Template Key'
-            name: templateKey
-            widget: hidden
-            default: service-page
-          -
-            label: Title
-            name: title
-            widget: string
-          -
-            label: Image
-            name: image
-            widget: image
-          -
-            label: Heading
-            name: heading
-            widget: string
-          -
-            label: Description
-            name: description
-            widget: markdown
-          -
-            label: Services
-            name: services
-            widget: list
-            fields:
-              -
-                label: Title
-                name: title
-                widget: string
-              -
-                label: Image
-                name: imageUrl
-                widget: image
-              -
-                label: ImageAlt
-                name: imageAlt
-                widget: string
-              -
-                label: Description
-                name: description
-                widget: string

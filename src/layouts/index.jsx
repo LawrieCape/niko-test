@@ -46,6 +46,7 @@ export const templatePageQuery = graphql`
 					}
 					frontmatter {
 						title
+						navTitle
 						templateKey
 						order
 					}

@@ -55,6 +55,7 @@ export const pageQuery = graphql`
 			html
 			frontmatter {
 				title
+				navTitle
 				customSections {
 					title
 					body

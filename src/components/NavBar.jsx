@@ -12,7 +12,7 @@ export const NavBar = ({ posts }) => {
 						.map(({ node: post }) => {
 							return (
 								<Link key={post.id} className="nav__link" to={post.fields.slug}>
-									{post.frontmatter.title}
+									{post.frontmatter.navTitle}
 								</Link>
 							);
 						})

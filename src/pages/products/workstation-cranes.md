@@ -148,5 +148,7 @@ customSections:
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
         title: C2 - Light Cranes Technical Description
     title: Downloads
+  - body: test
+    title: Advantages
 ---
 

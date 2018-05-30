@@ -4,8 +4,8 @@ import Helmet from 'react-helmet';
 
 // export default class ContactPageTemplate extends React.Component {
 // 	render() {
-const ContactPageTemplate = (props) => {
-	const { data } = props;
+const ContactPageTemplate = () => {
+	// const { data } = props;
 	// const { edges: posts } = data.allMarkdownRemark;
 
 	return (
@@ -29,23 +29,23 @@ const ContactPageTemplate = (props) => {
 
 export default ContactPageTemplate;
 
-export const contactPageQuery = graphql`
-	query ContactPage {
-		allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-			edges {
-				node {
-					excerpt(pruneLength: 400)
-					id
-					fields {
-						slug
-					}
-					frontmatter {
-						title
-						templateKey
-						date(formatString: "MMMM DD, YYYY")
-					}
-				}
-			}
-		}
-	}
-`;
+// export const contactPageQuery = graphql`
+// 	query ContactPage {
+// 		allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+// 			edges {
+// 				node {
+// 					excerpt(pruneLength: 400)
+// 					id
+// 					fields {
+// 						slug
+// 					}
+// 					frontmatter {
+// 						title
+// 						templateKey
+// 						date(formatString: "MMMM DD, YYYY")
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// `;

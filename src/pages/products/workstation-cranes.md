@@ -4,6 +4,14 @@ order: 5
 title: C2 - Light Cranes
 navTitle: Light Cranes
 customSections:
+  - body: >-
+      Niko C2 light cranes are the ideal solution for lightweight lifting of
+      load capacities up to 2000kg. They are supplied in a modular kit form,
+      which enables them to be easily assembled, modified or moved to
+      accommodate changes in your working patterns. The construction of Niko C2
+      light cranes is considerably lighter, free-running and more versatile than
+      conventional I-beam overhead cranes.
+    title: Intro
   - body: |-
       * Lift loads up to 2000kg
       * Bridge span up to 12m

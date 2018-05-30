@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
+import '../components/LatestNews.scss';
 
 
 // export default class LatestNewsPageTemplate extends React.Component {
@@ -18,12 +19,11 @@ const LatestNewsPageTemplate = (props) => {
 	return (
 
 		<div className="container-fluid">
-			<article className="">
-				<Helmet title="TEMP TITLE" />
+			<div className="page-body">
+				<Helmet title="Latest News | Niko" />
 
-				<header>
-					<h1 className="">TEMP TITLE</h1>
-					<hr />
+				<header className="page-header">
+					<h1 className="">Latest News</h1>
 				</header>
 
 				{posts
@@ -32,37 +32,28 @@ const LatestNewsPageTemplate = (props) => {
 					})
 					.map(({ node: post }) => {
 						return (
-							<div
-								className="content"
+							<article
+								className="latest-news__item"
 								key={post.id}
 							>
-								<p>
-									<Link
-										className="has-text-primary"
-										to={post.fields.slug}
-									>
-										{post.frontmatter.title}
-									</Link>
-									<span> &bull; </span>
-									<small>{post.frontmatter.date}</small>
-								</p>
-								<p>
-									{post.excerpt}
-									<br />
-									<br />
-									<Link
-										className="button is-small"
-										to={post.fields.slug}
-									>
-										Keep Reading →
-									</Link>
-								</p>
+								<header>
+									<h2 className="h5">
+										<Link to={post.fields.slug}>
+											{post.frontmatter.title}
+										</Link>
+									</h2>
+									<p className="">
+										<small>{post.frontmatter.date}</small>
+									</p>
+								</header>
 
-								<hr />
-							</div>
+								<p className="">
+									{post.excerpt}
+								</p>
+							</article>
 						);
 					})}
-			</article>
+			</div>
 		</div>
 	);
 };

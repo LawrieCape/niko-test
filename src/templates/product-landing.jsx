@@ -9,10 +9,10 @@ export const ProductPageTemplate = ({
 }) => {
 	return (
 		<div className="container-fluid">
-			<article className="">
-				<Helmet title={`Product | ${title}`} />
+			<article className="page-body">
+				<Helmet title={`${title} | Niko`} />
 
-				<header>
+				<header className="page-header">
 					<h1 className="">{title}</h1>
 				</header>
 

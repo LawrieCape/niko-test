@@ -10,11 +10,11 @@ const ContactPageTemplate = () => {
 
 	return (
 		<div className="container-fluid">
-			<article className="">
-				<Helmet title="Contact us!" />
+			<article className="page-body">
+				<Helmet title="Contact | Niko" />
 
-				<header>
-					<h1 className="">Contact us!</h1>
+				<header className="page-header">
+					<h1 className="">Contact</h1>
 				</header>
 
 				<form>

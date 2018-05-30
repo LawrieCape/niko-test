@@ -1,11 +1,5 @@
 @import '../global/_variables';
 
-// LAYOUT
-// .page-article
-.container-fluid > article {
-	padding: ms(7) 0;
-}
-
 //
 .product-info {
 	@media #{$mqMediumAndUp} {
@@ -28,16 +22,6 @@
 .product-sections {
 	@media #{$mqMediumAndUp} {
 		padding-left: 5%;
-	}
-}
-
-article > header {
-	border-bottom: 2px dashed $black--opaque5;
-	padding-bottom: ms(5);
-	margin-bottom: ms(5);
-
-	h1 {
-		margin-bottom: 0;
 	}
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import { HomePageHero } from '../components/HomePageHero';
 
 
@@ -15,18 +16,34 @@ const IndexPage = (props) => {
 	// 	));
 
 	return (
-		<div>
-			<div className="container-fluid">
-				<h1>Some medium length header</h1>
-				<h2>Some medium length header</h2>
-				<h3>Some medium length header</h3>
-				<h4>Some medium length header</h4>
-				<h5>Some medium length header</h5>
-				<h6>Some medium length header</h6>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		<div className="container-fluid">
+			<div className="page-body">
+				<Helmet title="Home | Niko" />
+
+				<header className="page-header">
+					<h1 className="">Home</h1>
+				</header>
+
+				<div className="row">
+					<div className="col-sm-12">
+
+						<h1>Some medium length header</h1>
+						<h2>Some medium length header</h2>
+						<h3>Some medium length header</h3>
+						<h4>Some medium length header</h4>
+						<h5>Some medium length header</h5>
+						<h6>Some medium length header</h6>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+					</div>
+					<div className="col-sm-12">
+
+						{/* product landing pages */}
+						<HomePageHero posts={posts} />
+
+					</div>
+				</div>
 			</div>
-			{/* product landing pages */}
-			<HomePageHero posts={posts} />
 		</div>
 	);
 };

@@ -10,7 +10,7 @@ const TemplateWrapper = ({ children, data }) => {
 
 	return (
 		<div>
-			<Helmet title="Home | Gatsby + Netlify CMS">
+			<Helmet title="Home | Niko">
 				<html lang="en-GB" />
 				<body className="root123" />
 			</Helmet>

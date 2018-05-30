@@ -78,6 +78,23 @@ p {
 }
 
 
+// LAYOUT
+// .page-article
+.page-body {
+	padding: ms(7) 0;
+}
+
+.page-header {
+	border-bottom: 2px dashed $black--opaque5;
+	padding-bottom: ms(5);
+	margin-bottom: ms(5);
+
+	h1 {
+		margin-bottom: 0;
+	}
+}
+
+
 .container-fluid {
 	margin-right: auto;
 	margin-left: auto;

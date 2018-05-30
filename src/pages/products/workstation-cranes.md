@@ -11,56 +11,23 @@ customSections:
       accommodate changes in your working patterns. The construction of Niko C2
       light cranes is considerably lighter, free-running and more versatile than
       conventional I-beam overhead cranes.
-
-
-      #### Features
-
-
+    title: Intro
+  - body: |-
       * Lift loads up to 2000kg
-
       * Bridge span up to 12m
-
       * Smooth and easy movement in all directions
-
       * Manual or electronic lifting and travel
-
       * Robust construction
-
       * Wide range of fixing brackets
-
       * Zinc plated, powder coated, hot dip galvanised finish
-
       * Available in Stainless steel
-
       * Modular design
-
-
-      #### Advantages
-
-
-      * Ultra-low headroom
-
-      * Crane bridge does not grab
-
-      * Low-maintenance and long working life
-
-      * Easy to install
-
-      * Fit directly to roof and a wide range of structures
-
-      * For indoor and outdoor applications
-
-      * Ideal for food applications and clean areas
-
-      * Easy to extend, modify or relocate
-
-      * Can connect to other cranes and conveyors
-
-      * Cost effective
-    title: Product Details
+    title: Features
     videos:
       - vidDescription: Ceiling Mounted Bridge Crane - Austria
         youTubeId: 'https://www.youtube.com/watch?v=XIki84wuwXs&t=39s'
+  - body: "* Ultra-low headroom\r\n\r\n* Crane bridge does not grab\r\n\r\n* Low-maintenance and long working life\r\n\r\n* Easy to install\r\n\r\n* Fit directly to roof and a wide range of structures\r\n\r\n* For indoor and outdoor applications\r\n\r\n* Ideal for food applications and clean areas\r\n\r\n* Easy to extend, modify or relocate\r\n\r\n* Can connect to other cranes and conveyors\r\n\r\n* Cost effective"
+    title: Advantages
   - body: >-
 
       Freestanding light cranes are generally used when the ceiling is not

@@ -34,6 +34,7 @@ $c-grey-1:						#eaecee;
 $primary:						#005084;
 $primary-dark:					#003558;
 $primary-invert:				#ffffff;
+$secondary:						#f37021;
 
 // RGBA
 $black--opaque1:				rgba(0, 0, 0, 0.9);
@@ -93,9 +94,9 @@ $body-bg:						$white;
 $body-color:					$black;
 $dt-font-weight:				$font-weight-bold;
 $label-margin-bottom:			16px;
-$link-color:					$orange;
+$link-color:					$secondary;
 $link-decoration:				underline;
-$link-hover-color:				lighten($orange, 10%);
+$link-hover-color:				lighten($secondary, 10%);
 $link-hover-decoration:			underline;
 $paragraph-margin-bottom:		16px;
 $table-caption-color:			$yellow;

@@ -7,6 +7,43 @@
 @import '../global/type';
 @import '../global/grid';
 
+
+// html {
+// 	// min-height: 100%;
+// 	height: 100%; // Use this instead of min-height for sticky footers?
+// 	box-sizing: border-box;
+// 	overflow-x: hidden;
+// 	overflow-y: scroll;
+// 	-webkit-font-smoothing: antialiased;
+// }
+//
+// body {
+// 	min-height: 100%;
+// 	display: flex;
+// 	flex-direction: column;
+// }
+//
+// #___gatsby {
+// 	flex: 1 1 100%;
+// 	display: flex;
+// 	flex-direction: column;
+// }
+//
+// .page {
+// 	flex: 1 1 100%;
+// 	display: flex;
+// 	flex-flow: column nowrap;
+// }
+//
+// .page__body {
+// 	flex: 1 0 auto;
+// }
+//
+// .page__footer {
+// 	flex: 0 0 auto;
+// }
+
+
 a {
 	transition: color 100ms ease-in-out;
 	text-decoration: none;
@@ -23,31 +60,38 @@ object {
 	border: 0;
 }
 
-h1 {
+h1,
+.h1 {
 	@include type--h1;
 }
 
-h2 {
+h2,
+.h2 {
 	@include type--h2;
 }
 
-h3 {
+h3,
+.h3 {
 	@include type--h3;
 }
 
-h4 {
+h4,
+.h4 {
 	@include type--h4;
 }
 
-h5 {
+h5,
+.h5 {
 	@include type--h5;
 }
 
-h6 {
+h6,
+.h6 {
 	@include type--h6;
 }
 
-p {
+p,
+.p {
 	@include type--p;
 }
 
@@ -61,7 +105,7 @@ p {
 table {
 	// max-width: 500px;
 	width: auto !important;
-	border: 1px solid $primary;
+	border: 1px solid $primary-dark;
 	font-size: 14px;
 	line-height: 1.3em;
 	margin-top: 1.5rem;
@@ -69,7 +113,7 @@ table {
 
 td,
 th {
-	border-bottom: 1px solid $primary !important;
+	border-bottom: 1px solid $primary-dark !important;
 	padding: ms(-5);
 }
 
@@ -103,6 +147,9 @@ li {
 
 
 // LAYOUT
+main {
+	// margin-top: 0;
+}
 // .page-article
 .page-body {
 	padding: ms(7) 0;
@@ -116,42 +163,48 @@ li {
 	h1 {
 		margin-bottom: 0;
 	}
+
+	img {
+		width: 100%;
+	}
 }
 
+
+.page-body--product {
+	padding-top: 0;
+
+	.page-header {
+		h1 {
+			margin-top: 0.5em;
+		}
+	}
+}
 
 .container-fluid {
 	margin-right: auto;
 	margin-left: auto;
-	// padding-right: $spacing--small;
-	// padding-left: $spacing--small;
-	padding-right: 5vw;
-	padding-left: 5vw;
 	max-width: $responsiveMaxWidth;
+	padding-right: ms(0);
+	padding-left: ms(0);
 
 	@media #{$mqMediumAndUp} {
-		// padding-right: $spacing--inbetween;
-		// padding-left: $spacing--inbetween;
-		padding-right: 4vw;
-		padding-left: 4vw;
+		padding-right: ms(2);
+		padding-left: ms(2);
 	}
 
 	@media #{$mqLargeAndUp} {
-		// padding-right: $spacing--large;
-		// padding-left: $spacing--large;
-		// padding-right: 5%;
-		// padding-left: 5%;
+		padding-right: ms(3);
+		padding-left: ms(3);
 	}
 
 	@media #{$mqXLargeAndUp} {
-		// padding-right: $spacing--xlarge;
-		// padding-left: $spacing--xlarge;
-		// padding-right: 5%;
-		// padding-left: 5%;
+		padding-right: ms(4);
+		padding-left: ms(4);
 	}
 
 	@media #{$mqXXLargeAndUp} {
-		padding-right: 10vw; // 10%
-		padding-left: 10vw; // 10%
+		padding-right: ms(5);
+		padding-left: ms(5);
 	}
 }
 

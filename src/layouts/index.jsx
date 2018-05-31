@@ -9,19 +9,24 @@ const TemplateWrapper = ({ children, data }) => {
 	const pages = data.allMarkdownRemark.edges;
 
 	return (
-		<div>
+		<div className="page">
 			<Helmet title="Home | Niko">
 				<html lang="en-GB" />
 				<body className="root123" />
 			</Helmet>
 
-			<SiteHeader posts={pages} />
+			<div className="page__body">
+				<SiteHeader posts={pages} />
 
-			<main>
-				{children()}
-			</main>
+				<main>
+					{children()}
+				</main>
+			</div>
 
-			<SiteFooter />
+			<div className="page__footer">
+				<SiteFooter />
+			</div>
+
 		</div>
 	);
 };

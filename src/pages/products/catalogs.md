@@ -3,6 +3,8 @@ templateKey: product-landing
 order: 6
 title: Resources
 navTitle: Resources
+heroImage: https://dummyimage.com/1520x380/
+heroDescription: "**Intro content. This is rich-text/markdown.** NikoTrack is of cold rolled steel manufacture and supplied in standard 6 meter lengths in either plain, zinc plated, or stainless steel. Due to the design of the tapered sides this reduces the possibility of a build up of dust, thus assuring smooth running characteristics of the trolleys.\r\n\r\n* item 1\r\n* item 2"
 customSections:
   - pdfs:
       - pdfThumb: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_thumb.png
@@ -12,6 +14,7 @@ customSections:
         pdfUrl: /img/conveyor_system_february_2018_en.pdf
         title: C1 - Conveyor Systems Catalogue
     title: C1 - Overhead Conveyor Systems
+    navTitle: Overhead Conveyor Systems
   - pdfs:
       - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
         pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
@@ -23,6 +26,7 @@ customSections:
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
         title: C2 - Light Cranes Technical Description
     title: C2 - Light Cranes
+    navTitle: Light Cranes
   - pdfs:
       - pdfThumb: /img/festoon_systems_catalogue_eng_ver_march_2018_thumb.png
         pdfUrl: /img/festoon_systems_catalogue_eng_ver_march_2018.pdf
@@ -31,11 +35,13 @@ customSections:
         pdfUrl: /img/c3-festoon-cable-&-hose-track-(c-rail)-technical-guide.pdf
         title: C3 - Festoons and Cable Trolleys Technical Guide
     title: C3 - Festoons and Cable Trolleys
+    navTitle: Festoons and Cable Trolleys
   - pdfs:
       - pdfThumb: /img/fall-arrest-system-manual-may2014_thumb.png
         pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
         title: C4 - Fall Protection
     title: C4 - Fall Protection
+    navTitle: Fall Protection
   - pdfs:
       - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
         pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
@@ -54,10 +60,11 @@ customSections:
           B1 - Heavy Duty Sliding Door Installation, Operation & Maintenance
           Manual
     title: B1 - Folding and Sliding Doors
+    navTitle: Folding and Sliding Doors
   - pdfs:
       - pdfThumb: /img/leaflet_jib_crane_january_2017_thumb.png
         pdfUrl: /img/leaflet_jib_crane_january_2017.pdf
         title: Jib Cranes Leaflet
     title: Jib Cranes
+    navTitle: Jib Cranes
 ---
-

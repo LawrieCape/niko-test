@@ -1,7 +1,7 @@
 @import '../global/_variables';
 
 .homepage-hero__wrapper {
-	max-width: 900px;
+	// max-width: 900px;
 	margin: ms(5) auto;
 }
 
@@ -11,15 +11,57 @@
 }
 
 .homepage-hero__link {
-	flex: 0 0 50%;
-	padding: ms(3);
-	border: 1px solid $red;
-	background-color: $purple;
-	transition: opacity 100ms ease-in-out;
-	color: $white;
+	margin-top: 0;
+	flex: 0 0 100%;
+	color: currentColor;
+	padding: 0 0 ms(1) 0;
+	display: flex;
 
 	&:hover {
-		opacity: 0.6;
-		color: $white;
+		color: currentColor;
+		text-decoration: none;
+
+		.homepage-hero__link-inner {
+			background-color: $black--opaque10;
+		}
+	}
+
+	@media #{$mqMediumAndUp} {
+		flex-basis: 50%;
+		padding: ms(-2);
+	}
+
+	@media #{$mqLargeAndUp} {
+		// padding: ms(-2);
+		flex-basis: 33.333333%;
+		padding: ms(-3);
+	}
+
+	@media #{$mqXLargeAndUp} {
+		padding: ms(-1);
+	}
+
+	@media #{$mqXLargeAndUp} {
+		padding: ms(-1);
+	}
+}
+
+.homepage-hero__link-inner {
+	padding: ms(1);
+	border: 1px solid $black--opaque6;
+	flex: 1 0 100%;
+	transition: background-color 150ms ease-in-out;
+	position: relative;
+
+	@media #{$mqMediumAndUp} {
+		// padding: ms(1);
+	}
+
+	@media #{$mqLargeAndUp} {
+		// padding: ms(1);
+	}
+
+	@media #{$mqXLargeAndUp} {
+		padding: ms(3);
 	}
 }

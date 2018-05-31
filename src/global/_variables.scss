@@ -34,6 +34,7 @@ $c-grey-1:						#eaecee;
 $primary:						#005084;
 $primary-dark:					#003558;
 $primary-invert:				#ffffff;
+$secondary:						#f37021;
 
 // RGBA
 $black--opaque1:				rgba(0, 0, 0, 0.9);
@@ -45,6 +46,7 @@ $black--opaque6:				rgba(0, 0, 0, 0.4);
 $black--opaque7:				rgba(0, 0, 0, 0.3);
 $black--opaque8:				rgba(0, 0, 0, 0.2);
 $black--opaque9:				rgba(0, 0, 0, 0.1);
+$black--opaque10:				rgba(0, 0, 0, 0.05);
 
 $white--opaque1:				rgba(255, 255, 255, 0.9);
 $white--opaque2:				rgba(255, 255, 255, 0.8);
@@ -92,9 +94,9 @@ $body-bg:						$white;
 $body-color:					$black;
 $dt-font-weight:				$font-weight-bold;
 $label-margin-bottom:			16px;
-$link-color:					$orange;
+$link-color:					$secondary;
 $link-decoration:				underline;
-$link-hover-color:				darken($orange, 40%);
+$link-hover-color:				lighten($secondary, 10%);
 $link-hover-decoration:			underline;
 $paragraph-margin-bottom:		16px;
 $table-caption-color:			$yellow;
@@ -106,7 +108,7 @@ $table-cell-padding:			20px;
 -----------------------------------------------------------------------------*/
 $responsiveColumnGutter: 32px;
 // (1300px + $responsiveColumnGutter)
-$responsiveMaxWidth: 2048px; // Need to account for the left/right 5%/10% padding
+$responsiveMaxWidth: 1600px; // Need to account for the left/right 5%/10% padding
 $responsiveNumberColumns: 24;
 
 

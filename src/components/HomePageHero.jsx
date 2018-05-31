@@ -1,6 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
+import ReactMarkdown from 'react-markdown';
 import './HomePageHero.scss';
 
 export const HomePageHero = ({ posts }) => {
@@ -18,7 +19,12 @@ export const HomePageHero = ({ posts }) => {
 								className="homepage-hero__link"
 								to={post.fields.slug}
 							>
-								{post.frontmatter.title}
+								<div className="homepage-hero__link-inner">
+									<img src={post.frontmatter.heroImage} alt="product hero" />
+									<h2 className="h4">{post.frontmatter.title}</h2>
+									<ReactMarkdown source={post.frontmatter.heroDescription} />
+									{/* <p>{post.frontmatter.heroDescription}</p> */}
+								</div>
 							</Link>
 						);
 					})}

@@ -38,11 +38,11 @@
 
 	img {
 		border-radius: 2px;
-		border: 1px solid rgba($primary, 0.4);
+		border: 1px solid $black--opaque6;
 		width: 100%;
 	}
 
 	&:hover {
-		opacity: 0.7;
+		opacity: 0.666666;
 	}
 }

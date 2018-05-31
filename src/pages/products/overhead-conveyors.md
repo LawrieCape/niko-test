@@ -3,6 +3,8 @@ templateKey: product-landing
 order: 2
 title: C1 - Overhead Conveyors
 navTitle: Overhead Conveyors
+heroImage: https://dummyimage.com/1520x380/
+heroDescription: "**Intro content. This is rich-text/markdown.** NikoTrack is of cold rolled steel manufacture and supplied in standard 6 meter lengths in either plain, zinc plated, or stainless steel. Due to the design of the tapered sides this reduces the possibility of a build up of dust, thus assuring smooth running characteristics of the trolleys.\r\n\r\n* item 1\r\n* item 2"
 customSections:
   - body: >-
       NikoTrack produces manual overhead conveyor and monorail transfer systems
@@ -12,7 +14,7 @@ customSections:
       ### Key Features
 
 
-      * Multiple track sizes 
+      * Multiple track sizes
 
       * Manual or powered
 
@@ -39,7 +41,8 @@ customSections:
       * Situations where flightbars are used to move parts between processes
       within a plant
     images: []
-    title: 'Overhead Conveyor and Monorail Systems '
+    title: 'Overhead Conveyor and Monorail Systems'
+    navTitle: 'Overhead Conveyor and Monorail Systems'
   - body: >-
       **Modular Design**
 
@@ -84,6 +87,7 @@ customSections:
     images:
       - imageUrl: /img/21.b62-lg-195x195.jpg
     title: Advantages
+    navTitle: Advantages
   - body: >-
       As an alternative to fully powered overhead conveyors, Niko offers a
       semi-automatic alternative. This system utilises any manual conveyor
@@ -104,6 +108,7 @@ customSections:
       conveyor are its competitive price, quiet operation and the fact that it
       can be added to a manual conveyor at a future stage.
     title: Localised Powered Travel for Manual Overhead Conveyors
+    navTitle: Localised Powered Travel for Manual Overhead Conveyors
   - images:
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_1.jpg
@@ -113,6 +118,7 @@ customSections:
         imageUrl: /img/overhead_conveyor_ex_3.jpg
     pdfs: []
     title: Track Configuration Samples
+    navTitle: Track Configuration
   - body: >-
       ### Manual Transfer Overhead Conveyor Systems
 
@@ -164,6 +170,7 @@ customSections:
       reducing capital expenditure on more complex overhead conveyor track
       layouts.
     title: Further Details
+    navTitle: Further Details
   - body: >-
       If you would like to receive a no obligation quotation for a system you
       are planning, then please complete the following form, and we will get
@@ -175,6 +182,7 @@ customSections:
 
       Thank you!
     title: Request a quote
+    navTitle: Request a quote
   - pdfs:
       - pdfThumb: /img/conveyor_system_february_2018_en_thumb.png
         pdfUrl: /img/conveyor_system_february_2018_en.pdf
@@ -183,8 +191,8 @@ customSections:
         pdfUrl: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_print.pdf
         title: C1 - Overhead Conveyors Leaflet
     title: Downloads
+    navTitle: Downloads
     videos:
       - vidDescription: Nikotrack Conveyor System for powder coating | Czech Republic
         youTubeId: 'https://www.youtube.com/watch?v=WLi-ApsjEPA&t=8s'
 ---
-

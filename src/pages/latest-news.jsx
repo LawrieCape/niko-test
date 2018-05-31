@@ -37,7 +37,7 @@ const LatestNewsPageTemplate = (props) => {
 								key={post.id}
 							>
 								<header>
-									<h2 className="h5">
+									<h2 className="h3">
 										<Link to={post.fields.slug}>
 											{post.frontmatter.title}
 										</Link>

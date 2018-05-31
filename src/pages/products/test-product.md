@@ -1,8 +1,8 @@
 ---
 templateKey: product-landing
-order: 0
-title: Test Product
-navTitle: Test Product Page Title
+order: 7
+title: Test Page Title
+navTitle: Test Page
 customSections:
   - body: "# Heading text 1\r\n\n## Heading text 2\r\n\n### Heading text 3\r\n\n#### Heading text 4\r\n\n##### Heading text 5\r\n\n###### Heading text 6\r\n\nNikoTrack’s six profiles are immobile without their trolleys. **NikoTrack’s trolleys come in a variety of styles, all with different applications in mind**, most offered in every profile series, while some are specific to larger or smaller profiles.\r\n\r\n_The trolleys pictured below are designated with partial part numbers. Each trolleys full part number is always prefixed with a track profile number (21, 23, 24 etc.)_\r\n\n**TROLLEY SWL (Kg)**\r\n\r\nSERIES | 21 | 23 | 24 | 25 | 26 | 27\r\n--- | --- | --- | --- | --- | --- | ---\r\n2 Wheel | 10 | 20 | 40 | 100 | 200 | 400\r\n4 Wheel | 20 | 40 | 80 | 200 | 400 | 800\r\nFlight Bar | 40 | 80 | 160 | 400 | 800 | 1600"
     images:
@@ -76,4 +76,3 @@ customSections:
       - vidDescription: test description 2
         youTubeId: z5PTPTPAgKE
 ---
-

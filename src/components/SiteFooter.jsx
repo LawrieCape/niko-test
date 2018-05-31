@@ -11,10 +11,10 @@ import IconYouTube from '-!babel!svg-react-loader!../img/font-awesome/brands/you
 const SiteFooter = () => {
 	return (
 		<footer className="site-footer">
-			<div className="row">
-				<div className="col-sm-12 col-md-4 col-md-4">
-					{/* <h2>Info</h2> */}
+			<div className="container-fluid">
+				<div className="footer">
 					<div className="footer__links">
+						<h4>Info</h4>
 						<Link className="" to="/">
 							Home
 						</Link>
@@ -37,36 +37,37 @@ const SiteFooter = () => {
 							Contact
 						</Link>
 					</div>
-				</div>
-				<div className="col-sm-12 col-md-4 col-md-4">
+
 					<div className="footer__contact-details">
-						{/* <h2>Contact</h2> */}
+						<h4>Contact</h4>
 						<p>NikoTrack <br />Suite 9B <br />200 Highpoint Avenue <br /> Portsmouth<br /> RI 02871<br /> USA</p>
 						<p>
 							Phone: +1 401 683 7525<br />
 						</p>
 						<p>Email: <a href="mailto:info@nikotrack.com">info@nikotrack.com</a></p>
 					</div>
+
 					<div className="footer__copyright">
 						<p>&copy; 2018 NikoTrack All Rights Reserved</p>
 					</div>
-				</div>
-				{/* <div className="col-sm-12 col-md-4 col-md-4">
-					<h2>Social</h2>
-					<ul className="footer__social">
-						<li><a href="https://twitter.com/nikoltd"><IconTwitter /></a></li>
-						<li><a href="https://www.facebook.com/NikoLtd"><IconFacebook /></a></li>
-						<li><a href="https://www.linkedin.com/company/niko-ltd"><IconLinkedIn /></a></li>
-						<li><a href="https://www.youtube.com/user/NikoLimited"><IconYouTube /></a></li>
-					</ul>
 
-					<h2>Logos</h2>
-					<ul className="footer__logos">
-						<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="ISO logos" /></a></li>
-						<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="FSB Member" /></a></li>
-						<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="LEEA Full Member" /></a></li>
-					</ul>
-				</div> */}
+					{/* <div className="col-sm-12 col-md-4 col-md-4">
+						<h2>Social</h2>
+						<ul className="footer__social">
+							<li><a href="https://twitter.com/nikoltd"><IconTwitter /></a></li>
+							<li><a href="https://www.facebook.com/NikoLtd"><IconFacebook /></a></li>
+							<li><a href="https://www.linkedin.com/company/niko-ltd"><IconLinkedIn /></a></li>
+							<li><a href="https://www.youtube.com/user/NikoLimited"><IconYouTube /></a></li>
+						</ul>
+
+						<h2>Logos</h2>
+						<ul className="footer__logos">
+							<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="ISO logos" /></a></li>
+							<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="FSB Member" /></a></li>
+							<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="LEEA Full Member" /></a></li>
+						</ul>
+					</div> */}
+				</div>
 			</div>
 		</footer>
 	);

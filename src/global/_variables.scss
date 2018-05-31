@@ -45,6 +45,7 @@ $black--opaque6:				rgba(0, 0, 0, 0.4);
 $black--opaque7:				rgba(0, 0, 0, 0.3);
 $black--opaque8:				rgba(0, 0, 0, 0.2);
 $black--opaque9:				rgba(0, 0, 0, 0.1);
+$black--opaque10:				rgba(0, 0, 0, 0.05);
 
 $white--opaque1:				rgba(255, 255, 255, 0.9);
 $white--opaque2:				rgba(255, 255, 255, 0.8);
@@ -94,7 +95,7 @@ $dt-font-weight:				$font-weight-bold;
 $label-margin-bottom:			16px;
 $link-color:					$orange;
 $link-decoration:				underline;
-$link-hover-color:				darken($orange, 40%);
+$link-hover-color:				lighten($orange, 10%);
 $link-hover-decoration:			underline;
 $paragraph-margin-bottom:		16px;
 $table-caption-color:			$yellow;

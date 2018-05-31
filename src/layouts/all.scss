@@ -60,31 +60,38 @@ object {
 	border: 0;
 }
 
-h1 {
+h1,
+.h1 {
 	@include type--h1;
 }
 
-h2 {
+h2,
+.h2 {
 	@include type--h2;
 }
 
-h3 {
+h3,
+.h3 {
 	@include type--h3;
 }
 
-h4 {
+h4,
+.h4 {
 	@include type--h4;
 }
 
-h5 {
+h5,
+.h5 {
 	@include type--h5;
 }
 
-h6 {
+h6,
+.h6 {
 	@include type--h6;
 }
 
-p {
+p,
+.p {
 	@include type--p;
 }
 

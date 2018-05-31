@@ -18,10 +18,12 @@ export const BlogPostTemplate = ({
 
 				<header className="page-header">
 					<h1 className="">{title}</h1>
-					<p>{description}</p>
+					{description ?
+						<p>{description}</p>
+					: null }
 				</header>
 
-				<PostContent content={content} class="content" />
+				<PostContent content={content} className="rich-text" />
 			</article>
 		</div>
 	);

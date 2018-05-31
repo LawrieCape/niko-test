@@ -12,6 +12,7 @@
 }
 
 .header-logo {
+	margin-top: 1em;
 }
 
 .header-logo__link {
@@ -25,6 +26,7 @@
 }
 
 .wee-nav__wrapper {
+	margin-top: 0;
 	overflow: hidden;
 }
 
@@ -35,7 +37,7 @@
 	a {
 		padding: ms(-3) ms(-2);
 		// border: 1px solid $red;
-		margin: ms(-1) 0 ms(-1) ms(-1);
+		margin: 14px 0 14px 14px;
 		background-color: $white; // Chrome Audits
 		color: $black;
 		// text-decoration: none;

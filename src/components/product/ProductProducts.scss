@@ -30,7 +30,6 @@
 
 .product {
 	display: block;
-	position: relative;
 	border-radius: 2px;
 	border: 1px solid rgba($primary, 0.4);
 	text-decoration: none;
@@ -45,13 +44,9 @@
 .product__title {
 	background-color: $black;
 	color: $white;
-	// position: absolute;
-	// bottom: 0;
-	// left: 0;
 	padding: 4px 10px;
-	// margin: 0 !important;
-	// width: 100%;
 	margin: 0;
+	font-size: 14px;
 }
 
 .product__image {

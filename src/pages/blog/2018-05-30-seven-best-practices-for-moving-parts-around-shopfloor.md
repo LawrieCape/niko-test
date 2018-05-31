@@ -2,7 +2,6 @@
 templateKey: blog-post
 title: Seven Best Practices For Moving Parts Around Shopfloor
 date: '2017-04-21T13:20:00+01:00'
-description: Page description
 ---
 1.  **Remove Part Carts** – Go Overhead Conveyor. Carts and pallets add clutter, create trip hazards and take up valuable floor space. By using an overhead conveyor you are using space that is otherwise wasted. Smart design of routes through processes and holding stations can aid the smooth flow of product throughout your facility.
 2.  **Efficient Flight Bar Design**– Because racks are eliminated an efficient flight bar is key to moving and storing parts on the finishing line

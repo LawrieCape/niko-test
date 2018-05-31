@@ -1,3 +1,7 @@
+@import '../global/_variables';
+
 .latest-news__item {
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid $black--opaque8;
+	margin-top: ms(5);
+	padding-bottom: ms(5);
 }

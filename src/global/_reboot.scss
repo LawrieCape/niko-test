@@ -22,6 +22,31 @@
 	box-sizing: border-box; // 1
 }
 
+// Owl selector
+* {
+	margin: 0;
+}
+
+* + * {
+	// margin-top: ms(0);
+	margin-top: 1.5em; // 1baseline unit
+}
+
+* {
+	+ h1,
+	+ h2,
+	+ h3,
+	+ h4,
+	+ h5,
+	+ h6 {
+		margin-top: 1em;
+	}
+}
+
+body {
+	margin-top: 0;
+}
+
 html {
 	font-family: sans-serif; // 2
 	line-height: 1.15; // 3
@@ -60,7 +85,7 @@ section {
 //    the `inherit` value on things like `<th>` elements.
 
 body {
-	margin: 0; // 1
+	// margin: 0; // 1
 	font-family: $font-family-base;
 	font-size: $font-size-base;
 	font-weight: $font-weight-base;
@@ -106,8 +131,8 @@ h3,
 h4,
 h5,
 h6 {
-	margin-top: 0;
-	margin-bottom: $headings-margin-bottom;
+	// margin-top: 0;
+	// margin-bottom: $headings-margin-bottom;
 }
 
 // Reset margins on paragraphs
@@ -115,8 +140,8 @@ h6 {
 // Similarly, the top margin on `<p>`s get reset. However, we also reset the
 // bottom margin to use `rem` units instead of `em`.
 p {
-	margin-top: 0;
-	margin-bottom: $paragraph-margin-bottom;
+	// margin-top: 0;
+	// margin-bottom: $paragraph-margin-bottom;
 }
 
 // Abbreviations
@@ -135,7 +160,7 @@ abbr[data-original-title] { // 4
 }
 
 address {
-	margin-bottom: 1rem;
+	// margin-bottom: 1rem;
 	font-style: normal;
 	line-height: inherit;
 }
@@ -143,15 +168,15 @@ address {
 ol,
 ul,
 dl {
-	margin-top: 0;
-	margin-bottom: 1rem;
+	// margin-top: 0;
+	// margin-bottom: 1rem;
 }
 
 ol ol,
 ul ul,
 ol ul,
 ul ol {
-	margin-bottom: 0;
+	// margin-bottom: 0;
 }
 
 dt {
@@ -159,12 +184,12 @@ dt {
 }
 
 dd {
-	margin-bottom: 0.5rem;
-	margin-left: 0; // Undo browser default
+	// margin-bottom: 0.5rem;
+	// margin-left: 0; // Undo browser default
 }
 
 blockquote {
-	margin: 0 0 1rem;
+	// margin: 0 0 1rem;
 }
 
 dfn {
@@ -248,10 +273,10 @@ samp {
 }
 
 pre {
-	// Remove browser default top margin
-	margin-top: 0;
-	// Reset browser default of `1em` to use `rem`s
-	margin-bottom: 1rem;
+	// // Remove browser default top margin
+	// margin-top: 0;
+	// // Reset browser default of `1em` to use `rem`s
+	// margin-bottom: 1rem;
 	// Don't allow content to break outside
 	overflow: auto;
 	// We have @viewport set which causes scrollbars to overlap content in IE11 and Edge, so
@@ -266,7 +291,7 @@ pre {
 
 figure {
 	// Apply a consistent margin strategy (matches our type styles).
-	margin: 0 0 1rem;
+	// margin: 0 0 1rem;
 }
 
 
@@ -316,7 +341,7 @@ th {
 label {
 	// Allow labels to use `margin` for spacing.
 	display: inline-block;
-	margin-bottom: $label-margin-bottom;
+	// margin-bottom: $label-margin-bottom;
 }
 
 // Remove the default `border-radius` that macOS Chrome adds.
@@ -331,7 +356,7 @@ button,
 select,
 optgroup,
 textarea {
-	margin: 0; // Remove the margin in Firefox and Safari
+	// margin: 0; // Remove the margin in Firefox and Safari
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
@@ -409,7 +434,7 @@ fieldset {
 	min-width: 0;
 	// Reset the default outline behavior of fieldsets so they don't affect page layout.
 	padding: 0;
-	margin: 0;
+	// margin: 0;
 	border: 0;
 }
 
@@ -420,7 +445,7 @@ legend {
 	width: 100%;
 	max-width: 100%; // 1
 	padding: 0;
-	margin-bottom: 0.5rem;
+	// margin-bottom: 0.5rem;
 	font-size: 1.5rem;
 	line-height: inherit;
 	color: inherit; // 2

@@ -2,31 +2,44 @@
 @import '../../global/_grid';
 
 .product-content-group--images {
-	display: flex;
-	flex-wrap: wrap;
-	margin: (ms(-2) * -1);
+	// display: flex;
+	// flex-wrap: wrap;
+	// margin: (ms(-2) * -1);
+
+	columns: 2;
+	column-gap: ms(-2);
+	// row-gap: ms(-2);
 
 	> div {
-		flex: 0 0 50%;
+		// display: inline-block; // No cross browser 'break-inside' property being supported yet
+		break-inside: avoid;
 
-		@media #{$mqMediumAndUp} {
-			flex: 0 0 33.333333%;
-		}
+		// margin-bottom: 1em;
+		// flex: 0 0 50%;
+		//
+		// @media #{$mqMediumAndUp} {
+		// 	flex: 0 0 33.333333%;
+		// }
+		//
+		// @media #{$mqLargeAndUp} {
+		// 	flex: 0 0 50%;
+		// }
 
-		@media #{$mqLargeAndUp} {
-			flex: 0 0 50%;
+		+ div {
+			margin-top: ms(-2) !important;
 		}
 	}
 }
 
 .product-image {
 	display: block;
-	padding: ms(-2);
+	// padding: ms(-2);
 	transition: opacity 100ms ease-in-out;
 
 	img {
 		border-radius: 2px;
 		border: 1px solid rgba($primary, 0.4);
+		width: 100%;
 	}
 
 	&:hover {

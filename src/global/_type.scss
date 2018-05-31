@@ -35,7 +35,7 @@ $scale3: 1.2;
 $scale4: 1.2;
 $scale5: 1.2;
 $scale6: 1.2;
-$ms-ratio: 1.2;
+$ms-ratio: 1.2;   // 1.185185 - this gives 14px at 14px.  maybe just set base to 14px?  search for 14px and replace
 $base1: 16px;
 $base2: 16px;
 $base3: 16px;
@@ -98,6 +98,7 @@ $bestFitLineHeight: false;
 
 @mixin header-common {
 	max-width: 640px; // calculated px value from p max-width
+	max-width: 15em;
 	font-family: $headings-font-family;
 	font-weight: $headings-font-weight;
 	color: $headings-color;
@@ -116,17 +117,17 @@ $bestFitLineHeight: false;
 
 @mixin type--h2 {
 	@include header-common;
-	@include new-typesetter(5, 1.1em);
+	@include new-typesetter(5, 1.2em);
 }
 
 @mixin type--h3 {
 	@include header-common;
-	@include new-typesetter(4, 1.1em);
+	@include new-typesetter(4, 1.2em);
 }
 
 @mixin type--h4 {
 	@include header-common;
-	@include new-typesetter(3, 1.1em);
+	@include new-typesetter(3, 1.2em);
 }
 
 @mixin type--h5 {
@@ -140,17 +141,14 @@ $bestFitLineHeight: false;
 }
 
 @mixin type--p {
-	// @include type;
 	@include new-typesetter(0);
 }
 
 @mixin type--small {
-	// @include type;
 	@include new-typesetter(-1);
 }
 
 @mixin type--tiny {
-	// @include type;
 	@include new-typesetter(-2);
 
 	text-transform: uppercase;

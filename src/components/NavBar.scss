@@ -3,6 +3,7 @@
 .nav__wrapper {
 	background-color: $primary;
 	flex: 0 0 100%;
+	z-index: 1;
 }
 
 .nav {
@@ -11,11 +12,12 @@
 }
 
 .nav__link {
+	margin-top: 0;
 	display: block;
 	border-left: 1px solid $primary-dark;
 	color: $primary-invert;
 	background-color: $primary;
-	padding: ms(-1) ms(0);
+	padding: 14px ms(0);
 	transition: background-color 100ms ease-in-out;
 	text-decoration: none;
 

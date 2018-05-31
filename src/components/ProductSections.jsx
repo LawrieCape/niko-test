@@ -43,7 +43,7 @@ const ServicesComponent = function ({ sections }) {
 
 			<div className="product-info__sidebar" data-sticky-container>
 				{/* {({ style }) => ( */}
-				<div className="js-sticky" data-sticky-wrap data-sticky-for="600">
+				<div className="js-sticky" data-sticky-wrap data-sticky-for="600" data-margin-top="20">
 					<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={offset}>
 						{sections && sections.map((section, index) => {
 							return (
@@ -71,7 +71,7 @@ const ServicesComponent = function ({ sections }) {
 						const showProducts = !!(section.products && !!section.products.length);
 
 						const showSideContent = showImages || showPdfs || showVideos;
-						console.log('showSideContent: ', showSideContent);
+						// console.log('showSideContent: ', showSideContent);
 
 						return (
 							<section key={index} className="product-section" id={slugify(section.title)}>

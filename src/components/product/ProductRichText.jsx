@@ -8,7 +8,7 @@ const ProductRichText = function ({ richText }) {
 		return (null);
 	}
 	return (
-		<div className="product-content-group product-content-group--rich-text">
+		<div className="product-content-group product-content-group--rich-text rich-text">
 			{/* <h3>Body</h3> */}
 			<ReactMarkdown source={richText} />
 		</div>

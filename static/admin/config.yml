@@ -48,6 +48,10 @@ collections:
             name: title
             widget: string
           -
+            label: Nav Title
+            name: navTitle
+            widget: string
+          -
             label: Body
             name: body
             widget: markdown

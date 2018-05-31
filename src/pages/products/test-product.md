@@ -43,6 +43,7 @@ customSections:
         title: .T00
       - imageUrl: /img/t00-lg-195x195.jpg
     title: Overhead Monorail Conveyor Systems 1
+    navTitle: shorter title 1
     videos:
       - vidDescription: test description 1
         youTubeId: stswE04hv3Q
@@ -72,6 +73,7 @@ customSections:
       - imageUrl: /img/t00-lg-195x195.jpg
         title: .T00  customizable
     title: Overhead Monorail Conveyor Systems 1
+    navTitle: shorter title 2
     videos:
       - vidDescription: test description 1
         youTubeId: stswE04hv3Q

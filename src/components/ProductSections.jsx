@@ -47,7 +47,7 @@ const ServicesComponent = function ({ sections }) {
 					<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={offset}>
 						{sections && sections.map((section, index) => {
 							return (
-								<a key={index} className="product-page__nav__link" href={`#${slugify(section.title)}`}>{section.title}</a>
+								<a key={index} className="product-page__nav__link" href={`#${slugify(section.title)}`}>{section.navTitle}</a>
 							);
 						})}
 					</Scrollspy>

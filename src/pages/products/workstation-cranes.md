@@ -14,6 +14,7 @@ customSections:
       light cranes is considerably lighter, free-running and more versatile than
       conventional I-beam overhead cranes.
     title: Intro
+    navTitle: Intro
   - body: |-
       * Lift loads up to 2000kg
       * Bridge span up to 12m
@@ -25,11 +26,13 @@ customSections:
       * Available in Stainless steel
       * Modular design
     title: Features
+    navTitle: Features
     videos:
       - vidDescription: Ceiling Mounted Bridge Crane - Austria
         youTubeId: 'https://www.youtube.com/watch?v=XIki84wuwXs&t=39s'
   - body: "* Ultra-low headroom\r\n\r\n* Crane bridge does not grab\r\n\r\n* Low-maintenance and long working life\r\n\r\n* Easy to install\r\n\r\n* Fit directly to roof and a wide range of structures\r\n\r\n* For indoor and outdoor applications\r\n\r\n* Ideal for food applications and clean areas\r\n\r\n* Easy to extend, modify or relocate\r\n\r\n* Can connect to other cranes and conveyors\r\n\r\n* Cost effective"
     title: Advantages
+    navTitle: Advantages
   - body: >-
 
       Freestanding light cranes are generally used when the ceiling is not
@@ -68,6 +71,7 @@ customSections:
         imageUrl: /img/free_standing_bridge_crane.jpg
     pdfs: []
     title: Free Standing Bridge Cranes
+    navTitle: Free Standing Bridge Cranes
     videos: []
   - body: >-
       Ceiling mounted light cranes are an ideal solution for applications where
@@ -86,6 +90,7 @@ customSections:
       - imageAlt: ceiling mounted light crane
         imageUrl: /img/ceiling_mounted_bridge_crane.jpg
     title: Ceiling Mounted Light Cranes
+    navTitle: Ceiling Mounted Light Cranes
   - body: >-
       Nikotrack uses a C-track festoon assembly and c-track festoon pendant
       system for overhead cranes and industrial machinery. All festoon trolleys
@@ -101,11 +106,13 @@ customSections:
       - imageAlt: festoon cable system
         imageUrl: /img/niko_tool_suspension-300x252.jpg
     title: Festoon Cable System
+    navTitle: Festoon Cable System
   - pdfs:
       - pdfThumb: /img/pdf-cover-example.png
         pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
         title: PDF EXAMPLE
     title: Request a Quote
+    navTitle: Request a Quote
   - pdfs:
       - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
         pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
@@ -117,4 +124,5 @@ customSections:
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
         title: C2 - Light Cranes Technical Description
     title: Downloads
+    navTitle: Downloads
 ---

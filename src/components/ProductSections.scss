@@ -11,7 +11,7 @@
 
 .product-info__sidebar {
 	@media #{$mqMediumAndUp} {
-		flex: 0 0 200px;
+		flex: 0 0 220px;
 	}
 }
 
@@ -60,7 +60,7 @@
 * Product Side Navigation
 **/
 .product-page__nav {
-	padding: ms(8) 0 ms(2) 0;
+	padding: ms(8) 0 ms(2) ms(2);
 }
 
 .product-page__nav__link {

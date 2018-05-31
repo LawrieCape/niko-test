@@ -72,7 +72,7 @@ customSections:
         title: .T00  customizable  conveyor trolley
       - imageUrl: /img/t00-lg-195x195.jpg
         title: .T00  customizable
-    title: Overhead Monorail Conveyor Systems 1
+    title: Overhead Monorail Conveyor Systems 2
     navTitle: shorter title 2
     videos:
       - vidDescription: test description 1

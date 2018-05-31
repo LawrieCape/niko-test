@@ -23,12 +23,20 @@ collections:
         name: order
         widget: string
       -
-        label: Title
-        name: title
-        widget: string
-      -
         label: Nav title
         name: navTitle
+        widget: string
+      -
+        label: Hero Image
+        name: heroImage
+        widget: image
+      -
+        label: Hero Body
+        name: heroDescription
+        widget: markdown
+      -
+        label: Title
+        name: title
         widget: string
       -
         label: Sections

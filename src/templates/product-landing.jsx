@@ -1,19 +1,24 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
+import ReactMarkdown from 'react-markdown';
 import ProductSections from '../components/ProductSections';
 
 export const ProductPageTemplate = ({
 	title,
+	heroImage,
+	heroDescription,
 	sections,
 }) => {
 	return (
 		<div className="container-fluid">
-			<article className="page-body">
+			<article className="page-body page-body--product">
 				<Helmet title={`${title} | Niko`} />
 
 				<header className="page-header">
+					<img src={heroImage} alt="product hero" />
 					<h1 className="">{title}</h1>
+					<ReactMarkdown source={heroDescription} />
 				</header>
 
 				<ProductSections sections={sections} />
@@ -36,6 +41,8 @@ const ProductPage = ({ data }) => {
 	return (
 		<ProductPageTemplate
 			title={post.frontmatter.title}
+			heroImage={post.frontmatter.heroImage}
+			heroDescription={post.frontmatter.heroDescription}
 			sections={post.frontmatter.customSections}
 		/>
 	);
@@ -56,6 +63,8 @@ export const pageQuery = graphql`
 			frontmatter {
 				title
 				navTitle
+				heroImage
+				heroDescription
 				customSections {
 					title
 					body

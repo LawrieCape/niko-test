@@ -140,6 +140,9 @@ li {
 
 
 // LAYOUT
+main {
+	// margin-top: 0;
+}
 // .page-article
 .page-body {
 	padding: ms(7) 0;
@@ -153,42 +156,48 @@ li {
 	h1 {
 		margin-bottom: 0;
 	}
+
+	img {
+		width: 100%;
+	}
 }
 
+
+.page-body--product {
+	padding-top: 0;
+
+	.page-header {
+		h1 {
+			margin-top: 0.5em;
+		}
+	}
+}
 
 .container-fluid {
 	margin-right: auto;
 	margin-left: auto;
-	// padding-right: $spacing--small;
-	// padding-left: $spacing--small;
-	padding-right: 5vw;
-	padding-left: 5vw;
 	max-width: $responsiveMaxWidth;
+	padding-right: ms(0);
+	padding-left: ms(0);
 
 	@media #{$mqMediumAndUp} {
-		// padding-right: $spacing--inbetween;
-		// padding-left: $spacing--inbetween;
-		padding-right: 4vw;
-		padding-left: 4vw;
+		padding-right: ms(2);
+		padding-left: ms(2);
 	}
 
 	@media #{$mqLargeAndUp} {
-		// padding-right: $spacing--large;
-		// padding-left: $spacing--large;
-		// padding-right: 5%;
-		// padding-left: 5%;
+		padding-right: ms(3);
+		padding-left: ms(3);
 	}
 
 	@media #{$mqXLargeAndUp} {
-		// padding-right: $spacing--xlarge;
-		// padding-left: $spacing--xlarge;
-		// padding-right: 5%;
-		// padding-left: 5%;
+		padding-right: ms(4);
+		padding-left: ms(4);
 	}
 
 	@media #{$mqXXLargeAndUp} {
-		padding-right: 10vw; // 10%
-		padding-left: 10vw; // 10%
+		padding-right: ms(5);
+		padding-left: ms(5);
 	}
 }
 

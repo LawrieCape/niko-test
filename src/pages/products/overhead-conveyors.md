@@ -3,6 +3,8 @@ templateKey: product-landing
 order: 2
 title: C1 - Overhead Conveyors
 navTitle: Overhead Conveyors
+heroImage: https://dummyimage.com/1520x380/
+heroDescription: "**Intro content. This is rich-text/markdown.** NikoTrack is of cold rolled steel manufacture and supplied in standard 6 meter lengths in either plain, zinc plated, or stainless steel. Due to the design of the tapered sides this reduces the possibility of a build up of dust, thus assuring smooth running characteristics of the trolleys.\r\n\r\n* item 1\r\n* item 2\r\n\r\nNiko Profile | h (mm) | b (mm) | d (mm) | s (mm)\r\n--- | --- | --- | --- | ---\r\nNo. 23.000 | 35.00 | 40.00 | 11.00 | 2.75\r\nNo. 24.000 | 43.50 | 48.50 | 15.50 | 3.20"
 customSections:
   - body: >-
       NikoTrack produces manual overhead conveyor and monorail transfer systems
@@ -12,7 +14,7 @@ customSections:
       ### Key Features
 
 
-      * Multiple track sizes 
+      * Multiple track sizes
 
       * Manual or powered
 
@@ -187,4 +189,3 @@ customSections:
       - vidDescription: Nikotrack Conveyor System for powder coating | Czech Republic
         youTubeId: 'https://www.youtube.com/watch?v=WLi-ApsjEPA&t=8s'
 ---
-

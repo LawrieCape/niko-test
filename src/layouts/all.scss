@@ -105,7 +105,7 @@ p,
 table {
 	// max-width: 500px;
 	width: auto !important;
-	border: 1px solid $primary;
+	border: 1px solid $primary-dark;
 	font-size: 14px;
 	line-height: 1.3em;
 	margin-top: 1.5rem;
@@ -113,7 +113,7 @@ table {
 
 td,
 th {
-	border-bottom: 1px solid $primary !important;
+	border-bottom: 1px solid $primary-dark !important;
 	padding: ms(-5);
 }
 

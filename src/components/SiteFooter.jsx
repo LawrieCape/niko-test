@@ -42,7 +42,7 @@ const SiteFooter = () => {
 						<h4>Contact</h4>
 						<p>NikoTrack <br />Suite 9B <br />200 Highpoint Avenue <br /> Portsmouth<br /> RI 02871<br /> USA</p>
 						<p>
-							Phone: +1 401 683 7525<br />
+							Phone: <a href="tel:+14016837525">+1 401 683 7525</a><br />
 						</p>
 						<p>Email: <a href="mailto:info@nikotrack.com">info@nikotrack.com</a></p>
 					</div>

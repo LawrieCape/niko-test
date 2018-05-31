@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 // import Link from 'gatsby-link';
 import './SiteFooter.scss';
 
@@ -12,29 +13,45 @@ const SiteFooter = () => {
 		<footer className="site-footer">
 			<div className="row">
 				<div className="col-sm-12 col-md-4 col-md-4">
-					<h2>Info</h2>
-					<ul className="footer__links">
-						<li><a href="#">About Niko</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Case Studies</a></li>
-						<li><a href="#">Contact Niko</a></li>
-						<li><a href="#">Buying Information</a></li>
-						<li><a href="#">Terms &amp; Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Customer Services</a></li>
-					</ul>
+					{/* <h2>Info</h2> */}
+					<div className="footer__links">
+						<Link className="" to="/">
+							Home
+						</Link>
+						<Link className="" to="/latest-news">
+							Latest News
+						</Link>
+						{/* <Link className="" to="/products">
+							Products
+						</Link>
+						<Link className="" to="/services">
+							Services
+						</Link>
+						<Link className="" to="/our-work">
+							Our Work
+						</Link>
+						<Link className="" to="/careers">
+							Careers
+						</Link> */}
+						<Link className="" to="/contact">
+							Contact
+						</Link>
+					</div>
 				</div>
 				<div className="col-sm-12 col-md-4 col-md-4">
-					<h2>Contact</h2>
-					<p>Niko Ltd <br /> Unit 15-21 Insight Park <br /> Welsh Road East <br /> Southam <br /> Warwickshire <br /> CV47 1NE</p>
-					<p>
-						t: + 44 (0) 1926 813111<br />
-						f: + 44 (0) 1926 815599
-					</p>
-					<p>e: <a href="mailto:sales@niko.co.uk">sales@niko.co.uk</a></p>
+					<div className="footer__contact-details">
+						{/* <h2>Contact</h2> */}
+						<p>NikoTrack <br />Suite 9B <br />200 Highpoint Avenue <br /> Portsmouth<br /> RI 02871<br /> USA</p>
+						<p>
+							Phone: +1 401 683 7525<br />
+						</p>
+						<p>Email: <a href="mailto:info@nikotrack.com">info@nikotrack.com</a></p>
+					</div>
+					<div className="footer__copyright">
+						<p>&copy; 2018 NikoTrack All Rights Reserved</p>
+					</div>
 				</div>
-				<div className="col-sm-12 col-md-4 col-md-4">
+				{/* <div className="col-sm-12 col-md-4 col-md-4">
 					<h2>Social</h2>
 					<ul className="footer__social">
 						<li><a href="https://twitter.com/nikoltd"><IconTwitter /></a></li>
@@ -49,33 +66,7 @@ const SiteFooter = () => {
 						<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="FSB Member" /></a></li>
 						<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="LEEA Full Member" /></a></li>
 					</ul>
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
-				</div>
+				</div> */}
 			</div>
 		</footer>
 	);

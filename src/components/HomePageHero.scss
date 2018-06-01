@@ -1,4 +1,5 @@
 @import '../global/_variables';
+@import '../global/_mixins';
 
 .homepage-hero__wrapper {
 	// max-width: 900px;
@@ -64,4 +65,12 @@
 	@media #{$mqXLargeAndUp} {
 		padding: ms(3);
 	}
+}
+
+.homepage-hero__image {
+	@include new-aspect-ratio(66.666666%);
+
+	// height: 200px;
+	background-position: center center;
+	background-size: cover;
 }

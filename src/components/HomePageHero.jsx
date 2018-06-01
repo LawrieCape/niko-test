@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import './HomePageHero.scss';
 
 export const HomePageHero = ({ posts }) => {
+
 	return (
 		<div className="homepage-hero__wrapper">
 			<nav className="homepage-hero">
@@ -13,6 +14,9 @@ export const HomePageHero = ({ posts }) => {
 						return post.node.frontmatter.templateKey === 'product-landing';
 					})
 					.map(({ node: post }) => {
+						const stringThing = `url(${post.frontmatter.heroImage})`;
+						const styles = { 'background-image': stringThing };
+
 						return (
 							<Link
 								key={post.id}
@@ -20,7 +24,8 @@ export const HomePageHero = ({ posts }) => {
 								to={post.fields.slug}
 							>
 								<div className="homepage-hero__link-inner">
-									<img src={post.frontmatter.heroImage} alt="product hero" />
+									<div className="homepage-hero__image" style={styles} />
+									{/* <img src={post.frontmatter.heroImage} alt="product hero" /> */}
 									<h2 className="h4">{post.frontmatter.title}</h2>
 									<ReactMarkdown source={post.frontmatter.heroDescription} />
 									{/* <p>{post.frontmatter.heroDescription}</p> */}

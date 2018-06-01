@@ -4,13 +4,10 @@ order: 5
 navTitle: Light Cranes
 heroImage: /img/overhead_crane_1.jpg
 heroDescription: |-
-  ## Overhead Crane Systems
-
-  * **Light Cranes **
   * **Jib Cranes**
   * **Overhead Travelling Cranes**
   * **A - Frame Mobile Gantry Cranes**
-title: C2 - Light Cranes
+title: Light Cranes
 customSections:
   - body: >-
       Niko C2 light cranes are the ideal solution for lightweight lifting of

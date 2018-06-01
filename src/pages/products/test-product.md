@@ -1,10 +1,10 @@
 ---
 templateKey: product-landing
 order: 99
-title: Test Page Title
 navTitle: Test Page
-heroImage: https://dummyimage.com/1520x380/
+heroImage: /img/materialdesign_introduction.png
 heroDescription: "**Intro content. This is rich-text/markdown.** NikoTrack is of cold rolled steel manufacture and supplied in standard 6 meter lengths in either plain, zinc plated, or stainless steel. Due to the design of the tapered sides this reduces the possibility of a build up of dust, thus assuring smooth running characteristics of the trolleys.\r\n\r\n* item 1\r\n* item 2"
+title: Test Page Title
 customSections:
   - body: "# Heading text 1\r\n\n## Heading text 2\r\n\n### Heading text 3\r\n\n#### Heading text 4\r\n\n##### Heading text 5\r\n\n###### Heading text 6\r\n\nNikoTrack’s six profiles are immobile without their trolleys. **NikoTrack’s trolleys come in a variety of styles, all with different applications in mind**, most offered in every profile series, while some are specific to larger or smaller profiles.\r\n\r\n_The trolleys pictured below are designated with partial part numbers. Each trolleys full part number is always prefixed with a track profile number (21, 23, 24 etc.)_\r\n\n**TROLLEY SWL (Kg)**\r\n\r\nSERIES | 21 | 23 | 24 | 25 | 26 | 27\r\n--- | --- | --- | --- | --- | --- | ---\r\n2 Wheel | 10 | 20 | 40 | 100 | 200 | 400\r\n4 Wheel | 20 | 40 | 80 | 200 | 400 | 800\r\nFlight Bar | 40 | 80 | 160 | 400 | 800 | 1600"
     images:
@@ -18,6 +18,7 @@ customSections:
         imageUrl: /img/niko-overhead-conveyor-9-320x200.jpg
       - imageAlt: alt
         imageUrl: /img/niko-fall-arrest-track-4-320x200.jpg
+    navTitle: shorter title 1
     pdfs:
       - pdfThumb: /img/pdf-placeholder.png
         pdfUrl: /img/b-heavy-duty-sliding-door-track-brochure.pdf
@@ -43,7 +44,6 @@ customSections:
         title: .T00
       - imageUrl: /img/t00-lg-195x195.jpg
     title: Overhead Monorail Conveyor Systems 1
-    navTitle: shorter title 1
     videos:
       - vidDescription: test description 1
         youTubeId: stswE04hv3Q
@@ -61,6 +61,7 @@ customSections:
         imageUrl: /img/niko-overhead-conveyor-9-320x200.jpg
       - imageAlt: alt
         imageUrl: /img/niko-fall-arrest-track-4-320x200.jpg
+    navTitle: shorter title 2
     pdfs:
       - pdfThumb: /img/pdf-placeholder.png
         pdfUrl: /img/b-heavy-duty-sliding-door-track-brochure.pdf
@@ -73,10 +74,10 @@ customSections:
       - imageUrl: /img/t00-lg-195x195.jpg
         title: .T00  customizable
     title: Overhead Monorail Conveyor Systems 2
-    navTitle: shorter title 2
     videos:
       - vidDescription: test description 1
         youTubeId: stswE04hv3Q
       - vidDescription: test description 2
         youTubeId: z5PTPTPAgKE
 ---
+

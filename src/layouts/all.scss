@@ -182,14 +182,15 @@ main {
 }
 
 .page-header__hero-image {
-	@include new-aspect-ratio(50%);
+	// @include new-aspect-ratio(50%);
 
-	// height: 200px;
+	height: 200px;
 	background-position: center center;
 	background-size: cover;
 
 	@media #{$mqMediumAndUp} {
-		@include new-aspect-ratio(30%);
+		// @include new-aspect-ratio(30%);
+		height: 400px;
 	}
 }
 

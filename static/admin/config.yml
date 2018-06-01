@@ -139,3 +139,21 @@ collections:
         label: Body
         name: body
         widget: markdown
+  -
+    name: pages
+    label: Pages
+    files:
+      -
+        file: src/pages/contact.md
+        label: Contact
+        name: contact
+        fields:
+          -
+            label: 'Template Key'
+            name: templateKey
+            widget: hidden
+            default: contact
+          -
+            label: Title
+            name: title
+            widget: string

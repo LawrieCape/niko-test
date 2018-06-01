@@ -15,7 +15,7 @@ export const HomePageHero = ({ posts }) => {
 					})
 					.map(({ node: post }) => {
 						const stringThing = `url(${post.frontmatter.heroImage})`;
-						const styles = { 'background-image': stringThing };
+						const styles = { backgroundImage: stringThing };
 
 						return (
 							<Link

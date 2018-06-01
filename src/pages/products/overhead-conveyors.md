@@ -44,6 +44,8 @@ customSections:
         imageUrl: /img/turntable-320-200.jpg
       - imageAlt: alt
         imageUrl: /img/system-320-200.jpg
+      - imageAlt: overhead conveyor
+        imageUrl: /img/overhead_conveyors_2.jpg
     navTitle: Overhead Monorail Conveyor Systems
     pdfs: []
     products: []

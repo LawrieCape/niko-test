@@ -6,6 +6,7 @@
 @import '../global/mixins';
 @import '../global/type';
 @import '../global/grid';
+@import '../global/forms';
 
 
 // html {
@@ -177,6 +178,18 @@ main {
 		h1 {
 			margin-top: 0.5em;
 		}
+	}
+}
+
+.page-header__hero-image {
+	@include new-aspect-ratio(50%);
+
+	// height: 200px;
+	background-position: center center;
+	background-size: cover;
+
+	@media #{$mqMediumAndUp} {
+		@include new-aspect-ratio(30%);
 	}
 }
 

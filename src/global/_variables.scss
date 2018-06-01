@@ -58,6 +58,12 @@ $white--opaque7:				rgba(255, 255, 255, 0.3);
 $white--opaque8:				rgba(255, 255, 255, 0.2);
 $white--opaque9:				rgba(255, 255, 255, 0.1);
 
+$transitionTiming:				150ms;
+$transitionTimingSlow:			300ms;
+$transitionEase:				ease-in-out;
+
+$outline:						4px solid red;
+$border-radius--large:			300px;
 
 
 $body-size:						15px;
@@ -115,6 +121,46 @@ $responsiveNumberColumns: 24;
 // Other variables
 $maxWidth: 1600px;
 $subNavSpacingForHeader: 140px;
+
+
+/*-----------------------------------------------------------------------------
+-------------------------------- FORM SETTINGS --------------------------------
+-----------------------------------------------------------------------------*/
+$border-radius: 10px;
+
+/* Inputs */
+$inputFormDisplay:				inline-block;
+$inputBgColor:					$white;
+$inputFocusBgColor:				transparent;
+$inputBorderWidth:				1px;
+$inputBorderStyle:				solid;
+$inputBorderColor:				transparent;
+$inputFocusBorderColor:			transparent;
+$inputFontColor:				$grey;
+$inputFontFamily:				$font-family-base;
+$inputFontSize:					16px;
+$inputBorderRadius:				$border-radius;
+$inputLineHeight:				($font-size-base * 2);
+$formPadding:					16px 18px 19px 18px;
+$inputBoxShadow:				none;
+$inputPlaceholderColor:			$grey;
+$inputHeight:					56px;
+
+/* Labels */
+$formLabelDisplay:				inline-block;
+$formLabelFontFamily:			$font-family-base;
+$formLabelFontColor:			$black;
+$formLabelFontSize:				16px;
+$formLabelFontWeight:			normal;
+$formLabelLineHeight:			$line-height-base;
+
+// States
+$inputErrorColor:				$red;
+$input-border-error:			darken($red, 8%);
+$input-focus-outline-color:		rgba(0, 0, 255, 0.25);
+$input-error-outline-color:		rgba(255, 0, 0, 0.25);
+$input-valid-outline-color:		rgba(0, 255, 0, 0.25);
+
 
 /*-----------------------------------------------------------------------------
 -------------------------------- MEDIA QUERIES --------------------------------

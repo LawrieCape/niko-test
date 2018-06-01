@@ -1,0 +1,14 @@
+// Base
+@import './forms/_forms.scss';
+
+// Elements
+@import './forms/_forms__label.scss';
+@import './forms/_forms__input.scss';
+@import './forms/_forms__checkbox.scss';
+@import './forms/_forms__fieldset.scss';
+@import './forms/_forms__legend.scss';
+@import './forms/_forms__radio.scss';
+@import './forms/_forms__select.scss';
+
+// Modifiers
+@import './forms/_form--validation.scss';

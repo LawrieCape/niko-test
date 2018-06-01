@@ -24,6 +24,27 @@ const ContactPageTemplate = (props) => {
 					<p>Form to go here...</p>
 					<input type="text" placeholder="test" />
 					<button>Submit</button>
+					<div className="form-field">
+
+						{/* <!-- Label --> */}
+						<label className="form-field__label" htmlFor="data__data_id">data__label</label>
+
+						{/* <!-- Input --> */}
+						<input className="form-field__input data__input_class" id="data__data_id" name="data__data_id" placeholder="data__placeholder" type="text" />
+
+						{/* <!-- Error/success message --> */}
+						<p className="form-field__error-message">data__error_message</p>
+
+						{/* <!-- Valid icons --> */}
+						<svg className="input__validation-icon input__validation-icon--valid">
+							<use xlinkHref="#svg--form-valid-yes" />
+						</svg>
+						<svg className="input__validation-icon input__validation-icon--error">
+							<use xlinkHref="#svg--form-valid-no" />
+						</svg>
+
+					</div>
+
 				</form>
 			</article>
 		</div>

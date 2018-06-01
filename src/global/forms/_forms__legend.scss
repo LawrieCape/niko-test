@@ -1,0 +1,24 @@
+legend {
+	@include mixin-form-label;
+
+	display: block;
+	margin-bottom: 0;
+}
+
+.form-field--legend {
+	padding-bottom: 0;
+	margin-bottom: -4px;
+}
+
+.form-field__legend {
+	position: relative;
+	top: auto;
+	left: auto;
+	z-index: auto;
+
+	&.hide-text1 {
+		& + * {
+			margin-top: 0;
+		}
+	}
+}

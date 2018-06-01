@@ -1,0 +1,21 @@
+fieldset {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+* + fieldset {
+	margin-top: ms(3);
+
+	@media #{$mqMediumAndUp} {
+		margin-top: ms(4);
+	}
+}
+
+fieldset + * {
+	margin-top: ms(3);
+
+	@media #{$mqMediumAndUp} {
+		margin-top: ms(4);
+	}
+}

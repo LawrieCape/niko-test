@@ -3,7 +3,14 @@ templateKey: product-landing
 order: 2
 navTitle: Overhead Conveyors
 heroImage: /img/slider_wood_overhead_track.jpg
-heroDescription: "**Intro content. This is rich-text/markdown.** NikoTrack is of cold rolled steel manufacture and supplied in standard 6 meter lengths in either plain, zinc plated, or stainless steel. Due to the design of the tapered sides this reduces the possibility of a build up of dust, thus assuring smooth running characteristics of the trolleys.\r\n\r\n* item 1\r\n* item 2"
+heroDescription: |-
+  **Nikotrack Overhead Conveyors are ideal for:**
+
+  * **Paint finishing Systems**
+  * **Powder Coating Lines**
+  * **Manual Systems**
+  * **Fully Powered Systems**
+  * **Localized Power Loop Systems**
 title: C1 - Overhead Conveyors
 customSections:
   - body: >-
@@ -46,6 +53,18 @@ customSections:
         imageUrl: /img/system-320-200.jpg
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyors_2.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_1.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_2.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_3.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_4.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_5.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_6.jpg
     navTitle: Overhead Monorail Conveyor Systems
     pdfs: []
     products: []

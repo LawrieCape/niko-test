@@ -129,6 +129,12 @@ customSections:
 
 
       Folding Doors – End Sliding
+
+
+      ![stacking sliding industrial doors](/img/stackingslidingdoors.gif)
+
+
+      Stacking Sliding Doors
     images:
       - imageAlt: folding door track end sliding
         imageUrl: /img/foldingdoors_endsliding.gif

@@ -110,7 +110,11 @@ customSections:
         imageUrl: /img/powered_overhead_conveyor_1.jpg
     navTitle: 'Localized Powered Travel '
     title: 'Localized Powered Travel '
-  - images:
+  - body: >-
+      There are an infinite number of possible track layouts, to suit any
+      particular application. Nikotrack provide a wide range of turns, switches,
+      turntables, which can be manually or pneumatically operated.
+    images:
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_1.jpg
       - imageAlt: overhead conveyor

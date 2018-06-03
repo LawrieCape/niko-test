@@ -1,6 +1,6 @@
 ---
 templateKey: product-landing
-order: 5
+order: '3'
 navTitle: Light Cranes
 heroImage: /img/overhead_crane_1.jpg
 heroDescription: |-

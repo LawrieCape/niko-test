@@ -1,12 +1,13 @@
 ---
 templateKey: product-landing
-order: 7
-title: Components
+order: '6'
 navTitle: Components
-heroImage: https://dummyimage.com/1520x380/
+heroImage: 'https://dummyimage.com/1520x380/'
 heroDescription: "**Intro content. This is rich-text/markdown.** NikoTrack is of cold rolled steel manufacture and supplied in standard 6 meter lengths in either plain, zinc plated, or stainless steel. Due to the design of the tapered sides this reduces the possibility of a build up of dust, thus assuring smooth running characteristics of the trolleys.\r\n\r\n* item 1\r\n* item 2"
+title: Components
 customSections:
   - body: "NikoTrack’s six profiles are immobile without their trolleys. **NikoTrack’s trolleys come in a variety of styles, all with different applications in mind**, most offered in every profile series, while some are specific to larger or smaller profiles.\r\n\r\n_The trolleys pictured below are designated with partial part numbers. Each trolleys full part number is always prefixed with a track profile number (21, 23, 24 etc.)_\r\n\n**TROLLEY SWL (Kg)**\r\n\r\nSERIES | 21 | 23 | 24 | 25 | 26 | 27\r\n--- | --- | --- | --- | --- | --- | ---\r\n2 Wheel | 10 | 20 | 40 | 100 | 200 | 400\r\n4 Wheel | 20 | 40 | 80 | 200 | 400 | 800\r\nFlight Bar | 40 | 80 | 160 | 400 | 800 | 1600"
+    navTitle: Trolley Styles
     pdfs:
       - pdfThumb: /img/pdf-placeholder.png
         pdfUrl: /img/b-heavy-duty-sliding-door-track-brochure.pdf
@@ -58,8 +59,8 @@ customSections:
       - imageUrl: ''
         title: '.T46 trolley for hoist, crane trolley'
     title: Trolley Styles
-    navTitle: Trolley Styles
-  - products:
+  - navTitle: Joints & Supports
+    products:
       - imageUrl: ''
         title: .B00 Welded Ceiling Support
       - imageUrl: ''
@@ -105,8 +106,8 @@ customSections:
       - imageUrl: ''
         title: .B60 Ceiling Mounted Conveyor Support
     title: Joints & Supports
-    navTitle: Joints & Supports
-  - products:
+  - navTitle: Switches & Turns
+    products:
       - imageUrl: ''
         title: .A02 left turn switch for conveyor
       - imageUrl: ''
@@ -158,8 +159,8 @@ customSections:
       - imageUrl: ''
         title: .H60 track transfer switch for cranes
     title: Switches & Turns
-    navTitle: Switches & Turns
-  - products:
+  - navTitle: Flight Bars
+    products:
       - imageUrl: ''
         title: .T24 Standard Flight Bar for Conveyor
       - imageUrl: ''
@@ -171,5 +172,5 @@ customSections:
       - imageUrl: ''
         title: .T64 Reinforced Conveyor Flight Bar
     title: Flight Bars
-    navTitle: Flight Bars
 ---
+

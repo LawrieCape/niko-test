@@ -9,7 +9,43 @@ heroDescription: |-
   * **Residential Sliding & Folding Doors**
 title: B1 - Heavy Duty Sliding & Folding Doors
 customSections:
-  - body: "Niko industrial sliding door track systems comprise of a range of track sizes and components that bolt together to facilitate sliding movement for opening and closing doors.\r\n\n\rCharacteristics:\n\n* Door weights from 10kg to 2000kg\r\n* Internal and external applications\r\n* Single, double and triple track configurations\r\n* Range of brackets for various fixing methods\r\n* Range of hangers for all types of doors\r\n* Suitable for steel or timber doors\r\n\nNo limit to the opening size. NikoTrack industrial Sliding Doors uses enclosed monorail track and fittings that are low friction and easy to operate for door weights of up to 1600 kgs – 3,520 lbs. Niko offers a complete range of installation fittings and track sizes to meet extreme working conditions for heavy industrial and barn door applications. The trolleys, track and fittings systems are maintenance free, electro galvanized, modular and simple to install. The inverted track profiles protect the trolley systems from accumulations of dust, dirt and ice ensuring a smooth operation of large sliding door systems. With applications ranging from agricultural to aircraft hanger doors and numerous industrial door for applications, NikoTrack offers a complete engineered solution.\n\n### Applications\n\nNiko industrial sliding door track is the ideal solution for a large range of applications including:\n\n* Sliding doors for factories and industrial units\n* Warehouse sliding doors\n* Sliding doors for aircraft hangars\n* Agricultural sliding doors – barns, farms and stable partitions\n* Commercial sliding doors – restaurants, shops, garages, schools, offices etc.\n* Sliding oven doors\n* Sliding shed doors\n\nThere are many different heavy duty door fittings for sliding doors to enable many applications for wood, steel or aluminium, folding doors and harmonica doors with many panels and other applications such as:\n\n* Moveable panels for outdoor shops\n* Partitions for large rooms\n* Heavy curtains\n* Scenery and theater curtains\n* Sliding gates on angle or square guide rail\n* Garage doors with counter-weights\n* Sliding airtight doors for freezing chambers\n* Sliding doors around the corner\n\n**Folding sliding door track** and fittings provide a space effective solution for sliding doors, ideal for applications in patio sliding doors and partition sliding doors. Also NikoTrack folding sliding doors have been used in factories, workshops, and even schools for separating classrooms. The lightweight range of NikoTrack sliding door track is ideal for **sliding curtain applications**. The possibilities for applications are only limited by your imagination. NikoTrack sliding curtain track and fittings have been used in PVC strip sliding curtains, sliding curtains for welder stations, sliding netting in gymnasiums, and sliding theatre curtains.\n\nNikoTrack sliding door track can be used to create **sliding partition systems** for both residential and industrial environments. NikoTrack has had applications in movable walls, sliding partitions for segmenting work areas and dividing rooms.\n\n### Advantages of Niko Sliding Door Track\n\n* Working loads of up to 3,520 lbs (1600 KGs)\n* Enclosed monorail track system\n* Tapered track:\n  * Guides the trolley to the center of the track\n  * Requires less maintenance\n  * Low dirt, dust, snow etc. build up\n\nLow force required to begin movement and even less to maintain it\n\n* 100/1 weight to force ratio\n* So, 1,000 lbs of material only requires 10 lbs of force to start moving\n* And only 8 lbs to continue moving\n\nElectro galvanized for inside and outside work areas\n\nTracks are available in 6 meter length (19.70 feet)"
+  - body: >-
+      Niko industrial sliding door track systems comprise of a range of track
+      sizes and components that bolt together to facilitate sliding movement for
+      opening and closing doors.
+
+
+      Characteristics:
+
+
+      * Door weights from 10kg to 2000kg
+
+      * Internal and external applications
+
+      * Single, double and triple track configurations
+
+      * Range of brackets for various fixing methods
+
+      * Range of hangers for all types of doors
+
+      * Suitable for steel or timber doors
+
+
+      No limit to the opening size. NikoTrack industrial Sliding Doors uses
+      enclosed monorail track and fittings that are low friction and easy to
+      operate for door weights of up to 1600 kgs – 3,520 lbs. Niko offers a
+      complete range of installation fittings and track sizes to meet extreme
+      working conditions for heavy industrial and barn door applications. The
+      trolleys, track and fittings systems are maintenance free, electro
+      galvanized, modular and simple to install. The inverted track profiles
+      protect the trolley systems from accumulations of dust, dirt and ice
+      ensuring a smooth operation of large sliding door systems. With
+      applications ranging from agricultural to aircraft hanger doors and
+      numerous industrial door for applications, NikoTrack offers a complete
+      engineered solution.
+
+
+      ###
     images:
       - imageAlt: sliding door support bracket
         imageUrl: /img/industrial-sliding-doors-ceiling-support-bracket-lg.jpg

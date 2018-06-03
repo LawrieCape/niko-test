@@ -75,20 +75,6 @@ customSections:
         imageUrl: /img/finishing_line_3.jpg
       - imageAlt: paint finishing line overhead conveyor
         imageUrl: /img/finishing_line_4.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_5.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_6.jpg
-      - imageAlt: alt
-        imageUrl: /img/static-powdercoating-9.jpg
-      - imageAlt: alt
-        imageUrl: /img/niko-overhead-conveyor-9-320x200.jpg
-      - imageAlt: alt
-        imageUrl: /img/turntable-320-200.jpg
-      - imageAlt: alt
-        imageUrl: /img/system-320-200.jpg
-      - imageAlt: overhead conveyor
-        imageUrl: /img/overhead_conveyors_2.jpg
     navTitle: Overhead Monorail Conveyor Systems
     pdfs: []
     products: []
@@ -117,6 +103,11 @@ customSections:
       unload the products in adequate time. The benefits of the power chain
       conveyor are its competitive price, quiet operation and the fact that it
       can be added to a manual conveyor at a future stage.
+    images:
+      - imageUrl: /img/overhead_conveyor_ex_1.jpg
+      - imageUrl: /img/slider-system3.jpg
+      - imageUrl: /img/slider-system3.jpg
+      - imageUrl: /img/slider-system3b.jpg
     navTitle: Localised Powered Travel for Manual Overhead Conveyors
     title: Localised Powered Travel for Manual Overhead Conveyors
   - images:

@@ -76,6 +76,11 @@ customSections:
     images:
       - imageAlt: overhead conveyor track
         imageUrl: /img/concentrictrack-300x265.jpg
+      - imageAlt: overhead finishing line
+        imageUrl: /img/finishing_line_6.jpg
+      - imageAlt: overhead finishing line
+        imageUrl: /img/finishing_line_5.jpg
+      - imageUrl: /img/slider-orange-overhead-track.jpg
     navTitle: Key Features
     title: Key Features
   - body: >-

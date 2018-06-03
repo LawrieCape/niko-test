@@ -123,6 +123,12 @@ customSections:
 
 
       Triple Track - Straight Sliding Doors
+
+
+      ![industrial folding doors](/img/foldingdoors_endsliding.gif)
+
+
+      Folding Doors – End Sliding
     images:
       - imageAlt: folding door track end sliding
         imageUrl: /img/foldingdoors_endsliding.gif

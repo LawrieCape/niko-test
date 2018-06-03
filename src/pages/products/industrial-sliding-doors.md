@@ -57,8 +57,6 @@ customSections:
         imageUrl: /img/industrial-sliding-doors-double-exterior-2-lg.jpg
       - imageAlt: exterior double sliding doors
         imageUrl: /img/industrial-sliding-doors-double-exterior-lg.jpg
-      - imageAlt: industrial folding doors
-        imageUrl: /img/industrial-sliding-doors-foldinggray-lg.jpg
       - imageAlt: exterior single sliding doors
         imageUrl: /img/industrial-sliding-doors-single-exterior-2-lg.jpg
       - imageAlt: single industrial sliding doors
@@ -66,11 +64,7 @@ customSections:
     navTitle: Industrial Sliding Doors
     pdfs: []
     title: Industrial Sliding Doors
-    videos:
-      - vidDescription: Nikotrack Sliding Door System Installation
-        youTubeId: 'https://www.youtube.com/watch?v=br37qYD2K_M&t=49s'
-      - vidDescription: Nikotrack Folding Door System Installation
-        youTubeId: 'https://www.youtube.com/watch?v=RKpfNREl-mI&t=3s'
+    videos: []
   - body: >-
       Niko industrial sliding door track is the ideal solution for a large range
       of applications including:

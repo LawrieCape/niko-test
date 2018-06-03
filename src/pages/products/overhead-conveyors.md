@@ -32,8 +32,21 @@ customSections:
 
       NikoTrack produces manual overhead conveyor and monorail transfer systems
       that are modular in design for ease of installation and modification.
-
-
+    images:
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_1.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_2.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_3.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_4.jpg
+    navTitle: Overhead Monorail Conveyor Systems
+    pdfs: []
+    products: []
+    title: Overhead Monorail Conveyor Systems
+    videos: []
+  - body: >
       ### Key Features
 
 
@@ -64,23 +77,10 @@ customSections:
       * Situations where flightbars are used to move parts between processes
       within a plant
     images:
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_1.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_2.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_3.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_4.jpg
-    navTitle: Overhead Monorail Conveyor Systems
-    pdfs: []
-    products: []
-    title: Overhead Monorail Conveyor Systems
-    videos:
-      - vidDescription: test description 1
-        youTubeId: stswE04hv3Q
-      - vidDescription: test description 2
-        youTubeId: z5PTPTPAgKE
+      - imageAlt: overhead conveyor track
+        imageUrl: /img/concentrictrack-300x265.jpg
+    navTitle: Key Features
+    title: Key Features
   - body: >-
       As an alternative to fully powered overhead conveyors, Niko offers a
       semi-automatic alternative. This system utilises any manual conveyor
@@ -181,12 +181,6 @@ customSections:
       Thank you!
     navTitle: Request a quote
     title: Request a quote
-  - body: "**NikoTrack’s range of track series profiles are of compact design, and high quality.** NikoTrack is of cold rolled steel manufacture and supplied in standard 6 meter lengths in either plain, zinc plated, or stainless steel. Due to the design of the tapered sides this reduces the possibility of a build up of dust, thus assuring smooth running characteristics of the trolleys.\r\n\r\nNiko Profile | h (mm) | b (mm) | d (mm) | s (mm)\r\n--- | --- | --- | --- | ---\r\nNo. 23.000 | 35.00 | 40.00 | 11.00 | 2.75\r\nNo. 24.000 | 43.50 | 48.50 | 15.50 | 3.20\r\nNo. 25.000 | 60.00 | 65.00 | 18.50 | 3.60\r\nNo. 26.000 | 75.00 | 80.00 | 22.00 | 4.50\r\nNo. 27.000 | 110.00 | 90.00 | 25.00 | 6.50"
-    images:
-      - imageAlt: NikoTrack Track Series
-        imageUrl: /img/concentrictrack-300x265.jpg
-    navTitle: Track Series
-    title: Track Series
   - navTitle: Downloads
     pdfs:
       - pdfThumb: /img/conveyor_system_february_2018_en_thumb.png

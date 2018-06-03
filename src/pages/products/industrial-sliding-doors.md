@@ -145,39 +145,6 @@ customSections:
     images: []
     navTitle: Door Animations
     title: Sliding Door Animations
-  - navTitle: Fittings
-    products:
-      - imageUrl: ''
-        title: Track Profiles & Track Bends
-      - imageUrl: ''
-        title: Track Support Brackets
-      - imageUrl: ''
-        title: Track & Wall End Stops
-      - imageUrl: ''
-        title: Wheel Hangers for Sliding Doors
-      - imageUrl: ''
-        title: Wheel Hangers for Folding & Rotating Doors
-      - imageUrl: ''
-        title: Special Wheel Hangers
-      - imageUrl: ''
-        title: Wheel Hangers for Curtains
-      - imageUrl: ''
-        title: Wheel Hangers for Glass
-      - imageUrl: ''
-        title: Brackets for Hanging Panels
-      - imageUrl: ''
-        title: Guide Tracks & Guide Track Bends
-      - imageUrl: ''
-        title: Brackets with Rollers for Guide Tracks
-      - imageUrl: ''
-        title: Roller Guides for Guide Tracks
-      - imageUrl: ''
-        title: Special Guides
-      - imageUrl: ''
-        title: Guides for Sliding Doors
-      - imageUrl: ''
-        title: Bottom Rollers
-    title: Fittings
   - navTitle: Downloads
     pdfs:
       - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png

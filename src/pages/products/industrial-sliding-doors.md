@@ -108,7 +108,14 @@ customSections:
       door](/img/straightslidingdoors_singletrackmultipledoors.gif)
 
 
-      Single Track - Two Single Sliding Doors
+      Single Track - Two Single Sliding Doors 
+
+
+      ![double track industrial sliding
+      doors](/img/straightslidingdoors_doubletrack.gif)
+
+
+      Double Track - Straight Sliding Multiple Doors
     images:
       - imageAlt: folding door track end sliding
         imageUrl: /img/foldingdoors_endsliding.gif

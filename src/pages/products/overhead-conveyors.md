@@ -47,9 +47,6 @@ customSections:
     title: Overhead Monorail Conveyor Systems
     videos: []
   - body: >
-      ### Key Features
-
-
       * Multiple track sizes
 
       * Manual or powered

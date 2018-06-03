@@ -15,12 +15,12 @@ customSections:
         pdfUrl: /img/conveyor_system_february_2018_en.pdf
         title: C1 - Conveyor Systems Catalogue
     title: C1 - Overhead Conveyor Systems
-  - navTitle: Paint Finishing Lines Case Studies
+  - navTitle: Finishing Lines Case Studies
     pdfs:
       - pdfThumb: /img/niko_painting_lines_leaflet_march_2018_hq_thumb.jpg
         pdfUrl: /img/niko_painting_lines_leaflet_march_2018_hq.pdf
         title: Paint Finishing Lines Case Studies
-    title: Paint Finishing Lines Case Studies
+    title: Finishing Lines Case Studies
   - navTitle: Light Cranes
     pdfs:
       - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png

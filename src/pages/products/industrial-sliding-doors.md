@@ -161,5 +161,8 @@ customSections:
           B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
           Manual
     title: Downloads
+  - body: "* Easy to install, extend or move\r\n* Free running - requires 1/100 weight to force ratio to move doors\r\n* Low maintenance - bearings and track do not need to be oiled\r\n* High reliability – certified for 100,000 cycles\r\n* Near silent operation\r\n* Simple operation\r\n* Tapered edge track profile means door hangers always run smooth and do not snag or bind\r\n* Compact size – allowing for space utilisation\r\n* Track profile designed to reduce build up of dust, dirt and ice"
+    navTitle: Advantages
+    title: Advantages
 ---
 

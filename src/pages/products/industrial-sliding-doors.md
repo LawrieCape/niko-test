@@ -97,7 +97,11 @@ customSections:
         imageUrl: /img/sliding_door_2.jpg
     navTitle: Applications
     title: Applications
-  - images:
+  - body: |-
+      ![sliding door](/img/straightslidingdoors-singletrack.gif)
+
+      Straight Sliding Doors — Single Track
+    images:
       - imageAlt: folding door track end sliding
         imageUrl: /img/foldingdoors_endsliding.gif
       - imageAlt: single sliding door

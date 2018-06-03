@@ -135,6 +135,13 @@ customSections:
 
 
       Stacking Sliding Doors
+
+
+      ![stacking sliding industrial doors around
+      corner](/img/stackingslidingdoorsroundcorner.gif)
+
+
+      Stacking Sliding Doors Round Corner
     images:
       - imageAlt: folding door track end sliding
         imageUrl: /img/foldingdoors_endsliding.gif

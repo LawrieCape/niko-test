@@ -38,6 +38,41 @@ customSections:
       * Industrial Barn Door tracks and fittings
 
       * Lightweight Overhead Cranes
+
+
+      NikoTrack produces manual overhead conveyor and monorail transfer systems
+      that are modular in design for ease of installation and modification.
+
+
+      ### Key Features
+
+
+      * Multiple track sizes
+
+      * Manual or powered
+
+      * Flexible and simple track mounting system
+
+      * Standard components to connect and suspend the monorail conveyor track
+
+      * All components are electro galvanized for complete protection
+
+      * Seamless integration with the NikoTrack lightweight crane and lifting
+      equipment
+
+      * Free running, economical with minimal maintenance
+
+
+      ### Suitable For
+
+
+      * Powder coating, painting, and material finishing applications
+
+      * Any industrial process that requires movement of parts, above floor
+      level
+
+      * Situations where flightbars are used to move parts between processes
+      within a plant
     images:
       - imageAlt: paint finishing line overhead conveyor
         imageUrl: /img/finishing_line_1.jpg
@@ -76,88 +111,6 @@ customSections:
         imageUrl: /img/concentrictrack-300x265.jpg
     navTitle: Track Series
     title: Track Series
-  - body: >-
-      NikoTrack produces manual overhead conveyor and monorail transfer systems
-      that are modular in design for ease of installation and modification.
-
-
-      ### Key Features
-
-
-      * Multiple track sizes
-
-      * Manual or powered
-
-      * Flexible and simple track mounting system
-
-      * Standard components to connect and suspend the monorail conveyor track
-
-      * All components are electro galvanized for complete protection
-
-      * Seamless integration with the NikoTrack lightweight crane and lifting
-      equipment
-
-      * Free running, economical with minimal maintenance
-
-
-      ### Suitable For
-
-
-      * Powder coating, painting, and material finishing applications
-
-      * Any industrial process that requires movement of parts, above floor
-      level
-
-      * Situations where flightbars are used to move parts between processes
-      within a plant
-    images: []
-    navTitle: Overhead Conveyor and Monorail Systems
-    title: Overhead Conveyor and Monorail Systems
-  - body: >-
-      **Modular Design**
-
-
-      * The Niko manual overhead conveyors are designed to suit any existing
-      working environment and they can be changed or extended at a later date,
-      should production requirements change. The modular nature makes them ideal
-      for jobbing powder-coating lines.
-
-
-      **Environmentally Friendly **
-
-
-      * These manual overhead conveyors have a low carbon footprint with the
-      automated parts using minimal power and the manual parts using none at
-      all.
-
-
-      **Storage Space Utilised **
-
-
-      * Automatic switches change the manual overhead conveyor from a single
-      track to side shifting dual tracks and allow flight bars to be grouped
-      together and utilise storage space
-
-
-      **Accurate, Repeatable Load Positioning**
-
-
-      * The tapered edges of the Niko profile track ensure that the load
-      carrying trolleys run smoothly, meaning accurate, repetitive load
-      positioning can be achieved throughout the whole manual overhead conveyor.
-
-
-      **Integration with Lifting Equipment **
-
-
-      * The Niko manual overhead conveyor is designed to seamlessly integrate
-      with Niko lightweight overhead cranes and lifting equipment through
-      latching and transfer devices. This reduces the need for manual lifting
-      where an overhead conveyor is loaded and unloaded.
-    images:
-      - imageUrl: /img/21.b62-lg-195x195.jpg
-    navTitle: Advantages
-    title: Advantages
   - body: >-
       As an alternative to fully powered overhead conveyors, Niko offers a
       semi-automatic alternative. This system utilises any manual conveyor

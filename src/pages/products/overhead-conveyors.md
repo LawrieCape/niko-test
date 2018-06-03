@@ -3,7 +3,7 @@ templateKey: product-landing
 order: 2
 navTitle: Overhead Conveyors
 heroImage: /img/slider_wood_overhead_track.jpg
-heroDescription: Not required
+heroDescription: '### The ideal economic and flexible solution for loads up to 2,000 kg. '
 title: Overhead Conveyors
 customSections:
   - body: >-

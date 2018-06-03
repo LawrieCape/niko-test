@@ -56,10 +56,6 @@ customSections:
       - imageAlt: alt
         imageUrl: /img/niko-overhead-conveyor-9-320x200.jpg
       - imageAlt: alt
-        imageUrl: /img/niko-fall-arrest-track-4-320x200.jpg
-      - imageAlt: aly
-        imageUrl: /img/bluedoubledoors-hires-320x200.jpg
-      - imageAlt: alt
         imageUrl: /img/turntable-320-200.jpg
       - imageAlt: alt
         imageUrl: /img/system-320-200.jpg

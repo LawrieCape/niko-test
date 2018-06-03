@@ -142,23 +142,7 @@ customSections:
 
 
       Stacking Sliding Doors Round Corner
-    images:
-      - imageAlt: folding door track end sliding
-        imageUrl: /img/foldingdoors_endsliding.gif
-      - imageAlt: single sliding door
-        imageUrl: /img/single.gif
-      - imageAlt: stacking sliding doors
-        imageUrl: /img/stackingslidingdoors.gif
-      - imageAlt: stacking sliding doors around corner
-        imageUrl: /img/stackingslidingdoorsroundcorner.gif
-      - imageAlt: folding doors end sliding
-        imageUrl: /img/foldingdoors_endsliding.gif
-      - imageAlt: sliding doors double track
-        imageUrl: /img/straightslidingdoors_doubletrack.gif
-      - imageAlt: straight sliding multiple doors
-        imageUrl: /img/straightslidingdoors_singletrackmultipledoors.gif
-      - imageAlt: straight sliding doors triple track
-        imageUrl: /img/straightslidingdoors_tripletrack.gif
+    images: []
     navTitle: Door Animations
     title: Sliding Door Animations
   - navTitle: Fittings

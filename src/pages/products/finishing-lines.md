@@ -4,7 +4,7 @@ order: '2'
 navTitle: Finishing Lines
 heroImage: /img/finishing_line_hero_940x350.jpg
 heroDescription: |-
-  * **The Ideal Solution for Painting, Powder Coating and Finishing Lines**
+  * **The Ideal Solution for all Finishing Lines**
   * **Fully Flexible Layouts**
   * **Read Case Studies**
 title: Finishing Lines

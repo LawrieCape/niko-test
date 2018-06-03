@@ -80,7 +80,8 @@ customSections:
         imageUrl: /img/finishing_line_6.jpg
       - imageAlt: overhead finishing line
         imageUrl: /img/finishing_line_5.jpg
-      - imageUrl: /img/slider-orange-overhead-track.jpg
+      - imageAlt: overhead finishing line
+        imageUrl: /img/turntable-320-200.jpg
     navTitle: Key Features
     title: Key Features
   - body: >-

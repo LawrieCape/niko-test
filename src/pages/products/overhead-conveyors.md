@@ -39,6 +39,18 @@ customSections:
 
       * Lightweight Overhead Cranes
     images:
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_1.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_2.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_3.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_4.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_5.jpg
+      - imageAlt: paint finishing line overhead conveyor
+        imageUrl: /img/finishing_line_6.jpg
       - imageAlt: alt
         imageUrl: /img/static-powdercoating-9.jpg
       - imageAlt: alt
@@ -53,18 +65,6 @@ customSections:
         imageUrl: /img/system-320-200.jpg
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyors_2.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_1.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_2.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_3.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_4.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_5.jpg
-      - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_6.jpg
     navTitle: Overhead Monorail Conveyor Systems
     pdfs: []
     products: []

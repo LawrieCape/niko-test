@@ -3,14 +3,7 @@ templateKey: product-landing
 order: 2
 navTitle: Overhead Conveyors
 heroImage: /img/slider_wood_overhead_track.jpg
-heroDescription: |-
-  **Nikotrack Overhead Conveyors are ideal for:**
-
-  * **Paint finishing Systems**
-  * **Powder Coating Lines**
-  * **Manual Systems**
-  * **Fully Powered Systems**
-  * **Localized Power Loop Systems**
+heroDescription: Not required
 title: Overhead Conveyors
 customSections:
   - body: >-

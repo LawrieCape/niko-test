@@ -7,7 +7,7 @@ heroDescription: |-
   * **Industrial Sliding & Folding Doors**
   * **Sliding & Folding Barn Doors**
   * **Residential Sliding & Folding Doors**
-title: B1 - Heavy Duty Sliding & Folding Doors
+title: Heavy Duty Sliding & Folding Doors
 customSections:
   - body: >-
       Niko industrial sliding door track systems comprise of a range of track
@@ -55,17 +55,13 @@ customSections:
         imageUrl: /img/industrial-sliding-doors-double-door-sm.jpg
       - imageAlt: double sliding doors
         imageUrl: /img/industrial-sliding-doors-double-exterior-2-lg.jpg
-      - imageAlt: exterior double sliding doors
-        imageUrl: /img/industrial-sliding-doors-double-exterior-lg.jpg
-      - imageAlt: exterior single sliding doors
-        imageUrl: /img/industrial-sliding-doors-single-exterior-2-lg.jpg
-      - imageAlt: single industrial sliding doors
-        imageUrl: /img/industrial-sliding-doors-single-exterior-lg.jpg
     navTitle: Industrial Sliding Doors
     pdfs: []
     title: Industrial Sliding Doors
     videos: []
   - body: "* Easy to install, extend or move\r\n* Free running - requires 1/100 weight to force ratio to move doors\r\n* Low maintenance - bearings and track do not need to be oiled\r\n* High reliability – certified for 100,000 cycles\r\n* Near silent operation\r\n* Simple operation\r\n* Tapered edge track profile means door hangers always run smooth and do not snag or bind\r\n* Compact size – allowing for space utilisation\r\n* Track profile designed to reduce build up of dust, dirt and ice"
+    images:
+      - {}
     navTitle: Advantages
     title: Advantages
   - body: >-

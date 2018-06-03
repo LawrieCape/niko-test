@@ -67,5 +67,11 @@ customSections:
         pdfUrl: /img/leaflet_jib_crane_january_2017.pdf
         title: Jib Cranes Leaflet
     title: Jib Cranes
+  - navTitle: Paint Finishing Lines Case Studies
+    pdfs:
+      - pdfThumb: /img/niko_painting_lines_leaflet_march_2018_hq_thumb.jpg
+        pdfUrl: /img/niko_painting_lines_leaflet_march_2018_hq.pdf
+        title: Paint Finishing Lines Case Studies
+    title: Paint Finishing Lines Case Studies
 ---
 

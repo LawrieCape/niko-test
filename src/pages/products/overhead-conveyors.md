@@ -106,10 +106,8 @@ customSections:
     images:
       - imageAlt: overhead conveyor powered
         imageUrl: /img/slider-turn-overhead-track.jpg
-      - imageUrl: /img/overhead_conveyor_ex_1.jpg
-      - imageUrl: /img/slider-system3.jpg
-      - imageUrl: /img/slider-system3.jpg
-      - imageUrl: /img/slider-system3b.jpg
+      - imageAlt: overhead powered conveyor
+        imageUrl: /img/powered_overhead_conveyor_1.jpg
     navTitle: 'Localized Powered Travel '
     title: 'Localized Powered Travel '
   - images:

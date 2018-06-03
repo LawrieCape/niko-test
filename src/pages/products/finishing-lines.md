@@ -1,6 +1,6 @@
 ---
 templateKey: product-landing
-order: '7'
+order: '2'
 navTitle: Finishing Lines
 heroImage: /img/finishing_line_hero_940x350.jpg
 heroDescription: >-

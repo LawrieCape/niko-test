@@ -121,9 +121,9 @@ customSections:
         imageUrl: /img/overhead_conveyor_ex_2.jpg
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_3.jpg
-    navTitle: Track Configuration
+    navTitle: Track Configurations
     pdfs: []
-    title: Track Configuration Samples
+    title: Track Configuration Examples
   - body: >-
       ### Manual Transfer Overhead Conveyor Systems
 

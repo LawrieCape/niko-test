@@ -71,6 +71,36 @@ customSections:
         youTubeId: 'https://www.youtube.com/watch?v=br37qYD2K_M&t=49s'
       - vidDescription: Nikotrack Folding Door System Installation
         youTubeId: 'https://www.youtube.com/watch?v=RKpfNREl-mI&t=3s'
+  - body: >-
+      Niko industrial sliding door track is the ideal solution for a large range
+      of applications including:
+
+
+      * Sliding doors for factories and industrial units
+
+      * Warehouse sliding doors
+
+      * Sliding doors for aircraft hangars
+
+      * Agricultural sliding doors – barns, farms and stable partitions
+
+      * Commercial sliding doors – restaurants, shops, garages, schools, offices
+      etc.
+
+      * Sliding oven doors
+
+      * Sliding shed doors
+    images:
+      - imageAlt: industrial folding door
+        imageUrl: /img/foldinggray_lg.jpg
+      - imageAlt: industrial plastic curtains
+        imageUrl: /img/plasticcurtains_lg.jpg
+      - imageAlt: triple sliding door
+        imageUrl: /img/triple_sliding_door.jpg
+      - imageAlt: industrial sliding door
+        imageUrl: /img/sliding_door_2.jpg
+    navTitle: Applications
+    title: Applications
   - images:
       - imageAlt: folding door track end sliding
         imageUrl: /img/foldingdoors_endsliding.gif

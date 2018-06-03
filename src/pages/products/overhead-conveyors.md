@@ -110,10 +110,7 @@ customSections:
         imageUrl: /img/powered_overhead_conveyor_1.jpg
     navTitle: 'Localized Powered Travel '
     title: 'Localized Powered Travel '
-  - body: >-
-      There are an infinite number of possible track layouts, to suit any
-      particular application. Nikotrack provide a wide range of turns, switches,
-      turntables, which can be manually or pneumatically operated.
+  - body: "There are an infinite number of possible track layouts, to suit any particular application. Nikotrack provide a wide range of turns, switches, turntables, which can be manually or pneumatically operated. Layouts can be optimized for:\n\n* **Storage Space Utilization\r**\n  * The use of automatic switches and precision bent 90 degree track, allows for a flight bar travelling along the manual overhead conveyor track, to be side shifted, and stored in an accumulating idle area for storage or process dwell time. The Overhead Conveyor Systems C1 catalogue displays the different modular fittings to achieve precise track placement for maximum space utilization.\r\n* **Overhead Load Positioning\r**\n  * The enclosed precision track has tapered sides to ensure that the load carrying trolleys self locate to run freely and smoothly with minimal force required to move the loaded trolley. Repeatable positioning of loaded trolleys is achieved throughout the entire manual overhead conveyor system.\r\n* **NikoTrack Overhead Turntable Detour System\r**\n  * The unique NikoTrack Turntable Detour system allows for multiple overhead track systems to be interconnected. Loads or flight bars are easily transferred between different processes or areas of the plant. Turntables are an ergonomic solution to multiple conveyor destination systems, reducing capital expenditure on more complex overhead conveyor track layouts."
     images:
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_1.jpg
@@ -124,58 +121,6 @@ customSections:
     navTitle: Track Configurations
     pdfs: []
     title: Track Configuration Examples
-  - body: >-
-      ### Manual Transfer Overhead Conveyor Systems
-
-
-      * Working loads of up to 3,250 lbs (1600 Kg)
-
-      * Smooth movement through transfer devices such as:
-        * Switches
-        * Bends
-        * Turntables
-      * Modular design
-
-      * Allows infinite design possiblilities
-
-      * Easily updated, changed or modified as required
-
-      * Electro galvanized to meet tough working environments for both inside
-      and outside work areas
-
-
-      #### Storage Space Utilization
-
-
-      The use of automatic switches and precision bent 90 degree track, allows
-      for a flight bar travelling along the manual overhead conveyor track, to
-      be side shifted, and stored in an accumulating idle area for storage or
-      process dwell time. The Overhead Conveyor Systems C1 catalogue displays
-      the different modular fittings to achieve precise track placement for
-      maximum space utilization.
-
-
-      #### Overhead Load Positioning
-
-
-      The enclosed precision track has tapered sides to ensure that the load
-      carrying trolleys self locate to run freely and smoothly with minimal
-      force required to move the loaded trolley. Repeatable positioning of
-      loaded trolleys is achieved throughout the entire manual overhead conveyor
-      system.
-
-
-      #### NikoTrack Overhead Turntable Detour System
-
-
-      The unique NikoTrack Turntable Detour system allows for multiple overhead
-      track systems to be interconnected. Loads or flight bars are easily
-      transferred between different processes or areas of the plant. Turntables
-      are an ergonomic solution to multiple conveyor destination systems,
-      reducing capital expenditure on more complex overhead conveyor track
-      layouts.
-    navTitle: Further Details
-    title: Further Details
   - body: >-
       If you would like to receive a no obligation quotation for a system you
       are planning, then please complete the following form, and we will get

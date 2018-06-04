@@ -9,7 +9,19 @@ heroDescription: |-
   * **Trolleys and More....**
 title: Components
 customSections:
-  - body: '![overhead conveyor track profiles](/img/track-profiles.jpg)'
+  - body: >-
+      ![overhead conveyor track profiles](/img/track-profiles.jpg)
+
+
+      **NikoTrack Track Series**
+
+
+      NikoTrack’s range of track series profiles are of compact design, and high
+      quality.\*\* NikoTrack is of cold rolled steel manufacture and supplied in
+      standard 6 meter lengths in either plain, zinc plated, or stainless steel.
+      Due to the design of the tapered sides this reduces the possibility of a
+      build up of dust, thus assuring smooth running characteristics of the
+      trolleys.
     navTitle: Track
     title: Track
   - body: '![]()'

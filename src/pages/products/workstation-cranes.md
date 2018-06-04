@@ -37,45 +37,41 @@ customSections:
       * Modular design
     navTitle: Features
     title: Features
-    videos:
-      - vidDescription: Ceiling Mounted Bridge Crane - Austria
-        youTubeId: 'https://www.youtube.com/watch?v=XIki84wuwXs&t=39s'
+    videos: []
   - body: "* Ultra-low headroom\r\n\r\n* Crane bridge does not grab\r\n\r\n* Low-maintenance and long working life\r\n\r\n* Easy to install\r\n\r\n* Fit directly to roof and a wide range of structures\r\n\r\n* For indoor and outdoor applications\r\n\r\n* Ideal for food applications and clean areas\r\n\r\n* Easy to extend, modify or relocate\r\n\r\n* Can connect to other cranes and conveyors\r\n\r\n* Cost effective"
     navTitle: Advantages
     title: Advantages
   - body: >-
-
       Freestanding light cranes are generally used when the ceiling is not
       strong enough to support the weight of the crane and the load. The crane
-      is supported from a freestanding steelwork support structure, which is
+      is supported from a freestanding steel work support structure, which is
       designed and fabricated to suit the requirements of the working area. The
       support structure usually bolts directly to the floor, but can also be
       partially suspended from adjacent walls, stanchions or overhanging beams.
 
 
-      NikoTrack crane enables the user an easy, fast and ergonomic movement of
-      the material downshop and across a span. Manual bridge cranes operate
-      faster than motorized systems, the latter is used where accessibility is
-      restricted. NikoTrack has a tapered track that automatically guides the
-      trolley to the center of the track, moving the heaviest loads only
-      requires a fraction of force to begin movement and even less to maintain
-      it. There is a 100/1 weight to force ratio, so to move a
-      1,000<sup>lbs</sup> of material only requires 10 lbs of force to start
-      moving it and only 8 lbs to continue moving. Also, with the NikoTracks
-      inverted tapered track profile, there is a much less likelihood of
-      dirt/dust accumulating inside of the track which will require less
-      maintenance and ensure reliability.
+      **Advantages:**
 
 
-      NikoTrack has a full range of track, track joints, support brackets,
-      I-beam connectors and end carriage trolleys. All designed for ease of
-      design and installation. All fittings are zinc plate for maximum
-      durability and protection for tough operating environments. **Tracks** are
-      available in 6 meter length ( 19.70 feet), they are cold rolled with
-      tapered sides designed to center the trolleys, prevent dust build up
-      assuring smooth transfer of trolleys. The end carriage trolleys are fitted
-      with horizontal guide rollers, connecting the moving cross bridge member
-      to the down shop tracks.
+      * Ultra-low headroom
+
+      * Crane bridge does not grab
+
+      * Low-maintenance and long working life
+
+      * Easy to install
+
+      * Fit directly to roof and a wide range of structures
+
+      * For indoor and outdoor applications
+
+      * Ideal for food applications and clean areas
+
+      * Easy to extend, modify or relocate
+
+      * Can connect to other cranes and conveyors
+
+      * Cost effective
     images:
       - imageAlt: free standing bridge crane
         imageUrl: /img/free_standing_bridge_crane.jpg
@@ -83,19 +79,7 @@ customSections:
     pdfs: []
     title: Free Standing Bridge Cranes
     videos: []
-  - body: >-
-      Ceiling mounted light cranes are an ideal solution for applications where
-      floor space is at a premium. The light crane can be suspended directly or
-      dropped down from the existing ceiling or building support beams. The Niko
-      C2 range has a wide variety of suspension brackets to enable the light
-      crane to be suspended from virtually any roof structure. The major
-      advantage of this type of system is that the floor space is kept clear of
-      supporting stanchions, enabling free movement underneath the light crane.
-
-
-      **NOTE:** The roof support points must be tested and approved by a
-      structural engineer to ensure they can sustain the weight of the load and
-      light crane.
+  - body: "Ceiling mounted light crane\r\n\nCeiling mounted light cranes are an ideal solution for applications where floor space is at a premium. The light crane can be suspended directly or dropped down from the existing ceiling or building support beams. The Niko C2 range has a wide variety of suspension brackets to enable the light crane to be suspended from virtually any roof structure. The major advantage of this type of system is that the floor space is kept clear of supporting stanchions, enabling free movement underneath the light crane."
     images:
       - imageAlt: ceiling mounted light crane
         imageUrl: /img/ceiling_mounted_bridge_crane.jpg

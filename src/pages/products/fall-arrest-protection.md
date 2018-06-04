@@ -18,8 +18,8 @@ customSections:
     navTitle: Systems
     title: Systems
   - body: >-
-      **Advantages of Niko Fall Protection Track vs Taut Wire Fall Protection
-      System**
+      **Advantages of NikoTrack Fall Protection Track vs Taut Wire Fall
+      Protection System**
 
 
       * There is less distance to fall with NikoTrack fall protection track and

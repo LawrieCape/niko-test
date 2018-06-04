@@ -16,17 +16,24 @@ customSections:
       accommodate changes in your working patterns. The construction of Niko C2
       light cranes is considerably lighter, free-running and more versatile than
       conventional I-beam overhead cranes.
-    navTitle: Intro
-    title: Intro
-  - body: |-
+
+
       * Lift loads up to 2000kg
+
       * Bridge span up to 12m
+
       * Smooth and easy movement in all directions
+
       * Manual or electronic lifting and travel
+
       * Robust construction
+
       * Wide range of fixing brackets
+
       * Zinc plated, powder coated, hot dip galvanised finish
+
       * Available in Stainless steel
+
       * Modular design
     navTitle: Features
     title: Features

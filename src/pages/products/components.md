@@ -30,11 +30,11 @@ customSections:
   - body: '![]()'
     navTitle: Joints & Supports
     products:
-      - imageUrl: ''
+      - imageUrl: /img/b02-lg-195x195.jpg
         title: .B00 Welded Ceiling Support
-      - imageUrl: ''
+      - imageUrl: /img/b01-lg-195x195.jpg
         title: .B01 Side Mounted Support for Conveyors
-      - imageUrl: ''
+      - imageUrl: /img/21.b62-lg-195x195.jpg
         title: .B02 Bolt on Crane Support
       - imageUrl: ''
         title: .B03 Stalled Steel Support for Crane

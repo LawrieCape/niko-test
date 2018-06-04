@@ -116,5 +116,21 @@ customSections:
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
         title: C2 - Light Cranes Technical Description
     title: Downloads
+  - body: "The Climbing Crane system is unique to Niko Ltd\r\n\n\rThese systems were developed for the timber industry for lifting and handling large timber roof trusses. They are an ideal lifting solution for buildings with headroom space issues.\r\n\n\rClimbing cranes are usually radio controlled for operator ease.\r\n\n\rChain Drive Climbing Crane\r\n\n\rThe climbing crane system is designed to clip directly to a sloping roof beam (up to 15-degree angle). It utilises standard Niko Ltd parts with a fixed chain drive designed specifically for this application."
+    images:
+      - imageAlt: climbing crane
+        imageUrl: /img/niko_climbing_crane_2.jpg
+      - imageAlt: >-
+          Climbing Cranes The Climbing Crane system is unique to Niko Ltd  These
+          systems were developed for the timber industry for lifting and
+          handling large timber roof trusses. They are an ideal lifting solution
+          for buildings with headroom space issues.  Climbing cranes are usually
+          radio controlled for operator ease.  Chain Drive Climbing Crane  The
+          climbing crane system is designed to clip directly to a sloping roof
+          beam (up to 15-degree angle). It utilises standard Niko Ltd parts with
+          a fixed chain drive designed specifically for this application.
+        imageUrl: /img/niko_climbing_crane_3.jpg
+    navTitle: Climbing Cranes
+    title: Climbing Cranes
 ---
 

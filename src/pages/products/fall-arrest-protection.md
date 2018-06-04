@@ -9,7 +9,63 @@ heroDescription: |-
   * **Reliable & Reusable**
 title: Fall Arrest Protection
 customSections:
-  - {}
+  - body: >-
+      ### Fall Arrest Protection Systems
+
+
+      **Niko Track Fall Protection Systems** provide a very safe and practical
+      safety system for people working at height. According to OSHA a fall
+      protection system is designed to arrest or prevent falls from a height.
+      OSHA standards state that any time a worker is at a height of four feet or
+      more, the worker is at risk and needs to be protected. Fall protection
+      must be provided at four feet in general industry, five feet in maritime
+      and six feet in construction. However, regardless of the fall distance,
+      fall protection must be provided when working over dangerous equipment and
+      machinery. The US Department of Labor (DOL) lists falls as one of the
+      leading causes of traumatic occupational death, accounting for eight
+      percent of all occupational fatalities from trauma.
+
+
+      #### Advantages of Niko Fall Protection Track vs Taut Wire Fall Protection
+      System
+
+
+      * There is less distance to fall with NikoTrack fall protection track and
+      therefore less impact on the body
+
+      * No bouncing effect, which can cause injury on secondary falls
+
+      * Multiple person systems are safer with NikoTrack fall protection track.
+      One person falling on a taut wire fall protection systems can cause other
+      users to fall
+
+      * Following a fall the Niko fall protection track can be re-used
+      immediately after passing a visual inspection. Taut wire systems need to
+      be completely replaced
+
+      * The tapered edge design of the NikoTrack fall protection track achieves
+      very free running movement and eliminates snag effect
+
+      * Its modular design means that the NikoTrack fall protection track
+      systems can be easily moved, added to and changed after installation
+
+      * NikoTrack fall protection track offers solutions that enable operators
+      to pass each other without detaching themselves from the system
+
+      * No length-limit of distance of NikoTrack fall protection track systems
+
+      * NikoTrack Fall Protection Systems offer very little interference with
+      workers tasks or activities and will easily/naturally move with the worker
+
+      * Because of NikoTracks self aligning trolleys, the safety tether will
+      remain directly above the user, therefore eliminating the possibility of a
+      swing fall
+
+      * Because of the enclosed track design, NikoTrack systems are not
+      susceptible to snow, ice, or debris, which allows for year round use of
+      the system
+    navTitle: Features
+    title: Features
   - body: "### Fall Arrest Protection Systems\r\n\r\n**Niko Track Fall Protection Systems** provide a very safe and practical safety system for people working at height. According to OSHA a fall protection system is designed to arrest or prevent falls from a height. OSHA standards state that any time a worker is at a height of four feet or more, the worker is at risk and needs to be protected. Fall protection must be provided at four feet in general industry, five feet in maritime and six feet in construction. However, regardless of the fall distance, fall protection must be provided when working over dangerous equipment and machinery. The US Department of Labor (DOL) lists falls as one of the leading causes of traumatic occupational death, accounting for eight percent of all occupational fatalities from trauma.\r\n\r\n#### Advantages of Niko Fall Protection Track vs Taut Wire Fall Protection System\r\n\r\n* There is less distance to fall with NikoTrack fall protection track and therefore less impact on the body\r\n* No bouncing effect, which can cause injury on secondary falls\r\n* Multiple person systems are safer with NikoTrack fall protection track. One person falling on a taut wire fall protection systems can cause other users to fall\r\n* Following a fall the Niko fall protection track can be re-used immediately after passing a visual inspection. Taut wire systems need to be completely replaced\r\n* The tapered edge design of the NikoTrack fall protection track achieves very free running movement and eliminates snag effect\r\n* Its modular design means that the NikoTrack fall protection track systems can be easily moved, added to and changed after installation\r\n* NikoTrack fall protection track offers solutions that enable operators to pass each other without detaching themselves from the system\r\n* No length-limit of distance of NikoTrack fall protection track systems\r\n* NikoTrack Fall Protection Systems offer very little interference with workers tasks or activities and will easily/naturally move with the worker\r\n* Because of NikoTracks self aligning trolleys, the safety tether will remain directly above the user, therefore eliminating the possibility of a swing fall\r\n* Because of the enclosed track design, NikoTrack systems are not susceptible to snow, ice, or debris, which allows for year round use of the system\r"
     navTitle: Niko vs The Competition
     title: Niko Fall Protection vs Taut Wire Protection Systems

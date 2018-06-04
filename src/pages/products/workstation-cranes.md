@@ -38,9 +38,6 @@ customSections:
     navTitle: Features
     title: Features
     videos: []
-  - body: "* Ultra-low headroom\r\n\r\n* Crane bridge does not grab\r\n\r\n* Low-maintenance and long working life\r\n\r\n* Easy to install\r\n\r\n* Fit directly to roof and a wide range of structures\r\n\r\n* For indoor and outdoor applications\r\n\r\n* Ideal for food applications and clean areas\r\n\r\n* Easy to extend, modify or relocate\r\n\r\n* Can connect to other cranes and conveyors\r\n\r\n* Cost effective"
-    navTitle: Advantages
-    title: Advantages
   - body: >-
       Freestanding light cranes are generally used when the ceiling is not
       strong enough to support the weight of the crane and the load. The crane

@@ -12,6 +12,54 @@ customSections:
   - body: '![overhead conveyor track profiles](/img/track-profiles.jpg)'
     navTitle: Track
     title: Track
+  - body: '![]()'
+    navTitle: Joints & Supports
+    products:
+      - imageUrl: ''
+        title: .B00 Welded Ceiling Support
+      - imageUrl: ''
+        title: .B01 Side Mounted Support for Conveyors
+      - imageUrl: ''
+        title: .B02 Bolt on Crane Support
+      - imageUrl: ''
+        title: .B03 Stalled Steel Support for Crane
+      - imageUrl: ''
+        title: .B03 Stalled Steel Support for Crane
+      - imageUrl: ''
+        title: .B04 Close Adjustable Bracket
+      - imageUrl: ''
+        title: .B04P Crane Adjustable Support
+      - imageUrl: ''
+        title: .B08 Stalled Crane Steel Support Conveyor
+      - imageUrl: ''
+        title: .B08 Stalled Crane Steel Support Conveyor
+      - imageUrl: ''
+        title: .B08 Close Split Suspension Bracket
+      - imageUrl: ''
+        title: .B35 – .B36 Combined Ceiling Bracket
+      - imageUrl: ''
+        title: .B35P ibeam Support Crane
+      - imageUrl: ''
+        title: .B36P ibeam Supported Crane Conveyor
+      - imageUrl: ''
+        title: .B40
+      - imageUrl: ''
+        title: .B49 Splice Joint
+      - imageUrl: ''
+        title: .B50 Support for Crane or Conveyor
+      - imageUrl: ''
+        title: .B62 Ceiling Mounted Crane
+      - imageUrl: ''
+        title: .B64 Adjustable Ceiling Support
+      - imageUrl: ''
+        title: .H09
+      - imageUrl: ''
+        title: .B35 – .B36 Combined Ceiling Bracket
+      - imageUrl: ''
+        title: .B38
+      - imageUrl: ''
+        title: .B60 Ceiling Mounted Conveyor Support
+    title: Joints & Supports
   - body: "NikoTrack’s six profiles are immobile without their trolleys. **NikoTrack’s trolleys come in a variety of styles, all with different applications in mind**, most offered in every profile series, while some are specific to larger or smaller profiles.\r\n\r\n_The trolleys pictured below are designated with partial part numbers. Each trolleys full part number is always prefixed with a track profile number (21, 23, 24 etc.)_\r\n\n**TROLLEY SWL (Kg)**\r\n\r\nSERIES | 21 | 23 | 24 | 25 | 26 | 27\r\n--- | --- | --- | --- | --- | --- | ---\r\n2 Wheel | 10 | 20 | 40 | 100 | 200 | 400\r\n4 Wheel | 20 | 40 | 80 | 200 | 400 | 800\r\nFlight Bar | 40 | 80 | 160 | 400 | 800 | 1600"
     navTitle: Trolley Styles
     pdfs:
@@ -65,53 +113,6 @@ customSections:
       - imageUrl: ''
         title: '.T46 trolley for hoist, crane trolley'
     title: Trolley Styles
-  - navTitle: Joints & Supports
-    products:
-      - imageUrl: ''
-        title: .B00 Welded Ceiling Support
-      - imageUrl: ''
-        title: .B01 Side Mounted Support for Conveyors
-      - imageUrl: ''
-        title: .B02 Bolt on Crane Support
-      - imageUrl: ''
-        title: .B03 Stalled Steel Support for Crane
-      - imageUrl: ''
-        title: .B03 Stalled Steel Support for Crane
-      - imageUrl: ''
-        title: .B04 Close Adjustable Bracket
-      - imageUrl: ''
-        title: .B04P Crane Adjustable Support
-      - imageUrl: ''
-        title: .B08 Stalled Crane Steel Support Conveyor
-      - imageUrl: ''
-        title: .B08 Stalled Crane Steel Support Conveyor
-      - imageUrl: ''
-        title: .B08 Close Split Suspension Bracket
-      - imageUrl: ''
-        title: .B35 – .B36 Combined Ceiling Bracket
-      - imageUrl: ''
-        title: .B35P ibeam Support Crane
-      - imageUrl: ''
-        title: .B36P ibeam Supported Crane Conveyor
-      - imageUrl: ''
-        title: .B40
-      - imageUrl: ''
-        title: .B49 Splice Joint
-      - imageUrl: ''
-        title: .B50 Support for Crane or Conveyor
-      - imageUrl: ''
-        title: .B62 Ceiling Mounted Crane
-      - imageUrl: ''
-        title: .B64 Adjustable Ceiling Support
-      - imageUrl: ''
-        title: .H09
-      - imageUrl: ''
-        title: .B35 – .B36 Combined Ceiling Bracket
-      - imageUrl: ''
-        title: .B38
-      - imageUrl: ''
-        title: .B60 Ceiling Mounted Conveyor Support
-    title: Joints & Supports
   - navTitle: Switches & Turns
     products:
       - imageUrl: ''

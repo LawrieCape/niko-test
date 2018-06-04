@@ -143,8 +143,8 @@ customSections:
 
       Stacking Sliding Doors Round Corner
     images: []
-    navTitle: Door Animations
-    title: Sliding Door Animations
+    navTitle: Examples
+    title: Examples
   - navTitle: Downloads
     pdfs:
       - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png

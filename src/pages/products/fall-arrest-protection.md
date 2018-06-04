@@ -119,10 +119,10 @@ customSections:
       creating a safer environment. User are no longer hindered by slow moving
       trolleys, endangered by secondary falls or wire transfer, and can use the
       system throughout the year.
-    navTitle: Protection Features
-    title: Fall Arrest Protection Features
-  - navTitle: Protection Videos
-    title: Fall Arrest Protection Videos
+    navTitle: Features
+    title: Features
+  - navTitle: Videos
+    title: Videos
     videos:
       - vidDescription: Niko Fall Arrest Track used for Sky Glide
         youTubeId: z5PTPTPAgKE

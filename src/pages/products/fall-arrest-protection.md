@@ -21,8 +21,8 @@ customSections:
       machinery. The US Department of Labor (DOL) lists falls as one of the
       leading causes of traumatic occupational death, accounting for eight
       percent of all occupational fatalities from trauma.
-    navTitle: Features
-    title: Features
+    navTitle: Systems
+    title: Systems
   - body: >-
       #### Advantages of Niko Fall Protection Track vs Taut Wire Fall Protection
       System

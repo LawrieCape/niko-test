@@ -13,6 +13,9 @@ customSections:
       ![overhead conveyor track profiles](/img/track-profiles.jpg)
 
 
+      ![nikotrack profile sizes](/img/track_table.jpg)
+
+
       **NikoTrack Track Series**
 
 

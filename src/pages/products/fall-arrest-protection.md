@@ -21,6 +21,11 @@ customSections:
       machinery. The US Department of Labor (DOL) lists falls as one of the
       leading causes of traumatic occupational death, accounting for eight
       percent of all occupational fatalities from trauma.
+    images:
+      - imageAlt: fall arrest system
+        imageUrl: /img/fall-arrest-close-up.jpg
+      - imageAlt: fall arrest system
+        imageUrl: /img/fall-arrest-close-up2.jpg
     navTitle: Systems
     title: Systems
   - body: >-

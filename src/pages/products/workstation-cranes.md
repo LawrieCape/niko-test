@@ -91,6 +91,8 @@ customSections:
         imageUrl: /img/2000kg_crane_1.jpg
       - imageAlt: ceiling mounted bridge crane
         imageUrl: /img/2000kg_crane_2.jpg
+      - imageAlt: crane
+        imageUrl: /img/8fach-kranbrücken.jpg
     navTitle: Ceiling Mounted Light Cranes
     title: Ceiling Mounted Light Cranes
   - body: "The Climbing Crane system is unique to Niko Ltd\r\n\n\rThese systems were developed for the timber industry for lifting and handling large timber roof trusses. They are an ideal lifting solution for buildings with headroom space issues.\r\n\n\rClimbing cranes are usually radio controlled for operator ease.\r\n\n\rChain Drive Climbing Crane\r\n\n\rThe climbing crane system is designed to clip directly to a sloping roof beam (up to 15-degree angle). It utilises standard Niko Ltd parts with a fixed chain drive designed specifically for this application."

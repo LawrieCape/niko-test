@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '3'
 navTitle: Light Cranes
-heroImage: /img/overhead_crane_1.jpg
+heroImage: /img/2000kg_crane_1_940x350.jpg
 heroDescription: |-
   * **Jib Cranes**
   * **Overhead Travelling Cranes**
@@ -80,6 +80,8 @@ customSections:
     images:
       - imageAlt: ceiling mounted light crane
         imageUrl: /img/ceiling_mounted_bridge_crane.jpg
+      - imageAlt: 2000kg bridge crane
+        imageUrl: /img/2000kg_crane_1.jpg
     navTitle: Ceiling Mounted Light Cranes
     title: Ceiling Mounted Light Cranes
   - body: "The Climbing Crane system is unique to Niko Ltd\r\n\n\rThese systems were developed for the timber industry for lifting and handling large timber roof trusses. They are an ideal lifting solution for buildings with headroom space issues.\r\n\n\rClimbing cranes are usually radio controlled for operator ease.\r\n\n\rChain Drive Climbing Crane\r\n\n\rThe climbing crane system is designed to clip directly to a sloping roof beam (up to 15-degree angle). It utilises standard Niko Ltd parts with a fixed chain drive designed specifically for this application."

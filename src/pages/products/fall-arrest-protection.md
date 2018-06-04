@@ -69,12 +69,12 @@ customSections:
       expected, as well as tightening the wire between other supports, which
       could cause any one else on the system to fall also. This resulting
       "bounce" is also known as a secondary fall. A secondary fall is often more
-      damaging to the user than the original fall arrest. Because of NikoTracks
+      damaging to the user than the original fall arrest. Because of NikoTrack's
       rigid design, when a fall occurs the user will only fall as far as the
       safety tether will let them, there is no secondary fall as there is in a
       taut-wire system.
-    navTitle: Advantages
-    title: Niko Fall Protection vs Taut Wire Protection Systems
+    navTitle: NikoTrack v. Taut Wire Protection
+    title: NikoTrack v. Taut Wire Protection
   - body: >-
       ### Enclosed Track
 

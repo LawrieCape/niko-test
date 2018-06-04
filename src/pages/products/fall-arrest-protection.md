@@ -81,7 +81,50 @@ customSections:
       taut-wire system.
     navTitle: Advantages
     title: Niko Fall Protection vs Taut Wire Protection Systems
-  - body: "### Bounce Effect / Secondary Falls\r\n\r\nThe biggest fault in traditional taut-wire protection systems is that they do not prevent secondary falls and are prone to what is called the \"bounce effect.\" The bounce effect is caused when the weight of the worker is loaded onto the braided wire (because they fell), causing it to give slightly. The resulting \"give\" makes the worker fall farther than expected, as well as tightening the wire between other supports, which could cause any one else on the system to fall also. This resulting \"bounce\" is also known as a secondary fall. A secondary fall is often more damaging to the user than the original fall arrest. Because of NikoTracks rigid design, when a fall occurs the user will only fall as far as the safety tether will let them, there is no secondary fall as there is in a taut-wire system.\r\n\r\n### Enclosed Track\r\n\r\nBecause NikoTracks fall protection systems are in an enclosed track the hassle of debris jamming the run of the system are completely eliminated. This means that the systems are essentially immune to the elements, allowing for use in any weather condition from blizzard to monsoon. Using a NikoTrack system will enable the user to operate the system year round.\n\r\n### Tapered Track\r\n\r\nThe tapered edges of NikoTracks Fall Protection systems ensure that the load carrying trolleys run smoothly, meaning that the trolley will always be directly above the user, eliminating the dangers of \"swing falls.\" Also, because they are self aligning, **trolleys will always run smoothly and won't jam, even on turns**.\r\n\r\n### Reliable & Reusable\r\n\r\nWhen a fall occurs on a taut-wire system it must be taken out of service temporarily until it has been repaired. Most safety cable system manufacturer's repair procedures require temporary dismantling of the system while a factory-trained professional replaces virtually all of the costly damaged parts. This is not an issue with NikoTracks systems! After a fall a quick visual inspection on the system should be done and upon completion the system can be used again immediately.\r\n\r\n### Turns & Switches\r\n\r\nBy **combining the turns and switches of our conveyors with the versatility and reliability of the fall protection**, NikoTrack has created an ideal solution to taut-wire systems used on challenge courses. These systems have been installed on many pre-existing ropes courses and have greatly increased the overall experience for users as well as creating a safer environment. User are no longer hindered by slow moving trolleys, endangered by secondary falls or wire transfer, and can use the system throughout the year.\r\n"
+  - body: >-
+      ### Enclosed Track
+
+
+      Because NikoTracks fall protection systems are in an enclosed track the
+      hassle of debris jamming the run of the system are completely eliminated.
+      This means that the systems are essentially immune to the elements,
+      allowing for use in any weather condition from blizzard to monsoon. Using
+      a NikoTrack system will enable the user to operate the system year round.
+
+
+      ### Tapered Track
+
+
+      The tapered edges of NikoTracks Fall Protection systems ensure that the
+      load carrying trolleys run smoothly, meaning that the trolley will always
+      be directly above the user, eliminating the dangers of "swing falls."
+      Also, because they are self aligning, **trolleys will always run smoothly
+      and won't jam, even on turns**.
+
+
+      ### Reliable & Reusable
+
+
+      When a fall occurs on a taut-wire system it must be taken out of service
+      temporarily until it has been repaired. Most safety cable system
+      manufacturer's repair procedures require temporary dismantling of the
+      system while a factory-trained professional replaces virtually all of the
+      costly damaged parts. This is not an issue with NikoTracks systems! After
+      a fall a quick visual inspection on the system should be done and upon
+      completion the system can be used again immediately.
+
+
+      ### Turns & Switches
+
+
+      By **combining the turns and switches of our conveyors with the
+      versatility and reliability of the fall protection**, NikoTrack has
+      created an ideal solution to taut-wire systems used on challenge courses.
+      These systems have been installed on many pre-existing ropes courses and
+      have greatly increased the overall experience for users as well as
+      creating a safer environment. User are no longer hindered by slow moving
+      trolleys, endangered by secondary falls or wire transfer, and can use the
+      system throughout the year.
     navTitle: Protection Features
     title: Fall Arrest Protection Features
   - navTitle: Protection Videos

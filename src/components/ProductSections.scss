@@ -1,5 +1,43 @@
 @import '../global/_variables';
 
+// Page header stuff
+.product-hero {
+	position: relative;
+
+	&::after {
+		position: absolute;
+		top: 33.333333%;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 4;
+		display: block;
+		content: '';
+		background: linear-gradient(to top, rgba($black, 0.8) 0%, rgba($black, 0.8) 30%, transparent 100%);
+		background-repeat: repeat-x;
+		transition:
+			height 444ms cubic-bezier(0.23, 1, 0.32, 1),
+			opacity 444ms cubic-bezier(0.23, 1, 0.32, 1);
+	}
+}
+
+.product-hero__content {
+	position: relative;
+	z-index: 5;
+
+	@media #{$mqMediumAndUp} {
+		padding: ms(5) ms(7);
+		// margin: ms(4);
+		// background-color: $black--opaque2;
+		color: $white;
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+
+
+
 //
 .product-info {
 	margin-top: 0;
@@ -38,12 +76,12 @@
 
 	+ .product-section {
 		margin-top: ms(5);
-		border-top: 2px dashed $black--opaque9;
+		// border-top: 2px dashed $black--opaque9;
 	}
 }
 
 .product-content-group {
-	// border: 1px dashed $blue;
+	// border: 2px dashed $blue;
 	// margin: 40px 0 0 0;
 
 	> div {

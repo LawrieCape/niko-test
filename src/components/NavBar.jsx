@@ -22,7 +22,7 @@ export const NavBar = ({ posts }) => {
 						{posts
 							.map(({ node: post }) => {
 								return (
-									<Link key={post.id} className="nav__link" to={post.fields.slug}>
+									<Link key={post.id} className="nav__link" to={post.fields.slug} activeClassName="is-active">
 										{post.frontmatter.navTitle}
 									</Link>
 								);

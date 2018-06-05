@@ -18,10 +18,12 @@ const IndexPage = (props) => {
 	return (
 		<div className="container-fluid">
 			<div className="page-body">
-				<Helmet title="Home | Niko" />
+				<Helmet title="Home | Niko">
+					<body className="body--home-page" />
+				</Helmet>
 
 				<header className="page-header">
-					<h1 className="">Home</h1>
+					<h1 className="hide-text">Home</h1>
 				</header>
 
 				<div className="row">

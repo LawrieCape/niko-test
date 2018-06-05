@@ -9,6 +9,10 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	font-family: $headings-font-family;
+	font-size: ms(0);
+	text-transform: uppercase;
+	font-weight: $headings-font-weight;
 }
 
 .header-logo {
@@ -16,9 +20,20 @@
 }
 
 .header-logo__link {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	overflow: hidden;
 }
 
 .header-logo__image {
+	flex: 0 1 auto;
+}
+
+.header-logo__image-extra {
+	flex: 0 1 auto;
+	max-width: 225px;
+	margin-top: 0;
 }
 
 .header-logo__title {
@@ -28,36 +43,34 @@
 .wee-nav__wrapper {
 	margin-top: 0;
 	overflow: hidden;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-end;
+	justify-content: center;
 }
 
 .wee-nav {
+	margin-top: 0.75em;
+	flex: 0 0 auto;
 	display: flex;
-	margin-right: (ms(-2) * -1);
+	flex-flow: row wrap;
+	margin-right: (ms(-4) * -1);
 
 	a {
-		padding: ms(-3) ms(-2);
-		// border: 1px solid $red;
-		margin: 14px 0 14px 14px;
-		background-color: $white; // Chrome Audits
-		color: $black;
-		// text-decoration: none;
-
-		&:hover {
-			// text-decoration: none;
-		}
+		padding: ms(-4) ms(-4);
+		margin: 0 0 0 ms(-2);
+		// color: $black;
+		// background-color: $white; // Chrome Audits
 	}
 }
 
 .header__contact-us__wrapper {
+	flex: 0 0 auto;
+	margin-top: 1em;
 	text-align: right;
 
 	a {
-		color: $black;
-		background-color: $white; // Chrome Audits
-		// text-decoration: none;
-
-		&:hover {
-			// text-decoration: none;
-		}
+		// color: $black;
+		// background-color: $white; // Chrome Audits
 	}
 }

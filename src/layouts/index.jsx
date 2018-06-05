@@ -13,6 +13,7 @@ const TemplateWrapper = ({ children, data }) => {
 			<Helmet title="Home | Niko">
 				<html lang="en-GB" />
 				<body className="root123" />
+				<link href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,700" rel="stylesheet" />
 			</Helmet>
 
 			<div className="page__body">

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import './SiteHeader.scss';
 import logo from '../img/logo.png';
+import logoExtra from '../img/logo-extra.png';
 import { NavBar } from '../components/NavBar';
 
 const SiteHeader = ({ posts }) => {
@@ -15,6 +16,7 @@ const SiteHeader = ({ posts }) => {
 					<div className="header-logo">
 						<Link className="header-logo__link" to="/">
 							<img className="header-logo__image" src={logo} alt="NikoTrack logo" />
+							<img className="header-logo__image-extra" src={logoExtra} alt="NikoTrack logo extra" />
 							<span className="header-logo__title">NikoTrack logo</span>
 						</Link>
 					</div>
@@ -42,6 +44,9 @@ const SiteHeader = ({ posts }) => {
 							</Link> */}
 							<Link className="" to="/contact">
 								Contact
+							</Link>
+							<Link className="" to="/request-a-quote">
+								Request a Quote
 							</Link>
 						</nav>
 

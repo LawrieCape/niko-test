@@ -18,10 +18,15 @@ export const ProductPageTemplate = ({
 				<Helmet title={`${title} | Niko`} />
 
 				<header className="page-header">
-					{/* <img src={heroImage} alt="product hero" /> */}
-					<div className="page-header__hero-image" style={styles} />
-					<h1 className="">{title}</h1>
-					<ReactMarkdown source={heroDescription} />
+					<div className="product-hero">
+						<img src={heroImage} alt="product hero" />
+						{/* <div className="page-header__hero-image" style={styles} /> */}
+
+						<div className="product-hero__content">
+							<h1 className="">{title}</h1>
+							<ReactMarkdown source={heroDescription} />
+						</div>
+					</div>
 				</header>
 
 				<ProductSections sections={sections} />

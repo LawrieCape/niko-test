@@ -3,12 +3,13 @@
 .nav__wrapper {
 	background-color: $primary;
 	flex: 0 0 100%;
-	z-index: 1;
+	z-index: 6;
 }
 
 .nav {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .nav__link {
@@ -25,7 +26,8 @@
 		border-right: 1px solid $primary-dark;
 	}
 
-	&:hover {
+	&:hover,
+	&.is-active {
 		color: $primary-invert;
 		background-color: $primary-dark;
 		text-decoration: none;

@@ -136,7 +136,11 @@ customSections:
       Thank you!
     navTitle: Request a quote
     title: Request a quote
-  - navTitle: Downloads
+  - body: >-
+      <iframe style="width:400px; height:300px;"
+      src="//e.issuu.com/embed.html#33659333/62086291" frameborder="0"
+      allowfullscreen></iframe>
+    navTitle: Downloads
     pdfs:
       - pdfThumb: /img/conveyor_system_february_2018_en_thumb.png
         pdfUrl: /img/conveyor_system_february_2018_en.pdf

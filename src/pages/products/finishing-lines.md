@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '2'
 navTitle: Finishing Lines
-heroImage: /img/dsc_2982s.jpg
+heroImage: /img/product-hero-placeholder.png
 heroDescription: |-
   * **The Ideal Solution for all Finishing Lines**
   * **Fully Flexible Layouts**

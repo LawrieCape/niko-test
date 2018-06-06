@@ -21,5 +21,11 @@ customSections:
       allowfullscreen></iframe>
     navTitle: Sliding Doors
     title: 'Sliding Door Installation, Operation & Maintenance Manual'
+  - body: >-
+      <iframe style="width:400px; height:300px;"
+      src="//e.issuu.com/embed.html#33659333/62116517" frameborder="0"
+      allowfullscreen></iframe>
+    navTitle: Folding Doors
+    title: 'Folding Door Installation, Operation & Maintenance Manual'
 ---
 

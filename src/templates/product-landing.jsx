@@ -90,10 +90,6 @@ export const pageQuery = graphql`
 						youTubeId
 						vidDescription
 					}
-					products {
-						title
-						imageUrl
-					}
 				}
 			}
 		}

@@ -1,13 +1,11 @@
 ---
 templateKey: product-landing
 order: '7'
-navTitle: Resources
+navTitle: Niko Knowledge
 heroImage: /img/resources_1_1520x855.jpg
-heroDescription: |-
-  * **Downloads**
-  * **Case Studies**
-  * **Brochures & Leaflets**
-  * **Manuals & Installation Instructions**
+heroDescription: |
+  * **Installation Instructions**
+  * **Maintenance Manuals**
 title: Resources
 customSections:
   - navTitle: Overhead Conveyor Systems

@@ -4,7 +4,7 @@ order: '7'
 navTitle: Downloads
 heroImage: /img/resources_1_1520x855.jpg
 heroDescription: |
-  * **Catalogues**
+  * **Catalogs**
   * **Leaflets**
   * **Installation Instructions**
   * **Maintenance Manuals**

@@ -85,7 +85,7 @@ const FormNikotrack = function ({ enquiryType, isHidden }) {
 						<div className="form-field form-field--select col-sm-12 col-md-4">
 							<label className="form-field__label" htmlFor="frmFestooning">Festooning</label>
 							<div className="form-field__input">
-								<select id="frmFestooning" className="" name="frmFestooning" data-placeholder="e.g. Mrs" onChange={this.selectForm}>
+								<select id="frmFestooning" className="" name="frmFestooning" data-placeholder="e.g. Mrs">
 									<option value="" disabled hidden selected>Choose one</option>
 									<option value="yes">Yes</option>
 									<option value="no">No</option>
@@ -137,7 +137,7 @@ const FormNikotrack = function ({ enquiryType, isHidden }) {
 						<div className="form-field form-field--select col-sm-12 col-md-6">
 							<label className="form-field__label" htmlFor="frmJibArmRadius">Jib Arm Radius</label>
 							<div className="form-field__input">
-								<select id="frmJibArmRadius" className="" name="frmJibArmRadius" data-placeholder="e.g. Mrs" onChange={this.selectForm}>
+								<select id="frmJibArmRadius" className="" name="frmJibArmRadius" data-placeholder="e.g. Mrs">
 									<option value="" disabled hidden selected>Choose one</option>
 									<option value="nikotrack">10</option>
 									<option value="overhead-conveyors">12</option>

@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '6'
 navTitle: Components
-heroImage: 'https://dummyimage.com/1520x380/'
+heroImage: /img/components_1_1520x855.jpg
 heroDescription: |-
   * **Tracks & Bends**
   * **Joints & Supports**

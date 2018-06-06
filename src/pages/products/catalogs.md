@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '7'
 navTitle: Resources
-heroImage: /img/slider_track-joints.jpg
+heroImage: /img/resources_1_1520x855.jpg
 heroDescription: |-
   * **Downloads**
   * **Case Studies**

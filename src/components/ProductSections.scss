@@ -101,7 +101,7 @@
 	padding: ms(-6) 0 ms(-6) ms(-3);
 	position: relative;
 	line-height: 1.35em;
-	transition-duration: 200ms;
+	transition-duration: 100ms;
 	// color: $secondary-light;
 
 	&::before {
@@ -113,7 +113,7 @@
 		left: -3px;
 		top: 6px;
 		bottom: 6px;
-		transition: all 200ms ease-in-out;
+		transition: all 100ms ease-in-out;
 	}
 
 	&.is-current {

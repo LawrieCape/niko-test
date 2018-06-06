@@ -27,11 +27,12 @@
 	border: 0;
 	border: $inputBorderWidth $inputBorderStyle $inputBorderColor;
 	border-radius: $inputBorderRadius;
-	box-shadow: 0 0 6px 1px $black--opaque7;
+	// box-shadow: 0 0 6px 1px $black--opaque7;
 
 	&:focus {
 		background: $inputFocusBgColor;
 		border-color: $inputFocusBorderColor;
+		outline: 0;
 
 		.form-field--error & {
 			border-color: $inputErrorColor;
@@ -43,14 +44,28 @@
 	}
 }
 
+.form-field,
+.form-fields {
+	&[class^="col-"],
+	&[class*=" col-"] {
+		margin-top: ms(2);
+	}
+}
 
 /* ------------------------------------------------------------ Elements */
 form {
 }
 
+.enquiry-form[aria-hidden="true"] {
+	display: none;
+}
+
 
 /* ------------------------------------------------------------ Classes */
 .form {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .form-fields {
@@ -64,13 +79,8 @@ form {
 	width: 100%;
 	max-width: 400px;
 
-	&:not(.form-field--checkbox):not(.form-field--radio):not(.form-field--no-validation) {
+	&:not(.form-field--checkbox):not(.form-field--radio) {
 		padding-right: 39px; // Space for the validation icons
-	}
-
-	.u--text-center & {
-		margin-right: auto;
-		margin-left: auto;
 	}
 }
 
@@ -80,20 +90,9 @@ form {
 }
 
 .form-field__label {
-}
-
-.form-field--textarea {
-	.form-field__input {
-		min-height: 150px;
-		border: 1px solid $inputBorderColor;
-	}
-}
-
-.form-field--file {
-	.form-field__input {
-		font-size: ms(0, 16px, $major-second);
-		line-height: 1;
-	}
+	// color: red;
+	margin-bottom: ms(-4);
+	font-weight: 500;
 }
 
 .form-fields--inline {
@@ -119,19 +118,24 @@ form {
 .form-fields--flex {
 	.form-fields__inner {
 		display: flex;
+		flex-flow: row wrap;
 		justify-content: space-between;
+		margin: (-1 * ms(0));
 	}
 
 	.form-field {
+		padding: ms(0);
+		max-width: none;
 		width: auto;
+		flex: 0 0 50%;
 		margin-top: 0;
 	}
 }
 
-
 .form-field--checkbox,
 .form-field--radio {
 	.form-field__label {
+		color: inherit;
 		// font-size: ms(0);
 		position: relative;
 		top: auto;
@@ -141,43 +145,18 @@ form {
 		text-transform: none;
 		letter-spacing: 0;
 		cursor: pointer;
+		font-weight: inherit;
 	}
 }
 
-.form-field--checkbox {
-}
-
-.form-field--radio {
-}
-
-.form-field--select {
-}
 
 .form-field--date {
-	// // TODO: add correct icon
-	// &::after {
-	// 	position: absolute;
-	// 	right: 25px;
-	// 	bottom: 17px;
-	// 	font-size: 20px;
-	// 	color: $inputPlaceholderColor;
-	// 	pointer-events: none;
-	// 	content: '[i]';
-	// 	color: red;
-	// }
-
 	.form-field__input {
 		padding-right: 55px;
 	}
 }
 
 .form-field--button {
-}
-
-.inline-button__wrapper {
-	display: table-cell;
-	padding-left: ms(2);
-	vertical-align: middle;
 }
 
 .form-field--collapse {
@@ -209,19 +188,4 @@ form {
 			border-bottom-left-radius: 0;
 		}
 	}
-}
-
-.form__hidden-element {
-	position: fixed;
-	top: -9999px;
-	left: -9999px;
-}
-
-.form-field__outer-icon {
-	fill: $formLabelFontColor;
-	width: 16px;
-	height: 16px;
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0 10px 0 0;
 }

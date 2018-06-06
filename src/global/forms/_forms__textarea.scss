@@ -3,3 +3,10 @@ textarea {
 	resize: none;
 	height: auto;
 }
+
+.form-field--textarea {
+	.form-field__input {
+		min-height: 150px;
+		border: 1px solid $inputBorderColor;
+	}
+}

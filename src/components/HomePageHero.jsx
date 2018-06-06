@@ -26,7 +26,7 @@ export const HomePageHero = ({ posts }) => {
 									<div className="homepage-hero__image-wrapper">
 										<img className="homepage-hero__image" src={post.frontmatter.heroImage} alt="product hero" />
 									</div>
-									<h2 className="homepage-hero__title h4">{post.frontmatter.title}</h2>
+									<h2 className="homepage-hero__title h5">{post.frontmatter.title}</h2>
 								</div>
 							</Link>
 						);

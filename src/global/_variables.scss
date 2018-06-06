@@ -118,12 +118,12 @@ $table-cell-padding:			20px;
 -----------------------------------------------------------------------------*/
 $responsiveColumnGutter: 32px;
 // (1300px + $responsiveColumnGutter)
-$responsiveMaxWidth: 1600px; // Need to account for the left/right 5%/10% padding
+$responsiveMaxWidth: 1500px; // Need to account for the left/right 5%/10% padding
 $responsiveNumberColumns: 24;
 
 
 // Other variables
-$maxWidth: 1600px;
+$maxWidth: 1500px;
 $subNavSpacingForHeader: 140px;
 
 
@@ -138,12 +138,12 @@ $inputBgColor:					$white;
 $inputFocusBgColor:				transparent;
 $inputBorderWidth:				1px;
 $inputBorderStyle:				solid;
-$inputBorderColor:				transparent;
-$inputFocusBorderColor:			transparent;
+$inputBorderColor:				$grey;
+$inputFocusBorderColor:			$blue;
 $inputFontColor:				$grey;
 $inputFontFamily:				$font-family-base;
 $inputFontSize:					16px;
-$inputBorderRadius:				$border-radius;
+$inputBorderRadius:				0;
 $inputLineHeight:				($font-size-base * 2);
 $formPadding:					16px 18px 19px 18px;
 $inputBoxShadow:				none;

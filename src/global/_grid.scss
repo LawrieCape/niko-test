@@ -78,7 +78,7 @@ $gutter-compensation: (-1 * $half-gutter-width);
 @mixin grid-column ($reverse: false) {
 	@include grid-column-direction($reverse);
 
-	display: flex;
+	// display: flex;
 	flex: 1 1 auto;
 	padding-right: $half-gutter-width;
 	padding-left: $half-gutter-width;

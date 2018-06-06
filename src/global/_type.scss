@@ -104,12 +104,6 @@ $bestFitLineHeight: false;
 	color: $headings-color;
 	// text-transform: uppercase;
 	letter-spacing: -0.03em;
-
-	.u--text-center & {
-		margin-right: auto;
-		margin-left: auto;
-		width: 100%; // Fixes IE11 issue
-	}
 }
 
 @mixin type--h1 {

@@ -15,5 +15,11 @@ customSections:
       allowfullscreen></iframe>
     navTitle: Light Cranes
     title: Light Cranes Technical and Installation Manual
+  - body: >-
+      <iframe style="width:400px; height:300px;"
+      src="//e.issuu.com/embed.html#33659333/62116397" frameborder="0"
+      allowfullscreen></iframe>
+    navTitle: Sliding Doors
+    title: 'Sliding Door Installation, Operation & Maintenance Manual'
 ---
 

@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '5'
 navTitle: Fall Arrest Protection
-heroImage: /img/fall_arrest_hero_940x350.jpg
+heroImage: /img/fallarrest_1_1520x855.jpg
 heroDescription: |-
   * **Safe & Practical**
   * **Eliminates Bounce**

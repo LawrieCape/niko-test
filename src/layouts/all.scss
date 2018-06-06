@@ -100,6 +100,10 @@ p,
 	background-color: transparent;
 	border-top: 2px dashed red; // $black--opaque5;
 	margin: ms(5) 0;
+
+	.row > & {
+		flex: 1 0 100%;
+	}
 }
 
 table {

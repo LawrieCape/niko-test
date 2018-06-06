@@ -36,6 +36,7 @@
     "modularscale-sass": "3.0.5",
     "netlify-cms": "1.8.4",
     "prop-types": "15.6.1",
+    "query-string": "^5.1.1",
     "react": "16.4.0",
     "react-helmet": "5.2.0",
     "react-markdown": "3.3.2",

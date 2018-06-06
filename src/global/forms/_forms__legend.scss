@@ -1,9 +1,22 @@
 legend {
-	@include mixin-form-label;
+	// @include mixin-form-label;
 
-	display: block;
+	// display: block;
 	margin-bottom: 0;
+	font-size: ms(1);
+	line-height: 3em;
+	font-weight: 500;
+	border-bottom: 2px dashed $black--opaque9;
+	// background-color: yellow;
+	float: left; // Fixes layout isses
 }
+
+legend + * {
+	-webkit-margin-top-collapse: separate;
+	clear: both;
+	margin-top: 0;
+}
+
 
 .form-field--legend {
 	padding-bottom: 0;

@@ -50,6 +50,15 @@
 	&[class*=" col-"] {
 		margin-top: ms(2);
 	}
+
+	@media #{$mqSmallOnly} {
+		&[class^="col-"],
+		&[class*=" col-"] {
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
 }
 
 /* ------------------------------------------------------------ Elements */
@@ -79,9 +88,9 @@ form {
 	width: 100%;
 	max-width: 400px;
 
-	&:not(.form-field--checkbox):not(.form-field--radio) {
-		padding-right: 39px; // Space for the validation icons
-	}
+	// &:not(.form-field--checkbox):not(.form-field--radio) {
+	// 	padding-right: 39px; // Space for the validation icons
+	// }
 }
 
 .form-field__input {

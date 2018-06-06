@@ -1,7 +1,13 @@
 fieldset {
-	padding: 0;
+	padding: 20px;
 	margin: 0;
 	border: 0;
+	background-color: $black--opaque10;
+	// position: relative;
+
+	.row > & {
+		flex: 1 0 100%;
+	}
 }
 
 * + fieldset {

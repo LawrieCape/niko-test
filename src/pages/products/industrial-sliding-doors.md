@@ -7,7 +7,7 @@ heroDescription: |-
   * **Industrial Sliding & Folding Doors**
   * **Sliding & Folding Barn Doors**
   * **Residential Sliding & Folding Doors**
-title: Heavy Duty Sliding & Folding Doors
+title: Heavy Duty Sliding Doors
 customSections:
   - body: >-
       Niko industrial sliding door track systems comprise of a range of track

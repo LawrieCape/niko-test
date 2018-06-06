@@ -1,14 +1,14 @@
 ---
 templateKey: product-landing
 order: '7'
-navTitle: Resources
+navTitle: Downloads
 heroImage: /img/resources_1_1520x855.jpg
-heroDescription: |-
-  * **Downloads**
-  * **Case Studies**
-  * **Brochures & Leaflets**
-  * **Manuals & Installation Instructions**
-title: Resources
+heroDescription: |
+  * **Catalogs**
+  * **Leaflets**
+  * **Installation Instructions**
+  * **Maintenance Manuals**
+title: Downloads
 customSections:
   - navTitle: Overhead Conveyor Systems
     pdfs:

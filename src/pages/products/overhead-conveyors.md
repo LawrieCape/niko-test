@@ -15,7 +15,7 @@ customSections:
       powered or a low cost alternative to 'power and free' systems for certain
       scenarios such as lean manufacturing systems. Automatic switches allow for
       side shifting on dual tracks to maximize storage space. NikoTracks six
-      profiles are capable of carrying loads up to 3,520 lbs. 
+      profiles are capable of carrying loads up to 3,520 lbs.
 
       **NikoTrack** provides a complete range of track sections, support
       fittings, trolleys, turns and switches. These components can be assembled
@@ -46,7 +46,6 @@ customSections:
         imageUrl: /img/finishing_line_4.jpg
     navTitle: Overhead Monorail Conveyor Systems
     pdfs: []
-    products: []
     title: Overhead Monorail Conveyor Systems
     videos: []
   - body: >
@@ -153,4 +152,3 @@ customSections:
       - vidDescription: Nikotrack Conveyor System for powder coating | Czech Republic
         youTubeId: 'https://www.youtube.com/watch?v=WLi-ApsjEPA&t=8s'
 ---
-

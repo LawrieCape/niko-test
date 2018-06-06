@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '4'
 navTitle: Sliding Doors
-heroImage: /img/barn_door_1_940x350.jpg
+heroImage: /img/slidingdoor_1_1520x855.jpg
 heroDescription: |-
   * **Industrial Sliding & Folding Doors**
   * **Sliding & Folding Barn Doors**

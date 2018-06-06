@@ -20,7 +20,9 @@ const LatestNewsPageTemplate = (props) => {
 
 		<div className="container-fluid">
 			<div className="page-body">
-				<Helmet title="Latest News | Niko" />
+				<Helmet title="Latest News | Niko">
+					<body className="body--latest-news" />
+				</Helmet>
 
 				<header className="page-header">
 					<h1 className="">Latest News</h1>

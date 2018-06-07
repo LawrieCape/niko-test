@@ -35,6 +35,11 @@ customSections:
       * Available in Stainless steel
 
       * Modular design
+    images:
+      - imageAlt: overhead crane
+        imageUrl: /img/overhead_crane_1_1600x1200.jpg
+      - imageAlt: overhead crane
+        imageUrl: /img/overhead_crane_2_1600x1200.jpg
     navTitle: Features
     title: Features
     videos: []

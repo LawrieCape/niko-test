@@ -148,7 +148,56 @@ customSections:
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
         title: C2 - Light Cranes Technical Description
     title: Downloads
-  - images:
+  - body: >-
+      Niko Ltd manufacture and supply a wide range of different types of jib
+      cranes, that can be freestanding, clamp around an existing column or bolt
+      directly to a wall.
+
+
+      Comprising of various arm types, Niko jib cranes are built to customer
+      requirements to ensure they fully satisfy the customers lifting
+      requirements.
+
+
+      **Features**
+
+
+      * SWL: 25 - 2000kg
+
+      * Arm length: up to 6m
+
+      * Column height: up to 6m
+
+      * Arm types: profile track, under-braced I-beam, over-braced I-beam and
+      articulated/knuckle
+
+      * Fixing: freestanding, wall fixing, clamp around/column fixing
+
+      * Slewing arc: 270°on standard arms or 360° on articulated arms
+
+      * Finish: powder coated, hot dip galvanised or stainless steel
+
+      * Designed in accordance with BS 7333 : 1990
+
+
+      **Advantages**
+
+
+      * Quick delivery, usually within 10-14 working days
+
+      * Made to order, no costs for excess steel or cutting
+
+      * Free and easy to operate
+
+      * Low maintenance
+
+      * Braking device to control slewing speed
+
+      * Lubrication-free acetyl bearings used on majority of jib arms
+
+      * Base fabricated directly to pillar and therefore expensive foundation
+      frames are not required
+    images:
       - imageAlt: jib crane
         imageUrl: /img/jib_crane_3_600x800.jpg
       - imageAlt: jib crane

@@ -201,7 +201,10 @@ customSections:
         pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
         title: PDF EXAMPLE
     title: Request a Quote
-  - navTitle: Downloads
+  - flipbooks:
+      - issueId: '62143423'
+      - issueId: '62143815'
+    navTitle: Downloads
     pdfs:
       - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
         pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf

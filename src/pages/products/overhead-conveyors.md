@@ -88,7 +88,7 @@ customSections:
     title: Key Features
     videos:
       - vidDescription: Nikotrack Conveyor System for powder coating | Czech Republic
-        youTubeId: WLi-ApsjEPA&t=8s
+        youTubeId: WLi-ApsjEPA
   - body: >-
       As an alternative to fully powered overhead conveyors, Niko offers a
       semi-automatic alternative. This system utilises any manual conveyor

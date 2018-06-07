@@ -152,18 +152,10 @@ customSections:
       - issueId: '62146641'
       - issueId: '62146811'
     navTitle: Downloads
-    pdfs:
-      - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
-        pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
-        title: B1 - Heavy Duty Industrial Sliding Door Leaflet
-      - pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
-        pdfUrl: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017.pdf
-        title: B1 - Heavy Duty Sliding Door Fittings
-      - pdfThumb: /img/manual_folding_door_june_2017_thumb.png
-        pdfUrl: /img/manual_folding_door_june_2017.pdf
-        title: >-
-          B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
-          Manual
+    pdfs: []
     title: Downloads
+    videos:
+      - vidDescription: Installation Instructions for Niko Sliding Door Track System
+        youTubeId: 9eljnixnI_E
 ---
 

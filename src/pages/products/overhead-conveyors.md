@@ -86,6 +86,9 @@ customSections:
         imageUrl: /img/turntable-320-200.jpg
     navTitle: Key Features
     title: Key Features
+    videos:
+      - vidDescription: Nikotrack Conveyor System for powder coating | Czech Republic
+        youTubeId: WLi-ApsjEPA&t=8s
   - body: >-
       As an alternative to fully powered overhead conveyors, Niko offers a
       semi-automatic alternative. This system utilises any manual conveyor
@@ -135,20 +138,13 @@ customSections:
       Thank you!
     navTitle: Request a quote
     title: Request a quote
-  - body: >-
-      <iframe style="width:400px; height:300px;"
-      src="//e.issuu.com/embed.html#33659333/62086291" frameborder="0"
-      allowfullscreen></iframe>
+  - body: ''
+    flipbooks:
+      - issueId: '62144450'
+      - issueId: '62086291'
     navTitle: Downloads
-    pdfs:
-      - pdfThumb: /img/conveyor_system_february_2018_en_thumb.png
-        pdfUrl: /img/conveyor_system_february_2018_en.pdf
-        title: C1 - Overhead Conveyors Catalogue
-      - pdfThumb: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_thumb.png
-        pdfUrl: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_print.pdf
-        title: C1 - Overhead Conveyors Leaflet
+    pdfs: []
     title: Downloads
-    videos:
-      - vidDescription: Nikotrack Conveyor System for powder coating | Czech Republic
-        youTubeId: 'https://www.youtube.com/watch?v=WLi-ApsjEPA&t=8s'
+    videos: []
 ---
+

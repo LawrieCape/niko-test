@@ -13,9 +13,13 @@ customSections:
       - issueId: '62116517'
     navTitle: Light Cranes
     title: Light Cranes Technical and Installation Manual
-  - navTitle: Sliding Doors
+  - flipbooks:
+      - issueId: '62116397'
+    navTitle: Sliding Doors
     title: 'Sliding Door Installation, Operation & Maintenance Manual'
-  - navTitle: Folding Doors
+  - flipbooks:
+      - issueId: '62116162'
+    navTitle: Folding Doors
     title: 'Folding Door Installation, Operation & Maintenance Manual'
 ---
 

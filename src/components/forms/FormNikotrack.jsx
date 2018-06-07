@@ -67,6 +67,9 @@ class FormNikotrack extends React.Component {
 				data-netlify-recaptcha="true"
 				onSubmit={this.handleSubmit}
 			>
+				<noscript>
+					<p>Sorry, this form won’t work with Javascript disabled</p>
+				</noscript>
 				<input type="hidden" name="form-name" value="contactNikotrack" />
 
 				<div className="row">
@@ -169,7 +172,7 @@ class FormNikotrack extends React.Component {
 
 						<div className="row">
 							<div className="form-field col-sm-12">
-								<label>Don't fill this out: <input name="bot-field" /></label>
+								<label>Don't fill this out: <input name="bot-field" onChange={this.handleChange} /></label>
 								<Recaptcha
 									// ref="recaptcha"
 									sitekey={RECAPTCHA_KEY}

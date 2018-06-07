@@ -7,7 +7,7 @@ heroDescription: |
   * **On-line Technical Manuals**
   * **On-line Installation Instructions**
   * **On-line Maintenance Manuals**
-title: 'Technical, Installation and Maintenance Manuals'
+title: Niko Knowledge
 customSections:
   - body: >-
       <iframe style="width:400px; height:300px;"

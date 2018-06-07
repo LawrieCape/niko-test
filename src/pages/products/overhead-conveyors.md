@@ -135,10 +135,10 @@ customSections:
       Thank you!
     navTitle: Request a quote
     title: Request a quote
-  - body: >-
-      <iframe style="width:400px; height:300px;"
-      src="//e.issuu.com/embed.html#33659333/62086291" frameborder="0"
-      allowfullscreen></iframe>
+  - body: ''
+    flipbooks:
+      - issueId: '62144450'
+      - issueId: '62086291'
     navTitle: Downloads
     pdfs:
       - pdfThumb: /img/conveyor_system_february_2018_en_thumb.png
@@ -152,3 +152,4 @@ customSections:
       - vidDescription: Nikotrack Conveyor System for powder coating | Czech Republic
         youTubeId: 'https://www.youtube.com/watch?v=WLi-ApsjEPA&t=8s'
 ---
+

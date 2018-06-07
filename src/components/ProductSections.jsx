@@ -7,6 +7,7 @@ import ProductPdfs from '../components/product/ProductPdfs';
 import ProductProducts from '../components/product/ProductProducts';
 import ProductRichText from '../components/product/ProductRichText';
 import ProductVideos from '../components/product/ProductVideos';
+import ProductFlipbooks from '../components/product/ProductFlipbooks';
 import './ProductSections.scss';
 
 const Sticky = require('sticky-js');
@@ -69,6 +70,7 @@ const ServicesComponent = function ({ sections }) {
 						const showPdfs = !!(section.pdfs && !!section.pdfs.length);
 						const showVideos = !!(section.videos && !!section.videos.length);
 						const showProducts = !!(section.products && !!section.products.length);
+						const showFlipbooks = !!(section.flipbooks && !!section.flipbooks.length);
 
 						const showSideContent = showImages || showPdfs || showVideos;
 						// console.log('showSideContent: ', showSideContent);
@@ -102,6 +104,13 @@ const ServicesComponent = function ({ sections }) {
 										<div className="col-sm-12 col-md-12 col-lg-12">
 											{/* Products */}
 											<ProductProducts products={section.products} />
+										</div>
+									: null }
+
+									{showFlipbooks ?
+										<div className="col-sm-12 col-md-12 col-lg-12">
+											{/* Products */}
+											<ProductFlipbooks products={section.products} />
 										</div>
 									: null }
 

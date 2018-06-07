@@ -99,18 +99,14 @@ collections:
                 name: vidDescription
                 widget: string
           -
-            label: Products
-            name: products
+            label: Flipbooks
+            name: flipbooks
             widget: list
             fields:
               -
-                label: Title
-                name: title
+                label: Issuu ID
+                name: issueId
                 widget: string
-              -
-                label: Image
-                name: imageUrl
-                widget: image
   -
     name: blog
     label: Latest News

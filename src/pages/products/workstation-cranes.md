@@ -103,56 +103,6 @@ customSections:
     pdfs: []
     title: Free Standing Bridge Cranes
     videos: []
-  - body: "The Climbing Crane system is unique to Niko Ltd\r\n\n\rThese systems were developed for the timber industry for lifting and handling large timber roof trusses. They are an ideal lifting solution for buildings with headroom space issues.\r\n\n\rClimbing cranes are usually radio controlled for operator ease.\r\n\n\rChain Drive Climbing Crane\r\n\n\rThe climbing crane system is designed to clip directly to a sloping roof beam (up to 15-degree angle). It utilises standard Niko Ltd parts with a fixed chain drive designed specifically for this application."
-    images:
-      - imageAlt: climbing crane
-        imageUrl: /img/niko_climbing_crane_2.jpg
-      - imageAlt: >-
-          Climbing Cranes The Climbing Crane system is unique to Niko Ltd  These
-          systems were developed for the timber industry for lifting and
-          handling large timber roof trusses. They are an ideal lifting solution
-          for buildings with headroom space issues.  Climbing cranes are usually
-          radio controlled for operator ease.  Chain Drive Climbing Crane  The
-          climbing crane system is designed to clip directly to a sloping roof
-          beam (up to 15-degree angle). It utilises standard Niko Ltd parts with
-          a fixed chain drive designed specifically for this application.
-        imageUrl: /img/niko_climbing_crane_3.jpg
-    navTitle: Climbing Cranes
-    title: Climbing Cranes
-  - body: >-
-      Nikotrack uses a C-track festoon assembly and c-track festoon pendant
-      system for overhead cranes and industrial machinery. All festoon trolleys
-      can be modified to fit either flat cable or round hose. Our nylon cable
-      trolleys are extremely reliable and smooth running. Because of the self
-      aligning tapered track, trolleys can never slide out of the center of the
-      rail, ensuring a smooth and free operation.
-    images:
-      - imageAlt: festoon cable system
-        imageUrl: /img/niko_festoon_cable_supply_1-320x137.jpg
-      - imageAlt: festoon cable system
-        imageUrl: /img/niko_festoon_cable_supply_3.jpg
-      - imageAlt: festoon cable system
-        imageUrl: /img/niko_tool_suspension-300x252.jpg
-    navTitle: Festoon Cable System
-    title: Festoon Cable System
-  - navTitle: Request a Quote
-    pdfs:
-      - pdfThumb: /img/pdf-cover-example.png
-        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
-        title: PDF EXAMPLE
-    title: Request a Quote
-  - navTitle: Downloads
-    pdfs:
-      - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
-        pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
-        title: C2 Light Cranes Leaflet
-      - pdfThumb: /img/light_crane_systems_eng_ver_january_2018_thunb.png
-        pdfUrl: /img/light_crane_systems_eng_ver_january_2018.pdf
-        title: C2 - Light Cranes Product Catalogue
-      - pdfThumb: /img/light_cranes_manual_cover_06_2017_thumb.png
-        pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
-        title: C2 - Light Cranes Technical Description
-    title: Downloads
   - body: >-
       Niko Ltd manufacture and supply a wide range of different types of jib
       cranes, that can be freestanding, clamp around an existing column or bolt
@@ -206,12 +156,62 @@ customSections:
       - imageAlt: jib crane
         imageUrl: /img/jib_crane_3_600x800.jpg
       - imageAlt: jib crane
-        imageUrl: /img/jib_crane_4_600x800.jpg
-      - imageAlt: jib crane
         imageUrl: /img/jib_crane_1_800x600.jpg
+      - imageAlt: jib crane
+        imageUrl: /img/jib_crane_4_600x800.jpg
       - imageAlt: jib crane
         imageUrl: /img/jib_crane_2_800x600.jpg
     navTitle: Jib Cranes
     title: Jib Cranes
+  - body: "The Climbing Crane system is unique to Niko Ltd\r\n\n\rThese systems were developed for the timber industry for lifting and handling large timber roof trusses. They are an ideal lifting solution for buildings with headroom space issues.\r\n\n\rClimbing cranes are usually radio controlled for operator ease.\r\n\n\rChain Drive Climbing Crane\r\n\n\rThe climbing crane system is designed to clip directly to a sloping roof beam (up to 15-degree angle). It utilises standard Niko Ltd parts with a fixed chain drive designed specifically for this application."
+    images:
+      - imageAlt: climbing crane
+        imageUrl: /img/niko_climbing_crane_2.jpg
+      - imageAlt: >-
+          Climbing Cranes The Climbing Crane system is unique to Niko Ltd  These
+          systems were developed for the timber industry for lifting and
+          handling large timber roof trusses. They are an ideal lifting solution
+          for buildings with headroom space issues.  Climbing cranes are usually
+          radio controlled for operator ease.  Chain Drive Climbing Crane  The
+          climbing crane system is designed to clip directly to a sloping roof
+          beam (up to 15-degree angle). It utilises standard Niko Ltd parts with
+          a fixed chain drive designed specifically for this application.
+        imageUrl: /img/niko_climbing_crane_3.jpg
+    navTitle: Climbing Cranes
+    title: Climbing Cranes
+  - body: >-
+      Nikotrack uses a C-track festoon assembly and c-track festoon pendant
+      system for overhead cranes and industrial machinery. All festoon trolleys
+      can be modified to fit either flat cable or round hose. Our nylon cable
+      trolleys are extremely reliable and smooth running. Because of the self
+      aligning tapered track, trolleys can never slide out of the center of the
+      rail, ensuring a smooth and free operation.
+    images:
+      - imageAlt: festoon cable system
+        imageUrl: /img/niko_festoon_cable_supply_1-320x137.jpg
+      - imageAlt: festoon cable system
+        imageUrl: /img/niko_festoon_cable_supply_3.jpg
+      - imageAlt: festoon cable system
+        imageUrl: /img/niko_tool_suspension-300x252.jpg
+    navTitle: Festoon Cable System
+    title: Festoon Cable System
+  - navTitle: Request a Quote
+    pdfs:
+      - pdfThumb: /img/pdf-cover-example.png
+        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
+        title: PDF EXAMPLE
+    title: Request a Quote
+  - navTitle: Downloads
+    pdfs:
+      - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
+        pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
+        title: C2 Light Cranes Leaflet
+      - pdfThumb: /img/light_crane_systems_eng_ver_january_2018_thunb.png
+        pdfUrl: /img/light_crane_systems_eng_ver_january_2018.pdf
+        title: C2 - Light Cranes Product Catalogue
+      - pdfThumb: /img/light_cranes_manual_cover_06_2017_thumb.png
+        pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
+        title: C2 - Light Cranes Technical Description
+    title: Downloads
 ---
 

@@ -45,7 +45,7 @@ const SiteHeader = ({ posts }) => {
 							<Link className="" to="/contact">
 								Contact
 							</Link>
-							<Link className="" to="/request-a-quote">
+							<Link className="" to="/contact">
 								Request a Quote
 							</Link>
 						</nav>

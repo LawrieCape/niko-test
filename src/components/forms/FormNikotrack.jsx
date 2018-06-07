@@ -3,7 +3,7 @@ import React from 'react';
 
 const FormNikotrack = function ({ enquiryType, isHidden }) {
 	return (
-		<form className="form enquiry-form" data-enquiry={enquiryType} aria-hidden={isHidden}>
+		<form className="form enquiry-form" name="contactNikotrack" method="POST" data-enquiry={enquiryType} aria-hidden={isHidden} data-netlify="true">
 			<div className="row">
 
 				<div className="col-sm-12">
@@ -62,47 +62,50 @@ const FormNikotrack = function ({ enquiryType, isHidden }) {
 							<p className="form-field__label">Products Interested In</p>
 							<div className="form-fields__inner">
 								<div className="form-field form-field--checkbox">
-									<input className="form-field__input" id="data__data_id05" name="data__data_id05" type="checkbox" />
-									<label className="form-field__label" htmlFor="data__data_id05">data_label</label>
+									<input className="form-field__input" id="frmInterestedInConveyors" name="frmInterestedInConveyors" type="checkbox" />
+									<label className="form-field__label" htmlFor="frmInterestedInConveyors">Overhead Conveyors</label>
 								</div>
 								<div className="form-field form-field--checkbox">
-									<input className="form-field__input" id="data__data_id06" name="data__data_id06" type="checkbox" />
-									<label className="form-field__label" htmlFor="data__data_id06">data_label</label>
+									<input className="form-field__input" id="frmInterestedInSlidingDoors" name="frmInterestedInSlidingDoors" type="checkbox" />
+									<label className="form-field__label" htmlFor="frmInterestedInSlidingDoors">Industrial Sliding Doors</label>
 								</div>
 								<div className="form-field form-field--checkbox">
-									<input className="form-field__input" id="data__data_id07" name="data__data_id07" type="checkbox" />
-									<label className="form-field__label" htmlFor="data__data_id07">data_label</label>
+									<input className="form-field__input" id="frmInterestedInFallArrestProtection" name="frmInterestedInFallArrestProtection" type="checkbox" />
+									<label className="form-field__label" htmlFor="frmInterestedInFallArrestProtection">Fall Arrest Protection</label>
 								</div>
 								<div className="form-field form-field--checkbox">
-									<input className="form-field__input" id="data__data_id08" name="data__data_id08" type="checkbox" />
-									<label className="form-field__label" htmlFor="data__data_id08">data_label</label>
+									<input className="form-field__input" id="frmInterestedInCranes" name="frmInterestedInCranes" type="checkbox" />
+									<label className="form-field__label" htmlFor="frmInterestedInCranes">Workstation Cranes</label>
 								</div>
 							</div>
 						</div>
 
 						<div className="form-field form-field--textarea col-sm-12 col-md-8">
-							<label className="form-field__label" htmlFor="data__data_id09">data_label</label>
-							<textarea className="form-field__input" id="data__data_id09" name="data__data_id09" placeholder="Lorem ipsum dolor sit." rows="6" />
+							<label className="form-field__label" htmlFor="frmGeneralDetails">Please give as many details as you can about your enquiry:</label>
+							<textarea className="form-field__input" id="frmGeneralDetails" name="frmGeneralDetails" placeholder="Lorem ipsum dolor sit." rows="6" />
 						</div>
 
 						<div className="form-field form-field--file col-sm-6">
-							<label className="form-field__label" htmlFor="file-1"><span>Upload file</span></label>
-							<input type="file" name="file-1[]" id="file-1" className="inputfile" />
+							<label className="form-field__label" htmlFor="frmProjectFile1"><span>Upload Project File</span></label>
+							<input type="file" name="frmProjectFile1" id="frmProjectFile1" className="form-field__input" />
+							<p className="small">If you have a file for your project please upload it here. Accepted file types: pdf, jpeg, png, gif</p>
 						</div>
 
 						<div className="form-field form-field--file col-sm-6">
-							<label className="form-field__label" htmlFor="file-2"><span>Upload file</span></label>
-							<input type="file" name="file-2[]" id="file-2" className="inputfile" />
+							<label className="form-field__label" htmlFor="frmProjectFile2"><span>Upload Project File</span></label>
+							<input type="file" name="frmProjectFile2" id="frmProjectFile2" className="form-field__input" />
+							<p className="small">If you have a second file for your project please upload it here. Accepted file types: pdf, jpeg, png, gif</p>
 						</div>
 					</div>
 				</fieldset>
 
 				<fieldset>
-					<legend>Fieldset Legend</legend>
+					<legend>Verify &amp; Submit</legend>
 
 					<div className="row">
 						<div className="form-field col-sm-12">
 							GOOGLE VERIFY
+							<div data-netlify-recaptcha />
 						</div>
 
 						<div className="form-field col-sm-12">

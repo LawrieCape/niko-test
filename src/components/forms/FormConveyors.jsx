@@ -212,11 +212,12 @@ const FormNikotrack = function ({ enquiryType, isHidden }) {
 				</fieldset>
 
 				<fieldset>
-					<legend>Verification</legend>
+					<legend>Verify &amp; Submit</legend>
 
 					<div className="row">
 						<div className="form-field col-sm-12">
 							GOOGLE VERIFY
+							<div data-netlify-recaptcha />
 						</div>
 
 						<div className="form-field col-sm-12">

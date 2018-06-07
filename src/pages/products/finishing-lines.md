@@ -7,6 +7,7 @@ heroDescription: |-
   * **The Ideal Solution for all Finishing Lines**
   * **Fully Flexible Layouts**
   * **Read Case Studies**
+  * **Hello**
 title: Finishing Lines
 customSections:
   - body: >-
@@ -24,10 +25,7 @@ customSections:
     flipbooks:
       - issueId: '62146105'
     navTitle: Case Studies
-    pdfs:
-      - pdfThumb: /img/niko_painting_lines_leaflet_march_2018_hq_thumb.jpg
-        pdfUrl: /img/niko_painting_lines_leaflet_march_2018_hq.pdf
-        title: Paint Finishing Lines Case Studies
+    pdfs: []
     title: Case Studies
 ---
 

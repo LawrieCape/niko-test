@@ -70,9 +70,7 @@ const ServicesComponent = function ({ sections }) {
 						const showPdfs = !!(section.pdfs && !!section.pdfs.length);
 						const showVideos = !!(section.videos && !!section.videos.length);
 						const showProducts = !!(section.products && !!section.products.length);
-						console.log('section.flipbooks: ', section.flipbooks);
 						const showFlipbooks = !!(section.flipbooks && !!section.flipbooks.length);
-						console.log('showFlipbooks: ', showFlipbooks)
 
 						const showSideContent = showImages || showPdfs || showVideos;
 						// console.log('showSideContent: ', showSideContent);

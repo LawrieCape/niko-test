@@ -9,10 +9,7 @@ heroDescription: |
   * **On-line Maintenance Manuals**
 title: Niko Knowledge
 customSections:
-  - body: >-
-      <iframe style="width:400px; height:300px;"
-      src="//e.issuu.com/embed.html#33659333/62116162" frameborder="0"
-      allowfullscreen></iframe>
+  - body: '<iframe src="//e.issuu.com/embed.html#33659333/62116162"></iframe>'
     navTitle: Light Cranes
     title: Light Cranes Technical and Installation Manual
   - body: >-

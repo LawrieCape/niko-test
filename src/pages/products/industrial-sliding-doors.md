@@ -147,7 +147,7 @@ customSections:
     title: Examples
   - flipbooks:
       - issueId: '62146641'
-      - {}
+      - issueId: '62146811'
     navTitle: Downloads
     pdfs:
       - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png

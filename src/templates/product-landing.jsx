@@ -90,6 +90,9 @@ export const pageQuery = graphql`
 						youTubeId
 						vidDescription
 					}
+					flipbooks {
+						issueId
+					}
 				}
 			}
 		}

@@ -2,12 +2,12 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import Scrollspy from 'react-scrollspy';
 // import { StickyContainer, Sticky } from 'react-sticky';
-import ProductImages from '../components/product/ProductImages';
-import ProductPdfs from '../components/product/ProductPdfs';
-import ProductProducts from '../components/product/ProductProducts';
-import ProductRichText from '../components/product/ProductRichText';
-import ProductVideos from '../components/product/ProductVideos';
-import ProductFlipbooks from '../components/product/ProductFlipbooks';
+import ProductImages from './product/ProductImages';
+import ProductPdfs from './product/ProductPdfs';
+import ProductProducts from './product/ProductProducts';
+import ProductRichText from './product/ProductRichText';
+import ProductVideos from './product/ProductVideos';
+import ProductFlipbooks from './product/ProductFlipbooks';
 import './ProductSections.scss';
 
 const Sticky = require('sticky-js');
@@ -70,7 +70,9 @@ const ServicesComponent = function ({ sections }) {
 						const showPdfs = !!(section.pdfs && !!section.pdfs.length);
 						const showVideos = !!(section.videos && !!section.videos.length);
 						const showProducts = !!(section.products && !!section.products.length);
+						console.log('section.flipbooks: ', section.flipbooks);
 						const showFlipbooks = !!(section.flipbooks && !!section.flipbooks.length);
+						console.log('showFlipbooks: ', showFlipbooks)
 
 						const showSideContent = showImages || showPdfs || showVideos;
 						// console.log('showSideContent: ', showSideContent);
@@ -110,7 +112,7 @@ const ServicesComponent = function ({ sections }) {
 									{showFlipbooks ?
 										<div className="col-sm-12 col-md-12 col-lg-12">
 											{/* Products */}
-											<ProductFlipbooks products={section.products} />
+											<ProductFlipbooks books={section.flipbooks} />
 										</div>
 									: null }
 

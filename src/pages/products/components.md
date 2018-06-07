@@ -7,24 +7,21 @@ heroDescription: "* **On-line Technical Manuals**\n* **On-line Installation Inst
 title: 'Technical, Installation and Maintenance Manuals'
 customSections:
   -
-    body: 'test'
     navTitle: 'Light Cranes'
     title: 'Light Cranes Technical and Installation Manual'
-    flipooks:
+    flipbooks:
       -
         issueId: 62116162
   -
-    body: 'test'
     navTitle: 'Sliding Doors'
     title: 'Sliding Door Installation, Operation & Maintenance Manual'
-    flipooks:
+    flipbooks:
       -
         issueId: 62116397
   -
-    body: "test"
     navTitle: 'Folding Doors'
     title: 'Folding Door Installation, Operation & Maintenance Manual'
-    flipooks:
+    flipbooks:
       -
         issueId: 62116517
 ---

@@ -1,6 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-// import './ProductFlipbooks.scss';
+import './ProductFlipbooks.scss';
 
 const ProductFlipbooks = function ({ books }) {
 	if (!books || !books.length) {
@@ -11,8 +11,10 @@ const ProductFlipbooks = function ({ books }) {
 			{/* <h3>Images</h3> */}
 			{books && books.map((book, index) => {
 				return (
-					<div key={index}>
-						<iframe src={`//e.issuu.com/embed.html#33659333/${book.issueId}`} title="flipbook title" allowFullScreen />
+					<div key={index} className="flipbook__container">
+						<div className="embed-container">
+							<iframe src={`//e.issuu.com/embed.html#33659333/${book.issueId}`} title="flipbook title" allowFullScreen />
+						</div>
 					</div>
 				);
 			})}
@@ -21,8 +23,7 @@ const ProductFlipbooks = function ({ books }) {
 };
 
 ProductFlipbooks.propTypes = {
-	// services: PropTypes.arrayOf(PropTypes.shape({ frameborder="0"
--      allowfullscreen
+	// services: PropTypes.arrayOf(PropTypes.shape({
 	// 		title: PropTypes.string,
 	// 		imageUrl: PropTypes.string,
 	// 		imageAlt: PropTypes.string,

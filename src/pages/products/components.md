@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '6'
 navTitle: Niko Knowledge
-heroImage: /img/components_1_1520x855.jpg
+heroImage: /img/manuals_1_1520x855.jpg
 heroDescription: |
   * **On-line Technical Manuals**
   * **On-line Installation Instructions**

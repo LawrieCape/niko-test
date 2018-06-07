@@ -78,8 +78,8 @@ class ContactPageTemplate extends React.Component {
 						<div className="form-field form-field--select">
 							<label className="form-field__label" htmlFor="DdlEnquiryType">Enquiry Type</label>
 							<div className="form-field__input">
-								<select id="DdlEnquiryType" className="" name="DdlEnquiryType" data-placeholder="e.g. Mrs" onChange={this.selectForm}>
-									<option value="nikotrack" selected>Nikotrack</option>
+								<select id="DdlEnquiryType" className="" name="DdlEnquiryType" data-placeholder="e.g. Mrs" onChange={this.selectForm} defaultValue="nikotrack">
+									<option value="nikotrack">Nikotrack</option>
 									<option value="overhead-conveyors">Overhead Conveyors</option>
 									<option value="workstation-cranes">Workstation Cranes</option>
 								</select>
@@ -90,9 +90,9 @@ class ContactPageTemplate extends React.Component {
 						</div>
 					</header>
 
-					<FormNikotrack enquiryType="nikotrack" isHidden="false" />
-					<FormConveyors enquiryType="overhead-conveyors" isHidden="true" />
-					<FormCranes enquiryType="workstation-cranes" isHidden="true" />
+					<FormNikotrack />
+					{/* <FormConveyors enquiryType="overhead-conveyors" isHidden="true" />
+					<FormCranes enquiryType="workstation-cranes" isHidden="true" /> */}
 
 				</article>
 			</div>

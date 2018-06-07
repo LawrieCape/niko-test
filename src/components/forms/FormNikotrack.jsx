@@ -5,7 +5,7 @@ const FormNikotrack = function ({ enquiryType, isHidden }) {
 	return (
 		<form className="form enquiry-form" name="contactNikotrack" method="POST" data-enquiry={enquiryType} aria-hidden={isHidden} data-netlify="true">
 			<input type="hidden" name="form-name" value="contactNikotrack" />
-			<label>Don't fill this out: <input name="bot-field" onChange={this.handleChange} /></label>
+			<label>Don't fill this out: <input name="bot-field" /></label>
 			<div data-netlify-recaptcha />
 			<div className="row">
 

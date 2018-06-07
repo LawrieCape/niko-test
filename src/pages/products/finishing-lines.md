@@ -21,6 +21,8 @@ customSections:
       * **Less Labor Cost**
 
       * **Higher Productivity**
+    flipbooks:
+      - issueId: '62146105'
     navTitle: Case Studies
     pdfs:
       - pdfThumb: /img/niko_painting_lines_leaflet_march_2018_hq_thumb.jpg

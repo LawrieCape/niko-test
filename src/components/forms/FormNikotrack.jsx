@@ -87,13 +87,13 @@ const FormNikotrack = function ({ enquiryType, isHidden }) {
 						</div>
 
 						<div className="form-field form-field--file col-sm-6">
-							<label className="form-field__label" htmlFor="frmProjectFile1"><span>Upload Project File</span></label>
+							<label className="form-field__label" htmlFor="frmProjectFile1"><span>Upload 1st Project File</span></label>
 							<input type="file" name="frmProjectFile1" id="frmProjectFile1" className="form-field__input" />
 							<p className="small">If you have a file for your project please upload it here. Accepted file types: pdf, jpeg, png, gif</p>
 						</div>
 
 						<div className="form-field form-field--file col-sm-6">
-							<label className="form-field__label" htmlFor="frmProjectFile2"><span>Upload Project File</span></label>
+							<label className="form-field__label" htmlFor="frmProjectFile2"><span>Upload 2nd Project File</span></label>
 							<input type="file" name="frmProjectFile2" id="frmProjectFile2" className="form-field__input" />
 							<p className="small">If you have a second file for your project please upload it here. Accepted file types: pdf, jpeg, png, gif</p>
 						</div>

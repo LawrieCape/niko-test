@@ -148,5 +148,16 @@ customSections:
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
         title: C2 - Light Cranes Technical Description
     title: Downloads
+  - images:
+      - imageAlt: jib crane
+        imageUrl: /img/jib_crane_3_600x800.jpg
+      - imageAlt: jib crane
+        imageUrl: /img/jib_crane_4_600x800.jpg
+      - imageAlt: jib crane
+        imageUrl: /img/jib_crane_1_800x600.jpg
+      - imageAlt: jib crane
+        imageUrl: /img/jib_crane_2_800x600.jpg
+    navTitle: Jib Cranes
+    title: Jib Cranes
 ---
 

@@ -1,9 +1,12 @@
+@import '../../global/_variables';
+// @import '../../global/_grid';
+
 .product-content-group--flipbooks {
-	margin-top: ms(2);
 }
 
 .flipbook__container {
 	max-width: 900px;
+	margin-top: ms(2) !important;
 }
 
 .embed-container {

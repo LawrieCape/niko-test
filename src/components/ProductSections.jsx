@@ -72,7 +72,7 @@ const ServicesComponent = function ({ sections }) {
 						const showProducts = !!(section.products && !!section.products.length);
 						const showFlipbooks = !!(section.flipbooks && !!section.flipbooks.length);
 
-						const showSideContent = showImages || showPdfs || showVideos;
+						const showSideContent = showImages || showPdfs;
 						// console.log('showSideContent: ', showSideContent);
 
 						return (
@@ -95,8 +95,6 @@ const ServicesComponent = function ({ sections }) {
 											{/* PDFs */}
 											<ProductPdfs pdfs={section.pdfs} />
 
-											{/* Videos */}
-											<ProductVideos videos={section.videos} />
 										</div>
 									: null }
 
@@ -104,6 +102,13 @@ const ServicesComponent = function ({ sections }) {
 										<div className="col-sm-12 col-md-12 col-lg-12">
 											{/* Products */}
 											<ProductProducts products={section.products} />
+										</div>
+									: null }
+
+									{showVideos ?
+										<div className="col-sm-12 col-md-12 col-lg-12">
+											{/* Videos */}
+											<ProductVideos videos={section.videos} />
 										</div>
 									: null }
 

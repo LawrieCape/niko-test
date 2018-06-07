@@ -4,6 +4,7 @@ import React from 'react';
 const FormNikotrack = function ({ enquiryType, isHidden }) {
 	return (
 		<form className="form enquiry-form" name="contactNikotrack" method="POST" data-enquiry={enquiryType} aria-hidden={isHidden} data-netlify="true">
+			<div data-netlify-recaptcha />
 			<div className="row">
 
 				<div className="col-sm-12">
@@ -105,11 +106,11 @@ const FormNikotrack = function ({ enquiryType, isHidden }) {
 					<div className="row">
 						<div className="form-field col-sm-12">
 							GOOGLE VERIFY
-							<div data-netlify-recaptcha />
+
 						</div>
 
 						<div className="form-field col-sm-12">
-							<button className="">Submit</button>
+							<button className="" type="submit">Submit</button>
 						</div>
 					</div>
 				</fieldset>

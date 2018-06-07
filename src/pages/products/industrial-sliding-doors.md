@@ -145,6 +145,9 @@ customSections:
     images: []
     navTitle: Examples
     title: Examples
+  - body: "Standard components for an industrial sliding door track system include:\r\r\n\n* Top track – guide rail for sliding mechanism\r\n* Support brackets – for fixing track to wall or soffit etc.\r\n* Hangers (also known as trolleys, runners or wheels) – slide inside top track\r\n* Door brackets – fix to top of door panel and fasten hanger\r\n* Track end stops – stop hangers leaving top track\r\n* Floor guide track – stops swinging motion of door panels\r\n* Floor guide – fixes to bottom of door and is located inside guide track"
+    navTitle: Component Kits
+    title: Component Kits
   - flipbooks:
       - issueId: '62146641'
       - issueId: '62146811'
@@ -162,8 +165,5 @@ customSections:
           B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
           Manual
     title: Downloads
-  - body: "Standard components for an industrial sliding door track system include:\r\r\n\n* Top track – guide rail for sliding mechanism\r\n* Support brackets – for fixing track to wall or soffit etc.\r\n* Hangers (also known as trolleys, runners or wheels) – slide inside top track\r\n* Door brackets – fix to top of door panel and fasten hanger\r\n* Track end stops – stop hangers leaving top track\r\n* Floor guide track – stops swinging motion of door panels\r\n* Floor guide – fixes to bottom of door and is located inside guide track"
-    navTitle: Component Kits
-    title: Component Kits
 ---
 

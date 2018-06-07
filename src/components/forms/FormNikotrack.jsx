@@ -4,6 +4,7 @@ import React from 'react';
 const FormNikotrack = function ({ enquiryType, isHidden }) {
 	return (
 		<form className="form enquiry-form" name="contactNikotrack" method="POST" data-enquiry={enquiryType} aria-hidden={isHidden} data-netlify="true">
+			<input type="hidden" name="form-name" value="contactNikotrack" />
 			<div data-netlify-recaptcha />
 			<div className="row">
 

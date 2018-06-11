@@ -65,10 +65,7 @@ customSections:
     videos: []
   - body: "* Easy to install, extend or move\r\n* Free running - requires 1/100 weight to force ratio to move doors\r\n* Low maintenance - bearings and track do not need to be oiled\r\n* High reliability – certified for 100,000 cycles\r\n* Near silent operation\r\n* Simple operation\r\n* Tapered edge track profile means door hangers always run smooth and do not snag or bind\r\n* Compact size – allowing for space utilisation\r\n* Track profile designed to reduce build up of dust, dirt and ice"
     images:
-      - imageAlt: double hanging doors
-        imageUrl: /img/double-exterior-lg-280x300.jpg
-      - imageAlt: single industrial sliding door
-        imageUrl: /img/industrial-sliding-doors-single-exterior-2-lg.jpg
+      - {}
     navTitle: Advantages
     title: Advantages
   - body: >-
@@ -91,14 +88,13 @@ customSections:
 
       * Sliding shed doors
     images:
-      - imageAlt: industrial folding door
-        imageUrl: /img/foldinggray_lg.jpg
-      - imageAlt: industrial plastic curtains
-        imageUrl: /img/plasticcurtains_lg.jpg
-      - imageAlt: triple sliding door
-        imageUrl: /img/triple_sliding_door.jpg
-      - imageAlt: industrial sliding door
-        imageUrl: /img/sliding_door_2.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_12_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_13_800x600.jpg
+      - imageUrl: /img/sliding_door_8_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/lauf.jpg
     navTitle: Applications
     title: Applications
   - body: >-

@@ -76,14 +76,14 @@ customSections:
       * Situations where flightbars are used to move parts between processes
       within a plant
     images:
-      - imageAlt: overhead conveyor track
-        imageUrl: /img/concentrictrack-300x265.jpg
-      - imageAlt: overhead finishing line
-        imageUrl: /img/finishing_line_6.jpg
-      - imageAlt: overhead finishing line
-        imageUrl: /img/finishing_line_5.jpg
-      - imageAlt: overhead finishing line
-        imageUrl: /img/turntable-320-200.jpg
+      - imageAlt: overhead conveyor
+        imageUrl: /img/overhead_conveyor_1_800x600.jpg
+      - imageAlt: overhead conveyor
+        imageUrl: /img/overhead_conveyor_2_800x600.jpg
+      - imageAlt: overhead conveyor
+        imageUrl: /img/overhead_conveyor_3_800x600.jpg
+      - imageAlt: overhead conveyor
+        imageUrl: /img/overhead_conveyor_4_800x600.jpg
     navTitle: Key Features
     title: Key Features
     videos:

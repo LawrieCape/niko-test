@@ -51,6 +51,10 @@ customSections:
         imageUrl: /img/sliding_door_2_800x600.jpg
       - imageAlt: heavy duty sliding door track
         imageUrl: /img/sliding_door_3_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_4_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_5_800x600.jpg
     navTitle: Industrial Sliding Doors
     pdfs: []
     title: Industrial Sliding Doors

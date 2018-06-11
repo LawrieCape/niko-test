@@ -51,14 +51,6 @@ customSections:
         imageUrl: /img/sliding_door_2_800x600.jpg
       - imageAlt: heavy duty sliding door track
         imageUrl: /img/sliding_door_3_800x600.jpg
-      - imageAlt: sliding door support bracket
-        imageUrl: /img/industrial-sliding-doors-ceiling-support-bracket-lg.jpg
-      - imageAlt: double sliding door support bracket
-        imageUrl: /img/industrial-sliding-doors-ceiling-bracket-double-lg.jpg
-      - imageAlt: double sliding doors
-        imageUrl: /img/industrial-sliding-doors-double-exterior-2-lg.jpg
-      - imageAlt: double sliding doors
-        imageUrl: /img/industrial-sliding-doors-double-door-sm.jpg
     navTitle: Industrial Sliding Doors
     pdfs: []
     title: Industrial Sliding Doors

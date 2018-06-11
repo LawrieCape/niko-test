@@ -69,6 +69,10 @@ customSections:
         imageUrl: /img/sliding_door_14_800x600.jpg
       - imageAlt: heavy duty sliding doors
         imageUrl: /img/sliding_door_15_800x600.jpg
+      - imageAlt: heavy duty sliding doors
+        imageUrl: /img/sliding_door_16_800x600.jpg
+      - imageAlt: heavy duty sliding doors
+        imageUrl: /img/sliding_door_17_800x600.jpg
     navTitle: Advantages
     title: Advantages
   - body: >-

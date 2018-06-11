@@ -167,5 +167,10 @@ customSections:
           Installation Instructions for Niko Sliding Door Track System
           9eljnixnI_E
         youTubeId: 9eljnixnI_E
+  - navTitle: Videos
+    title: Videos
+    videos:
+      - vidDescription: NikoTrack Sliding Door Track Installation
+        youTubeId: 9eljnixnI_E
 ---
 

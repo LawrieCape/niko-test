@@ -56,9 +56,9 @@ customSections:
       - imageAlt: double sliding door support bracket
         imageUrl: /img/industrial-sliding-doors-ceiling-bracket-double-lg.jpg
       - imageAlt: double sliding doors
-        imageUrl: /img/industrial-sliding-doors-double-door-sm.jpg
-      - imageAlt: double sliding doors
         imageUrl: /img/industrial-sliding-doors-double-exterior-2-lg.jpg
+      - imageAlt: double sliding doors
+        imageUrl: /img/industrial-sliding-doors-double-door-sm.jpg
     navTitle: Industrial Sliding Doors
     pdfs: []
     title: Industrial Sliding Doors

@@ -132,6 +132,9 @@ customSections:
       creating a safer environment. User are no longer hindered by slow moving
       trolleys, endangered by secondary falls or wire transfer, and can use the
       system throughout the year.
+    images:
+      - imageAlt: fall arrest track
+        imageUrl: /img/fall_arrest_9_800x600.jpg
     navTitle: Features
     title: Features
   - navTitle: Videos

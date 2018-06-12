@@ -17,6 +17,8 @@ customSections:
         imageUrl: /img/fall_arrest_2_800x600.jpg
       - imageAlt: fall arrest gear and track
         imageUrl: /img/fall_arrest_3_800x600.jpg
+      - imageAlt: fall arrest track gear
+        imageUrl: /img/fall_arrest_4_800x600.jpg
     navTitle: Systems
     title: Systems
   - body: >-
@@ -75,6 +77,15 @@ customSections:
       rigid design, when a fall occurs the user will only fall as far as the
       safety tether will let them, there is no secondary fall as there is in a
       taut-wire system.
+    images:
+      - imageAlt: fall arrest track
+        imageUrl: /img/fall_arrest_5_800x600.jpg
+      - imageAlt: fall arrest track
+        imageUrl: /img/fall_arrest_6_800x600.jpg
+      - imageAlt: fall arrest track
+        imageUrl: /img/fall_arrest_7_800x600.jpg
+      - imageAlt: fall arrest track
+        imageUrl: /img/fall_arrest_8_800x600.jpg
     navTitle: NikoTrack v. Taut Wire Protection
     title: NikoTrack v. Taut Wire Protection
   - body: >-

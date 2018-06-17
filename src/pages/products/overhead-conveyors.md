@@ -76,14 +76,14 @@ customSections:
       * Situations where flightbars are used to move parts between processes
       within a plant
     images:
-      - imageAlt: overhead conveyor track
-        imageUrl: /img/concentrictrack-300x265.jpg
-      - imageAlt: overhead finishing line
-        imageUrl: /img/finishing_line_6.jpg
-      - imageAlt: overhead finishing line
-        imageUrl: /img/finishing_line_5.jpg
-      - imageAlt: overhead finishing line
-        imageUrl: /img/turntable-320-200.jpg
+      - imageAlt: overhead conveyor
+        imageUrl: /img/overhead_conveyor_1_800x600.jpg
+      - imageAlt: overhead conveyor
+        imageUrl: /img/overhead_conveyor_2_800x600.jpg
+      - imageAlt: overhead conveyor
+        imageUrl: /img/overhead_conveyor_3_800x600.jpg
+      - imageAlt: overhead conveyor
+        imageUrl: /img/overhead_conveyor_4_800x600.jpg
     navTitle: Key Features
     title: Key Features
     videos:
@@ -109,10 +109,10 @@ customSections:
       conveyor are its competitive price, quiet operation and the fact that it
       can be added to a manual conveyor at a future stage.
     images:
-      - imageAlt: overhead conveyor powered
-        imageUrl: /img/slider-turn-overhead-track.jpg
-      - imageAlt: overhead powered conveyor
-        imageUrl: /img/powered_overhead_conveyor_1.jpg
+      - imageAlt: overhead motorized conveyor
+        imageUrl: /img/overhead_motorized_1_800x600.jpg
+      - imageAlt: overhead motorized conveyor
+        imageUrl: /img/overhead_motorized_2_800x600.jpg
     navTitle: 'Localized Powered Travel '
     title: 'Localized Powered Travel '
   - body: "There are an infinite number of possible track layouts, to suit any particular application. Nikotrack provide a wide range of turns, switches, turntables, which can be manually or pneumatically operated. Layouts can be optimized for:\n\n* **Storage Space Utilization\r**\n  * The use of automatic switches and precision bent 90 degree track, allows for a flight bar travelling along the manual overhead conveyor track, to be side shifted, and stored in an accumulating idle area for storage or process dwell time. The Overhead Conveyor Systems C1 catalogue displays the different modular fittings to achieve precise track placement for maximum space utilization.\r\n* **Overhead Load Positioning\r**\n  * The enclosed precision track has tapered sides to ensure that the load carrying trolleys self locate to run freely and smoothly with minimal force required to move the loaded trolley. Repeatable positioning of loaded trolleys is achieved throughout the entire manual overhead conveyor system.\r\n* **NikoTrack Overhead Turntable Detour System\r**\n  * The unique NikoTrack Turntable Detour system allows for multiple overhead track systems to be interconnected. Loads or flight bars are easily transferred between different processes or areas of the plant. Turntables are an ergonomic solution to multiple conveyor destination systems, reducing capital expenditure on more complex overhead conveyor track layouts."

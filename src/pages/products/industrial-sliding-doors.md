@@ -47,24 +47,32 @@ customSections:
 
       ###
     images:
-      - imageAlt: sliding door support bracket
-        imageUrl: /img/industrial-sliding-doors-ceiling-support-bracket-lg.jpg
-      - imageAlt: double sliding door support bracket
-        imageUrl: /img/industrial-sliding-doors-ceiling-bracket-double-lg.jpg
-      - imageAlt: double sliding doors
-        imageUrl: /img/industrial-sliding-doors-double-door-sm.jpg
-      - imageAlt: double sliding doors
-        imageUrl: /img/industrial-sliding-doors-double-exterior-2-lg.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_2_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_3_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_4_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_5_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_6_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_7_800x600.jpg
     navTitle: Industrial Sliding Doors
     pdfs: []
     title: Industrial Sliding Doors
     videos: []
   - body: "* Easy to install, extend or move\r\n* Free running - requires 1/100 weight to force ratio to move doors\r\n* Low maintenance - bearings and track do not need to be oiled\r\n* High reliability – certified for 100,000 cycles\r\n* Near silent operation\r\n* Simple operation\r\n* Tapered edge track profile means door hangers always run smooth and do not snag or bind\r\n* Compact size – allowing for space utilisation\r\n* Track profile designed to reduce build up of dust, dirt and ice"
     images:
-      - imageAlt: double hanging doors
-        imageUrl: /img/double-exterior-lg-280x300.jpg
-      - imageAlt: single industrial sliding door
-        imageUrl: /img/industrial-sliding-doors-single-exterior-2-lg.jpg
+      - imageAlt: heavy duty sliding doors
+        imageUrl: /img/sliding_door_14_800x600.jpg
+      - imageAlt: heavy duty sliding doors
+        imageUrl: /img/sliding_door_15_800x600.jpg
+      - imageAlt: heavy duty sliding doors
+        imageUrl: /img/sliding_door_16_800x600.jpg
+      - imageAlt: heavy duty sliding doors
+        imageUrl: /img/sliding_door_17_800x600.jpg
     navTitle: Advantages
     title: Advantages
   - body: >-
@@ -87,14 +95,13 @@ customSections:
 
       * Sliding shed doors
     images:
-      - imageAlt: industrial folding door
-        imageUrl: /img/foldinggray_lg.jpg
-      - imageAlt: industrial plastic curtains
-        imageUrl: /img/plasticcurtains_lg.jpg
-      - imageAlt: triple sliding door
-        imageUrl: /img/triple_sliding_door.jpg
-      - imageAlt: industrial sliding door
-        imageUrl: /img/sliding_door_2.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_12_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/sliding_door_13_800x600.jpg
+      - imageUrl: /img/sliding_door_8_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: /img/lauf.jpg
     navTitle: Applications
     title: Applications
   - body: >-
@@ -145,17 +152,21 @@ customSections:
     images: []
     navTitle: Examples
     title: Examples
+  - navTitle: Videos
+    title: Videos
+    videos:
+      - vidDescription: NikoTrack Sliding Door Track Installation
+        youTubeId: 9eljnixnI_E
   - body: "Standard components for an industrial sliding door track system include:\r\r\n\n* Top track – guide rail for sliding mechanism\r\n* Support brackets – for fixing track to wall or soffit etc.\r\n* Hangers (also known as trolleys, runners or wheels) – slide inside top track\r\n* Door brackets – fix to top of door panel and fasten hanger\r\n* Track end stops – stop hangers leaving top track\r\n* Floor guide track – stops swinging motion of door panels\r\n* Floor guide – fixes to bottom of door and is located inside guide track"
     navTitle: Component Kits
     title: Component Kits
+    videos: []
   - flipbooks:
       - issueId: '62146641'
       - issueId: '62146811'
     navTitle: Downloads
     pdfs: []
     title: Downloads
-    videos:
-      - vidDescription: Installation Instructions for Niko Sliding Door Track System
-        youTubeId: 9eljnixnI_E
+    videos: []
 ---
 

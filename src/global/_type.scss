@@ -102,38 +102,38 @@ $bestFitLineHeight: false;
 	font-family: $headings-font-family;
 	font-weight: $headings-font-weight;
 	color: $headings-color;
-	// text-transform: uppercase;
+	text-transform: uppercase;
 	letter-spacing: -0.03em;
 }
 
 @mixin type--h1 {
 	@include header-common;
-	@include new-typesetter(6, 1.1em); // 1.2em
+	@include new-typesetter(6, 1.1em);
 }
 
 @mixin type--h2 {
 	@include header-common;
-	@include new-typesetter(5, 1.1em); // 1.1em
+	@include new-typesetter(4, 1.1em);
 }
 
 @mixin type--h3 {
 	@include header-common;
-	@include new-typesetter(4, 1.1em); // 1.2em
+	@include new-typesetter(3, 1.1em);
 }
 
 @mixin type--h4 {
 	@include header-common;
-	@include new-typesetter(3, 1.1em); // 1.2em
+	@include new-typesetter(2, 1.1em);
 }
 
 @mixin type--h5 {
 	@include header-common;
-	@include new-typesetter(2, 1.1em); // 1.3em
+	@include new-typesetter(1, 1.1em);
 }
 
 @mixin type--h6 {
 	@include header-common;
-	@include new-typesetter(1, 1.1em); // 1.3em
+	@include new-typesetter(1, 1.1em);
 }
 
 @mixin type--p {

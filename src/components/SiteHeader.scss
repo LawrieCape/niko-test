@@ -6,9 +6,9 @@
 }
 
 .site-header {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	// display: flex;
+	// justify-content: space-between;
+	// flex-wrap: wrap;
 	font-family: $headings-font-family;
 	font-size: ms(-1);
 	text-transform: uppercase;
@@ -17,6 +17,7 @@
 
 .header-logo {
 	margin-top: 1em;
+	display: flex;
 }
 
 .header-logo__link {
@@ -53,18 +54,24 @@
 	@include hide-text1;
 }
 
+.wee-nav__wrapper2 {
+	background-color: $primary;
+}
+
 .wee-nav__wrapper {
 	margin-top: 0;
 	overflow: hidden;
 	display: flex;
-	flex-flow: column wrap;
-	align-items: flex-end;
-	justify-content: center;
+	flex-flow: row wrap;
+	// align-items: flex-end;
+	justify-content: space-between;
+	color: $white;
+	font-weight: 500;
 }
 
 .wee-nav {
-	margin-top: 0.75em;
-	flex: 0 0 auto;
+	margin-top: 0;
+	flex: 0 0 100%;
 	display: flex;
 	flex-flow: row wrap;
 	margin-right: (ms(-4) * -1);
@@ -72,18 +79,31 @@
 	a {
 		padding: ms(-4) ms(-4);
 		margin: 0 0 0 ms(-2);
-		// color: $black;
+		color: currentColor;
 		// background-color: $white; // Chrome Audits
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	@media #{$mqMediumAndUp} {
+		flex-basis: auto;
 	}
 }
 
 .header__contact-us__wrapper {
 	flex: 0 0 auto;
-	margin-top: 1em;
+	// margin-top: 1em;
 	text-align: right;
+	line-height: 40px;
 
 	a {
-		// color: $black;
+		color: currentColor;
 		// background-color: $white; // Chrome Audits
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 }

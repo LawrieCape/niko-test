@@ -13,24 +13,29 @@ export const ProductPageTemplate = ({
 	const stringThing = `url(${heroImage})`;
 	const styles = { backgroundImage: stringThing };
 	return (
-		<div className="container-fluid">
-			<article className="page-body page-body--product">
-				<Helmet title={`${title} | Niko`} />
+		<div>
+			<Helmet title={`${title} | Niko`} />
 
-				<header className="page-header">
-					<div className="product-hero">
-						<img src={heroImage} alt="product hero" />
-						{/* <div className="page-header__hero-image" style={styles} /> */}
+			<header className="page-header">
+				<div className="product-hero">
+					{/* <img src={heroImage} alt="product hero" /> */}
+					<div className="page-header__hero-image" style={styles} />
 
+					<div className="container-fluid">
 						<div className="product-hero__content">
 							<h1 className="">{title}</h1>
 							<ReactMarkdown source={heroDescription} />
 						</div>
 					</div>
-				</header>
+				</div>
+			</header>
 
-				<ProductSections sections={sections} />
-			</article>
+			<div className="container-fluid">
+				<article className="page-body page-body--product">
+
+					<ProductSections sections={sections} />
+				</article>
+			</div>
 		</div>
 	);
 };

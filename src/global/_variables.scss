@@ -8,7 +8,7 @@ $modularscale: (
 // $ms-ratio: 1.247 !default;
 // $ms-range: null !default;
 // $ms-fluid: true !default;
-
+// WARN: for some reason these need to be delcared here.
 
 $white:							#ffffff;
 $grey:							#808080;
@@ -28,6 +28,8 @@ $navy:							#000080;
 $beige:							#e1dfd5;
 
 $c-grey-1:						#eaecee;
+$c-grey-2:						#f8f8f8;
+$c-grey-3:						#fafafa;
 
 // Config vars
 
@@ -36,8 +38,8 @@ $primary-dark:					#003558;
 $primary-light:					#2e6e98;
 $primary-invert:				#ffffff;
 $secondary:						#f37021;
-$secondary-dark:				#C0581A;
-$secondary-light:				#FAA815;
+$secondary-dark:				#c0581a;
+$secondary-light:				#faa815;
 
 // RGBA
 $black--opaque1:				rgba(0, 0, 0, 0.9);
@@ -94,8 +96,8 @@ $h6-font-size:					$font-size-base !default;
 
 $headings-margin-bottom:		30px !default;
 $headings-font-family:			$font-family-header !default;
-$headings-font-weight:			400 !default;
-$headings-line-height:			1.2 !default;
+$headings-font-weight:			500 !default;
+$headings-line-height:			1.1 !default;
 $headings-color:				inherit !default;
 
 

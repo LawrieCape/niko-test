@@ -41,7 +41,7 @@
 	&:hover {
 		color: currentColor;
 		text-decoration: none;
-		opacity: 0.7;
+		opacity: 0.8;
 	}
 
 	&:active {
@@ -69,7 +69,7 @@
 
 .homepage-hero__link-inner {
 	padding: 0;
-	border: 1px solid $black--opaque6;
+	border: 1px solid $primary;
 	flex: 1 0 100%;
 	transition: background-color 150ms ease-in-out;
 	position: relative;
@@ -104,11 +104,10 @@
 	position: absolute;
 	padding: ms(0);
 	color: $white;
-	background-color: $black--opaque4;
+	background-color: rgba($primary, 0.8);
 	bottom: 0;
 	right: 0;
 	left: 0;
-	// margin: 1px;
 
 	@media #{$mqMediumAndUp} {
 		padding: ms(1);

@@ -47,10 +47,6 @@ const SiteFooter = () => {
 						<p>Email: <a href="mailto:info@nikotrack.com">info@nikotrack.com</a></p>
 					</div>
 
-					<div className="footer__copyright">
-						<p>&copy; 2018 NikoTrack All Rights Reserved</p>
-					</div>
-
 					{/* <div className="col-sm-12 col-md-4 col-md-4">
 						<h2>Social</h2>
 						<ul className="footer__social">
@@ -67,6 +63,12 @@ const SiteFooter = () => {
 							<li><a href="#"><img src="https://dummyimage.com/150x75/" alt="LEEA Full Member" /></a></li>
 						</ul>
 					</div> */}
+				</div>
+			</div>
+
+			<div className="footer__copyright">
+				<div className="container-fluid">
+					<p>&copy; 2018 NikoTrack All Rights Reserved</p>
 				</div>
 			</div>
 		</footer>

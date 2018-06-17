@@ -9,20 +9,16 @@ const SiteHeader = ({ posts }) => {
 	return (
 		<header className="site-header__wrapper">
 
-			<div className="container-fluid">
-				<div className="site-header">
-
-					{/* company logo */}
-					<div className="header-logo">
-						<Link className="header-logo__link" to="/">
-							<img className="header-logo__image" src={logo} alt="NikoTrack logo" />
-							<img className="header-logo__image-extra" src={logoExtra} alt="NikoTrack logo extra" />
-							<span className="header-logo__title">NikoTrack logo</span>
-						</Link>
-					</div>
-
+			<div className="wee-nav__wrapper2">
+				<div className="container-fluid">
 					{/* wee nav */}
 					<div className="wee-nav__wrapper">
+
+						{/* contact us */}
+						<div className="header__contact-us__wrapper">
+							Call Now: <a href="tel:+14016837525">+1 401 683 7525</a>
+						</div>
+
 						<nav className="wee-nav">
 							<Link className="" to="/">
 								Home
@@ -49,11 +45,20 @@ const SiteHeader = ({ posts }) => {
 								Request a Quote
 							</Link>
 						</nav>
+					</div>
+				</div>
+			</div>
 
-						{/* contact us */}
-						<div className="header__contact-us__wrapper">
-							Call Now: <a href="tel:+14016837525">+1 401 683 7525</a>
-						</div>
+
+			<div className="container-fluid">
+				<div className="site-header">
+					{/* company logo */}
+					<div className="header-logo">
+						<Link className="header-logo__link" to="/">
+							<img className="header-logo__image" src={logo} alt="NikoTrack logo" />
+							<img className="header-logo__image-extra" src={logoExtra} alt="NikoTrack logo extra" />
+							<span className="header-logo__title">NikoTrack logo</span>
+						</Link>
 					</div>
 
 

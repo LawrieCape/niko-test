@@ -24,7 +24,7 @@ const TemplateWrapper = ({ children, data }) => {
 			</div>
 
 			<div className="page__footer">
-				<SiteFooter />
+				<SiteFooter posts={pages} />
 			</div>
 
 		</div>

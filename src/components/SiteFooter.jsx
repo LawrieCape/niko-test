@@ -8,34 +8,43 @@ import IconTwitter from '-!babel!svg-react-loader!../img/font-awesome/brands/twi
 import IconLinkedIn from '-!babel!svg-react-loader!../img/font-awesome/brands/linkedin.svg';
 import IconYouTube from '-!babel!svg-react-loader!../img/font-awesome/brands/youtube.svg';
 
-const SiteFooter = () => {
+const SiteFooter = ({ posts }) => {
+	console.log(posts);
+
 	return (
 		<footer className="site-footer">
 			<div className="container-fluid">
 				<div className="footer">
-					<div className="footer__links">
-						<h4>Info</h4>
-						<Link className="" to="/">
-							Home
-						</Link>
-						<Link className="" to="/latest-news">
-							Latest News
-						</Link>
-						{/* <Link className="" to="/products">
-							Products
-						</Link>
-						<Link className="" to="/services">
-							Services
-						</Link>
-						<Link className="" to="/our-work">
-							Our Work
-						</Link>
-						<Link className="" to="/careers">
-							Careers
-						</Link> */}
-						<Link className="" to="/contact">
-							Contact
-						</Link>
+					<div className="footer-links">
+						<h4>About</h4>
+						<div className="footer-links__group">
+							<Link className="footer-links__link" to="/">
+								Home
+							</Link>
+							<Link className="footer-links__link" to="/latest-news">
+								Latest News
+							</Link>
+							<Link className="footer-links__link" to="/contact">
+								Contact
+							</Link>
+							<Link className="footer-links__link" to="/contact">
+								Request a Quote
+							</Link>
+						</div>
+					</div>
+					<div className="footer-links">
+						<h4>Products</h4>
+						<div className="footer-links__group">
+							{posts
+								.map(({ node: post }) => {
+									return (
+										<Link key={post.id} className="footer-links__link" to={post.fields.slug}>
+											{post.frontmatter.navTitle}
+										</Link>
+									);
+								})
+							}
+						</div>
 					</div>
 
 					<div className="footer__contact-details">

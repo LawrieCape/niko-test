@@ -6,9 +6,6 @@
 }
 
 .site-header {
-	// display: flex;
-	// justify-content: space-between;
-	// flex-wrap: wrap;
 	font-family: $headings-font-family;
 	font-size: ms(-1);
 	text-transform: uppercase;
@@ -55,7 +52,10 @@
 }
 
 .wee-nav__wrapper2 {
-	background-color: $primary;
+	// background-color: $primary;
+	// border-bottom: 1px solid $black--opaque8;
+	// border-bottom: 1px solid $primary;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.07) 0, rgba(0, 0, 0, 0) 4px);
 }
 
 .wee-nav__wrapper {
@@ -63,10 +63,13 @@
 	overflow: hidden;
 	display: flex;
 	flex-flow: row wrap;
-	// align-items: flex-end;
 	justify-content: space-between;
-	color: $white;
-	font-weight: 500;
+	// color: $white;
+	font-weight: 600;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: $font-family-header;
+	letter-spacing: 0.2px;
 }
 
 .wee-nav {
@@ -77,7 +80,8 @@
 	margin-right: (ms(-4) * -1);
 
 	a {
-		padding: ms(-4) ms(-4);
+		padding: 0 ms(-4);
+		line-height: 40px;
 		margin: 0 0 0 ms(-2);
 		color: currentColor;
 		// background-color: $white; // Chrome Audits
@@ -94,12 +98,13 @@
 
 .header__contact-us__wrapper {
 	flex: 0 0 auto;
-	// margin-top: 1em;
 	text-align: right;
 	line-height: 40px;
 
 	a {
 		color: currentColor;
+		display: inline-block;
+		// line-height: 40px;
 		// background-color: $white; // Chrome Audits
 
 		&:hover {

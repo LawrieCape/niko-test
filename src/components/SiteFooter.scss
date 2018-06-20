@@ -17,16 +17,24 @@
 	flex-flow: row wrap;
 }
 
-.footer__links {
+.footer-links {
+	margin-top: 1.5em;
 	flex: 1 0 auto;
 	list-style-type: none;
 	padding-left: 0;
 	margin-bottom: 0;
+}
 
-	a {
-		margin-top: 0;
-		display: inline-block;
-		padding: ms(-2) ms(0) ms(-2) 0;
+.footer-links__group {
+	display: inline-flex;
+	flex-flow: column nowrap;
+}
+
+.footer-links__link {
+	padding: 5px 0;
+
+	+ .footer-links__link {
+		margin-top: ms(-5);
 	}
 }
 
@@ -35,6 +43,7 @@
 }
 
 .footer__copyright {
+	margin-top: ms(5);
 	flex: 1 0 100%;
 	padding: ms(0) 0;
 	background-color: $primary-dark;

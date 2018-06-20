@@ -97,8 +97,8 @@ $bestFitLineHeight: false;
 }
 
 @mixin header-common {
-	max-width: 640px; // calculated px value from p max-width
-	max-width: 15em;
+	// max-width: 640px; // calculated px value from p max-width
+	max-width: 18em; // 15em
 	font-family: $headings-font-family;
 	font-weight: $headings-font-weight;
 	color: $headings-color;

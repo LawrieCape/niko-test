@@ -12,7 +12,7 @@ const lfsldgjsldgkj = function ({ pdfs }) {
 			{pdfs && pdfs.map((pdf, index) => {
 				return (
 					<div key={index}>
-						<a className="pdf__link" href={pdf.pdfUrl} target="_blank" rel="noopener">
+						<a className="pdf__link" href={pdf.pdfUrl} target="_blank" rel="noopener noreferrer">
 							<img className="pdf__image" src={pdf.pdfThumb} alt={pdf.title} width="200" height="200" />
 							<p className="pdf__title">{pdf.title}</p>
 						</a>

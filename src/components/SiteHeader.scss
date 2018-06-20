@@ -1,8 +1,12 @@
 @import '../global/_variables';
 @import '../global/mixins';
 
-.site-header__wrapper {
+.page__body {
 	border-top: 2px solid $secondary;
+}
+
+.site-header__wrapper {
+	// border-top: 10px solid $primary;
 }
 
 .site-header {
@@ -75,7 +79,6 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
-	margin-right: (ms(-4) * -1);
 
 	@media #{$mqMediumAndUp} {
 		flex-basis: auto;
@@ -83,11 +86,17 @@
 }
 
 .wee-nav__link {
-	padding: 0 ms(-4);
-	line-height: 40px;
-	margin: 0 0 0 ms(-4);
+	// padding: 0 ;
+	// line-height: 40px;
+	margin: ms(-4) 0;
 	color: currentColor;
 	// background-color: $white; // Chrome Audits
+
+	&:not(:first-child) {
+		border-left: 1px solid $black--opaque8;
+		padding-left: ms(-1);
+		margin-left: ms(-1);
+	}
 
 	&:hover {
 		text-decoration: none;

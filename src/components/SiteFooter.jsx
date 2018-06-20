@@ -9,8 +9,6 @@ import IconLinkedIn from '-!babel!svg-react-loader!../img/font-awesome/brands/li
 import IconYouTube from '-!babel!svg-react-loader!../img/font-awesome/brands/youtube.svg';
 
 const SiteFooter = ({ posts }) => {
-	console.log(posts);
-
 	return (
 		<footer className="site-footer">
 			<div className="container-fluid">

@@ -12,8 +12,8 @@ export const HomePageHero = ({ posts }) => {
 						return post.node.frontmatter.templateKey === 'product-landing';
 					})
 					.map(({ node: post }) => {
-						const stringThing = `url(${post.frontmatter.heroImage})`;
-						const styles = { backgroundImage: stringThing };
+						// const stringThing = `url(${post.frontmatter.heroImage})`;
+						// const styles = { backgroundImage: stringThing };
 
 						return (
 							<Link

@@ -33,10 +33,10 @@ class ContactForm extends React.Component {
 		const form = e.target;
 		console.log({ ...this.state });
 
-		let formData = new FormData();
-		formData.append('form-name', form.getAttribute('name'));
-		formData.append('json', JSON.stringify( this.state ));
-		console.log('formData: ', formData);
+		// let formData = new FormData();
+		// formData.append('form-name', form.getAttribute('name'));
+		// formData.append('json', JSON.stringify( this.state ));
+		// console.log('formData: ', formData);
 
 		// let encodedData = encode({
 		// 	'form-name': form.getAttribute('name'),
@@ -44,10 +44,14 @@ class ContactForm extends React.Component {
 		// });
 		// console.log('encodedData: ', encodedData);
 
+		let jsonData = JSON.stringify( this.state );
+		jsonData['form-name'] = form.getAttribute('name');
+		console.log('jsonData: ', jsonData);
+
 		fetch('/', {
 			method: 'POST',
 			// headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-			body: formData,
+			body: jsonData,
 		})
 			.then((response) => {
 				console.log('response: ', response);

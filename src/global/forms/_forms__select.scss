@@ -4,11 +4,15 @@
 .input__select-icon {
 	position: absolute;
 	top: 50%;
+	transform: translateY(-50%);
 	right: 22px;
-	width: 15px;
-	height: 12px;
+	width: 24px;
+	height: 24px;
 	pointer-events: none;
 	fill: $grey;
 	margin-top: 0;
-	background-color: red;
+	background-image: url('/other/angle-down.svg');
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
 }

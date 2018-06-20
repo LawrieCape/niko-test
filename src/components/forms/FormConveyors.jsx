@@ -114,7 +114,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsName"
 									name="frmConveyorsName"
-									placeholder="Name"
+									// placeholder="Name"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -130,7 +130,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsEmail"
 									name="frmConveyorsEmail"
-									placeholder="Email Address"
+									// placeholder="Email Address"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -147,7 +147,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsPhoneNumber"
 									name="frmConveyorsPhoneNumber"
-									placeholder="Phone Number"
+									// placeholder="Phone Number"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -164,7 +164,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsCompany"
 									name="frmConveyorsCompany"
-									placeholder="Company"
+									// placeholder="Company"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -177,14 +177,14 @@ class FormConveyors extends React.Component {
 
 						<div className="row">
 							<div className="form-field form-field--textarea col-sm-12 col-md-8">
-								<label className="form-field__label" htmlFor="data__data_id09">
-									data_label
+								<label className="form-field__label" htmlFor="frmConveyorsConveyorDetails">
+									ConveyorsConveyorDetails
 								</label>
 								<textarea
 									className="form-field__input"
-									id="data__data_id09"
-									name="data__data_id09"
-									placeholder="Lorem ipsum dolor sit."
+									id="frmConveyorsConveyorDetails"
+									name="frmConveyorsConveyorDetails"
+									// placeholder="Lorem ipsum dolor sit."
 									rows="6"
 									onChange={this.handleChange}
 								/>
@@ -210,7 +210,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsMostCommonPartLength"
 									name="frmConveyorsMostCommonPartLength"
-									placeholder="MostCommonPartLength"
+									// placeholder="MostCommonPartLength"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -229,7 +229,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsMostCommonPartHeight"
 									name="frmConveyorsMostCommonPartHeight"
-									placeholder="MostCommonPartHeight"
+									// placeholder="MostCommonPartHeight"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -248,7 +248,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsMostCommonPartWidth"
 									name="frmConveyorsMostCommonPartWidth"
-									placeholder="MostCommonPartWidth"
+									// placeholder="MostCommonPartWidth"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -267,7 +267,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsMostCommonPartWeight"
 									name="frmConveyorsMostCommonPartWeight"
-									placeholder="MostCommonPartWeight"
+									// placeholder="MostCommonPartWeight"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -290,7 +290,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsLargestPartLength"
 									name="frmConveyorsLargestPartLength"
-									placeholder="LargestPartLength"
+									// placeholder="LargestPartLength"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -306,7 +306,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsLargestPartHeight"
 									name="frmConveyorsLargestPartHeight"
-									placeholder="LargestPartHeight"
+									// placeholder="LargestPartHeight"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -322,7 +322,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsLargestPartWidth"
 									name="frmConveyorsLargestPartWidth"
-									placeholder="LargestPartWidth"
+									// placeholder="LargestPartWidth"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -338,7 +338,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsLargestPartWeight"
 									name="frmConveyorsLargestPartWeight"
-									placeholder="LargestPartWeight"
+									// placeholder="LargestPartWeight"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -361,7 +361,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsMaxNumberOfParts"
 									name="frmConveyorsMaxNumberOfParts"
-									placeholder="MaxNumberOfParts"
+									// placeholder="MaxNumberOfParts"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -377,7 +377,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsMostCommonPart"
 									name="frmConveyorsMostCommonPart"
-									placeholder="MostCommonPart"
+									// placeholder="MostCommonPart"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -393,7 +393,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsLargestPart"
 									name="frmConveyorsLargestPart"
-									placeholder="LargestPart"
+									// placeholder="LargestPart"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -409,7 +409,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsLineSpeed"
 									name="frmConveyorsLineSpeed"
-									placeholder="LineSpeed"
+									// placeholder="LineSpeed"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -425,7 +425,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsMaxOvenTemp"
 									name="frmConveyorsMaxOvenTemp"
-									placeholder="MaxOvenTemp"
+									// placeholder="MaxOvenTemp"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -441,7 +441,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmCoveyorsDropLiftsRequired"
 									name="frmConveyorsDropLiftsRequired"
-									placeholder="DropLiftsRequired"
+									// placeholder="DropLiftsRequired"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -461,7 +461,7 @@ class FormConveyors extends React.Component {
 									className="form-field__input"
 									id="frmConveyorsProjectDescription"
 									name="frmConveyorsProjectDescription"
-									placeholder="Lorem ipsum dolor sit."
+									// placeholder="Lorem ipsum dolor sit."
 									rows="6"
 									onChange={this.handleChange}
 								/>

@@ -114,7 +114,7 @@ class FormNikotrack extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmNikotrackName"
 									name="frmNikotrackName"
-									placeholder="Name"
+									// placeholder="Name"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -130,7 +130,7 @@ class FormNikotrack extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmNikotrackEmail"
 									name="frmNikotrackEmail"
-									placeholder="Email Address"
+									// placeholder="Email Address"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -147,7 +147,7 @@ class FormNikotrack extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmNikotrackPhoneNumber"
 									name="frmNikotrackPhoneNumber"
-									placeholder="Phone Number"
+									// placeholder="Phone Number"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -164,7 +164,7 @@ class FormNikotrack extends React.Component {
 									className="form-field__input data__input_class"
 									id="frmNikotrackCompany"
 									name="frmNikotrackCompany"
-									placeholder="Company"
+									// placeholder="Company"
 									type="text"
 									onChange={this.handleChange}
 								/>
@@ -250,7 +250,7 @@ class FormNikotrack extends React.Component {
 									className="form-field__input"
 									id="frmNikotrackGeneralDetails"
 									name="frmNikotrackGeneralDetails"
-									placeholder="Lorem ipsum dolor sit."
+									// placeholder="Lorem ipsum dolor sit."
 									rows="6"
 									onChange={this.handleChange}
 								/>

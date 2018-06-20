@@ -77,51 +77,87 @@ class FormCranes extends React.Component {
 				<input type="hidden" name="form-name" value="contactCranes" />
 
 				<div className="row">
-
 					<div className="col-sm-12">
 						<h2 className="h4">Workstation Cranes</h2>
 						<p>
-							<strong>Welcome</strong><br />
-							Thank you for visiting our website. If you have a particular application that you would like us to advise on and provide a quotation, then please use this form. You can also upload up to 2 files you consider helpful.
+							<strong>Welcome</strong>
+							<br />
+							Thank you for visiting our website. If you have a particular application
+							that you would like us to advise on and provide a quotation, then please
+							use this form. You can also upload up to 2 files you consider helpful.
 						</p>
 					</div>
-
 				</div>
 				<div className="row">
-
 					<fieldset>
-						<legend>Fieldset Legend</legend>
+						<legend>General Info</legend>
 
 						<div className="row">
 							<div className="form-field col-sm-12 col-md-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesName">Name</label>
+								<label className="form-field__label" htmlFor="frmCranesName">
+									Name
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesName" name="frmCranesName" placeholder="Name" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesName"
+									name="frmCranesName"
+									// placeholder="Name"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 							<div className="form-field col-sm-12 col-md-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesEmail">Email Address</label>
+								<label className="form-field__label" htmlFor="frmCranesEmail">
+									Email Address
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesEmail" name="frmCranesEmail" placeholder="Email Address" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesEmail"
+									name="frmCranesEmail"
+									// placeholder="Email Address"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 
 							<div className="form-field col-sm-12 col-md-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesPhoneNumber">Phone Number</label>
+								<label className="form-field__label" htmlFor="frmCranesPhoneNumber">
+									Phone Number
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesPhoneNumber" name="frmCranesPhoneNumber" placeholder="Phone Number" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesPhoneNumber"
+									name="frmCranesPhoneNumber"
+									// placeholder="Phone Number"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 
 							<div className="form-field col-sm-12 col-md-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesCompany">Company</label>
+								<label className="form-field__label" htmlFor="frmCranesCompany">
+									Company
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesCompany" name="frmCranesCompany" placeholder="Company" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesCompany"
+									name="frmCranesCompany"
+									// placeholder="Company"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 						</div>
 					</fieldset>
@@ -132,33 +168,80 @@ class FormCranes extends React.Component {
 						<div className="row">
 							<div className="form-field col-sm-12 col-md-4">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesWorkstationMaxWeight">WorkstationMaxWeight</label>
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesWorkstationMaxWeight"
+								>
+									WorkstationMaxWeight
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesWorkstationMaxWeight" name="frmCranesWorkstationMaxWeight" placeholder="WorkstationMaxWeight" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesWorkstationMaxWeight"
+									name="frmCranesWorkstationMaxWeight"
+									// placeholder="WorkstationMaxWeight"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 
 							<div className="form-field col-sm-12 col-md-4">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesBridgeLength">BridgeLength</label>
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesBridgeLength"
+								>
+									BridgeLength
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesBridgeLength" name="frmCranesBridgeLength" placeholder="BridgeLength" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesBridgeLength"
+									name="frmCranesBridgeLength"
+									// placeholder="BridgeLength"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 
 							<div className="form-field col-sm-12 col-md-4">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesRunwayLength">RunwayLength</label>
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesRunwayLength"
+								>
+									RunwayLength
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesRunwayLength" name="frmCranesRunwayLength" placeholder="RunwayLength" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesRunwayLength"
+									name="frmCranesRunwayLength"
+									// placeholder="RunwayLength"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 
 							<div className="form-field form-field--select col-sm-12 col-md-4">
-								<label className="form-field__label" htmlFor="frmCranesFestooning">Festooning</label>
+								<label className="form-field__label" htmlFor="frmCranesFestooning">
+									Festooning
+								</label>
 								<div className="form-field__input">
-									<select id="frmCranesFestooning" className="" name="frmCranesFestooning" data-placeholder="e.g. Mrs" defaultValue="">
-										<option value="" disabled hidden>Choose one</option>
+									<select
+										id="frmCranesFestooning"
+										className=""
+										name="frmCranesFestooning"
+										// data-placeholder="e.g. Mrs"
+										defaultValue=""
+										onChange={this.handleChange}
+									>
+										<option value="" disabled hidden>
+											Choose one
+										</option>
 										<option value="yes">Yes</option>
 										<option value="no">No</option>
 									</select>
@@ -170,18 +253,42 @@ class FormCranes extends React.Component {
 
 							<div className="form-field col-sm-12 col-md-4">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesHeightToBottomOfTrack">HeightToBottomOfTrack</label>
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesHeightToBottomOfTrack"
+								>
+									HeightToBottomOfTrack
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesHeightToBottomOfTrack" name="frmCranesHeightToBottomOfTrack" placeholder="HeightToBottomOfTrack" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesHeightToBottomOfTrack"
+									name="frmCranesHeightToBottomOfTrack"
+									// placeholder="HeightToBottomOfTrack"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 
 							<div className="form-field col-sm-12 col-md-4">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesFloorOrCeilingMounted">FloorOrCeilingMounted</label>
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesFloorOrCeilingMounted"
+								>
+									FloorOrCeilingMounted
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesFloorOrCeilingMounted" name="frmCranesFloorOrCeilingMounted" placeholder="FloorOrCeilingMounted" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesFloorOrCeilingMounted"
+									name="frmCranesFloorOrCeilingMounted"
+									// placeholder="FloorOrCeilingMounted"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 						</div>
 					</fieldset>
@@ -192,25 +299,63 @@ class FormCranes extends React.Component {
 						<div className="row">
 							<div className="form-field col-sm-12 col-md-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesWallFloorColumnMounted">WallFloorColumnMounted</label>
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesWallFloorColumnMounted"
+								>
+									WallFloorColumnMounted
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesWallFloorColumnMounted" name="frmCranesWallFloorColumnMounted" placeholder="WallFloorColumnMounted" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesWallFloorColumnMounted"
+									name="frmCranesWallFloorColumnMounted"
+									// placeholder="WallFloorColumnMounted"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 
 							<div className="form-field col-sm-12 col-md-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesJibMaxWeight">JibMaxWeight</label>
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesJibMaxWeight"
+								>
+									JibMaxWeight
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesJibMaxWeight" name="frmCranesJibMaxWeight" placeholder="JibMaxWeight" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesJibMaxWeight"
+									name="frmCranesJibMaxWeight"
+									// placeholder="JibMaxWeight"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 
 							<div className="form-field form-field--select col-sm-12 col-md-6">
-								<label className="form-field__label" htmlFor="frmCranesJibArmRadius">Jib Arm Radius</label>
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesJibArmRadius"
+								>
+									Jib Arm Radius
+								</label>
 								<div className="form-field__input">
-									<select id="frmCranesJibArmRadius" className="" name="frmCranesJibArmRadius" data-placeholder="e.g. Mrs" defaultValue="">
-										<option value="" disabled hidden>Choose one</option>
+									<select
+										id="frmCranesJibArmRadius"
+										className=""
+										name="frmCranesJibArmRadius"
+										// data-placeholder="e.g. Mrs"
+										defaultValue=""
+										onChange={this.handleChange}
+									>
+										<option value="" disabled hidden>
+											Choose one
+										</option>
 										<option value="nikotrack">10</option>
 										<option value="overhead-conveyors">12</option>
 										<option value="workstation-cranes">15</option>
@@ -224,10 +369,22 @@ class FormCranes extends React.Component {
 
 							<div className="form-field col-sm-12 col-md-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCranesJibHeightToBottomOfTrack">JibHeightToBottomOfTrack</label>
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesJibHeightToBottomOfTrack"
+								>
+									JibHeightToBottomOfTrack
+								</label>
 
 								{/* <!-- Input --> */}
-								<input className="form-field__input data__input_class" id="frmCranesJibHeightToBottomOfTrack" name="frmCranesJibHeightToBottomOfTrack" placeholder="JibHeightToBottomOfTrack" type="text" />
+								<input
+									className="form-field__input data__input_class"
+									id="frmCranesJibHeightToBottomOfTrack"
+									name="frmCranesJibHeightToBottomOfTrack"
+									// placeholder="JibHeightToBottomOfTrack"
+									type="text"
+									onChange={this.handleChange}
+								/>
 							</div>
 						</div>
 					</fieldset>
@@ -237,8 +394,20 @@ class FormCranes extends React.Component {
 
 						<div className="row">
 							<div className="form-field form-field--textarea col-sm-12 col-md-8">
-								<label className="form-field__label" htmlFor="frmCranesAdditionalDetails">Additional Details</label>
-								<textarea className="form-field__input" id="frmCranesAdditionalDetails" name="frmCranesAdditionalDetails" placeholder="Lorem ipsum dolor sit." rows="6" />
+								<label
+									className="form-field__label"
+									htmlFor="frmCranesAdditionalDetails"
+								>
+									Additional Details
+								</label>
+								<textarea
+									className="form-field__input"
+									id="frmCranesAdditionalDetails"
+									name="frmCranesAdditionalDetails"
+									// placeholder="Lorem ipsum dolor sit."
+									rows="6"
+									onChange={this.handleChange}
+								/>
 							</div>
 						</div>
 					</fieldset>
@@ -271,7 +440,6 @@ class FormCranes extends React.Component {
 							</div>
 						</div>
 					</fieldset>
-
 				</div>
 			</form>
 		);

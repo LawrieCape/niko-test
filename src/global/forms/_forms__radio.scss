@@ -36,13 +36,13 @@ $radioSize: 30px;
 	input[type="radio"]:checked + label {
 		&::after {
 			position: absolute;
-			top: 8px;
-			left: 8px;
+			top: 9px;
+			left: 9px;
 			display: block;
-			width: 14px;
-			height: 14px;
+			width: 12px;
+			height: 12px;
 			content: '';
-			background-color: red;
+			background-color: $formLabelFontColor;
 			border-radius: 100%;
 		}
 	}
@@ -52,101 +52,101 @@ $radioSize: 30px;
 }
 
 
-.form-field--radio-alternate {
-	+ .form-field--radio-alternate {
-		margin-top: ms(-1);
-	}
-
-	input[type="radio"] {
-		@include hide-text1;
-	}
-
-	input[type="radio"] + label {
-		position: relative;
-		z-index: 1;
-		display: inline-block;
-		display: inline-flex; // This fixes the whitespace issue when a cta is the last item in a element
-		// padding: 10px 18px;
-		padding: 0.714em 1.286em;
-		margin: 0;
-		overflow: hidden;
-		font-size: 13px;
-		font-weight: bold;
-		line-height: $line-height-base;
-		color: blue;
-		text-align: center;
-		text-decoration: none;
-		text-transform: uppercase;
-		letter-spacing: 0.2px;
-		cursor: pointer;
-		flex: 0 0 auto;
-		align-items: center; // This fixes the whitespace issue when a cta is the last item in a element
-		user-select: none;
-		background-color: transparent;
-		border: 1px solid blue;
-		border-radius: $border-radius--large;
-
-		&::before {
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			z-index: -1;
-			display: block;
-			// width: calc(100% + 40px);
-			width: 200%;
-			content: '';
-			background-color: blue;
-			transition: transform 333ms ease-in-out;
-			// transform: skewX(-27deg) translateX(-100%) translateX(-20px);
-			transform: skewX(-27deg) translateX(105%);
-		}
-
-		&:hover,
-		&:focus {
-			color: $white;
-			text-decoration: none;
-			transition: color 333ms ease-in-out;
-
-			&::before {
-				transform: skewX(-27deg) translateX(-5%);
-			}
-
-			span {
-				color: $white;
-				transition: color 333ms ease-in-out;
-			}
-		}
-	}
-
-	input[type="radio"]:focus + label {
-		&::after {
-			background-color: lighten(red, 50%);
-		}
-	}
-
-	input[type="radio"]:checked + label {
-		color: $white;
-		text-decoration: none;
-		transition: color 333ms ease-in-out;
-
-		&::before {
-			transform: skewX(-27deg) translateX(-5%);
-		}
-
-		span {
-			color: $white;
-			transition: color 333ms ease-in-out;
-		}
-	}
-
-	input[type="radio"]:hover + label {
-		// opacity: 0.7;
-	}
-
-	.form-field__label {
-		min-width: 130px;
-		// text-align: center;
-		justify-content: center;
-	}
-}
+// .form-field--radio-alternate {
+// 	+ .form-field--radio-alternate {
+// 		margin-top: ms(-1);
+// 	}
+//
+// 	input[type="radio"] {
+// 		@include hide-text1;
+// 	}
+//
+// 	input[type="radio"] + label {
+// 		position: relative;
+// 		z-index: 1;
+// 		display: inline-block;
+// 		display: inline-flex; // This fixes the whitespace issue when a cta is the last item in a element
+// 		// padding: 10px 18px;
+// 		padding: 0.714em 1.286em;
+// 		margin: 0;
+// 		overflow: hidden;
+// 		font-size: 13px;
+// 		font-weight: bold;
+// 		line-height: $line-height-base;
+// 		color: blue;
+// 		text-align: center;
+// 		text-decoration: none;
+// 		text-transform: uppercase;
+// 		letter-spacing: 0.2px;
+// 		cursor: pointer;
+// 		flex: 0 0 auto;
+// 		align-items: center; // This fixes the whitespace issue when a cta is the last item in a element
+// 		user-select: none;
+// 		background-color: transparent;
+// 		border: 1px solid blue;
+// 		border-radius: $border-radius--large;
+//
+// 		&::before {
+// 			position: absolute;
+// 			top: 0;
+// 			bottom: 0;
+// 			left: 0;
+// 			z-index: -1;
+// 			display: block;
+// 			// width: calc(100% + 40px);
+// 			width: 200%;
+// 			content: '';
+// 			background-color: blue;
+// 			transition: transform 333ms ease-in-out;
+// 			// transform: skewX(-27deg) translateX(-100%) translateX(-20px);
+// 			transform: skewX(-27deg) translateX(105%);
+// 		}
+//
+// 		&:hover,
+// 		&:focus {
+// 			color: $white;
+// 			text-decoration: none;
+// 			transition: color 333ms ease-in-out;
+//
+// 			&::before {
+// 				transform: skewX(-27deg) translateX(-5%);
+// 			}
+//
+// 			span {
+// 				color: $white;
+// 				transition: color 333ms ease-in-out;
+// 			}
+// 		}
+// 	}
+//
+// 	input[type="radio"]:focus + label {
+// 		&::after {
+// 			background-color: lighten(red, 50%);
+// 		}
+// 	}
+//
+// 	input[type="radio"]:checked + label {
+// 		color: $white;
+// 		text-decoration: none;
+// 		transition: color 333ms ease-in-out;
+//
+// 		&::before {
+// 			transform: skewX(-27deg) translateX(-5%);
+// 		}
+//
+// 		span {
+// 			color: $white;
+// 			transition: color 333ms ease-in-out;
+// 		}
+// 	}
+//
+// 	input[type="radio"]:hover + label {
+// 		// opacity: 0.7;
+// 	}
+//
+// 	.form-field__label {
+// 		min-width: 130px;
+// 		// text-align: center;
+// 		justify-content: center;
+// 	}
+// }

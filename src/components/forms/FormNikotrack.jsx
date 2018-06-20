@@ -42,7 +42,7 @@ class ContactForm extends React.Component {
 		});
 		console.log('encodedData: ', encodedData);
 
-		fetch('https://staging.nikotrack.com/', {
+		fetch('/', {
 			method: 'POST',
 			// headers: { 'Content-Type': 'multipart/form-data' },
 			// headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -54,8 +54,12 @@ class ContactForm extends React.Component {
 			.then((myJson) => {
 				console.log('myJson: ', myJson);
 			})
-			.then(() => { return navigateTo(form.getAttribute('action')); })
-			.catch((error) => { return alert(error); });
+			.then(() => {
+				return navigateTo(form.getAttribute('action'));
+			})
+			.catch((error) => {
+				return alert(error);
+			});
 	}
 
 	render() {

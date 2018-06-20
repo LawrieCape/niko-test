@@ -12,13 +12,8 @@ let enquiryType;
 
 class ContactPageTemplate extends React.Component {
 	componentDidMount() {
-		// const event = new Event('change');
+		// https://staging.nikotrack.com/contact?enquiryType=workstation-cranes
 		enquiryType = queryString.parse(window.location.search).enquiryType;
-
-		console.log('enquiryType:', enquiryType);
-
-		// parsed.enquiryType = 'test321123';
-		// location.search = queryString.stringify(parsed);
 
 		const enquiryTypeEl = document.getElementById('DdlEnquiryType');
 
@@ -30,27 +25,21 @@ class ContactPageTemplate extends React.Component {
 	}
 
 	selectForm(event, value) {
-		// const enquiryType = event.target.value;
 		if (!event) {
 			enquiryType = value;
 		} else {
 			enquiryType = event.target.value;
 		}
-		console.log('enquiryType2: ', enquiryType);
 
 		const allForms = document.querySelectorAll('.enquiry-form');
 		const selectedForm = document.querySelector(`.enquiry-form[data-enquiry='${enquiryType}']`);
-
-		console.log('selectedForm: ', selectedForm);
 
 		let form;
 		for (let i = 0, j = allForms.length; i < j; i++) {
 			form = allForms[i];
 			if (form !== selectedForm) {
-				// form.style.display = 'none';
 				form.setAttribute('aria-hidden', true);
 			} else {
-				// form.style.display = 'block';
 				form.setAttribute('aria-hidden', false);
 			}
 		}
@@ -91,7 +80,7 @@ class ContactPageTemplate extends React.Component {
 					</header>
 
 					<FormNikotrack />
-					<FormConveyors enquiryType="overhead-conveyors" isHidden="true" />
+					<FormConveyors />
 					<FormCranes enquiryType="workstation-cranes" isHidden="true" />
 
 				</article>

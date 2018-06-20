@@ -3,44 +3,39 @@ import React from 'react';
 import { navigateTo } from 'gatsby-link';
 import Recaptcha from 'react-google-recaptcha';
 import { RECAPTCHA_KEY } from './ReCaptchaKey';
-
-function encode(data) {
-	const formData = new FormData();
-
-	for (const key of Object.keys(data)) {
-		formData.append(key, data[key]);
-	}
-
-	return formData;
-}
+import { encodeFormData } from './encodeFormData';
 
 class ContactForm extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
+
+		this.handleChange = this.handleChange.bind(this);
+		this.handleAttachment = this.handleAttachment.bind(this);
+		this.handleRecaptcha = this.handleRecaptcha.bind(this);
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
-	handleChange = e => {
+	handleChange(e) {
 		this.setState({ [e.target.name]: e.target.value });
 	}
 
-	handleAttachment = e => {
+	handleAttachment(e) {
 		this.setState({ [e.target.name]: e.target.files[0] });
 	}
 
-	handleRecaptcha = value => {
+	handleRecaptcha(value) {
 		this.setState({ 'g-recaptcha-response': value });
 	}
 
-	handleSubmit = e => {
+	handleSubmit(e) {
 		e.preventDefault();
 		const form = e.target;
 
-		let encodedData = encode({
+		const encodedData = encodeFormData({
 			'form-name': form.getAttribute('name'),
 			...this.state,
 		});
-		console.log('encodedData: ', encodedData);
 
 		fetch('/', {
 			method: 'POST',
@@ -72,7 +67,7 @@ class ContactForm extends React.Component {
 				data-enquiry="nikotrack"
 				aria-hidden="false"
 				data-netlify="true"
-				data-netlify-honeypot="bot-field"
+				data-netlify-honeypot="bot-field1"
 				data-netlify-recaptcha="true"
 				onSubmit={this.handleSubmit}
 			>
@@ -94,21 +89,31 @@ class ContactForm extends React.Component {
 					</div>
 				</div>
 				<div className="row">
+					{/* <fieldset>
+						<legend>Fieldset Legend</legend>
+
+						<div className="row">
+							<div className="col-sm-12">
+								<p>something</p>
+							</div>
+						</div>
+					</fieldset> */}
+
 					<fieldset>
 						<legend>General Info</legend>
 
 						<div className="row">
 							<div className="form-field col-sm-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmName">
+								<label className="form-field__label" htmlFor="frmNikotrackName">
 									Name
 								</label>
 
 								{/* <!-- Input --> */}
 								<input
 									className="form-field__input data__input_class"
-									id="frmName"
-									name="frmName"
+									id="frmNikotrackName"
+									name="frmNikotrackName"
 									placeholder="Name"
 									type="text"
 									onChange={this.handleChange}
@@ -116,15 +121,15 @@ class ContactForm extends React.Component {
 							</div>
 							<div className="form-field col-sm-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmEmail">
+								<label className="form-field__label" htmlFor="frmNikotrackEmail">
 									Email Address
 								</label>
 
 								{/* <!-- Input --> */}
 								<input
 									className="form-field__input data__input_class"
-									id="frmEmail"
-									name="frmEmail"
+									id="frmNikotrackEmail"
+									name="frmNikotrackEmail"
 									placeholder="Email Address"
 									type="text"
 									onChange={this.handleChange}
@@ -133,15 +138,15 @@ class ContactForm extends React.Component {
 
 							<div className="form-field col-sm-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmPhoneNumber">
+								<label className="form-field__label" htmlFor="frmNikotrackPhoneNumber">
 									Phone Number
 								</label>
 
 								{/* <!-- Input --> */}
 								<input
 									className="form-field__input data__input_class"
-									id="frmPhoneNumber"
-									name="frmPhoneNumber"
+									id="frmNikotrackPhoneNumber"
+									name="frmNikotrackPhoneNumber"
 									placeholder="Phone Number"
 									type="text"
 									onChange={this.handleChange}
@@ -150,15 +155,15 @@ class ContactForm extends React.Component {
 
 							<div className="form-field col-sm-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmCompany">
+								<label className="form-field__label" htmlFor="frmNikotrackCompany">
 									Company
 								</label>
 
 								{/* <!-- Input --> */}
 								<input
 									className="form-field__input data__input_class"
-									id="frmCompany"
-									name="frmCompany"
+									id="frmNikotrackCompany"
+									name="frmNikotrackCompany"
 									placeholder="Company"
 									type="text"
 									onChange={this.handleChange}
@@ -177,14 +182,14 @@ class ContactForm extends React.Component {
 									<div className="form-field form-field--checkbox">
 										<input
 											className="form-field__input"
-											id="frmInterestedInConveyors"
-											name="frmInterestedInConveyors"
+											id="frmNikotrackInterestedInConveyors"
+											name="frmNikotrackInterestedInConveyors"
 											type="checkbox"
 											onChange={this.handleChange}
 										/>
 										<label
 											className="form-field__label"
-											htmlFor="frmInterestedInConveyors"
+											htmlFor="frmNikotrackInterestedInConveyors"
 										>
 											Overhead Conveyors
 										</label>
@@ -192,14 +197,14 @@ class ContactForm extends React.Component {
 									<div className="form-field form-field--checkbox">
 										<input
 											className="form-field__input"
-											id="frmInterestedInSlidingDoors"
-											name="frmInterestedInSlidingDoors"
+											id="frmNikotrackInterestedInSlidingDoors"
+											name="frmNikotrackInterestedInSlidingDoors"
 											type="checkbox"
 											onChange={this.handleChange}
 										/>
 										<label
 											className="form-field__label"
-											htmlFor="frmInterestedInSlidingDoors"
+											htmlFor="frmNikotrackInterestedInSlidingDoors"
 										>
 											Industrial Sliding Doors
 										</label>
@@ -207,14 +212,14 @@ class ContactForm extends React.Component {
 									<div className="form-field form-field--checkbox">
 										<input
 											className="form-field__input"
-											id="frmInterestedInFallArrestProtection"
-											name="frmInterestedInFallArrestProtection"
+											id="frmNikotrackInterestedInFallArrestProtection"
+											name="frmNikotrackInterestedInFallArrestProtection"
 											type="checkbox"
 											onChange={this.handleChange}
 										/>
 										<label
 											className="form-field__label"
-											htmlFor="frmInterestedInFallArrestProtection"
+											htmlFor="frmNikotrackInterestedInFallArrestProtection"
 										>
 											Fall Arrest Protection
 										</label>
@@ -222,14 +227,14 @@ class ContactForm extends React.Component {
 									<div className="form-field form-field--checkbox">
 										<input
 											className="form-field__input"
-											id="frmInterestedInCranes"
-											name="frmInterestedInCranes"
+											id="frmNikotrackInterestedInCranes"
+											name="frmNikotrackInterestedInCranes"
 											type="checkbox"
 											onChange={this.handleChange}
 										/>
 										<label
 											className="form-field__label"
-											htmlFor="frmInterestedInCranes"
+											htmlFor="frmNikotrackInterestedInCranes"
 										>
 											Workstation Cranes
 										</label>
@@ -238,13 +243,13 @@ class ContactForm extends React.Component {
 							</div>
 
 							<div className="form-field form-field--textarea col-sm-12 col-md-8">
-								<label className="form-field__label" htmlFor="frmGeneralDetails">
+								<label className="form-field__label" htmlFor="frmNikotrackGeneralDetails">
 									Please give as many details as you can about your enquiry:
 								</label>
 								<textarea
 									className="form-field__input"
-									id="frmGeneralDetails"
-									name="frmGeneralDetails"
+									id="frmNikotrackGeneralDetails"
+									name="frmNikotrackGeneralDetails"
 									placeholder="Lorem ipsum dolor sit."
 									rows="6"
 									onChange={this.handleChange}
@@ -252,13 +257,13 @@ class ContactForm extends React.Component {
 							</div>
 
 							<div className="form-field form-field--file col-sm-6">
-								<label className="form-field__label" htmlFor="frmProjectFile1">
+								<label className="form-field__label" htmlFor="frmNikotrackProjectFile1">
 									<span>Upload 1st Project File</span>
 								</label>
 								<input
 									type="file"
-									name="frmProjectFile1"
-									id="frmProjectFile1"
+									name="frmNikotrackProjectFile1"
+									id="frmNikotrackProjectFile1"
 									className="form-field__input"
 									onChange={this.handleAttachment}
 								/>
@@ -269,13 +274,13 @@ class ContactForm extends React.Component {
 							</div>
 
 							<div className="form-field form-field--file col-sm-6">
-								<label className="form-field__label" htmlFor="frmProjectFile2">
+								<label className="form-field__label" htmlFor="frmNikotrackProjectFile2">
 									<span>Upload 2nd Project File</span>
 								</label>
 								<input
 									type="file"
-									name="frmProjectFile2"
-									id="frmProjectFile2"
+									name="frmNikotrackProjectFile2"
+									id="frmNikotrackProjectFile2"
 									className="form-field__input"
 									onChange={this.handleAttachment}
 								/>
@@ -292,12 +297,17 @@ class ContactForm extends React.Component {
 
 						<div className="row">
 							<div className="form-field col-sm-12">
-								<label htmlFor="bot-field">Don&#39;t fill this out:{' '}</label>
-								<input name="bot-field" id="bot-field" onChange={this.handleChange} />
 								<Recaptcha
 									// ref="recaptcha"
 									sitekey={RECAPTCHA_KEY}
 									onChange={this.handleRecaptcha}
+								/>
+								<label className="bot-field" htmlFor="bot-field1">Don&#39;t fill this out: </label>
+								<input
+									className="bot-field"
+									name="bot-field1"
+									id="bot-field1"
+									onChange={this.handleChange}
 								/>
 							</div>
 

@@ -5,9 +5,13 @@ import Recaptcha from 'react-google-recaptcha';
 import { RECAPTCHA_KEY } from './ReCaptchaKey';
 
 function encode(data) {
-	return Object.keys(data)
-		.map((key) => { return `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`; })
-		.join('&');
+	const formData = new FormData();
+
+	for (const key of Object.keys(data)) {
+		formData.append(key, data[key]);
+	}
+
+	return formData;
 }
 
 class ContactForm extends React.Component {
@@ -31,16 +35,6 @@ class ContactForm extends React.Component {
 	handleSubmit = e => {
 		e.preventDefault();
 		const form = e.target;
-		console.log({ ...this.state });
-
-		// let formData = new FormData();
-		// formData.append('form-name', form.getAttribute('name'));
-		// formData.append('json', JSON.stringify( this.state ));
-		// console.log('formData: ', formData);
-
-		// let jsonData = JSON.stringify( this.state );
-		// // jsonData['form-name'] = form.getAttribute('name');
-		// console.log('jsonData: ', jsonData);
 
 		let encodedData = encode({
 			'form-name': form.getAttribute('name'),
@@ -48,10 +42,10 @@ class ContactForm extends React.Component {
 		});
 		console.log('encodedData: ', encodedData);
 
-		fetch('/', {
+		fetch('https://staging.nikotrack.com/', {
 			method: 'POST',
 			// headers: { 'Content-Type': 'multipart/form-data' },
-			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+			// headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
 			body: encodedData,
 		})
 			.then((response) => {

@@ -10,11 +10,18 @@
 	font-size: ms(-1);
 	text-transform: uppercase;
 	font-weight: $headings-font-weight;
+
+	@media #{$mqMediumAndUp} {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		justify-content: space-between;
+	}
 }
 
 .header-logo {
-	margin-top: 1em;
-	display: flex;
+	flex: 0 0 auto;
+	margin-top: 1.5em;
 }
 
 .header-logo__link {
@@ -51,20 +58,10 @@
 	@include hide-text1;
 }
 
-.wee-nav__wrapper2 {
-	// background-color: $primary;
-	// border-bottom: 1px solid $black--opaque8;
-	// border-bottom: 1px solid $primary;
-	background: linear-gradient(to top, rgba(0, 0, 0, 0.07) 0, rgba(0, 0, 0, 0) 4px);
-}
-
 .wee-nav__wrapper {
-	margin-top: 0;
+	flex: 0 1 auto;
+	margin-top: 1.5em;
 	overflow: hidden;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	// color: $white;
 	font-weight: 600;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -77,22 +74,23 @@
 	flex: 0 0 100%;
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: flex-end;
 	margin-right: (ms(-4) * -1);
-
-	a {
-		padding: 0 ms(-4);
-		line-height: 40px;
-		margin: 0 0 0 ms(-2);
-		color: currentColor;
-		// background-color: $white; // Chrome Audits
-
-		&:hover {
-			text-decoration: none;
-		}
-	}
 
 	@media #{$mqMediumAndUp} {
 		flex-basis: auto;
+	}
+}
+
+.wee-nav__link {
+	padding: 0 ms(-4);
+	line-height: 40px;
+	margin: 0 0 0 ms(-4);
+	color: currentColor;
+	// background-color: $white; // Chrome Audits
+
+	&:hover {
+		text-decoration: none;
 	}
 }
 
@@ -100,11 +98,11 @@
 	flex: 0 0 auto;
 	text-align: right;
 	line-height: 40px;
+	margin-top: 0;
 
 	a {
 		color: currentColor;
 		display: inline-block;
-		// line-height: 40px;
 		// background-color: $white; // Chrome Audits
 
 		&:hover {

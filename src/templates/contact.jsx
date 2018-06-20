@@ -81,7 +81,7 @@ class ContactPageTemplate extends React.Component {
 
 					<FormNikotrack />
 					<FormConveyors />
-					<FormCranes enquiryType="workstation-cranes" isHidden="true" />
+					<FormCranes />
 
 				</article>
 			</div>

@@ -1,6 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import ReactMarkdown from 'react-markdown';
+// import ReactMarkdown from 'react-markdown';
 import Helmet from 'react-helmet';
 import FormNikotrack from '../components/forms/FormNikotrack';
 import FormConveyors from '../components/forms/FormConveyors';
@@ -13,7 +13,7 @@ let enquiryType;
 class ContactPageTemplate extends React.Component {
 	componentDidMount() {
 		// const event = new Event('change');
-		enquiryType = queryString.parse(location.search).enquiryType;
+		enquiryType = queryString.parse(window.location.search).enquiryType;
 
 		console.log('enquiryType:', enquiryType);
 
@@ -55,14 +55,14 @@ class ContactPageTemplate extends React.Component {
 			}
 		}
 
-		// TODO: update page url with the infinite reloading issue
+		// TODO: update page url without the infinite reloading issue
 		// location.search = queryString.stringify({ enquiryType: enquiryType });
 	}
 
 	render() {
 		const { data } = this.props;
 		const { title } = data.markdownRemark.frontmatter;
-		const { html } = data.markdownRemark;
+		// const { html } = data.markdownRemark;
 
 		return (
 			<div className="container-fluid">
@@ -79,7 +79,7 @@ class ContactPageTemplate extends React.Component {
 							<label className="form-field__label" htmlFor="DdlEnquiryType">Enquiry Type</label>
 							<div className="form-field__input">
 								<select id="DdlEnquiryType" className="" name="DdlEnquiryType" data-placeholder="e.g. Mrs" onChange={this.selectForm} defaultValue="nikotrack">
-									<option value="nikotrack">Nikotrack</option>
+									<option value="nikotrack">Nikotrack General Enquiry</option>
 									<option value="overhead-conveyors">Overhead Conveyors</option>
 									<option value="workstation-cranes">Workstation Cranes</option>
 								</select>
@@ -91,8 +91,8 @@ class ContactPageTemplate extends React.Component {
 					</header>
 
 					<FormNikotrack />
-					{/* <FormConveyors enquiryType="overhead-conveyors" isHidden="true" />
-					<FormCranes enquiryType="workstation-cranes" isHidden="true" /> */}
+					<FormConveyors enquiryType="overhead-conveyors" isHidden="true" />
+					<FormCranes enquiryType="workstation-cranes" isHidden="true" />
 
 				</article>
 			</div>

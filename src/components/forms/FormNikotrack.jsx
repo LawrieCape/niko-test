@@ -38,20 +38,22 @@ class ContactForm extends React.Component {
 		// formData.append('json', JSON.stringify( this.state ));
 		// console.log('formData: ', formData);
 
-		// let encodedData = encode({
-		// 	'form-name': form.getAttribute('name'),
-		// 	...this.state,
-		// });
-		// console.log('encodedData: ', encodedData);
+		let encodedData = encode({
+			'form-name': form.getAttribute('name'),
+			...this.state,
+		});
+		console.log('encodedData: ', encodedData);
 
-		let jsonData = JSON.stringify( this.state );
-		jsonData['form-name'] = form.getAttribute('name');
-		console.log('jsonData: ', jsonData);
+		// this.setState({ 'form-name': form.getAttribute('name') });
+		//
+		// let jsonData = JSON.stringify( this.state );
+		// // jsonData['form-name'] = form.getAttribute('name');
+		// console.log('jsonData: ', jsonData);
 
-		fetch('/', {
+		fetch('https://staging.nikotrack.com/', {
 			method: 'POST',
-			// headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-			body: jsonData,
+			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+			body: encodedData,
 		})
 			.then((response) => {
 				console.log('response: ', response);

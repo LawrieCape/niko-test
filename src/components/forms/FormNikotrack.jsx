@@ -5,7 +5,7 @@ import Recaptcha from 'react-google-recaptcha';
 import { RECAPTCHA_KEY } from './ReCaptchaKey';
 import { encodeFormData } from './encodeFormData';
 
-class ContactForm extends React.Component {
+class FormNikotrack extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
@@ -324,7 +324,7 @@ class ContactForm extends React.Component {
 	}
 }
 
-ContactForm.propTypes = {
+FormNikotrack.propTypes = {
 	// services: PropTypes.arrayOf(PropTypes.shape({
 	// 		title: PropTypes.string,
 	// 		imageUrl: PropTypes.string,
@@ -333,4 +333,4 @@ ContactForm.propTypes = {
 	// 	})),
 };
 
-export default ContactForm;
+export default FormNikotrack;

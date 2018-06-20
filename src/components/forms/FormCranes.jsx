@@ -5,7 +5,7 @@ import Recaptcha from 'react-google-recaptcha';
 import { RECAPTCHA_KEY } from './ReCaptchaKey';
 import { encodeFormData } from './encodeFormData';
 
-class FormConveyors extends React.Component {
+class FormCranes extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
@@ -278,7 +278,7 @@ class FormConveyors extends React.Component {
 	}
 }
 
-FormConveyors.propTypes = {
+FormCranes.propTypes = {
 	// services: PropTypes.arrayOf(PropTypes.shape({
 	// 		title: PropTypes.string,
 	// 		imageUrl: PropTypes.string,
@@ -287,4 +287,4 @@ FormConveyors.propTypes = {
 	// 	})),
 };
 
-export default FormConveyors;
+export default FormCranes;

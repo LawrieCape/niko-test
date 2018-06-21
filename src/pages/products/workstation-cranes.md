@@ -197,12 +197,6 @@ customSections:
         imageUrl: /img/niko_tool_suspension-300x252.jpg
     navTitle: Festoon Cable System
     title: Festoon Cable System
-  - navTitle: Request a Quote
-    pdfs:
-      - pdfThumb: /img/pdf-cover-example.png
-        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
-        title: PDF EXAMPLE
-    title: Request a Quote
   - flipbooks:
       - issueId: '62143423'
       - issueId: '62143815'

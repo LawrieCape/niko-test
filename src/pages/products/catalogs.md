@@ -52,6 +52,7 @@ customSections:
     pdfs: []
     title: C3 - Festoons and Cable Trolleys
   - flipbooks:
+      - issueId: '62579100'
       - issueId: '62578858'
     navTitle: Fall Protection
     pdfs:

@@ -60,7 +60,12 @@ customSections:
         pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
         title: C4 - Fall Protection
     title: C4 - Fall Protection
-  - navTitle: Folding and Sliding Doors
+  - flipbooks:
+      - issueId: '62146641'
+      - issueId: '62146811'
+      - issueId: '62116517'
+      - issueId: '62116397'
+    navTitle: Folding and Sliding Doors
     pdfs:
       - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
         pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf

@@ -51,7 +51,9 @@ customSections:
     navTitle: Festoons and Cable Trolleys
     pdfs: []
     title: C3 - Festoons and Cable Trolleys
-  - navTitle: Fall Protection
+  - flipbooks:
+      - issueId: '62578858'
+    navTitle: Fall Protection
     pdfs:
       - pdfThumb: /img/fall-arrest-system-manual-may2014_thumb.png
         pdfUrl: /img/fall-arrest-system-manual-may2014.pdf

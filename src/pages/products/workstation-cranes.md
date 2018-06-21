@@ -186,6 +186,8 @@ customSections:
       trolleys are extremely reliable and smooth running. Because of the self
       aligning tapered track, trolleys can never slide out of the center of the
       rail, ensuring a smooth and free operation.
+    flipbooks:
+      - issueId: '62578673'
     images:
       - imageAlt: festoon cable system
         imageUrl: /img/niko_festoon_cable_supply_1-320x137.jpg

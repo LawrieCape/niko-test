@@ -144,11 +144,10 @@ customSections:
         youTubeId: z5PTPTPAgKE
       - vidDescription: Niko Fall Arrest Track for High Ropes Course
         youTubeId: xfW18Vd9fU4
-  - navTitle: Downloads
-    pdfs:
-      - pdfThumb: /img/fall-arrest-system-manual-may2014_thumb.png
-        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
-        title: C4 - Fall Protection
+  - flipbooks:
+      - issueId: '62578858'
+    navTitle: Downloads
+    pdfs: []
     title: Downloads
 ---
 

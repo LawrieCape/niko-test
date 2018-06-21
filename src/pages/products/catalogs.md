@@ -14,37 +14,19 @@ customSections:
       - issueId: '62144450'
       - issueId: '62086291'
     navTitle: Overhead Conveyor Systems
-    pdfs:
-      - pdfThumb: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_thumb.png
-        pdfUrl: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_print.pdf
-        title: C1 Overhead Conveyors Leaflet
-      - pdfThumb: /img/conveyor_system_february_2018_en_thumb.png
-        pdfUrl: /img/conveyor_system_february_2018_en.pdf
-        title: C1 - Conveyor Systems Catalogue
+    pdfs: []
     title: C1 - Overhead Conveyor Systems
   - flipbooks:
       - issueId: '62146105'
     navTitle: Finishing Lines Case Studies
-    pdfs:
-      - pdfThumb: /img/niko_painting_lines_leaflet_march_2018_hq_thumb.jpg
-        pdfUrl: /img/niko_painting_lines_leaflet_march_2018_hq.pdf
-        title: Paint Finishing Lines Case Studies
+    pdfs: []
     title: Finishing Lines Case Studies
   - flipbooks:
       - issueId: '62143423'
       - issueId: '62143815'
       - issueId: '62116162'
     navTitle: Light Cranes
-    pdfs:
-      - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
-        pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
-        title: C2 - Light Cranes Leaflet
-      - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
-        pdfUrl: /img/light_crane_systems_eng_ver_january_2018.pdf
-        title: C2 - Light Cranes Product Catalogue
-      - pdfThumb: /img/light_cranes_manual_cover_06_2017_thumb.png
-        pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
-        title: C2 - Light Cranes Technical Description
+    pdfs: []
     title: C2 - Light Cranes
   - flipbooks:
       - issueId: '62578673'
@@ -55,10 +37,7 @@ customSections:
       - issueId: '62579100'
       - issueId: '62578858'
     navTitle: Fall Protection
-    pdfs:
-      - pdfThumb: /img/fall-arrest-system-manual-may2014_thumb.png
-        pdfUrl: /img/fall-arrest-system-manual-may2014.pdf
-        title: C4 - Fall Protection
+    pdfs: []
     title: C4 - Fall Protection
   - flipbooks:
       - issueId: '62146641'
@@ -66,31 +45,12 @@ customSections:
       - issueId: '62116517'
       - issueId: '62116397'
     navTitle: Folding and Sliding Doors
-    pdfs:
-      - pdfThumb: /img/niko_b1_leaflet_eng_jan_2017_thumb.png
-        pdfUrl: /img/niko_b1_leaflet_eng_jan_2017.pdf
-        title: B1 - Heavy Duty Sliding Doors Leaflet
-      - pdfThumb: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017_thumb.png
-        pdfUrl: /img/b1-heavy-duty-sliding-door-hardware-eng-ver-01-2017.pdf
-        title: B1 - Heavy Duty Sliding Door Fittings
-      - pdfThumb: /img/manual_folding_door_june_2017_thumb.png
-        pdfUrl: /img/manual_folding_door_june_2017.pdf
-        title: >-
-          B1 - Heavy Duty Folding Door Installation, Operation & Maintenance
-          Manual
-      - pdfThumb: /img/manual_sliding_door_may_2017_thumb.png
-        pdfUrl: /img/manual_sliding_door_may_2017.pdf
-        title: >-
-          B1 - Heavy Duty Sliding Door Installation, Operation & Maintenance
-          Manual
+    pdfs: []
     title: B1 - Folding and Sliding Doors
   - flipbooks:
       - issueId: '62143815'
     navTitle: Jib Cranes
-    pdfs:
-      - pdfThumb: /img/leaflet_jib_crane_january_2017_thumb.png
-        pdfUrl: /img/leaflet_jib_crane_january_2017.pdf
-        title: Jib Cranes Leaflet
+    pdfs: []
     title: Jib Cranes
 ---
 

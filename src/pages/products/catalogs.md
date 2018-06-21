@@ -12,6 +12,7 @@ title: Downloads
 customSections:
   - flipbooks:
       - issueId: '62144450'
+      - issueId: '62086291'
     navTitle: Overhead Conveyor Systems
     pdfs:
       - pdfThumb: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_thumb.png
@@ -21,13 +22,19 @@ customSections:
         pdfUrl: /img/conveyor_system_february_2018_en.pdf
         title: C1 - Conveyor Systems Catalogue
     title: C1 - Overhead Conveyor Systems
-  - navTitle: Finishing Lines Case Studies
+  - flipbooks:
+      - issueId: '62146105'
+    navTitle: Finishing Lines Case Studies
     pdfs:
       - pdfThumb: /img/niko_painting_lines_leaflet_march_2018_hq_thumb.jpg
         pdfUrl: /img/niko_painting_lines_leaflet_march_2018_hq.pdf
         title: Paint Finishing Lines Case Studies
     title: Finishing Lines Case Studies
-  - navTitle: Light Cranes
+  - flipbooks:
+      - issueId: '62143423'
+      - issueId: '62143815'
+      - issueId: '62116162'
+    navTitle: Light Cranes
     pdfs:
       - pdfThumb: /img/c2_light_cranes_leaflet_eng_ver_06_16_thumb.png
         pdfUrl: /img/c2_light_cranes_leaflet_eng_ver_06_16.pdf
@@ -39,14 +46,10 @@ customSections:
         pdfUrl: /img/light_cranes_manual_cover_06_2017.pdf
         title: C2 - Light Cranes Technical Description
     title: C2 - Light Cranes
-  - navTitle: Festoons and Cable Trolleys
-    pdfs:
-      - pdfThumb: /img/festoon_systems_catalogue_eng_ver_march_2018_thumb.png
-        pdfUrl: /img/festoon_systems_catalogue_eng_ver_march_2018.pdf
-        title: C3 - Festoons and Cable Trolleys Product Catalogue
-      - pdfThumb: /img/c3-festoon-cable-hose-track-c-rail-technical-guide_thumb.png
-        pdfUrl: /img/c3-festoon-cable-&-hose-track-(c-rail)-technical-guide.pdf
-        title: C3 - Festoons and Cable Trolleys Technical Guide
+  - flipbooks:
+      - issueId: '62578673'
+    navTitle: Festoons and Cable Trolleys
+    pdfs: []
     title: C3 - Festoons and Cable Trolleys
   - navTitle: Fall Protection
     pdfs:

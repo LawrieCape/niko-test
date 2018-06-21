@@ -10,7 +10,9 @@ heroDescription: |
   * **Maintenance Manuals**
 title: Downloads
 customSections:
-  - navTitle: Overhead Conveyor Systems
+  - flipbooks:
+      - issueId: '62144450'
+    navTitle: Overhead Conveyor Systems
     pdfs:
       - pdfThumb: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_thumb.png
         pdfUrl: /img/c1_overhead_conveyor_systems_leaflet_english_ver_04_16_print.pdf

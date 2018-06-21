@@ -71,3 +71,7 @@ input[type="checkbox"]:hover + label {
 
 .form-field--checkbox {
 }
+
+p + input[type="checkbox"] + .form-field__label {
+	margin-top: 1em;
+}

@@ -417,6 +417,25 @@ class FormCranes extends React.Component {
 
 						<div className="row">
 							<div className="form-field col-sm-12">
+								<p>Personal Information Statement: This form collects your name, company name, location and email address so that our support team can assist you with your inquiry. We do not share this information with any other third parties. Consent Required *</p>
+								<div className="form-field form-field--checkbox">
+									<input
+										className="form-field__input"
+										id="frmNikotrackConsent"
+										name="frmNikotrackConsent"
+										type="checkbox"
+										onChange={this.handleChange}
+										required
+									/>
+									<label
+										className="form-field__label"
+										htmlFor="frmNikotrackConsent"
+									>
+										I Agree
+									</label>
+								</div>
+							</div>
+							<div className="form-field col-sm-12">
 								<Recaptcha
 									// ref="recaptcha"
 									sitekey={RECAPTCHA_KEY}

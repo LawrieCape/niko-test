@@ -84,7 +84,9 @@ customSections:
           B1 - Heavy Duty Sliding Door Installation, Operation & Maintenance
           Manual
     title: B1 - Folding and Sliding Doors
-  - navTitle: Jib Cranes
+  - flipbooks:
+      - issueId: '62143815'
+    navTitle: Jib Cranes
     pdfs:
       - pdfThumb: /img/leaflet_jib_crane_january_2017_thumb.png
         pdfUrl: /img/leaflet_jib_crane_january_2017.pdf

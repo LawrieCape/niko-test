@@ -1,6 +1,5 @@
 ---
 templateKey: contact
-title: Contact page title
+title: Contact Us
 ---
 
-body test

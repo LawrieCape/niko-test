@@ -1,5 +1,6 @@
 module.exports = {
 	siteMetadata: {
+		siteUrl: 'https://staging.nikotrack.com',
 		title: 'Gatsby + Netlify CMS Starter',
 	},
 	plugins: [
@@ -37,6 +38,23 @@ module.exports = {
 			options: {
 				modulePath: `${__dirname}/src/cms/cms.jsx`,
 			},
+		},
+		{
+			resolve: 'gatsby-plugin-google-analytics',
+			options: {
+				trackingId: 'UA-121898594-1', // UA-120133379-1 - This is the one Chris setup
+				// Puts tracking script in the head instead of the body
+				head: false,
+				// Setting this parameter is optional
+				anonymize: true,
+				// Setting this parameter is also optional
+				respectDNT: true,
+				// // Avoids sending pageview hits from custom paths
+				// exclude: ['/preview/**', '/do-not-track/me/too/'],
+			},
+		},
+		{
+			resolve: 'gatsby-plugin-sitemap',
 		},
 	],
 };

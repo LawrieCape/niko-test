@@ -100,7 +100,6 @@ customSections:
       - imageAlt: free standing bridge crane
         imageUrl: /img/free_standing_bridge_crane.jpg
     navTitle: Free Standing Bridge Cranes
-    pdfs: []
     title: Free Standing Bridge Cranes
     videos: []
   - body: >-
@@ -202,7 +201,5 @@ customSections:
       - issueId: '62143815'
       - issueId: '62116162'
     navTitle: Downloads
-    pdfs: []
     title: Downloads
 ---
-

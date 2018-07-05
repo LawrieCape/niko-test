@@ -3,7 +3,6 @@ import React from 'react';
 import Scrollspy from 'react-scrollspy';
 // import { StickyContainer, Sticky } from 'react-sticky';
 import ProductImages from './product/ProductImages';
-import ProductPdfs from './product/ProductPdfs';
 import ProductProducts from './product/ProductProducts';
 import ProductRichText from './product/ProductRichText';
 import ProductVideos from './product/ProductVideos';
@@ -48,7 +47,9 @@ const ServicesComponent = function ({ sections }) {
 					<Scrollspy items={scrollNavList} className="product-page__nav" currentClassName="is-current" componentTag="nav" offset={offset}>
 						{sections && sections.map((section, index) => {
 							return (
-								<a key={index} className="product-page__nav__link" href={`#${slugify(section.title)}`}>{section.navTitle}</a>
+								<a key={index} className="product-page__nav__link" href={`#${slugify(section.title)}`}>
+									{section.navTitle}
+								</a>
 							);
 						})}
 					</Scrollspy>
@@ -67,60 +68,55 @@ const ServicesComponent = function ({ sections }) {
 					{sections && sections.map((section, index) => {
 						const showBody = !!(section.body && !!section.body.length);
 						const showImages = !!(section.images && !!section.images.length);
-						const showPdfs = !!(section.pdfs && !!section.pdfs.length);
 						const showVideos = !!(section.videos && !!section.videos.length);
 						const showProducts = !!(section.products && !!section.products.length);
 						const showFlipbooks = !!(section.flipbooks && !!section.flipbooks.length);
 
-						const showSideContent = showImages || showPdfs;
+						const showSideContent = showImages;
 						// console.log('showSideContent: ', showSideContent);
 
 						return (
 							<section key={index} className="product-section" id={slugify(section.title)}>
 								{/* Title */}
-								<h2>{section.title}</h2>
+								<h2>
+									{section.title}
+								</h2>
 								<div className="row">
-									{showBody ?
+									{showBody ? (
 										<div className="col-sm-12 col-md-12 col-lg-7">
 											{/* Intro */}
 											<ProductRichText richText={section.body} />
 										</div>
-									: null }
+									) : null }
 
-									{showSideContent ?
+									{showSideContent ? (
 										<div className="col-sm-12 col-md-12 col-lg-5">
 											{/* Images */}
 											<ProductImages images={section.images} />
-
-											{/* PDFs */}
-											<ProductPdfs pdfs={section.pdfs} />
-
 										</div>
-									: null }
+									) : null }
 
-									{showProducts ?
+									{showProducts ? (
 										<div className="col-sm-12 col-md-12 col-lg-12">
 											{/* Products */}
 											<ProductProducts products={section.products} />
 										</div>
-									: null }
+									) : null }
 
-									{showVideos ?
+									{showVideos ? (
 										<div className="col-sm-12 col-md-12 col-lg-12">
 											{/* Videos */}
 											<ProductVideos videos={section.videos} />
 										</div>
-									: null }
+									) : null }
 
-									{showFlipbooks ?
+									{showFlipbooks ? (
 										<div className="col-sm-12 col-md-12 col-lg-12">
 											{/* Products */}
 											<ProductFlipbooks books={section.flipbooks} />
 										</div>
-									: null }
-
+									) : null }
 								</div>
-
 							</section>
 						);
 					})}

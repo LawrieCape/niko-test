@@ -110,11 +110,6 @@ export const templatePageQuery = graphql`
 // 					imageUrl
 // 					imageAlt
 // 				}
-// 				pdfs {
-// 					title
-// 					pdfUrl
-// 					pdfThumb
-// 				}
 // 				videos {
 // 					youTubeId
 // 					vidDescription

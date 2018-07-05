@@ -23,7 +23,9 @@ export const ProductPageTemplate = ({
 
 					<div className="container-fluid">
 						<div className="product-hero__content">
-							<h1 className="">{title}</h1>
+							<h1 className="">
+								{title}
+							</h1>
 							<ReactMarkdown source={heroDescription} />
 						</div>
 					</div>
@@ -85,11 +87,6 @@ export const pageQuery = graphql`
 					images {
 						imageUrl
 						imageAlt
-					}
-					pdfs {
-						title
-						pdfUrl
-						pdfThumb
 					}
 					videos {
 						youTubeId

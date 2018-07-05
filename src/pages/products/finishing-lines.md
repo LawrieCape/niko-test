@@ -25,7 +25,5 @@ customSections:
     flipbooks:
       - issueId: '62146105'
     navTitle: Case Studies
-    pdfs: []
     title: Case Studies
 ---
-

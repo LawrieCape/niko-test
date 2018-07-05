@@ -45,7 +45,6 @@ customSections:
       - imageAlt: paint finishing line overhead conveyor
         imageUrl: /img/finishing_line_4.jpg
     navTitle: Overhead Monorail Conveyor Systems
-    pdfs: []
     title: Overhead Monorail Conveyor Systems
     videos: []
   - body: >
@@ -124,7 +123,6 @@ customSections:
       - imageAlt: overhead conveyor
         imageUrl: /img/overhead_conveyor_ex_3.jpg
     navTitle: Track Configurations
-    pdfs: []
     title: Track Configuration Examples
   - body: >-
       If you would like to receive a no obligation quotation for a system you
@@ -143,7 +141,6 @@ customSections:
       - issueId: '62144450'
       - issueId: '62086291'
     navTitle: Downloads
-    pdfs: []
     title: Downloads
     videos: []
 ---

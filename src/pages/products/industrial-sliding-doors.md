@@ -60,7 +60,6 @@ customSections:
       - imageAlt: heavy duty sliding door track
         imageUrl: /img/sliding_door_7_800x600.jpg
     navTitle: Industrial Sliding Doors
-    pdfs: []
     title: Industrial Sliding Doors
     videos: []
   - body: "* Easy to install, extend or move\r\n* Free running - requires 1/100 weight to force ratio to move doors\r\n* Low maintenance - bearings and track do not need to be oiled\r\n* High reliability – certified for 100,000 cycles\r\n* Near silent operation\r\n* Simple operation\r\n* Tapered edge track profile means door hangers always run smooth and do not snag or bind\r\n* Compact size – allowing for space utilisation\r\n* Track profile designed to reduce build up of dust, dirt and ice"
@@ -115,7 +114,7 @@ customSections:
       door](/img/straightslidingdoors_singletrackmultipledoors.gif)
 
 
-      Single Track - Two Single Sliding Doors 
+      Single Track - Two Single Sliding Doors
 
 
       ![double track industrial sliding
@@ -165,8 +164,6 @@ customSections:
       - issueId: '62146641'
       - issueId: '62146811'
     navTitle: Downloads
-    pdfs: []
     title: Downloads
     videos: []
 ---
-

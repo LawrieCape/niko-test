@@ -69,23 +69,6 @@ collections:
                 name: imageAlt
                 widget: string
           -
-            label: PDFs
-            name: pdfs
-            widget: list
-            fields:
-              -
-                label: Title
-                name: title
-                widget: string
-              -
-                label: File
-                name: pdfUrl
-                widget: file
-              -
-                label: Thumbnail
-                name: pdfThumb
-                widget: image
-          -
             label: Videos
             name: videos
             widget: list

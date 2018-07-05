@@ -147,7 +147,5 @@ customSections:
   - flipbooks:
       - issueId: '62578858'
     navTitle: Downloads
-    pdfs: []
     title: Downloads
 ---
-

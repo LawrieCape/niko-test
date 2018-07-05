@@ -14,30 +14,25 @@ customSections:
       - issueId: '62144450'
       - issueId: '62086291'
     navTitle: Overhead Conveyor Systems
-    pdfs: []
     title: C1 - Overhead Conveyor Systems
   - flipbooks:
       - issueId: '62146105'
     navTitle: Finishing Lines Case Studies
-    pdfs: []
     title: Finishing Lines Case Studies
   - flipbooks:
       - issueId: '62143423'
       - issueId: '62143815'
       - issueId: '62116162'
     navTitle: Light Cranes
-    pdfs: []
     title: C2 - Light Cranes
   - flipbooks:
       - issueId: '62578673'
     navTitle: Festoons and Cable Trolleys
-    pdfs: []
     title: C3 - Festoons and Cable Trolleys
   - flipbooks:
       - issueId: '62579100'
       - issueId: '62578858'
     navTitle: Fall Protection
-    pdfs: []
     title: C4 - Fall Protection
   - flipbooks:
       - issueId: '62146641'
@@ -45,12 +40,9 @@ customSections:
       - issueId: '62116517'
       - issueId: '62116397'
     navTitle: Folding and Sliding Doors
-    pdfs: []
     title: B1 - Folding and Sliding Doors
   - flipbooks:
       - issueId: '62143815'
     navTitle: Jib Cranes
-    pdfs: []
     title: Jib Cranes
 ---
-

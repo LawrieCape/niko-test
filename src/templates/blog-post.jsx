@@ -74,7 +74,7 @@ export const pageQuery = graphql`
 				date(formatString: "MMMM DD, YYYY")
 				title
 				metaDescription
-				description
+				# description
 			}
 		}
 	}

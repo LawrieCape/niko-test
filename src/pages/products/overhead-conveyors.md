@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '1'
 navTitle: Overhead Conveyors
-heroImage: ../../../static/img/conveyor_1_1520x855.jpg
+heroImage: ./conveyor_1_1520x855.jpg
 heroDescription: |-
   * **The Flexible Solution for Loads up to 2,000 kg**
   * **Low Cost**
@@ -38,13 +38,13 @@ customSections:
       that are modular in design for ease of installation and modification.
     images:
       - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_1.jpg
+        imageUrl: ./finishing_line_1.jpg
       - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_2.jpg
+        imageUrl: ./finishing_line_2.jpg
       - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_3.jpg
+        imageUrl: ./finishing_line_3.jpg
       - imageAlt: paint finishing line overhead conveyor
-        imageUrl: /img/finishing_line_4.jpg
+        imageUrl: ./finishing_line_4.jpg
     navTitle: Overhead Monorail Conveyor Systems
     title: Overhead Monorail Conveyor Systems
     videos: []
@@ -77,13 +77,13 @@ customSections:
       within a plant
     images:
       - imageAlt: overhead conveyor
-        imageUrl: /img/overhead_conveyor_1_800x600.jpg
+        imageUrl: ./overhead_conveyor_1_800x600.jpg
       - imageAlt: overhead conveyor
-        imageUrl: /img/overhead_conveyor_2_800x600.jpg
+        imageUrl: ./overhead_conveyor_2_800x600.jpg
       - imageAlt: overhead conveyor
-        imageUrl: /img/overhead_conveyor_3_800x600.jpg
+        imageUrl: ./overhead_conveyor_3_800x600.jpg
       - imageAlt: overhead conveyor
-        imageUrl: /img/overhead_conveyor_4_800x600.jpg
+        imageUrl: ./overhead_conveyor_4_800x600.jpg
     navTitle: Key Features
     title: Key Features
     videos:
@@ -110,19 +110,19 @@ customSections:
       can be added to a manual conveyor at a future stage.
     images:
       - imageAlt: overhead motorized conveyor
-        imageUrl: /img/overhead_motorized_1_800x600.jpg
+        imageUrl: ./overhead_motorized_1_800x600.jpg
       - imageAlt: overhead motorized conveyor
-        imageUrl: /img/overhead_motorized_2_800x600.jpg
+        imageUrl: ./overhead_motorized_2_800x600.jpg
     navTitle: 'Localized Powered Travel '
     title: 'Localized Powered Travel '
   - body: "There are an infinite number of possible track layouts, to suit any particular application. NikoTrack provide a wide range of turns, switches, turntables, which can be manually or pneumatically operated. Layouts can be optimized for:\n\n* **Storage Space Utilization\r**\n  * The use of automatic switches and precision bent 90 degree track, allows for a flight bar travelling along the manual overhead conveyor track, to be side shifted, and stored in an accumulating idle area for storage or process dwell time. The Overhead Conveyor Systems C1 catalogue displays the different modular fittings to achieve precise track placement for maximum space utilization.\r\n* **Overhead Load Positioning\r**\n  * The enclosed precision track has tapered sides to ensure that the load carrying trolleys self locate to run freely and smoothly with minimal force required to move the loaded trolley. Repeatable positioning of loaded trolleys is achieved throughout the entire manual overhead conveyor system.\r\n* **NikoTrack Overhead Turntable Detour System\r**\n  * The unique NikoTrack Turntable Detour system allows for multiple overhead track systems to be interconnected. Loads or flight bars are easily transferred between different processes or areas of the plant. Turntables are an ergonomic solution to multiple conveyor destination systems, reducing capital expenditure on more complex overhead conveyor track layouts."
     images:
       - imageAlt: overhead conveyor
-        imageUrl: /img/overhead_conveyor_ex_1.jpg
+        imageUrl: ./overhead_conveyor_ex_1.jpg
       - imageAlt: overhead conveyor
-        imageUrl: /img/overhead_conveyor_ex_2.jpg
+        imageUrl: ./overhead_conveyor_ex_2.jpg
       - imageAlt: overhead conveyor
-        imageUrl: /img/overhead_conveyor_ex_3.jpg
+        imageUrl: ./overhead_conveyor_ex_3.jpg
     navTitle: Track Configurations
     title: Track Configuration Examples
   - body: >-

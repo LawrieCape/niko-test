@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '6'
 navTitle: NikoTrack Knowledge
-heroImage: ../../../static/img/manuals_1_1520x855.jpg
+heroImage: ./manuals_1_1520x855.jpg
 heroDescription: |
   * **On-line Technical Manuals**
   * **On-line Installation Instructions**

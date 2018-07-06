@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '4'
 navTitle: Sliding Doors
-heroImage: ../../../static/img/slidingdoor_1_1520x855.jpg
+heroImage: ./slidingdoor_1_1520x855.jpg
 heroDescription: |-
   * **Industrial Sliding & Folding Doors**
   * **Sliding & Folding Barn Doors**
@@ -49,30 +49,30 @@ customSections:
       ###
     images:
       - imageAlt: heavy duty sliding door track
-        imageUrl: /img/sliding_door_2_800x600.jpg
+        imageUrl: ./sliding_door_2_800x600.jpg
       - imageAlt: heavy duty sliding door track
-        imageUrl: /img/sliding_door_3_800x600.jpg
+        imageUrl: ./sliding_door_3_800x600.jpg
       - imageAlt: heavy duty sliding door track
-        imageUrl: /img/sliding_door_4_800x600.jpg
+        imageUrl: ./sliding_door_4_800x600.jpg
       - imageAlt: heavy duty sliding door track
-        imageUrl: /img/sliding_door_5_800x600.jpg
+        imageUrl: ./sliding_door_5_800x600.jpg
       - imageAlt: heavy duty sliding door track
-        imageUrl: /img/sliding_door_6_800x600.jpg
+        imageUrl: ./sliding_door_6_800x600.jpg
       - imageAlt: heavy duty sliding door track
-        imageUrl: /img/sliding_door_7_800x600.jpg
+        imageUrl: ./sliding_door_7_800x600.jpg
     navTitle: Industrial Sliding Doors
     title: Industrial Sliding Doors
     videos: []
   - body: "* Easy to install, extend or move\r\n* Free running - requires 1/100 weight to force ratio to move doors\r\n* Low maintenance - bearings and track do not need to be oiled\r\n* High reliability – certified for 100,000 cycles\r\n* Near silent operation\r\n* Simple operation\r\n* Tapered edge track profile means door hangers always run smooth and do not snag or bind\r\n* Compact size – allowing for space utilisation\r\n* Track profile designed to reduce build up of dust, dirt and ice"
     images:
       - imageAlt: heavy duty sliding doors
-        imageUrl: /img/sliding_door_14_800x600.jpg
+        imageUrl: ./sliding_door_14_800x600.jpg
       - imageAlt: heavy duty sliding doors
-        imageUrl: /img/sliding_door_15_800x600.jpg
+        imageUrl: ./sliding_door_15_800x600.jpg
       - imageAlt: heavy duty sliding doors
-        imageUrl: /img/sliding_door_16_800x600.jpg
+        imageUrl: ./sliding_door_16_800x600.jpg
       - imageAlt: heavy duty sliding doors
-        imageUrl: /img/sliding_door_17_800x600.jpg
+        imageUrl: ./sliding_door_17_800x600.jpg
     navTitle: Advantages
     title: Advantages
   - body: >-
@@ -96,12 +96,13 @@ customSections:
       * Sliding shed doors
     images:
       - imageAlt: heavy duty sliding door track
-        imageUrl: /img/sliding_door_12_800x600.jpg
+        imageUrl: ./sliding_door_12_800x600.jpg
       - imageAlt: heavy duty sliding door track
-        imageUrl: /img/sliding_door_13_800x600.jpg
-      - imageUrl: /img/sliding_door_8_800x600.jpg
+        imageUrl: ./sliding_door_13_800x600.jpg
       - imageAlt: heavy duty sliding door track
-        imageUrl: /img/lauf.jpg
+        imageUrl: ./sliding_door_8_800x600.jpg
+      - imageAlt: heavy duty sliding door track
+        imageUrl: ./lauf.jpg
     navTitle: Applications
     title: Applications
   - body: >-
@@ -149,7 +150,6 @@ customSections:
 
 
       Stacking Sliding Doors Round Corner
-    images: []
     navTitle: Examples
     title: Examples
   - navTitle: Videos

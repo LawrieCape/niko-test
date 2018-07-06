@@ -12,8 +12,8 @@ const ProductImages = function ({ images }) {
 			{images && images.map((image, index) => {
 				return (
 					<div key={index}>
-						<a className="product-image" href={image.imageUrl}>
-							<img src={image.imageUrl} alt={image.imageAlt} />
+						<a className="product-image" href={image.imageUrl.childImageSharp.resize.src}>
+							<img src={image.imageUrl.childImageSharp.resize.src} alt={image.imageAlt} />
 						</a>
 					</div>
 				);

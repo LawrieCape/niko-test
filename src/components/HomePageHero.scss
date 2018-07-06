@@ -96,6 +96,9 @@
 }
 
 .homepage-hero__image-wrapper {
+	* + * {
+		margin-top: 0; // This is for gatsby-image junk
+	}
 }
 
 .homepage-hero__title {

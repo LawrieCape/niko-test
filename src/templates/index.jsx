@@ -75,12 +75,25 @@ export const pageQuery = graphql`
 						metaDescription
 						navTitle
 						heroImage {
-							ImageSharp {
-								resize(width: 300) {
+							childImageSharp {
+								resize(width: 300, height: 150) {
 									src
+								}
+								# resolutions(width: 90, height: 90) {
+								# 	...GatsbyImageSharpResolutions_withWebp_noBase64
+								# }
+								sizes(maxWidth: 1240) {
+									...GatsbyImageSharpSizes_noBase64
 								}
 							}
 						}
+						# heroImage {
+						# 	childImageSharp {
+						# 		sizes(maxWidth: 630) {
+						# 			...GatsbyImageSharpSizes_noBase64
+						# 		}
+						# 	}
+						# }
 						heroDescription
 					}
 				}

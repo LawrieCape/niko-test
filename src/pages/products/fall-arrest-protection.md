@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '5'
 navTitle: Fall Arrest Protection
-heroImage: ../../../static/img/fallarrest_1_1520x855.jpg
+heroImage: ./fallarrest_1_1520x855.jpg
 heroDescription: |-
   * **Safe & Practical**
   * **Eliminates Bounce**
@@ -13,13 +13,13 @@ customSections:
   - body: "**Niko Track Fall Protection Systems** provide a very safe and practical safety system for people working at height. According to OSHA a fall protection system is designed to arrest or prevent falls from a height. OSHA standards state that any time a worker is at a height of four feet or more, the worker is at risk and needs to be protected. Fall protection must be provided at four feet in general industry, five feet in maritime and six feet in construction. However, regardless of the fall distance, fall protection must be provided when working over dangerous equipment and machinery. The US Department of Labor (DOL) lists falls as one of the leading causes of traumatic occupational death, accounting for eight percent of all occupational fatalities from trauma.\n\n**Types of System\r**\n\n* Single rail fall arrest track system\r\n* Double rail fall arrest track system\r\n* Bridge crane fall arrest track system\r\n\n**Applications\r**\n\n* Aircraft service and maintenance\r\n* Safety track for high ropes courses\r\n* Coach service and maintenance\r\n* Sky glide track for soft play areas\r\n* Train service and maintenance"
     images:
       - imageAlt: fall arrest gear and track
-        imageUrl: /img/fall_arrest_1_800x600.jpg
+        imageUrl: ./fall_arrest_1_800x600.jpg
       - imageAlt: fall arrest gear and track
-        imageUrl: /img/fall_arrest_2_800x600.jpg
+        imageUrl: ./fall_arrest_2_800x600.jpg
       - imageAlt: fall arrest gear and track
-        imageUrl: /img/fall_arrest_3_800x600.jpg
+        imageUrl: ./fall_arrest_3_800x600.jpg
       - imageAlt: fall arrest track gear
-        imageUrl: /img/fall_arrest_4_800x600.jpg
+        imageUrl: ./fall_arrest_4_800x600.jpg
     navTitle: Systems
     title: Systems
   - body: >-
@@ -80,13 +80,13 @@ customSections:
       taut-wire system.
     images:
       - imageAlt: fall arrest track
-        imageUrl: /img/fall_arrest_5_800x600.jpg
+        imageUrl: ./fall_arrest_5_800x600.jpg
       - imageAlt: fall arrest track
-        imageUrl: /img/fall_arrest_6_800x600.jpg
+        imageUrl: ./fall_arrest_6_800x600.jpg
       - imageAlt: fall arrest track
-        imageUrl: /img/fall_arrest_7_800x600.jpg
+        imageUrl: ./fall_arrest_7_800x600.jpg
       - imageAlt: fall arrest track
-        imageUrl: /img/fall_arrest_8_800x600.jpg
+        imageUrl: ./fall_arrest_8_800x600.jpg
     navTitle: NikoTrack v. Taut Wire Protection
     title: NikoTrack v. Taut Wire Protection
   - body: >-
@@ -135,7 +135,7 @@ customSections:
       system throughout the year.
     images:
       - imageAlt: fall arrest track
-        imageUrl: /img/fall_arrest_9_800x600.jpg
+        imageUrl: ./fall_arrest_9_800x600.jpg
     navTitle: Features
     title: Features
   - navTitle: Videos

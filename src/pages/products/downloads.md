@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '7'
 navTitle: Downloads
-heroImage: ../../../static/img/resources_1_1520x855.jpg
+heroImage: './resources_1_1520x855.jpg'
 heroDescription: |
   * **Catalogs**
   * **Leaflets**

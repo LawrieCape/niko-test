@@ -20,7 +20,7 @@ export class NavBar extends React.Component {
 
 		const navMenuButton = document.getElementsByClassName('js-mobile-nav-button')[0];
 		const navMenu = document.getElementsByClassName('nav')[0];
-		console.log('navMenu: ', navMenu);
+
 		navMenuButton.addEventListener('click', (event) => {
 			event.preventDefault();
 			navMenu.classList.toggle('is-active');

@@ -11,7 +11,7 @@ export const ProductPageTemplate = ({
 	heroDescription,
 	sections,
 }) => {
-	const stringThing = `url(${heroImage})`;
+	const stringThing = `url(${heroImage.childImageSharp.resize.src})`;
 	const styles = { backgroundImage: stringThing };
 	return (
 		<div>
@@ -86,14 +86,27 @@ export const pageQuery = graphql`
 				title
 				metaDescription
 				navTitle
-				heroImage
+				# heroImage
+				heroImage {
+					childImageSharp {
+						resize(width: 1520, height: 855) {
+							src
+						}
+					}
+				}
 				heroDescription
 				customSections {
 					title
 					navTitle
 					body
 					images {
-						imageUrl
+						imageUrl {
+							childImageSharp {
+								resize(width: 800, height: 600) {
+									src
+								}
+							}
+						}
 						imageAlt
 					}
 					videos {

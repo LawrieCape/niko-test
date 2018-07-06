@@ -1,14 +1,14 @@
 ---
 templateKey: product-landing
 order: '6'
-navTitle: Niko Knowledge
+navTitle: NikoTrack Knowledge
 heroImage: /img/manuals_1_1520x855.jpg
 heroDescription: |
   * **On-line Technical Manuals**
   * **On-line Installation Instructions**
   * **On-line Maintenance Manuals**
 title: Niko Knowledge
-metaDescription: sdgsdg
+metaDescription: Manuals for Nikotrack Overhead Cranes | Finishing Lines | Light Cranes | Fall Arrest Systems | Sliding Doors | Download Manuals Brochures and Installation Instructions
 customSections:
   - flipbooks:
       - issueId: '62116517'

@@ -8,8 +8,8 @@ heroDescription: |
   * **Leaflets**
   * **Installation Instructions**
   * **Maintenance Manuals**
-title: Brochures, Manuals and Installation Instructions
-metaDescription: Manuals for NikoTrack Overhead Cranes | Finishing Lines | Light Cranes | Fall Arrest Systems | Sliding Doors | Download Manuals Brochures and Installation Instructions
+title: NikoTrack Manuals & Downloads
+metaDescription: Nikotrack | Catalogs | Leaflets | Installation Manuals for Overhead Conveyors | Light Cranes | Fall Arrest Protection | Heavy Duty Sliding Doors
 customSections:
   - flipbooks:
       - issueId: '62144450'

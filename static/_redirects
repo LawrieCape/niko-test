@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://leptest-niko-test.netlify.com/* https://staging.nikotrack.com/:splat 301!

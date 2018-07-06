@@ -8,13 +8,19 @@ export const BlogPostTemplate = ({
 	contentComponent,
 	description,
 	title,
+	metaDescription,
 }) => {
 	const PostContent = contentComponent || Content;
 
 	return (
 		<div className="container-fluid">
 			<article className="page-body">
-				<Helmet title={`${title} | Niko`} />
+				<Helmet>
+					<title>
+						{`${title} | Niko`}
+					</title>
+					<meta name="description" content={`${metaDescription}`} />
+				</Helmet>
 
 				<header className="page-header">
 					<h1 className="">{title}</h1>
@@ -46,6 +52,7 @@ const BlogPost = ({ data }) => {
 			contentComponent={HTMLContent}
 			description={post.frontmatter.description}
 			title={post.frontmatter.title}
+			metaDescription={post.frontmatter.metaDescription}
 		/>
 	);
 };
@@ -66,6 +73,7 @@ export const pageQuery = graphql`
 			frontmatter {
 				date(formatString: "MMMM DD, YYYY")
 				title
+				metaDescription
 				description
 			}
 		}

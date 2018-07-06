@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: A Tool Suspension System can Energize your Workforce!
+title: A Tool Suspension System can Energize your Workforce
+metaDescription: A Tool Suspension System can Energize your Workforce | NikoTrack | Overhead Conveyors | Light Cranes | Workstation Cranes Fall Arrest Protection | Finishing Lines
 date: '2013-08-06T13:22:00+01:00'
 description: page description
 ---

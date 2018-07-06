@@ -44,10 +44,10 @@ class FormNikoTrack extends React.Component {
 			body: encodedData,
 		})
 			.then((response) => {
-				console.log('response: ', response);
+				// console.log('response: ', response);
 			})
 			.then((myJson) => {
-				console.log('myJson: ', myJson);
+				// console.log('myJson: ', myJson);
 			})
 			.then(() => {
 				return navigateTo(form.getAttribute('action'));

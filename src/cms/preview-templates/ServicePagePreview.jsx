@@ -5,7 +5,7 @@ const ServicePagePreview = ({ entry }) => {
 	const entryServices = entry.getIn(['data', 'services']);
 	const services = entryServices ? entryServices.toJS() : [];
 
-	console.log('services: ', services);
+	// console.log('services: ', services);
 
 	return (
 		<ServicePageTemplate

@@ -9,6 +9,7 @@ heroDescription: |-
   * **Read Case Studies**
   * **Hello**
 title: Finishing Lines
+metaDescription: Overhead Conveyors For All Finishing Lines | Space Saving | Higher Productivity | Low Maintenance | Case Studies | Liquid and Powder Lines
 customSections:
   - body: >-
       The downloadable PDF, shows three different case studies where NikoTrack

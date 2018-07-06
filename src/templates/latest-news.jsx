@@ -20,7 +20,11 @@ const LatestNewsPageTemplate = (props) => {
 
 		<div className="container-fluid">
 			<div className="page-body">
-				<Helmet title="Latest News | Niko">
+				<Helmet>
+					<title>
+						Latest News | Niko
+					</title>
+					<meta name="description" content="NikoTrack Latest News | Overhead Conveyors | Light Cranes | Workstation Cranes Fall Arrest Protection | Heavy Duty Sliding Doors | Finishing Lines | Low Maintenance" />
 					<body className="body--latest-news" />
 				</Helmet>
 
@@ -47,7 +51,9 @@ const LatestNewsPageTemplate = (props) => {
 										</Link>
 									</h2>
 									<p className="">
-										<small>{post.frontmatter.date}</small>
+										<small>
+											{post.frontmatter.date}
+										</small>
 									</p>
 								</header>
 
@@ -76,6 +82,7 @@ export const latestNewsPageQuery = graphql`
 					}
 					frontmatter {
 						title
+						metaDescription
 						templateKey
 						date(formatString: "MMMM DD, YYYY")
 					}

@@ -6,6 +6,7 @@ import ProductSections from '../components/ProductSections';
 
 export const ProductPageTemplate = ({
 	title,
+	metaDescription,
 	heroImage,
 	heroDescription,
 	sections,
@@ -14,7 +15,12 @@ export const ProductPageTemplate = ({
 	const styles = { backgroundImage: stringThing };
 	return (
 		<div>
-			<Helmet title={`${title} | Niko`} />
+			<Helmet>
+				<title>
+					{`${title} | Niko`}
+				</title>
+				<meta name="description" content={`${metaDescription}`} />
+			</Helmet>
 
 			<header className="page-header">
 				<div className="product-hero">
@@ -56,6 +62,7 @@ const ProductPage = ({ data }) => {
 	return (
 		<ProductPageTemplate
 			title={post.frontmatter.title}
+			metaDescription={post.frontmatter.metaDescription}
 			heroImage={post.frontmatter.heroImage}
 			heroDescription={post.frontmatter.heroDescription}
 			sections={post.frontmatter.customSections}
@@ -77,6 +84,7 @@ export const pageQuery = graphql`
 			html
 			frontmatter {
 				title
+				metaDescription
 				navTitle
 				heroImage
 				heroDescription

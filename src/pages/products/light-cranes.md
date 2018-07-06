@@ -8,6 +8,7 @@ heroDescription: |-
   * **Overhead Travelling Cranes**
   * **A - Frame Mobile Gantry Cranes**
 title: Light Cranes
+metaDescription: Jib Cranes | Overhead Travelling Cranes | A Frame Mobile Gantry Frames | Climbing Cranes | Up To 2000Kg | 12m Bridge Span | Manual or Electronic Lifting | Modular Design
 customSections:
   - body: >-
       Niko C2 light cranes are the ideal solution for lightweight lifting of

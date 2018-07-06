@@ -39,6 +39,10 @@ collections:
         name: title
         widget: string
       -
+        label: Meta Description
+        name: metaDescription
+        widget: string
+      -
         label: Sections
         name: customSections
         widget: list
@@ -107,6 +111,10 @@ collections:
         name: title
         widget: string
       -
+        label: Meta Description
+        name: metaDescription
+        widget: string
+      -
         label: 'Publish Date'
         name: date
         widget: datetime
@@ -136,6 +144,10 @@ collections:
             label: Title
             name: title
             widget: string
+          -
+            label: Meta Description
+            name: metaDescription
+            widget: string
       -
         file: src/pages/terms-and-conditions.md
         label: Terms & Conditions
@@ -149,6 +161,10 @@ collections:
           -
             label: Title
             name: title
+            widget: string
+          -
+            label: Meta Description
+            name: metaDescription
             widget: string
           -
             label: Body

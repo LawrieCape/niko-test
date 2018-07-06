@@ -7,7 +7,8 @@ heroDescription: |-
   * **Safe & Practical**
   * **Eliminates Bounce**
   * **Reliable & Reusable**
-title: Fall Arrest Protection
+title: Fall Arrest Protection]
+metaDescription: Single and Double Rail | Bridge Cranes | Fall Arrest Protection Systems Eliminate Secondary Fall and Bounce | All Weather Operation | Smooth Running | Better Than Taut Wire
 customSections:
   - body: "**Niko Track Fall Protection Systems** provide a very safe and practical safety system for people working at height. According to OSHA a fall protection system is designed to arrest or prevent falls from a height. OSHA standards state that any time a worker is at a height of four feet or more, the worker is at risk and needs to be protected. Fall protection must be provided at four feet in general industry, five feet in maritime and six feet in construction. However, regardless of the fall distance, fall protection must be provided when working over dangerous equipment and machinery. The US Department of Labor (DOL) lists falls as one of the leading causes of traumatic occupational death, accounting for eight percent of all occupational fatalities from trauma.\n\n**Types of System\r**\n\n* Single rail fall arrest track system\r\n* Double rail fall arrest track system\r\n* Bridge crane fall arrest track system\r\n\n**Applications\r**\n\n* Aircraft service and maintenance\r\n* Safety track for high ropes courses\r\n* Coach service and maintenance\r\n* Sky glide track for soft play areas\r\n* Train service and maintenance"
     images:

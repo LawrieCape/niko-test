@@ -1,6 +1,7 @@
 ---
 templateKey: terms-and-conditions
-title: Terms and Conditions
+title: Terms & Conditions
+metaDescription: NikoTrack Terms and Conditions | Overhead Conveyors | Light Cranes | Workstation Cranes Fall Arrest Protection | Heavy Duty Sliding Doors | Finishing Lines | Low Maintenance
 ---
 
 ## Introduction

@@ -51,12 +51,17 @@ class ContactPageTemplate extends React.Component {
 	render() {
 		const { data } = this.props;
 		const { title } = data.markdownRemark.frontmatter;
+		const { metaDescription } = data.markdownRemark.frontmatter;
 		// const { html } = data.markdownRemark;
 
 		return (
 			<div className="container-fluid">
 				<article className="page-body">
-					<Helmet title="Contact | Niko">
+					<Helmet>
+						<title>
+							{`${title} | Niko`}
+						</title>
+						<meta name="description" content={`${metaDescription}`} />
 						<body className="body--contact" />
 					</Helmet>
 
@@ -97,6 +102,7 @@ export const contactPageQuery = graphql`
 			html
 			frontmatter {
 				title
+				metaDescription
 			}
 		}
 	}

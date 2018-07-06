@@ -8,6 +8,7 @@ heroDescription: |
   * **On-line Installation Instructions**
   * **On-line Maintenance Manuals**
 title: Niko Knowledge
+metaDescription: sdgsdg
 customSections:
   - flipbooks:
       - issueId: '62116517'
@@ -22,4 +23,3 @@ customSections:
     navTitle: Folding Doors
     title: 'Folding Door Installation, Operation & Maintenance Manual'
 ---
-

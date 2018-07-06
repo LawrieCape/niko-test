@@ -18,7 +18,11 @@ const IndexPage = (props) => {
 	return (
 		<div className="container-fluid">
 			<div className="page-body">
-				<Helmet title="Home | Niko">
+				<Helmet>
+					<title>
+						Home Page | Niko
+					</title>
+					<meta name="description" content="NikoTrack | Overhead Conveyors | Light Cranes | Workstation Cranes Fall Arrest Protection | Heavy Duty Sliding Doors | Finishing Lines | Low Maintenance" />
 					<body className="body--home-page" />
 				</Helmet>
 
@@ -68,6 +72,7 @@ export const pageQuery = graphql`
 						templateKey
 						order
 						title
+						metaDescription
 						navTitle
 						heroImage
 						heroDescription

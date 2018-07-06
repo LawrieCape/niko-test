@@ -1,6 +1,7 @@
 ---
 templateKey: index
-title: If you need to lift, slide or move it, NikoTrack has the solution
+title: Home Page
+metaDescription: NikoTrack | Overhead Conveyors | Light Cranes | Workstation Cranes Fall Arrest Protection | Heavy Duty Sliding Doors | Finishing Lines | Low Maintenance
 ---
 
 body test

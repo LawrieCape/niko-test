@@ -8,6 +8,7 @@ heroDescription: |-
   * **Low Cost**
   * **Provides Higher Productivity**
 title: Overhead Conveyors
+metaDescription: Overhead Conveyors and Monorail Systems | Localized Power Travel | Modular Design | Easy Installation | Easy Modification | Festoons | Free Running
 customSections:
   - body: >-
       **NikoTrack's** overhead monorail conveyor systems are designed to suit

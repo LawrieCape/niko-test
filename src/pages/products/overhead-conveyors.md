@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '1'
 navTitle: Overhead Conveyors
-heroImage: /img/conveyor_1_1520x855.jpg
+heroImage: ../../../static/img/conveyor_1_1520x855.jpg
 heroDescription: |-
   * **The Flexible Solution for Loads up to 2,000 kg**
   * **Low Cost**

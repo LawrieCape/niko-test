@@ -2,7 +2,7 @@
 templateKey: product-landing
 order: '3'
 navTitle: Light Cranes
-heroImage: /img/lightcrane_1_1520x855.jpg
+heroImage: ../../../static/img/lightcrane_1_1520x855.jpg
 heroDescription: |-
   * **Jib Cranes**
   * **Overhead Travelling Cranes**

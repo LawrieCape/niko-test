@@ -74,7 +74,13 @@ export const pageQuery = graphql`
 						title
 						metaDescription
 						navTitle
-						heroImage
+						heroImage {
+							ImageSharp {
+								resize(width: 300) {
+									src
+								}
+							}
+						}
 						heroDescription
 					}
 				}

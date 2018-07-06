@@ -179,7 +179,7 @@ customSections:
     navTitle: Climbing Cranes
     title: Climbing Cranes
   - body: >-
-      Nikotrack uses a C-track festoon assembly and c-track festoon pendant
+      NikoTrack uses a C-track festoon assembly and c-track festoon pendant
       system for overhead cranes and industrial machinery. All festoon trolleys
       can be modified to fit either flat cable or round hose. Our nylon cable
       trolleys are extremely reliable and smooth running. Because of the self

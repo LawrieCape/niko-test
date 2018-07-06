@@ -5,7 +5,7 @@ import Recaptcha from 'react-google-recaptcha';
 import { RECAPTCHA_KEY } from './ReCaptchaKey';
 import { encodeFormData } from './encodeFormData';
 
-class FormNikotrack extends React.Component {
+class FormNikoTrack extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
@@ -61,7 +61,7 @@ class FormNikotrack extends React.Component {
 		return (
 			<form
 				className="form enquiry-form"
-				name="contactNikotrack"
+				name="contactNikoTrack"
 				method="POST"
 				action="/"
 				data-enquiry="nikotrack"
@@ -74,11 +74,11 @@ class FormNikotrack extends React.Component {
 				<noscript>
 					<p>Sorry, this form won’t work with Javascript disabled</p>
 				</noscript>
-				<input type="hidden" name="form-name" value="contactNikotrack" />
+				<input type="hidden" name="form-name" value="contactNikoTrack" />
 
 				<div className="row">
 					<div className="col-sm-12">
-						<h2 className="h4">Nikotrack</h2>
+						<h2 className="h4">NikoTrack</h2>
 						<p>
 							<strong>Welcome</strong>
 							<br />
@@ -105,15 +105,15 @@ class FormNikotrack extends React.Component {
 						<div className="row">
 							<div className="form-field col-sm-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmNikotrackName">
+								<label className="form-field__label" htmlFor="frmNikoTrackName">
 									Name
 								</label>
 
 								{/* <!-- Input --> */}
 								<input
 									className="form-field__input data__input_class"
-									id="frmNikotrackName"
-									name="frmNikotrackName"
+									id="frmNikoTrackName"
+									name="frmNikoTrackName"
 									// placeholder="Name"
 									type="text"
 									onChange={this.handleChange}
@@ -121,15 +121,15 @@ class FormNikotrack extends React.Component {
 							</div>
 							<div className="form-field col-sm-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmNikotrackEmail">
+								<label className="form-field__label" htmlFor="frmNikoTrackEmail">
 									Email Address
 								</label>
 
 								{/* <!-- Input --> */}
 								<input
 									className="form-field__input data__input_class"
-									id="frmNikotrackEmail"
-									name="frmNikotrackEmail"
+									id="frmNikoTrackEmail"
+									name="frmNikoTrackEmail"
 									// placeholder="Email Address"
 									type="text"
 									onChange={this.handleChange}
@@ -138,15 +138,15 @@ class FormNikotrack extends React.Component {
 
 							<div className="form-field col-sm-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmNikotrackPhoneNumber">
+								<label className="form-field__label" htmlFor="frmNikoTrackPhoneNumber">
 									Phone Number
 								</label>
 
 								{/* <!-- Input --> */}
 								<input
 									className="form-field__input data__input_class"
-									id="frmNikotrackPhoneNumber"
-									name="frmNikotrackPhoneNumber"
+									id="frmNikoTrackPhoneNumber"
+									name="frmNikoTrackPhoneNumber"
 									// placeholder="Phone Number"
 									type="text"
 									onChange={this.handleChange}
@@ -155,15 +155,15 @@ class FormNikotrack extends React.Component {
 
 							<div className="form-field col-sm-6">
 								{/* <!-- Label --> */}
-								<label className="form-field__label" htmlFor="frmNikotrackCompany">
+								<label className="form-field__label" htmlFor="frmNikoTrackCompany">
 									Company
 								</label>
 
 								{/* <!-- Input --> */}
 								<input
 									className="form-field__input data__input_class"
-									id="frmNikotrackCompany"
-									name="frmNikotrackCompany"
+									id="frmNikoTrackCompany"
+									name="frmNikoTrackCompany"
 									// placeholder="Company"
 									type="text"
 									onChange={this.handleChange}
@@ -182,14 +182,14 @@ class FormNikotrack extends React.Component {
 									<div className="form-field form-field--checkbox">
 										<input
 											className="form-field__input"
-											id="frmNikotrackInterestedInConveyors"
-											name="frmNikotrackInterestedInConveyors"
+											id="frmNikoTrackInterestedInConveyors"
+											name="frmNikoTrackInterestedInConveyors"
 											type="checkbox"
 											onChange={this.handleChange}
 										/>
 										<label
 											className="form-field__label"
-											htmlFor="frmNikotrackInterestedInConveyors"
+											htmlFor="frmNikoTrackInterestedInConveyors"
 										>
 											Overhead Conveyors
 										</label>
@@ -197,14 +197,14 @@ class FormNikotrack extends React.Component {
 									<div className="form-field form-field--checkbox">
 										<input
 											className="form-field__input"
-											id="frmNikotrackInterestedInSlidingDoors"
-											name="frmNikotrackInterestedInSlidingDoors"
+											id="frmNikoTrackInterestedInSlidingDoors"
+											name="frmNikoTrackInterestedInSlidingDoors"
 											type="checkbox"
 											onChange={this.handleChange}
 										/>
 										<label
 											className="form-field__label"
-											htmlFor="frmNikotrackInterestedInSlidingDoors"
+											htmlFor="frmNikoTrackInterestedInSlidingDoors"
 										>
 											Industrial Sliding Doors
 										</label>
@@ -212,14 +212,14 @@ class FormNikotrack extends React.Component {
 									<div className="form-field form-field--checkbox">
 										<input
 											className="form-field__input"
-											id="frmNikotrackInterestedInFallArrestProtection"
-											name="frmNikotrackInterestedInFallArrestProtection"
+											id="frmNikoTrackInterestedInFallArrestProtection"
+											name="frmNikoTrackInterestedInFallArrestProtection"
 											type="checkbox"
 											onChange={this.handleChange}
 										/>
 										<label
 											className="form-field__label"
-											htmlFor="frmNikotrackInterestedInFallArrestProtection"
+											htmlFor="frmNikoTrackInterestedInFallArrestProtection"
 										>
 											Fall Arrest Protection
 										</label>
@@ -227,14 +227,14 @@ class FormNikotrack extends React.Component {
 									<div className="form-field form-field--checkbox">
 										<input
 											className="form-field__input"
-											id="frmNikotrackInterestedInCranes"
-											name="frmNikotrackInterestedInCranes"
+											id="frmNikoTrackInterestedInCranes"
+											name="frmNikoTrackInterestedInCranes"
 											type="checkbox"
 											onChange={this.handleChange}
 										/>
 										<label
 											className="form-field__label"
-											htmlFor="frmNikotrackInterestedInCranes"
+											htmlFor="frmNikoTrackInterestedInCranes"
 										>
 											Workstation Cranes
 										</label>
@@ -243,13 +243,13 @@ class FormNikotrack extends React.Component {
 							</div>
 
 							<div className="form-field form-field--textarea col-sm-12 col-md-8">
-								<label className="form-field__label" htmlFor="frmNikotrackGeneralDetails">
+								<label className="form-field__label" htmlFor="frmNikoTrackGeneralDetails">
 									Please give as many details as you can about your enquiry:
 								</label>
 								<textarea
 									className="form-field__input"
-									id="frmNikotrackGeneralDetails"
-									name="frmNikotrackGeneralDetails"
+									id="frmNikoTrackGeneralDetails"
+									name="frmNikoTrackGeneralDetails"
 									// placeholder="Lorem ipsum dolor sit."
 									rows="6"
 									onChange={this.handleChange}
@@ -257,13 +257,13 @@ class FormNikotrack extends React.Component {
 							</div>
 
 							<div className="form-field form-field--file col-sm-6">
-								<label className="form-field__label" htmlFor="frmNikotrackProjectFile1">
+								<label className="form-field__label" htmlFor="frmNikoTrackProjectFile1">
 									<span>Upload 1st Project File</span>
 								</label>
 								<input
 									type="file"
-									name="frmNikotrackProjectFile1"
-									id="frmNikotrackProjectFile1"
+									name="frmNikoTrackProjectFile1"
+									id="frmNikoTrackProjectFile1"
 									className="form-field__input"
 									onChange={this.handleAttachment}
 								/>
@@ -274,13 +274,13 @@ class FormNikotrack extends React.Component {
 							</div>
 
 							<div className="form-field form-field--file col-sm-6">
-								<label className="form-field__label" htmlFor="frmNikotrackProjectFile2">
+								<label className="form-field__label" htmlFor="frmNikoTrackProjectFile2">
 									<span>Upload 2nd Project File</span>
 								</label>
 								<input
 									type="file"
-									name="frmNikotrackProjectFile2"
-									id="frmNikotrackProjectFile2"
+									name="frmNikoTrackProjectFile2"
+									id="frmNikoTrackProjectFile2"
 									className="form-field__input"
 									onChange={this.handleAttachment}
 								/>
@@ -301,15 +301,15 @@ class FormNikotrack extends React.Component {
 								<div className="form-field form-field--checkbox">
 									<input
 										className="form-field__input"
-										id="frmNikotrackConsent"
-										name="frmNikotrackConsent"
+										id="frmNikoTrackConsent"
+										name="frmNikoTrackConsent"
 										type="checkbox"
 										onChange={this.handleChange}
 										required
 									/>
 									<label
 										className="form-field__label"
-										htmlFor="frmNikotrackConsent"
+										htmlFor="frmNikoTrackConsent"
 									>
 										I Agree
 									</label>
@@ -343,7 +343,7 @@ class FormNikotrack extends React.Component {
 	}
 }
 
-FormNikotrack.propTypes = {
+FormNikoTrack.propTypes = {
 	// services: PropTypes.arrayOf(PropTypes.shape({
 	// 		title: PropTypes.string,
 	// 		imageUrl: PropTypes.string,
@@ -352,4 +352,4 @@ FormNikotrack.propTypes = {
 	// 	})),
 };
 
-export default FormNikotrack;
+export default FormNikoTrack;

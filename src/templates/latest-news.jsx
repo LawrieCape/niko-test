@@ -25,7 +25,9 @@ const LatestNewsPageTemplate = (props) => {
 				</Helmet>
 
 				<header className="page-header">
-					<h1 className="">Latest News</h1>
+					<h1 className="">
+						Latest News
+					</h1>
 				</header>
 
 				{posts

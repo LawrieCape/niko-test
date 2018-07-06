@@ -1,55 +1,66 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import ReactMarkdown from 'react-markdown';
+import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import Content, { HTMLContent } from '../components/Content';
 
-class TermsPageTemplate extends React.Component {
-	render() {
-		const { data } = this.props;
-		const { title } = data.markdownRemark.frontmatter;
-		// const { html } = data.markdownRemark;
+export const TermsPostTemplate = ({
+	content,
+	contentComponent,
+	title,
+}) => {
+	const PostContent = contentComponent || Content;
 
-		return (
-			<div className="container-fluid">
-				<article className="page-body">
-					<Helmet title="Terms & Conditions | Niko">
-						<body className="body--contact" />
-					</Helmet>
+	return (
+		<div className="container-fluid">
+			<article className="page-body">
+				<Helmet title={`${title} | Niko`} />
 
-					<header className="page-header">
-						<h1 className="">{title || 'Contact'}</h1>
-						{/* <ReactMarkdown className="rich-text" source={html} /> */}
+				<header className="page-header">
+					<h1 className="">
+						{title}
+					</h1>
+				</header>
 
-						<div className="form-field form-field--select">
-							<label className="form-field__label" htmlFor="DdlEnquiryType">Enquiry Type</label>
-							<div className="form-field__input">
-								<select id="DdlEnquiryType" className="" name="DdlEnquiryType" data-placeholder="e.g. Mrs" onChange={this.selectForm} defaultValue="nikotrack">
-									<option value="nikotrack">Nikotrack General Enquiry</option>
-									<option value="overhead-conveyors">Overhead Conveyors</option>
-									<option value="workstation-cranes">Workstation Cranes</option>
-								</select>
-								<svg className="input__select-icon">
-									<use xlinkHref="#svg--arrow-dropdown" />
-								</svg>
-							</div>
-						</div>
-					</header>
+				<PostContent content={content} className="rich-text" />
+			</article>
+		</div>
+	);
+};
 
-					<p>content...</p>
+TermsPostTemplate.propTypes = {
+	// content: PropTypes.string.isRequired,
+	contentComponent: PropTypes.func,
+	title: PropTypes.string,
+};
 
-				</article>
-			</div>
-		);
-	}
-}
+const TermsPost = ({ data }) => {
+	const post = data.markdownRemark;
+	// const { markdownRemark: post } = data;
 
-export default TermsPageTemplate;
+	return (
+		<TermsPostTemplate
+			content={post.html}
+			contentComponent={HTMLContent}
+			title={post.frontmatter.title}
+		/>
+	);
+};
 
-export const termsPageQuery = graphql`
-	query TermsPage($id: String!) {
+TermsPost.propTypes = {
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.object,
+	}),
+};
+
+export default TermsPost;
+
+export const pageQuery = graphql`
+	query TermsPostByID($id: String!) {
 		markdownRemark(id: { eq: $id }) {
+			id
 			html
 			frontmatter {
+				date(formatString: "MMMM DD, YYYY")
 				title
 			}
 		}

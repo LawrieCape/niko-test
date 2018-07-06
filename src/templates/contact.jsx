@@ -2,7 +2,7 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 // import ReactMarkdown from 'react-markdown';
 import Helmet from 'react-helmet';
-import FormNikotrack from '../components/forms/FormNikotrack';
+import FormNikoTrack from '../components/forms/FormNikoTrack';
 import FormConveyors from '../components/forms/FormConveyors';
 import FormCranes from '../components/forms/FormCranes';
 
@@ -68,7 +68,7 @@ class ContactPageTemplate extends React.Component {
 							<label className="form-field__label" htmlFor="DdlEnquiryType">Enquiry Type</label>
 							<div className="form-field__input">
 								<select id="DdlEnquiryType" className="" name="DdlEnquiryType" data-placeholder="e.g. Mrs" onChange={this.selectForm} defaultValue="nikotrack">
-									<option value="nikotrack">Nikotrack General Enquiry</option>
+									<option value="nikotrack">NikoTrack General Enquiry</option>
 									<option value="overhead-conveyors">Overhead Conveyors</option>
 									<option value="workstation-cranes">Workstation Cranes</option>
 								</select>
@@ -79,7 +79,7 @@ class ContactPageTemplate extends React.Component {
 						</div>
 					</header>
 
-					<FormNikotrack />
+					<FormNikoTrack />
 					<FormConveyors />
 					<FormCranes />
 

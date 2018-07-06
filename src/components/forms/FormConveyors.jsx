@@ -495,15 +495,15 @@ class FormConveyors extends React.Component {
 								<div className="form-field form-field--checkbox">
 									<input
 										className="form-field__input"
-										id="frmNikotrackConsent"
-										name="frmNikotrackConsent"
+										id="frmNikoTrackConsent"
+										name="frmNikoTrackConsent"
 										type="checkbox"
 										onChange={this.handleChange}
 										required
 									/>
 									<label
 										className="form-field__label"
-										htmlFor="frmNikotrackConsent"
+										htmlFor="frmNikoTrackConsent"
 									>
 										I Agree
 									</label>

@@ -28,6 +28,9 @@ const SiteFooter = ({ posts }) => {
 							<Link className="footer-links__link" to="/contact">
 								Request a Quote
 							</Link>
+							<Link className="footer-links__link" to="/terms-and-conditions">
+								Terms and Conditions
+							</Link>
 						</div>
 					</div>
 					<div className="footer-links">

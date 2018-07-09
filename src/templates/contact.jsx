@@ -75,7 +75,7 @@ class ContactPageTemplate extends React.Component {
 								<select id="DdlEnquiryType" className="" name="DdlEnquiryType" data-placeholder="e.g. Mrs" onChange={this.selectForm} defaultValue="nikotrack">
 									<option value="nikotrack">NikoTrack General Enquiry</option>
 									<option value="overhead-conveyors">Overhead Conveyors</option>
-									<option value="workstation-cranes">Workstation Cranes</option>
+									<option value="workstation-cranes">Light Cranes - Workstation Cranes</option>
 								</select>
 								<svg className="input__select-icon">
 									<use xlinkHref="#svg--arrow-dropdown" />

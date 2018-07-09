@@ -176,6 +176,27 @@ class FormConveyors extends React.Component {
 						<legend>Conveyor Details</legend>
 
 						<div className="row">
+							<div className="form-fields form-fields--flex col-sm-12">
+								<p className="form-field__label">Is this enquiry part of the finishing industry</p>
+								<div className="form-fields__inner">
+									<div className="form-field form-field--checkbox">
+										<input
+											className="form-field__input"
+											id="frmConveyorsFinishingIndustry"
+											name="frmConveyorsFinishingIndustry"
+											type="checkbox"
+											onChange={this.handleChange}
+										/>
+										<label
+											className="form-field__label"
+											htmlFor="frmConveyorsFinishingIndustry"
+										>
+											Yes
+										</label>
+									</div>
+								</div>
+							</div>
+
 							<div className="form-field form-field--textarea col-sm-12 col-md-8">
 								<label className="form-field__label" htmlFor="frmConveyorsConveyorDetails">
 									ConveyorsConveyorDetails

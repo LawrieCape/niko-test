@@ -177,7 +177,7 @@ class FormConveyors extends React.Component {
 
 						<div className="row">
 							<div className="form-fields form-fields--flex col-sm-12">
-								<p className="form-field__label">Is this enquiry part of the finishing industry</p>
+								<p className="form-field__label">Is this enquiry for the finishing industry</p>
 								<div className="form-fields__inner">
 									<div className="form-field form-field--checkbox">
 										<input
@@ -199,7 +199,7 @@ class FormConveyors extends React.Component {
 
 							<div className="form-field form-field--textarea col-sm-12 col-md-8">
 								<label className="form-field__label" htmlFor="frmConveyorsConveyorDetails">
-									ConveyorsConveyorDetails
+									Conveyor Details
 								</label>
 								<textarea
 									className="form-field__input"
@@ -223,7 +223,7 @@ class FormConveyors extends React.Component {
 									className="form-field__label"
 									htmlFor="frmConveyorsMostCommonPartLength"
 								>
-									MostCommonPartLength
+									Most Common Part Length
 								</label>
 
 								{/* <!-- Input --> */}
@@ -242,7 +242,7 @@ class FormConveyors extends React.Component {
 									className="form-field__label"
 									htmlFor="frmConveyorsMostCommonPartHeight"
 								>
-									MostCommonPartHeight
+									Most Common Part Height
 								</label>
 
 								{/* <!-- Input --> */}
@@ -261,7 +261,7 @@ class FormConveyors extends React.Component {
 									className="form-field__label"
 									htmlFor="frmConveyorsMostCommonPartWidth"
 								>
-									MostCommonPartWidth
+									Most Common Part Width
 								</label>
 
 								{/* <!-- Input --> */}
@@ -280,7 +280,7 @@ class FormConveyors extends React.Component {
 									className="form-field__label"
 									htmlFor="frmConveyorsMostCommonPartWeight"
 								>
-									MostCommonPartWeight
+									Most Common Part Weight
 								</label>
 
 								{/* <!-- Input --> */}
@@ -303,7 +303,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsLargestPartLength">
-									LargestPartLength
+									Largest Part Length
 								</label>
 
 								{/* <!-- Input --> */}
@@ -319,7 +319,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsLargestPartHeight">
-									LargestPartHeight
+									Largest Part Height
 								</label>
 
 								{/* <!-- Input --> */}
@@ -335,7 +335,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsLargestPartWidth">
-									LargestPartWidth
+									Largest Part Width
 								</label>
 
 								{/* <!-- Input --> */}
@@ -351,7 +351,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsLargestPartWeight">
-									LargestPartWeight
+									Largest Part Weight
 								</label>
 
 								{/* <!-- Input --> */}
@@ -374,7 +374,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsMaxNumberOfParts">
-									MaxNumberOfParts
+									Max Number Of Parts
 								</label>
 
 								{/* <!-- Input --> */}
@@ -390,7 +390,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsMostCommonPart">
-									MostCommonPart
+									Most Common Part
 								</label>
 
 								{/* <!-- Input --> */}
@@ -406,7 +406,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsLargestPart">
-									LargestPart
+									Largest Part
 								</label>
 
 								{/* <!-- Input --> */}
@@ -422,7 +422,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsLineSpeed">
-									LineSpeed
+									Line Speed
 								</label>
 
 								{/* <!-- Input --> */}
@@ -438,7 +438,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsMaxOvenTemp">
-									MaxOvenTemp
+									Max Oven Temp
 								</label>
 
 								{/* <!-- Input --> */}
@@ -454,7 +454,7 @@ class FormConveyors extends React.Component {
 							<div className="form-field col-sm-12 col-md-6 col-lg-4">
 								{/* <!-- Label --> */}
 								<label className="form-field__label" htmlFor="frmConveyorsDropLiftsRequired">
-									DropLiftsRequired
+									Drop Lifts Required
 								</label>
 
 								{/* <!-- Input --> */}

@@ -172,7 +172,7 @@ class FormCranes extends React.Component {
 									className="form-field__label"
 									htmlFor="frmCranesWorkstationMaxWeight"
 								>
-									WorkstationMaxWeight
+									Workstation Max Weight
 								</label>
 
 								{/* <!-- Input --> */}
@@ -192,7 +192,7 @@ class FormCranes extends React.Component {
 									className="form-field__label"
 									htmlFor="frmCranesBridgeLength"
 								>
-									BridgeLength
+									Bridge Length
 								</label>
 
 								{/* <!-- Input --> */}
@@ -212,7 +212,7 @@ class FormCranes extends React.Component {
 									className="form-field__label"
 									htmlFor="frmCranesRunwayLength"
 								>
-									RunwayLength
+									Runway Length
 								</label>
 
 								{/* <!-- Input --> */}
@@ -257,7 +257,7 @@ class FormCranes extends React.Component {
 									className="form-field__label"
 									htmlFor="frmCranesHeightToBottomOfTrack"
 								>
-									HeightToBottomOfTrack
+									Height To Bottom Of Track
 								</label>
 
 								{/* <!-- Input --> */}
@@ -277,7 +277,7 @@ class FormCranes extends React.Component {
 									className="form-field__label"
 									htmlFor="frmCranesFloorOrCeilingMounted"
 								>
-									FloorOrCeilingMounted
+									Floor Or Ceiling Mounted
 								</label>
 
 								{/* <!-- Input --> */}
@@ -303,7 +303,7 @@ class FormCranes extends React.Component {
 									className="form-field__label"
 									htmlFor="frmCranesWallFloorColumnMounted"
 								>
-									WallFloorColumnMounted
+									Wall Floor Column Mounted
 								</label>
 
 								{/* <!-- Input --> */}
@@ -323,7 +323,7 @@ class FormCranes extends React.Component {
 									className="form-field__label"
 									htmlFor="frmCranesJibMaxWeight"
 								>
-									JibMaxWeight
+									Jib Max Weight
 								</label>
 
 								{/* <!-- Input --> */}
@@ -373,7 +373,7 @@ class FormCranes extends React.Component {
 									className="form-field__label"
 									htmlFor="frmCranesJibHeightToBottomOfTrack"
 								>
-									JibHeightToBottomOfTrack
+									Jib Height To Bottom Of Track
 								</label>
 
 								{/* <!-- Input --> */}

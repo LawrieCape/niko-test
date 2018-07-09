@@ -12,7 +12,7 @@ let enquiryType;
 
 class ContactPageTemplate extends React.Component {
 	componentDidMount() {
-		// https://staging.nikotrack.com/contact?enquiryType=workstation-cranes
+		// https://nikotrack.com/contact?enquiryType=workstation-cranes
 		enquiryType = queryString.parse(window.location.search).enquiryType;
 
 		const enquiryTypeEl = document.getElementById('DdlEnquiryType');

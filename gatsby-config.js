@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		siteUrl: 'https://staging.nikotrack.com',
+		siteUrl: 'https://nikotrack.com',
 		title: 'NikoTrack',
 	},
 	plugins: [
